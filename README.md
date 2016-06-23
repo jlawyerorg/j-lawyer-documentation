@@ -18,7 +18,7 @@ Wir haben uns dazu entschieden diesen Teil als erstes zu veröffentlichen, damit
 
 ## Mitwirkende
 
-j-dimension, AKA j-dimension
+j-dimension, AKA j-lawyer.org
 
 http://www.j-lawyer.org
 
@@ -48,7 +48,7 @@ I decided to make this part public first so everyone - developer or not - has a 
 
 ## Contributors
 
-j-dimension, AKA j-dimension
+j-dimension, AKA j-lawyer.org
 
 http://www.j-lawyer.org
 
