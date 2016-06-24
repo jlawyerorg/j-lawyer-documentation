@@ -88,7 +88,14 @@
     <target name="publish" depends="convertToPdf, convertToHtml">
         <echo message="publishing to ${remoteuser}@${remotedir}"/>
             <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-                
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-de.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>    
         </target>
     
     <!--
