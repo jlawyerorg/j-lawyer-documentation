@@ -10,6 +10,87 @@
 <project name="j-lawyer-documentation" default="default" basedir=".">
     <description>Builds, tests, and runs the project j-lawyer-documentation.</description>
     <import file="nbproject/build-impl.xml"/>
+    
+    <target name="convertToPdf">
+            <mkdir dir="${basedir}/build/pdf"/>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="pdf"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="pdf"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="pdf"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/src/j-lawyer.org-UserGuide-de.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="pdf"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/src/j-lawyer.org-UserGuide-en.fodt"/>
+            </exec>
+            
+    </target>
+    
+    <target name="convertToHtml">
+            <mkdir dir="${basedir}/build/html"/>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="html"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="html"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="html"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/src/j-lawyer.org-UserGuide-de.fodt"/>
+            </exec>
+            <exec executable="unoconv">
+                <!-- arg value="-f pdf -o /tmp ${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/ -->
+                <arg value="-f"/>
+                <arg value="html"/>
+                <arg value="-o"/>
+                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/src/j-lawyer.org-UserGuide-en.fodt"/>
+            </exec>
+            
+    </target>
+    
+    <target name="publish" depends="convertToPdf, convertToHtml">
+        <echo message="publishing to ${remoteuser}@${remotedir}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+                
+        </target>
+    
     <!--
 
     There exist several targets which are by default empty and which can be 
