@@ -95,7 +95,16 @@
             <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
             <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
             <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>    
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>   
+            
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-de.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-en.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/> 
+            
+            <!-- updates the "last generated" timestamp on the website -->
+            <sshexec trust="true" host="www.j-lawyer.org" username="${remoteuser}" password="${remotepwd}" command="${remotecommand1}"/>
+            
         </target>
     
     <!--
