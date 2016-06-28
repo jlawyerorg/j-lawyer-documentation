@@ -103,7 +103,7 @@
             <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/> 
             
             <!-- updates the "last generated" timestamp on the website -->
-            <sshexec trust="true" host="www.j-lawyer.org" username="${remoteuser}" password="${remotepwd}" command="${remotecommand1}"/>
+            <sshexec trust="true" host="www.j-lawyer.org" username="${remoteuser}" password="${remotepwd}" command="${remotecommand1}" failonerror="false"/>
             
         </target>
     
