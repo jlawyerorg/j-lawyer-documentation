@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT1H55M27S</meta:editing-duration><meta:editing-cycles>24</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2016-07-28T22:45:28.188612063</dc:date><meta:document-statistic meta:table-count="20" meta:image-count="7" meta:object-count="0" meta:page-count="21" meta:paragraph-count="373" meta:word-count="2402" meta:character-count="20090" meta:non-whitespace-character-count="17697"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT1H55M27S</meta:editing-duration><meta:editing-cycles>25</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2016-07-28T22:49:12.499705024</dc:date><meta:document-statistic meta:table-count="20" meta:image-count="7" meta:object-count="0" meta:page-count="21" meta:paragraph-count="373" meta:word-count="2402" meta:character-count="20090" meta:non-whitespace-character-count="17697"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">188110</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">33881</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">46718</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">19824</config:config-item>
@@ -13,17 +13,17 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">4108</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">115090</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">25610</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">49858</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">188110</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">33881</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">46717</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">207933</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">53703</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
-     <config:config-item config:name="IsSelectedFrame" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
@@ -81,7 +81,7 @@
    <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="Rsid" config:type="int">4909373</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4982960</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
@@ -1292,60 +1292,11 @@
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="002ab884"/>
-  </style:style>
-  <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003ffa15"/>
-  </style:style>
-  <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P118" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
-  </style:style>
-  <style:style style:name="P119" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="00430fbe"/>
-  </style:style>
-  <style:style style:name="P120" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-  </style:style>
-  <style:style style:name="P121" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003b2052"/>
-  </style:style>
-  <style:style style:name="P122" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003bba84"/>
-  </style:style>
-  <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003e2e3d" officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P125" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="00430fbe"/>
-  </style:style>
-  <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="003bba84"/>
-  </style:style>
-  <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
-  </style:style>
-  <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="003ffa15" officeooo:paragraph-rsid="003ffa15"/>
   </style:style>
-  <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false">
     <style:tab-stops>
      <style:tab-stop style:position="5.006cm"/>
@@ -1353,89 +1304,138 @@
    </style:paragraph-properties>
    <style:text-properties officeooo:paragraph-rsid="00408509"/>
   </style:style>
-  <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+  <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="003dd1d9" officeooo:paragraph-rsid="003dd1d9" style:font-size-asian="10.5pt"/>
   </style:style>
-  <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+  <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f650" officeooo:paragraph-rsid="0048f650"/>
   </style:style>
-  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+  <style:style style:name="P118" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f650" officeooo:paragraph-rsid="00499487"/>
   </style:style>
-  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+  <style:style style:name="P119" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+  <style:style style:name="P120" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+  <style:style style:name="P121" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+  <style:style style:name="P122" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
+  <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f11e" officeooo:paragraph-rsid="0048f11e"/>
   </style:style>
-  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
+  <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00473ac1" officeooo:paragraph-rsid="00473ac1"/>
   </style:style>
-  <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
+  <style:style style:name="P125" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00457280" officeooo:paragraph-rsid="00457280"/>
   </style:style>
-  <style:style style:name="P140" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+  <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P141" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+  <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P142" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+  <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P143" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="003ffa15" officeooo:paragraph-rsid="003ffa15"/>
   </style:style>
-  <style:style style:name="P144" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:paragraph-rsid="003e2e3d"/>
   </style:style>
-  <style:style style:name="P145" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
   </style:style>
-  <style:style style:name="P146" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003c4cc6"/>
   </style:style>
-  <style:style style:name="P147" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
   </style:style>
-  <style:style style:name="P148" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f11e" officeooo:paragraph-rsid="0048f11e"/>
   </style:style>
-  <style:style style:name="P149" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00457280" officeooo:paragraph-rsid="00457280"/>
   </style:style>
-  <style:style style:name="P150" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="003dd1d9" officeooo:paragraph-rsid="003dd1d9"/>
   </style:style>
-  <style:style style:name="P151" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:paragraph-rsid="0048f650"/>
   </style:style>
-  <style:style style:name="P152" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
   </style:style>
-  <style:style style:name="P153" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P140" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="002ab884"/>
+  </style:style>
+  <style:style style:name="P141" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003ffa15"/>
+  </style:style>
+  <style:style style:name="P142" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P143" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P144" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P145" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name="">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="00430fbe"/>
+  </style:style>
+  <style:style style:name="P146" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P147" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003b2052"/>
+  </style:style>
+  <style:style style:name="P148" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P149" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003bba84"/>
+  </style:style>
+  <style:style style:name="P150" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003e2e3d" officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P151" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="00430fbe"/>
+  </style:style>
+  <style:style style:name="P152" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003b2052" officeooo:paragraph-rsid="003bba84"/>
+  </style:style>
+  <style:style style:name="P153" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="003b2052"/>
@@ -1549,22 +1549,22 @@
    <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Frame">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="left" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
   </style:style>
   <style:style style:name="fr3" style:family="graphic" style:parent-style-name="Frame">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="left" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
   </style:style>
   <style:style style:name="fr4" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr5" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none" style:shadow="#808080 0.18cm 0.18cm" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="left" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none" style:shadow="#808080 0.18cm 0.18cm" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr6" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" fo:padding="0cm" fo:border="none" style:shadow="#808080 0.18cm 0.18cm" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="left" style:horizontal-rel="paragraph-content" fo:padding="0cm" fo:border="none" style:shadow="#808080 0.18cm 0.18cm" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr7" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" fo:padding="0cm" fo:border="none" style:shadow="none" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="left" style:horizontal-rel="paragraph-content" fo:padding="0cm" fo:border="none" style:shadow="none" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="Sect1" style:family="section">
    <style:section-properties fo:background-color="transparent" style:editable="false">
@@ -2112,7 +2112,7 @@
     <text:p text:style-name="P1"><text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T4">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License</text:span></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">14</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>21</text:page-count></text:span></text:p>
+    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">4</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>21</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Endnote" style:page-layout-name="pm2"/>
@@ -2353,41 +2353,41 @@
    </table:table>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="P38"><text:bookmark-start text:name="__DdeLink__1377_915061253"/>Die “Mein Desktop”-Ansicht bietet alle wichtigen Informationen auf einen Blick und ermöglicht eine Navigation zum jeweiligen Element:</text:p>
-   <text:list xml:id="list5498491721970169442" text:style-name="L1">
+   <text:list xml:id="list8523857008380418945" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P128">aktuelles Datum</text:p>
+     <text:p text:style-name="P114">aktuelles Datum</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">ungelesene Emails</text:p>
+     <text:p text:style-name="P114">ungelesene Emails</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">Tipp des Tages</text:p>
+     <text:p text:style-name="P114">Tipp des Tages</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">angemeldeter Nutzer</text:p>
+     <text:p text:style-name="P114">angemeldeter Nutzer</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">Welche Akten wurden zuletzt geändert? Durch wen?</text:p>
+     <text:p text:style-name="P114">Welche Akten wurden zuletzt geändert? Durch wen?</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">Welche Fristen und Wiedervorlagen sind fällig oder überfällig? Wer ist zuständig?</text:p>
+     <text:p text:style-name="P114">Welche Fristen und Wiedervorlagen sind fällig oder überfällig? Wer ist zuständig?</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P128">u.v.m.</text:p>
+     <text:p text:style-name="P114">u.v.m.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P38"/>
    <text:p text:style-name="P38">Der Bereich “Zuletzt geändert” zeigt Informationen zur Akte sowie den <text:span text:style-name="T9">für die Akte verantwortlichen </text:span>Anwalt.</text:p>
    <text:p text:style-name="P38">Der Bereich “Fällig” zeigt fällige und überfällige Fristen und Wiedervorlagen, sortiert nach Fälligkeitsdatum in absteigender Reihenfolge. Es wird der für die <text:span text:style-name="T9">Frist oder Wiedervorlage verantwortliche</text:span> Bearbeiter angezeigt. <text:span text:style-name="T26">Die Bedeutung der Icons und Schriftformatierungen im Einzelnen:</text:span></text:p>
-   <text:list xml:id="list8186770223999994284" text:style-name="L2">
+   <text:list xml:id="list996512786906828023" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P129"><text:span text:style-name="T13">schwarze Beschriftung<text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1342_915061253"/><text:span text:style-name="T27">heute fällig</text:span><text:bookmark-end text:name="__DdeLink__1342_915061253"/></text:p>
+     <text:p text:style-name="P115"><text:span text:style-name="T13">schwarze Beschriftung<text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1342_915061253"/><text:span text:style-name="T27">heute fällig</text:span><text:bookmark-end text:name="__DdeLink__1342_915061253"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P129"><text:span text:style-name="T28">rote Beschriftung<text:tab/></text:span><text:span text:style-name="T29">überfällig</text:span></text:p>
+     <text:p text:style-name="P115"><text:span text:style-name="T28">rote Beschriftung<text:tab/></text:span><text:span text:style-name="T29">überfällig</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P129"><draw:frame draw:style-name="fr4" draw:name="Bild4" text:anchor-type="paragraph" svg:x="1.445cm" svg:y="-0.025cm" svg:width="0.464cm" svg:height="0.464cm" draw:z-index="25"><draw:image>
+     <text:p text:style-name="P115"><draw:frame draw:style-name="fr4" draw:name="Bild4" text:anchor-type="paragraph" svg:x="1.445cm" svg:y="-0.025cm" svg:width="0.464cm" svg:height="0.464cm" draw:z-index="25"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwY
          AAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUI
          IFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuj
@@ -2460,7 +2460,7 @@
       </draw:frame><text:span text:style-name="T29"> <text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1345_915061253"/><text:span text:style-name="T30">Wiedervorlage, angemeldeter Nutzer ist verantwortlich</text:span><text:bookmark-end text:name="__DdeLink__1345_915061253"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P129"><draw:frame draw:style-name="fr4" draw:name="Bild5" text:anchor-type="paragraph" svg:x="1.469cm" svg:y="0.049cm" svg:width="0.446cm" svg:height="0.446cm" draw:z-index="26"><draw:image>
+     <text:p text:style-name="P115"><draw:frame draw:style-name="fr4" draw:name="Bild5" text:anchor-type="paragraph" svg:x="1.469cm" svg:y="0.049cm" svg:width="0.446cm" svg:height="0.446cm" draw:z-index="26"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAKT2lDQ1BQaG90b3Nob3AgSUND
          IHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcER
          RUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyW
@@ -2529,7 +2529,7 @@
       </draw:frame><text:span text:style-name="T29"> <text:tab/></text:span><text:span text:style-name="T30">Frist!</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P129"><draw:frame draw:style-name="fr4" draw:name="Bild6" text:anchor-type="paragraph" svg:x="1.528cm" svg:y="0.025cm" svg:width="0.399cm" svg:height="0.399cm" draw:z-index="27"><draw:image>
+     <text:p text:style-name="P115"><draw:frame draw:style-name="fr4" draw:name="Bild6" text:anchor-type="paragraph" svg:x="1.528cm" svg:y="0.025cm" svg:width="0.399cm" svg:height="0.399cm" draw:z-index="27"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADIUlEQVQ4jW2TzUsrZxjFz8xk
          JmPGjopTokltqGidu7hKywVBLEG7CC667UKC/Q9KoAuh7v2g0PgB7cpFscxO6FbTUnQXFdrS
          glXMhNxJSgyO40zfcTIZ37xd3Hppbc/2OefAeeDHMcbwVPl8/q3e3t4Xqqq+AwCe51U9zzs1
@@ -2555,7 +2555,7 @@
    <text:p text:style-name="P39"/>
    <text:h text:style-name="P48" text:outline-level="2"><draw:frame draw:style-name="fr2" draw:name="Rahmen2" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="23">
      <draw:text-box fo:min-height="9.959cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr5" draw:name="Bild3" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.21cm" svg:width="17cm" style:rel-width="100%" svg:height="9.961cm" style:rel-height="scale" draw:z-index="24"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr5" draw:name="Bild3" text:anchor-type="paragraph" svg:y="0.21cm" svg:width="17cm" style:rel-width="100%" svg:height="9.961cm" style:rel-height="scale" draw:z-index="24"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABIcAAAKnCAIAAACTb7rAAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAOCMElEQVR4nOy9B7hlN3UoLGmfO+MyNi7jho17x9gGG9tA6DWNlB9CSHUCAQIvJDwSSh6h
           pr2QEEJCQgv1IwFCXhoYAqaaFgzGxtgGd49nXMcee/rce7b0trRUlpbK1jn3Osn//1eYO/vs
@@ -6823,7 +6823,7 @@
     </draw:frame></text:h>
    <text:h text:style-name="P61" text:outline-level="1"/>
    <text:p text:style-name="P17"/>
-   <text:h text:style-name="P117" text:outline-level="1"/>
+   <text:h text:style-name="P143" text:outline-level="1"/>
    <text:h text:style-name="P68" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__108_1146603382"/>Aktenverwaltung<text:bookmark-end text:name="__RefHeading__108_1146603382"/></text:h>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1212_1579042734"/><text:bookmark-start text:name="__RefHeading__423_1146603382"/>Aktenzeichen<text:bookmark-end text:name="__RefHeading__423_1146603382"/></text:h>
    <table:table table:name="Tabelle2" table:style-name="Tabelle2">
@@ -6875,15 +6875,15 @@
    </table:table>
    <text:p text:style-name="P36"><text:soft-page-break/></text:p>
    <text:p text:style-name="P22">Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorschau angezeigt. Folgende Formate werden unterstützt:</text:p>
-   <text:list xml:id="list6390639911184361783" text:style-name="L3">
+   <text:list xml:id="list474645427986002300" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P130">Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF</text:p>
+     <text:p text:style-name="P116">Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P130">Textanzeige (Inhalt des Dokumentes als Textextrakt): alle Dokumente mit Textinformationen</text:p>
+     <text:p text:style-name="P116">Textanzeige (Inhalt des Dokumentes als Textextrakt): alle Dokumente mit Textinformationen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P130">keine Vorschau: alle weiteren Binärformate</text:p>
+     <text:p text:style-name="P116">keine Vorschau: alle weiteren Binärformate</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P22">Ein Doppelklick öffnet das Dokument im entsprechenden Editor.</text:p>
@@ -10019,12 +10019,12 @@
    </table:table>
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P28">Neben der in jeder Akte angezeigten spezifischen Historie, gibt es </text:p>
-   <text:list xml:id="list3904086537146737747" text:style-name="L4">
+   <text:list xml:id="list3061583238972381741" text:style-name="L4">
     <text:list-item>
-     <text:p text:style-name="P131">eine aktenübergreifende Historie über alle Änderungen des aktuellen Nutzers <text:span text:style-name="T36">(“Verlauf” - “Meine Timeline” im Navigationsbaum)</text:span></text:p>
+     <text:p text:style-name="P117">eine aktenübergreifende Historie über alle Änderungen des aktuellen Nutzers <text:span text:style-name="T36">(“Verlauf” - “Meine Timeline” im Navigationsbaum)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132">eine aktenübergreifende Historie über alle Änderungen aller Nutzer im System <text:span text:style-name="T36">(“Verlauf” - “Historie” im Navigationsbaum)</text:span></text:p>
+     <text:p text:style-name="P118">eine aktenübergreifende Historie über alle Änderungen aller Nutzer im System <text:span text:style-name="T36">(“Verlauf” - “Historie” im Navigationsbaum)</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P28">So lassen sich schnell eigene Änderungen auffinden oder von Kollegen bearbeitete Fälle auffinden.</text:p>
@@ -12729,7 +12729,7 @@
    </table:table>
    <text:p text:style-name="P40"/>
    <text:p text:style-name="P41"><text:bookmark-start text:name="__RefHeading__110_1146603382"/>Ab j-lawyer.org Version 1.7 können Adresse im vCard-Format importiert werden. Dabei werden in der Datenbank existierende Kontakte weder geändert noch gelöscht, es werden ausschließlich neue Adressen angelegt. Nach Auswahl einer Importdatei bekommen Sie eine Übersicht der darin enhaltenen Kontakte und können über ein Auswahlfeld exakt bestimmen welche Adressen sie importieren / nicht importieren wollen.<text:bookmark-end text:name="__RefHeading__110_1146603382"/></text:p>
-   <text:h text:style-name="P119" text:outline-level="1"/>
+   <text:h text:style-name="P145" text:outline-level="1"/>
    <text:h text:style-name="P66" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1147_580215591"/><text:span text:style-name="T17">Dokumentenm</text:span>anagement<text:bookmark-end text:name="__RefHeading__1147_580215591"/></text:h>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__271_1146603382"/><text:span text:style-name="T19">D</text:span><text:span text:style-name="T18">okumentvorlagen</text:span><text:bookmark-end text:name="__RefHeading__271_1146603382"/></text:h>
    <text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__273_1146603382"/>Platzhalter<text:bookmark-end text:name="__RefHeading__273_1146603382"/></text:h>
@@ -12918,21 +12918,21 @@
    </table:table>
    <text:p text:style-name="P6"/>
    <text:p text:style-name="P12">j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:</text:p>
-   <text:list xml:id="list5328053046476052721" text:style-name="L5">
+   <text:list xml:id="list1233248206256918373" text:style-name="L5">
     <text:list-item>
-     <text:p text:style-name="P140">text: Text des Dokumentes (Standardfeld) </text:p>
+     <text:p text:style-name="P126">text: Text des Dokumentes (Standardfeld) </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P140">dateiname: Dateiname des Dokumentes </text:p>
+     <text:p text:style-name="P126">dateiname: Dateiname des Dokumentes </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P140">autor: Nutzername des Autors des Dokumentes </text:p>
+     <text:p text:style-name="P126">autor: Nutzername des Autors des Dokumentes </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P140">akte: Rubrum der Akte, die das Dokument enthält </text:p>
+     <text:p text:style-name="P126">akte: Rubrum der Akte, die das Dokument enthält </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P133">az: Aktenzeichen der Akte, die das Dokument enthält </text:p>
+     <text:p text:style-name="P119">az: Aktenzeichen der Akte, die das Dokument enthält </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P18">Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht „autor:anwalt1“ nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1“ erstellt wurden.</text:p>
@@ -12962,12 +12962,12 @@
    </table:table>
    <text:p text:style-name="P7"/>
    <text:p text:style-name="P20">j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu <text:soft-page-break/>öffnen:</text:p>
-   <text:list xml:id="list1942973034598538312" text:style-name="L6">
+   <text:list xml:id="list6286935749541723559" text:style-name="L6">
     <text:list-item>
-     <text:p text:style-name="P141">wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet </text:p>
+     <text:p text:style-name="P127">wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P134">alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet </text:p>
+     <text:p text:style-name="P120">alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P18">Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend mit einer anderen Applikation geöffnet werden sollen. Dazu gibt es unter „Einstellungen“ – „Dokumente“ – „externe Programme“ entsprechende Konfigurationen. Fügen Sie zuerst einen Dateityp hinzu, bspw. jpg. Daraufhin können Sie eine ausführbare Datei auswählen und Parameter, die beim Öffnen zum Lesen bzw. zum Editieren an das ausgewählte Programm übergeben werden. Der (voreingestellte) Parameter DATEINAME wird dabei von j-lawyer automatisch ersetzt und sollte in jedem Fall erhalten bleiben und bei Bedarf lediglich um weitere Parameter ergänzt werden.</text:p>
@@ -12995,15 +12995,15 @@
    </table:table>
    <text:p text:style-name="P9"/>
    <text:p text:style-name="P15"><text:span text:style-name="T33">j</text:span>-lawyer.<text:span text:style-name="T33">org ist in der Lage, die meisten Dokumentenformate automatisch im Hintergrund nach PDF zu konvertieren, insbesondere bei</text:span></text:p>
-   <text:list xml:id="list4103118646911199580" text:style-name="L7">
+   <text:list xml:id="list70076268589356086" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P137">Versand von Dokumenten via Email</text:p>
+     <text:p text:style-name="P123">Versand von Dokumenten via Email</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P137">Versand von Dokumenten über die Drebis-Schnittstelle</text:p>
+     <text:p text:style-name="P123">Versand von Dokumenten über die Drebis-Schnittstelle</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P137">Versand von Dokumenten als Fax via Sipgate</text:p>
+     <text:p text:style-name="P123">Versand von Dokumenten als Fax via Sipgate</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P27">Die Konvertierung wird dabei für den Nutzer nicht direkt sichtbar im Hintergrund durchgeführt und benutzt eine externe Bibliothek “unoconv”.</text:p>
@@ -13106,42 +13106,42 @@
    </table:table>
    <text:p text:style-name="P8"/>
    <text:p text:style-name="P14"><text:span text:style-name="T31">j</text:span>-lawyer.<text:span text:style-name="T31">org unterstützt seit Version 1.8 folgende Landeskennzahlen:</text:span></text:p>
-   <text:list xml:id="list4515167240553006383" text:style-name="L8">
+   <text:list xml:id="list4799826434206283884" text:style-name="L8">
     <text:list-item>
-     <text:p text:style-name="P138">+1<text:tab/>USA</text:p>
+     <text:p text:style-name="P124">+1<text:tab/>USA</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+31<text:tab/><text:span text:style-name="T32">Niederlande</text:span></text:p>
+     <text:p text:style-name="P125">+31<text:tab/><text:span text:style-name="T32">Niederlande</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+34<text:tab/><text:span text:style-name="T32">Spanien</text:span></text:p>
+     <text:p text:style-name="P125">+34<text:tab/><text:span text:style-name="T32">Spanien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+39<text:tab/><text:span text:style-name="T32">Italien</text:span></text:p>
+     <text:p text:style-name="P125">+39<text:tab/><text:span text:style-name="T32">Italien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+41<text:tab/><text:span text:style-name="T32">Schweiz</text:span></text:p>
+     <text:p text:style-name="P125">+41<text:tab/><text:span text:style-name="T32">Schweiz</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+43<text:tab/><text:span text:style-name="T32">Österreich</text:span></text:p>
+     <text:p text:style-name="P125">+43<text:tab/><text:span text:style-name="T32">Österreich</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+44<text:tab/><text:span text:style-name="T32">UK</text:span></text:p>
+     <text:p text:style-name="P125">+44<text:tab/><text:span text:style-name="T32">UK</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+49<text:tab/><text:span text:style-name="T32">Deutschland</text:span></text:p>
+     <text:p text:style-name="P125">+49<text:tab/><text:span text:style-name="T32">Deutschland</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+53<text:tab/><text:span text:style-name="T32">Kuba</text:span></text:p>
+     <text:p text:style-name="P125">+53<text:tab/><text:span text:style-name="T32">Kuba</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+54<text:tab/><text:span text:style-name="T32">Argentinien</text:span></text:p>
+     <text:p text:style-name="P125">+54<text:tab/><text:span text:style-name="T32">Argentinien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+598<text:tab/><text:span text:style-name="T32">Uruguay</text:span></text:p>
+     <text:p text:style-name="P125">+598<text:tab/><text:span text:style-name="T32">Uruguay</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">+7<text:tab/><text:span text:style-name="T32">Russland</text:span></text:p>
+     <text:p text:style-name="P125">+7<text:tab/><text:span text:style-name="T32">Russland</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P25">Anschlüsse in den angegebenen Ländern können aus j-lawyer.org heraus Faxe, SMS und Anrufe empfangen.</text:p>
@@ -13196,20 +13196,20 @@
    </table:table>
    <text:p text:style-name="P7"/>
    <text:p text:style-name="P13">Eine Wiederherstellung Ihrer Daten aus einem Backup ist über folgende Schritte möglich:</text:p>
-   <text:list xml:id="list7430285460807073036" text:style-name="L9">
+   <text:list xml:id="list5060491550972269227" text:style-name="L9">
     <text:list-item>
-     <text:p text:style-name="P142">Stoppen Sie den j-lawyer – Server </text:p>
+     <text:p text:style-name="P128">Stoppen Sie den j-lawyer – Server </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P135">Entpacken Sie eine vom j-lawyer Server erstellte Backup-ZIP-Datei </text:p>
+     <text:p text:style-name="P121">Entpacken Sie eine vom j-lawyer Server erstellte Backup-ZIP-Datei </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P18">Unter Linux nutzen Sie Ihr favorisiertes Packprogramm ihres Window Managers oder nutzen das Terminal:</text:p>
    <text:p text:style-name="P109"><text:tab/>unzip &lt;Dateiname&gt;</text:p>
    <text:p text:style-name="P32"><text:span text:style-name="T18">Unter Windows kann ich das kostenlose Programm </text:span><text:a xlink:type="simple" xlink:href="http://www.7-zip.de/" office:target-frame-name="_blank" xlink:show="new"><text:span text:style-name="T18">7zip</text:span></text:a><text:span text:style-name="T18"> empfehlen.</text:span></text:p>
-   <text:list xml:id="list9079461346208099561" text:style-name="L10">
+   <text:list xml:id="list7379352505898020929" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P136">Datenbank einspielen </text:p>
+     <text:p text:style-name="P122">Datenbank einspielen </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P18">Öffnen Sie eine Eingabeaufforderung / Terminal und wechseln Sie in das Verzeichnis, in welches Sie die ZIP-Datei entpackt haben. Von dort starten Sie den MySQL-Kommandozeilen-Client</text:p>
