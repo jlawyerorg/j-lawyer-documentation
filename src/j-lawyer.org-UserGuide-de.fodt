@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT1H55M27S</meta:editing-duration><meta:editing-cycles>23</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2016-07-28T22:36:52.903694377</dc:date><meta:document-statistic meta:table-count="20" meta:image-count="7" meta:object-count="0" meta:page-count="21" meta:paragraph-count="373" meta:word-count="2402" meta:character-count="20090" meta:non-whitespace-character-count="17697"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT1H55M27S</meta:editing-duration><meta:editing-cycles>24</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2016-07-28T22:45:28.188612063</dc:date><meta:document-statistic meta:table-count="20" meta:image-count="7" meta:object-count="0" meta:page-count="21" meta:paragraph-count="373" meta:word-count="2402" meta:character-count="20090" meta:non-whitespace-character-count="17697"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">33076</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">188110</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">46718</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">19823</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">19824</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">25610</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">48708</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">4108</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">115090</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">33076</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">188110</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">46717</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">52897</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">207933</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
-     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">true</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
@@ -81,7 +81,7 @@
    <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="Rsid" config:type="int">4906428</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4909373</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
@@ -1552,7 +1552,7 @@
    <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
   </style:style>
   <style:style style:name="fr3" style:family="graphic" style:parent-style-name="Frame">
-   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
+   <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:run-through="foreground" style:wrap="none" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
   </style:style>
   <style:style style:name="fr4" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -2112,7 +2112,7 @@
     <text:p text:style-name="P1"><text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T4">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License</text:span></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">4</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>21</text:page-count></text:span></text:p>
+    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">14</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>21</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Endnote" style:page-layout-name="pm2"/>
@@ -2353,7 +2353,7 @@
    </table:table>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="P38"><text:bookmark-start text:name="__DdeLink__1377_915061253"/>Die “Mein Desktop”-Ansicht bietet alle wichtigen Informationen auf einen Blick und ermöglicht eine Navigation zum jeweiligen Element:</text:p>
-   <text:list xml:id="list6104649835645950027" text:style-name="L1">
+   <text:list xml:id="list5498491721970169442" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P128">aktuelles Datum</text:p>
     </text:list-item>
@@ -2379,7 +2379,7 @@
    <text:p text:style-name="P38"/>
    <text:p text:style-name="P38">Der Bereich “Zuletzt geändert” zeigt Informationen zur Akte sowie den <text:span text:style-name="T9">für die Akte verantwortlichen </text:span>Anwalt.</text:p>
    <text:p text:style-name="P38">Der Bereich “Fällig” zeigt fällige und überfällige Fristen und Wiedervorlagen, sortiert nach Fälligkeitsdatum in absteigender Reihenfolge. Es wird der für die <text:span text:style-name="T9">Frist oder Wiedervorlage verantwortliche</text:span> Bearbeiter angezeigt. <text:span text:style-name="T26">Die Bedeutung der Icons und Schriftformatierungen im Einzelnen:</text:span></text:p>
-   <text:list xml:id="list785931257157119671" text:style-name="L2">
+   <text:list xml:id="list8186770223999994284" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P129"><text:span text:style-name="T13">schwarze Beschriftung<text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1342_915061253"/><text:span text:style-name="T27">heute fällig</text:span><text:bookmark-end text:name="__DdeLink__1342_915061253"/></text:p>
     </text:list-item>
@@ -6875,7 +6875,7 @@
    </table:table>
    <text:p text:style-name="P36"><text:soft-page-break/></text:p>
    <text:p text:style-name="P22">Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorschau angezeigt. Folgende Formate werden unterstützt:</text:p>
-   <text:list xml:id="list2089583920084704477" text:style-name="L3">
+   <text:list xml:id="list6390639911184361783" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P130">Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF</text:p>
     </text:list-item>
@@ -6889,7 +6889,7 @@
    <text:p text:style-name="P22">Ein Doppelklick öffnet das Dokument im entsprechenden Editor.</text:p>
    <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr3" draw:name="Rahmen1" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="21">
      <draw:text-box fo:min-height="13.383cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr6" draw:name="Bild2" text:anchor-type="paragraph" svg:width="17cm" style:rel-width="100%" svg:height="13.381cm" style:rel-height="scale" draw:z-index="22"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr6" draw:name="Bild2" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.381cm" draw:z-index="22"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABL0AAAO7CAIAAAA+3WFlAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAKIiklEQVR4nOy9B7Rcx3kmWOF2v4hMgMhgTgAlkhKjRMoiZVuesSRHyXTQeMf2Wa93xzNn
           d+2118d7dsZngvfs7gSPz3g89o5t2ZJleRyUKFmSlRgkMYgkGMAEkCABEiCI8PBi962qrT9U
@@ -10019,7 +10019,7 @@
    </table:table>
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P28">Neben der in jeder Akte angezeigten spezifischen Historie, gibt es </text:p>
-   <text:list xml:id="list2966180460535313396" text:style-name="L4">
+   <text:list xml:id="list3904086537146737747" text:style-name="L4">
     <text:list-item>
      <text:p text:style-name="P131">eine aktenübergreifende Historie über alle Änderungen des aktuellen Nutzers <text:span text:style-name="T36">(“Verlauf” - “Meine Timeline” im Navigationsbaum)</text:span></text:p>
     </text:list-item>
@@ -10028,9 +10028,9 @@
     </text:list-item>
    </text:list>
    <text:p text:style-name="P28">So lassen sich schnell eigene Änderungen auffinden oder von Kollegen bearbeitete Fälle auffinden.</text:p>
-   <text:p text:style-name="P28"><draw:frame draw:style-name="fr3" draw:name="Rahmen3" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="28">
+   <text:p text:style-name="P28"><draw:frame draw:style-name="fr2" draw:name="Rahmen3" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="28">
      <draw:text-box fo:min-height="13.67cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr7" draw:name="Bild7" text:anchor-type="paragraph" svg:width="17cm" style:rel-width="100%" svg:height="13.67cm" style:rel-height="scale" draw:z-index="29"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr7" draw:name="Bild7" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.67cm" draw:z-index="29"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABKsAAAPBCAIAAAC+1L5tAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAIyD0lEQVR4nMx9CbglRXVwVXff997sC7MyMswMI8gOsshiFFfUiCyaIK6JIXGNGwaN+bIZ
           l8QtIWpiXKJijBojRtTwGwRRQXaVXdZhhhFmmIVZ33a7u/4651SdPl3d996+971HUg7Pe/tW
@@ -12918,7 +12918,7 @@
    </table:table>
    <text:p text:style-name="P6"/>
    <text:p text:style-name="P12">j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:</text:p>
-   <text:list xml:id="list4000497308472442685" text:style-name="L5">
+   <text:list xml:id="list5328053046476052721" text:style-name="L5">
     <text:list-item>
      <text:p text:style-name="P140">text: Text des Dokumentes (Standardfeld) </text:p>
     </text:list-item>
@@ -12962,7 +12962,7 @@
    </table:table>
    <text:p text:style-name="P7"/>
    <text:p text:style-name="P20">j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu <text:soft-page-break/>öffnen:</text:p>
-   <text:list xml:id="list3683241828038272876" text:style-name="L6">
+   <text:list xml:id="list1942973034598538312" text:style-name="L6">
     <text:list-item>
      <text:p text:style-name="P141">wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet </text:p>
     </text:list-item>
@@ -12995,7 +12995,7 @@
    </table:table>
    <text:p text:style-name="P9"/>
    <text:p text:style-name="P15"><text:span text:style-name="T33">j</text:span>-lawyer.<text:span text:style-name="T33">org ist in der Lage, die meisten Dokumentenformate automatisch im Hintergrund nach PDF zu konvertieren, insbesondere bei</text:span></text:p>
-   <text:list xml:id="list2375313683377269080" text:style-name="L7">
+   <text:list xml:id="list4103118646911199580" text:style-name="L7">
     <text:list-item>
      <text:p text:style-name="P137">Versand von Dokumenten via Email</text:p>
     </text:list-item>
@@ -13106,7 +13106,7 @@
    </table:table>
    <text:p text:style-name="P8"/>
    <text:p text:style-name="P14"><text:span text:style-name="T31">j</text:span>-lawyer.<text:span text:style-name="T31">org unterstützt seit Version 1.8 folgende Landeskennzahlen:</text:span></text:p>
-   <text:list xml:id="list7505822408576401168" text:style-name="L8">
+   <text:list xml:id="list4515167240553006383" text:style-name="L8">
     <text:list-item>
      <text:p text:style-name="P138">+1<text:tab/>USA</text:p>
     </text:list-item>
@@ -13196,7 +13196,7 @@
    </table:table>
    <text:p text:style-name="P7"/>
    <text:p text:style-name="P13">Eine Wiederherstellung Ihrer Daten aus einem Backup ist über folgende Schritte möglich:</text:p>
-   <text:list xml:id="list6098580490666610395" text:style-name="L9">
+   <text:list xml:id="list7430285460807073036" text:style-name="L9">
     <text:list-item>
      <text:p text:style-name="P142">Stoppen Sie den j-lawyer – Server </text:p>
     </text:list-item>
@@ -13207,7 +13207,7 @@
    <text:p text:style-name="P18">Unter Linux nutzen Sie Ihr favorisiertes Packprogramm ihres Window Managers oder nutzen das Terminal:</text:p>
    <text:p text:style-name="P109"><text:tab/>unzip &lt;Dateiname&gt;</text:p>
    <text:p text:style-name="P32"><text:span text:style-name="T18">Unter Windows kann ich das kostenlose Programm </text:span><text:a xlink:type="simple" xlink:href="http://www.7-zip.de/" office:target-frame-name="_blank" xlink:show="new"><text:span text:style-name="T18">7zip</text:span></text:a><text:span text:style-name="T18"> empfehlen.</text:span></text:p>
-   <text:list xml:id="list1778430599504924478" text:style-name="L10">
+   <text:list xml:id="list9079461346208099561" text:style-name="L10">
     <text:list-item>
      <text:p text:style-name="P136">Datenbank einspielen </text:p>
     </text:list-item>
