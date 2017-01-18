@@ -18,7 +18,7 @@
                 <arg value="-f"/>
                 <arg value="pdf"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-de.pdf"/>
                 <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -26,7 +26,7 @@
                 <arg value="-f"/>
                 <arg value="pdf"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-en.pdf"/>
                 <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -34,7 +34,7 @@
                 <arg value="-f"/>
                 <arg value="pdf"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/build/pdf/j-lawyer.org-UserGuide-de.pdf"/>
                 <arg value="${basedir}/src/j-lawyer.org-UserGuide-de.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -42,7 +42,7 @@
                 <arg value="-f"/>
                 <arg value="pdf"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/pdf"/>
+                <arg value="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf"/>
                 <arg value="${basedir}/src/j-lawyer.org-UserGuide-en.fodt"/>
             </exec>
             
@@ -55,7 +55,7 @@
                 <arg value="-f"/>
                 <arg value="html"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/build/html/j-lawyer.org-ReleaseNotes-de.html"/>
                 <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -63,7 +63,7 @@
                 <arg value="-f"/>
                 <arg value="html"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html"/>
                 <arg value="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -71,7 +71,7 @@
                 <arg value="-f"/>
                 <arg value="html"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/build/html/j-lawyer.org-UserGuide-de.html"/>
                 <arg value="${basedir}/src/j-lawyer.org-UserGuide-de.fodt"/>
             </exec>
             <exec executable="unoconv">
@@ -79,7 +79,7 @@
                 <arg value="-f"/>
                 <arg value="html"/>
                 <arg value="-o"/>
-                <arg value="${basedir}/build/html"/>
+                <arg value="${basedir}/build/html/j-lawyer.org-UserGuide-en.html"/>
                 <arg value="${basedir}/src/j-lawyer.org-UserGuide-en.fodt"/>
             </exec>
             
