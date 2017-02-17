@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT56M32S</meta:editing-duration><meta:editing-cycles>16</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2016-10-28T23:27:31.320823883</dc:date><meta:document-statistic meta:table-count="1" meta:image-count="1" meta:object-count="0" meta:page-count="13" meta:paragraph-count="290" meta:word-count="3097" meta:character-count="22758" meta:non-whitespace-character-count="19927"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT58M39S</meta:editing-duration><meta:editing-cycles>18</meta:editing-cycles><meta:generator>LibreOffice/5.1.4.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><dc:title>Documentation Template</dc:title><dc:description>A simple documentation tempalte with TOC, change log and author information pre-filled from user data.</dc:description><meta:keyword>documentation</meta:keyword><meta:keyword>project management</meta:keyword><dc:date>2017-02-17T22:45:14.789786017</dc:date><meta:document-statistic meta:table-count="1" meta:image-count="1" meta:object-count="0" meta:page-count="14" meta:paragraph-count="332" meta:word-count="3478" meta:character-count="25674" meta:non-whitespace-character-count="22534"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">36077</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">62230</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">46718</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">19824</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">31805</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">19528</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">13340</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">46269</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">11670</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">78706</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">36077</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">46717</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">55899</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">62230</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">31803</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">81756</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -28,84 +28,88 @@
    </config:config-item-map-indexed>
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
-   <config:config-item config:name="PrintFaxName" config:type="string"/>
-   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
-   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="RsidRoot" config:type="int">84150</config:config-item>
-   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
-   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
-   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
-   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
-   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="Rsid" config:type="int">4506382</config:config-item>
-   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
-   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
-   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
    <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4609751</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">84150</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
   </config:config-item-set>
  </office:settings>
  <office:scripts>
@@ -150,17 +154,17 @@
    <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" style:font-size-asian="10.5pt"/>
   </style:style>
   <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
-   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
    <style:text-properties style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Microsoft YaHei" style:font-family-asian="&apos;Microsoft YaHei&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Mangal" style:font-family-complex="Mangal" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
   </style:style>
   <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
   </style:style>
   <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
    <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Mangal1" style:font-family-complex="Mangal"/>
   </style:style>
   <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
-   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Mangal1" style:font-family-complex="Mangal" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
@@ -168,7 +172,7 @@
    <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Mangal1" style:font-family-complex="Mangal"/>
   </style:style>
   <style:style style:name="Quotations" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
-   <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0cm" fo:margin-bottom="0.499cm" style:contextual-spacing="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
   </style:style>
   <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
@@ -247,7 +251,7 @@
    </style:paragraph-properties>
   </style:style>
   <style:style style:name="Preformatted_20_Text" style:display-name="Preformatted Text" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
    <style:text-properties style:font-name="Liberation Mono" fo:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed" fo:font-size="10pt" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-family-complex="&apos;Liberation Mono&apos;" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
@@ -402,6 +406,18 @@
   <style:style style:name="Table1.D5" style:family="table-cell">
    <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
   </style:style>
+  <style:style style:name="Table1.A6" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.B6" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.C6" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.D6" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Header">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false">
     <style:tab-stops>
@@ -458,22 +474,22 @@
    <style:text-properties fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="003e8d68" officeooo:paragraph-rsid="003e8d68" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:paragraph-rsid="004060f3"/>
   </style:style>
   <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="004265a3" officeooo:paragraph-rsid="004265a3"/>
   </style:style>
   <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00443430" officeooo:paragraph-rsid="00443430"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Title">
@@ -538,269 +554,322 @@
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="-1.27cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003b2052"/>
-  </style:style>
-  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="-1.27cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Verdana"/>
-  </style:style>
-  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="002ab884"/>
-  </style:style>
-  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
-  </style:style>
-  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:font-name="Verdana"/>
-  </style:style>
-  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:paragraph-rsid="00422c89"/>
   </style:style>
-  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L26">
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L26">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="003e8d68" officeooo:paragraph-rsid="003e8d68" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L27">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00451d79" officeooo:paragraph-rsid="00451d79"/>
+  </style:style>
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00451d79" officeooo:paragraph-rsid="00451d79"/>
+  </style:style>
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00456163" officeooo:paragraph-rsid="00456163"/>
+  </style:style>
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L27">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00456163" officeooo:paragraph-rsid="00456163"/>
+  </style:style>
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="00451d79"/>
   </style:style>
   <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:paragraph-rsid="004060f3"/>
   </style:style>
   <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L8">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L26">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
   <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="004265a3" officeooo:paragraph-rsid="004265a3"/>
   </style:style>
   <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00443430" officeooo:paragraph-rsid="00443430"/>
   </style:style>
-  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L29">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="00451d79"/>
   </style:style>
-  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L28">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00451d79" officeooo:paragraph-rsid="00451d79"/>
   </style:style>
-  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L29">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00456163" officeooo:paragraph-rsid="00456163"/>
   </style:style>
-  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L28">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00456163" officeooo:paragraph-rsid="00456163"/>
   </style:style>
-  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="002ab884"/>
+  </style:style>
+  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties style:font-name="Verdana"/>
+  </style:style>
+  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties style:font-name="Verdana" fo:font-size="10pt" officeooo:rsid="00451d79" officeooo:paragraph-rsid="00451d79" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="00451d79"/>
+  </style:style>
+  <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="-1.27cm" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Verdana"/>
+  </style:style>
+  <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Contents_20_1">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Contents_20_3">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="16.002cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="003b2052"/>
@@ -868,16 +937,13 @@
   <style:style style:name="T22" style:family="text">
    <style:text-properties officeooo:rsid="00422c89"/>
   </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties officeooo:rsid="00451d79"/>
+  </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="Sect1" style:family="section">
-   <style:section-properties fo:background-color="transparent" style:editable="false">
-    <style:columns fo:column-count="1" fo:column-gap="0cm"/>
-    <style:background-image/>
-   </style:section-properties>
-  </style:style>
-  <style:style style:name="Sect2" style:family="section">
    <style:section-properties style:editable="false">
     <style:columns fo:column-count="1" fo:column-gap="0cm"/>
    </style:section-properties>
@@ -1714,6 +1780,102 @@
     <style:list-level-properties text:space-before="11.972cm" text:min-label-width="0.499cm"/>
    </text:list-level-style-bullet>
   </text:list-style>
+  <text:list-style style:name="L27">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.748cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="1.995cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.242cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.489cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.736cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="6.983cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.23cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.478cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.725cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="11.972cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L28">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.748cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="1.995cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.242cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.489cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.736cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="6.983cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.23cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.478cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.725cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="11.972cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L29">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.748cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="1.995cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.242cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.489cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.736cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="6.983cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.23cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.478cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.725cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="11.972cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1.309cm" fo:margin-bottom="2.023cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
@@ -1736,7 +1898,7 @@
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1">
    <style:header>
-    <text:p text:style-name="P1"><draw:frame draw:style-name="fr1" draw:name="Bild1" text:anchor-type="paragraph" svg:x="0.085cm" svg:y="-0.243cm" svg:width="1.041cm" svg:height="1.041cm" draw:z-index="12"><draw:image>
+    <text:p text:style-name="P1"><draw:frame draw:style-name="fr1" draw:name="Bild1" text:anchor-type="paragraph" svg:x="0.085cm" svg:y="-0.243cm" svg:width="1.041cm" svg:height="1.041cm" draw:z-index="13"><draw:image>
        <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAANjklEQVR4nOWba28c13nHf+fM
         7M5eKZGsLFE3y0nFmq3dCkiNpHHdV0UdIAiQAIXfFAjyNRIkfuN3blqgQD9ALARNkLZBL4Cb
         1BfUsOoGKJLCbhQ5lF0putikJFPkktzdmTnnPH1xZmaHqyW5Sy6kFH2A5ezO5cx5/ud/nts5
@@ -1809,7 +1971,7 @@
     <text:p text:style-name="P1"><text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T4">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License</text:span></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">4</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>13</text:page-count></text:span></text:p>
+    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">14</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>14</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Endnote" style:page-layout-name="pm2"/>
@@ -1909,22 +2071,23 @@
      </text:table-of-content-entry-template>
     </text:table-of-content-source>
     <text:index-body>
-     <text:index-title text:style-name="Sect2" text:name="Table of Contents1_Head">
+     <text:index-title text:style-name="Sect1" text:name="Table of Contents1_Head">
       <text:p text:style-name="Contents_20_Heading">Inhaltsverzeichnis</text:p>
      </text:index-title>
      <text:p text:style-name="P30"><text:a xlink:type="simple" xlink:href="#__RefHeading__1954_677115937" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Autoren / Mitwirkende<text:tab/>1</text:a></text:p>
      <text:p text:style-name="P30"><text:a xlink:type="simple" xlink:href="#__RefHeading__667_677115937" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Änderungshistorie<text:tab/>1</text:a></text:p>
      <text:p text:style-name="P30"><text:a xlink:type="simple" xlink:href="#__RefHeading__823_987720287" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Release Notes<text:tab/>2</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__490_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.8<text:tab/>2</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__492_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.7.1<text:tab/>3</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__494_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.7<text:tab/>3</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__496_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.6<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__498_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.5<text:tab/>6</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__500_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.4<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__502_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.3<text:tab/>10</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__504_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.2<text:tab/>11</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__506_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.1<text:tab/>11</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__508_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.0<text:tab/>12</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2356_1584557684" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.8.1<text:tab/>2</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2358_1584557684" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.8<text:tab/>3</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__492_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.7.1<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__494_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.7<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__496_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.6<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__498_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.5<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__500_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.4<text:tab/>10</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__502_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.3<text:tab/>12</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__504_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.2<text:tab/>12</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__506_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.1<text:tab/>13</text:a></text:p>
+     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__508_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">j-lawyer.org 1.0<text:tab/>14</text:a></text:p>
     </text:index-body>
    </text:table-of-content>
    <text:h text:style-name="P21" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1954_677115937"/>Autoren / Mitwirkende<text:bookmark-end text:name="__RefHeading__1954_677115937"/></text:h>
@@ -1950,67 +2113,189 @@
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
       <text:p text:style-name="P25">0.1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
       <text:p text:style-name="P25">Jun 24 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
       <text:p text:style-name="P25">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
       <text:p text:style-name="P25">Initial<text:span text:style-name="T15">e</text:span> <text:span text:style-name="T15">V</text:span>ersion</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
       <text:p text:style-name="P26">0.2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
       <text:p text:style-name="P26">Jun 25 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
       <text:p text:style-name="P26">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
       <text:p text:style-name="P26">Formatierungsfehler behoben</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
       <text:p text:style-name="P27">0.3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
       <text:p text:style-name="P27">Aug 1 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
       <text:p text:style-name="P28">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
       <text:p text:style-name="P27"><text:span text:style-name="T21">Dokumentation für V</text:span>ersion 1.8 <text:span text:style-name="T21">finalisiert</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
       <text:p text:style-name="P29">0.4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
       <text:p text:style-name="P29">Sep 21 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
       <text:p text:style-name="P29">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D5" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
       <text:p text:style-name="P29">Nutzerdefinierte Aktenzeichen</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table1.A6" office:value-type="string">
+      <text:p text:style-name="P111">0.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B6" office:value-type="string">
+      <text:p text:style-name="P111">Feb 17 2017</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C6" office:value-type="string">
+      <text:p text:style-name="P111">Jens Kutschke</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D6" office:value-type="string">
+      <text:p text:style-name="P111">Dokumentation für Version 1.8.1</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P5"/>
    <text:h text:style-name="P22" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__823_987720287"/>Release Notes<text:bookmark-end text:name="__RefHeading__823_987720287"/></text:h>
-   <text:h text:style-name="P23" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__490_1146603382"/>j-lawyer.org 1.8<text:bookmark-end text:name="__RefHeading__490_1146603382"/></text:h>
+   <text:h text:style-name="P112" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc2356_1584557684"/>j-lawyer.org 1.8.<text:span text:style-name="T23">1</text:span><text:bookmark-end text:name="__RefHeading___Toc2356_1584557684"/></text:h>
+   <text:p text:style-name="P67"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Akten und Adressen:</text:span></text:span></text:p>
+   <text:list xml:id="list4684833193813987475" text:style-name="L1">
+    <text:list-item>
+     <text:p text:style-name="P61">Die Suche schließt nun die “Eigenen Felder” mit ein</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P61">Archivierung einer Akte generiert einen expliziten Eintrag in der Aktenhistorie</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P61">“fehlende Wiedervorlagen”-Report: Anzeige aller nicht archivierte Akten ohne offene Wiedervorlage</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P61">Archivierung von Akten wird verhindert, wenn noch offene Wiedervorlagen vorhanden sind</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P61">Beim Speichern archivierter Akten wird keine Wiedervorlageprüfung mehr durchgeführt</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P61">archivierte Akten sind gesperrt und können ausschließlich dearchiviert werden</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P62">Auswahl eines Tags in der Suche aktualisiert sofort die Ergebnisanzeige</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P67"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumente:</text:span></text:span></text:p>
+   <text:list xml:id="list2265647371889031199" text:style-name="L27">
+    <text:list-item>
+     <text:p text:style-name="P60">Dokumenten-Handling vollständig überarbeitet: beliebig viele Dokumente aus beliebig vielen Akten öffnen</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P60">Zwischenspeichern (bisher: nur Speichern und Schließen des Dokuments) in LibreOffice oder anderem externen Programm transferiert die Änderung an den j-lawyer.org Server</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P60">Dokumentmonitor – Anzeige aktuell geöffneter Dokumente und deren Stausinformationen</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P60">Dokumente einer Akte können per Rechtsklick (“als PDF ablegen”) nach PDF konvertiert in der Akte abgelegt werden</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P60">Die meisten Dokumentformate können in der Akte nun als native Vorschau eingesehen werden</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P60">Die “Mastervorlagen”-Funktionalität wurde entfernt</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P63">Dokumente können per Kontextmenü geöffnet werden (zusätzlich zum Doppelklick)</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P63">Dateinamen beim Dokumenterstellen können automatisch Mandanten-/Gegner-/Dritte-Bezeichnung beinhalten</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P67"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Sonstige Erweiterungen:</text:span></text:span></text:p>
+   <text:list xml:id="list1175428778700910356" text:style-name="L28">
+    <text:list-item>
+     <text:p text:style-name="P100">Steuerelemente im Kopf der Dialog wurden vom rechten an den linken <text:soft-page-break/>Rand verlagert, um Mauswege zu sparen</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">Das Öffnen von Kontextmenüs selektiert nun automatisch den entsprechenden Eintrag in Tabellen und Listen</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">viele Tabellendarstellungen können direkt nach LibreOffice exportiert werden</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">Anzahl der vorzuhaltenden historischen Datensicherungen ist nun einstellbar</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">Datensicherungen können nun automatisch mit externem Speicherort synchronisiert werden (bspw. Speicherung auf externem Server)</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">gesamter Datenbestand kann mit der Datensicherung als HTML exportiert werden. Im Fall eines Systemausfalls haben Sie so lesenden Zugriff auf alle Informationen, es wird lediglich ein Browser benötigt</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">Netzwerkeinstellungen für Mehrbenutzerbetrieb können nun direkt aus dem j-lawyer.org Client heraus angepasst werden</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P98">verschiedene vorbereitende Arbeiten für eine beA-Integration</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">direkter Zugriff auf j-lawyer.BOX-Funktionen im Login-Dialog</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">Verbesserungen der Bedienung im E-Mail-Senden-Dialog</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">automatische Bereinigung der Server- und Clientprotokolldateien</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">E-Mail mit Zusammenfassung der Datensicherung sowie Monitoring-E-Mails enthalten nun den Servernamen</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P100">Systemmonitoring-Einstellungen sind nun etwas feiner abgestuft einstellbar</text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P67"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"/></text:span></text:p>
+   <text:p text:style-name="P67"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Korrekturen:</text:span></text:span></text:p>
+   <text:list xml:id="list3886294577385617856" text:style-name="L29">
+    <text:list-item>
+     <text:p text:style-name="P99">Fehler bei Anzeige von E-Mails ohne gültigen Absender</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P99">Historienanzeige nach Start des j-lawyer.org Clients leer</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P99">Server und Client bevorzugen IPv4 auf Geräten mit IPv4- und IPv6-Unterstützung</text:p>
+     <text:p text:style-name="P97"/>
+    </text:list-item>
+   </text:list>
+   <text:h text:style-name="P112" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc2358_1584557684"/>j-lawyer.org 1.8<text:bookmark-end text:name="__RefHeading___Toc2358_1584557684"/></text:h>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Akten und Adressen:</text:span></text:span></text:p>
-   <text:list xml:id="list1859269779619865189" text:style-name="L1">
+   <text:list xml:id="list224516429076930" text:continue-list="list4684833193813987475" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P68">vollständig überarbeitete „Mein Desktop“-Ansicht </text:p>
     </text:list-item>
@@ -2024,16 +2309,16 @@
      <text:p text:style-name="P68">verbesserte Darstellung von Akten an einer Adresse, inklusive Navigation zur Akte </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P40">Anzeige von Tags alphabetisch sortiert, unabhängig vom Auswahlzustand</text:p>
+     <text:p text:style-name="P35">Anzeige von Tags alphabetisch sortiert, unabhängig vom Auswahlzustand</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P40"><text:span text:style-name="T22">Nutzerdefinierte Aktenzeichen – das Schema für Aktenzeichen kann nun frei gewählt werden</text:span> </text:p>
+     <text:p text:style-name="P35"><text:span text:style-name="T22">Nutzerdefinierte Aktenzeichen – das Schema für Aktenzeichen kann nun frei gewählt werden</text:span> </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumente:</text:span></text:span></text:p>
-   <text:list xml:id="list6410634603387942215" text:style-name="L2">
+   <text:list xml:id="list6250444137096498975" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P69">direkte Anzeige einiger Dokumentformate (PNG, JPG, TIFF, PDF, …) </text:p>
+     <text:p text:style-name="P69"><text:soft-page-break/>direkte Anzeige einiger Dokumentformate (PNG, JPG, TIFF, PDF, …) </text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P69">Kopieren von Dokumenten in andere Akten </text:p>
@@ -2042,11 +2327,11 @@
      <text:p text:style-name="P69">verbessertes Handling von Platzhaltern, insbesondere bei leeren Platzhalterwerten </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P41">Dokumente können nun per Drag &amp; Drop hinzugefügt werden </text:p>
+     <text:p text:style-name="P36">Dokumente können nun per Drag &amp; Drop hinzugefügt werden </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Sonstige Erweiterungen:</text:span></text:span></text:p>
-   <text:list xml:id="list6304320307536274929" text:style-name="L3">
+   <text:list xml:id="list1382798736794079147" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P70">Historie / Timeline analog sozialer Netzwerke </text:p>
     </text:list-item>
@@ -2089,19 +2374,19 @@
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P42"><text:soft-page-break/>Update einiger Bibliotheken, inklusive Simple ODF, unoconv</text:p>
+     <text:p text:style-name="P37">Update einiger Bibliotheken, inklusive Simple ODF, unoconv</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P64">Achtung: unoconv (zur Konvertierung von Dokumenten, bspw. in PDF) derzeit nur lauffähig mit <text:s/>32Bit LibreOffice!</text:p>
+       <text:p text:style-name="P59">Achtung: unoconv (zur Konvertierung von Dokumenten, bspw. in PDF) derzeit nur lauffähig mit <text:s/>32Bit LibreOffice!</text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P64">Achtung: unoconv unter Mac OS X derzeit nicht lauffähig mit LibreOffice 5</text:p>
+       <text:p text:style-name="P59">Achtung: unoconv unter Mac OS X derzeit nicht lauffähig mit LibreOffice 5</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Korrekturen:</text:span></text:span></text:p>
-   <text:list xml:id="list7948692082823116523" text:style-name="L4">
+   <text:list xml:id="list7485880595698044659" text:style-name="L4">
     <text:list-item>
      <text:p text:style-name="P95">alle Plattformen: Update auf die neueste Version der Drebis-Schnittstelle. Dies behebt insbesondere einen Fehler bei der Übermittlung an Versicherungsunternehmen mit spezifischer Geschäftsstelle (VUGS).</text:p>
     </text:list-item>
@@ -2115,7 +2400,7 @@
      <text:p text:style-name="P72">alle Plattformen: Fehlerkorrektur in den Drebis-Wizards, wenn „leere“ Daten aus Kontakten übernommen wurden </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P72">alle Plattformen: Korrektur der Email-Integration für outlook.com und einige andere Mailserver (STARTTLS, IMAP Idle) </text:p>
+     <text:p text:style-name="P72"><text:soft-page-break/>alle Plattformen: Korrektur der Email-Integration für outlook.com und einige andere Mailserver (STARTTLS, IMAP Idle) </text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P72">alle Plattformen: Status-Emails mit falschem Absender (Host statt From) </text:p>
@@ -2133,12 +2418,12 @@
      <text:p text:style-name="P96"><text:bookmark-start text:name="__DdeLink__3474_53855990"/>Mac OS X: Unter bestimmten Bedingungen wurde bei der Datensicherung die MySQL-Datenbank nicht gesichert<text:bookmark-end text:name="__DdeLink__3474_53855990"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P43">Mac OS X: Überwachung geöffneter Dokumente in LibreOffice teilweise unzuverlässig </text:p>
+     <text:p text:style-name="P38">Mac OS X: Überwachung geöffneter Dokumente in LibreOffice teilweise unzuverlässig </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__492_1146603382"/>j-lawyer.org 1.7.1<text:bookmark-end text:name="__RefHeading__492_1146603382"/></text:h>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Korrekturen:</text:span></text:span></text:p>
-   <text:list xml:id="list1590708850774637071" text:style-name="L5">
+   <text:list xml:id="list3296288737962622336" text:style-name="L5">
     <text:list-item>
      <text:p text:style-name="P73">Sicherheitsabfrage eingefügt beim Löschen von Dokumenten. </text:p>
     </text:list-item>
@@ -2155,23 +2440,23 @@
      <text:p text:style-name="P73">Fehler behoben beim Löschen mehrerer E-Mails. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P44">Fehler behoben beim Verschieben von E-Mails in andere Ordner. </text:p>
+     <text:p text:style-name="P39">Fehler behoben beim Verschieben von E-Mails in andere Ordner. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Sonstiges:</text:span></text:span></text:p>
-   <text:list xml:id="list2440951095632685030" text:style-name="L6">
+   <text:list xml:id="list6924783020939316105" text:style-name="L6">
     <text:list-item>
      <text:p text:style-name="P74">Der j-lawyer.org Client enthält nun eine run-mac.sh zum Starten des Clients. Das Aufnehmen von LibreOffice in den Pfad im Rahmen der Installation entfällt. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P45">Exakte Versionsangabe (Patch Level) im „Über“-Dialog und im <text:soft-page-break/>Startdialog. </text:p>
+     <text:p text:style-name="P40">Exakte Versionsangabe (Patch Level) im „Über“-Dialog und im Startdialog. </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__494_1146603382"/>j-lawyer.org 1.7<text:bookmark-end text:name="__RefHeading__494_1146603382"/></text:h>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Akten und Adressen:</text:span></text:span></text:p>
-   <text:list xml:id="list2616979276602076615" text:style-name="L7">
+   <text:list xml:id="list5544480893807457260" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tagging für Akten und Adressen</text:span></text:span><text:span text:style-name="T16">: es können bestimmte “Markierungen” vordefiniert werden, welche dann an einer Akte oder Adresse aktiviert werden können. In der Suche ist dann eine Einschränkung via Tags möglich. </text:span></text:p>
+     <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tagging für Akten und Adressen</text:span></text:span><text:span text:style-name="T16">: es können bestimmte “Markierungen” vordefiniert werden, welche dann an einer Akte oder Adresse aktiviert werden können. In der Suche ist dann eine Einschränkung via Tags möglich. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P75">Aktenzeichen und Rubrum werden im Kopf aller Aktendialoge angezeigt. </text:p>
@@ -2183,29 +2468,29 @@
      <text:p text:style-name="P75">Aktensuche voreingestellt nur in nicht archivierten Akten – wenn alle Akten durchsucht werden sollen, muss die Option „Archivsuche“ aktiviert sein </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T16">Es gibt nun eine Anzahl </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">eigener Datenfelder an Adressen und Akten</text:span></text:span><text:span text:style-name="T16">, inklusive automatischer Übernahme dieser Daten in Dokumente. </text:span></text:p>
+     <text:p text:style-name="P101"><text:span text:style-name="T16">Es gibt nun eine Anzahl </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">eigener Datenfelder an Adressen und Akten</text:span></text:span><text:span text:style-name="T16">, </text:span><text:soft-page-break/><text:span text:style-name="T16">inklusive automatischer Übernahme dieser Daten in Dokumente. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P75">An Adressen können nun auch Geburtsdatum und Titel erfasst werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T16">Vorhandene </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Adressdaten können in j-lawyer.org importiert werden</text:span></text:span><text:span text:style-name="T16"> (vCard-Format). </text:span></text:p>
+     <text:p text:style-name="P101"><text:span text:style-name="T16">Vorhandene </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Adressdaten können in j-lawyer.org importiert werden</text:span></text:span><text:span text:style-name="T16"> (vCard-Format). </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P75">Es können manuell Einträge in der (automatisch geführten) Aktenhistorie angelegt werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P97"><text:span text:style-name="T16">Es gibt nun eine klare </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Unterscheidung zwischen Wiedervorlagen und Fristen</text:span></text:span><text:span text:style-name="T16">. </text:span></text:p>
+     <text:p text:style-name="P101"><text:span text:style-name="T16">Es gibt nun eine klare </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Unterscheidung zwischen Wiedervorlagen und Fristen</text:span></text:span><text:span text:style-name="T16">. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P75">Beim Duplizieren von Wiedervorlagen oder Fristen gibt es nun eine 3-Monats-Übersicht zur Datumsauswahl. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P46">Unterstützung für Feiertage in Holland / Niederlande und Belgien </text:p>
+     <text:p text:style-name="P41">Unterstützung für Feiertage in Holland / Niederlande und Belgien </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">E-Mail – Integration:</text:span></text:span></text:p>
-   <text:list xml:id="list1490986040592031391" text:style-name="L8">
+   <text:list xml:id="list4969665444419991904" text:style-name="L8">
     <text:list-item>
      <text:p text:style-name="P76">Unterstützung für E-Mails via SSL. </text:p>
     </text:list-item>
@@ -2216,53 +2501,53 @@
      <text:p text:style-name="P76">E-Mails können ohne Anhängen in die Akte übernommen werden – hilfreich insbesondere wenn Anhänge grundsätzlich als separate Dokumente in die Akte kopiert werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P47">Es können mehrere Anhänge einer E-Mail mit einem mal in eine Akte übernommen werden. </text:p>
+     <text:p text:style-name="P42">Es können mehrere Anhänge einer E-Mail mit einem mal in eine Akte übernommen werden. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumente:</text:span></text:span></text:p>
-   <text:list xml:id="list6054782479387313092" text:style-name="L9">
+   <text:list xml:id="list788546347054978894" text:style-name="L9">
     <text:list-item>
-     <text:p text:style-name="P98"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Volltextsuche:</text:span></text:span><text:span text:style-name="T16"> j-lawyer.org beinhaltet nun eine </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">vollständige Suchmaschine für Ihre Dokumente</text:span></text:span><text:span text:style-name="T16">. </text:span></text:p>
+     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Volltextsuche:</text:span></text:span><text:span text:style-name="T16"> j-lawyer.org beinhaltet nun eine </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">vollständige Suchmaschine für Ihre Dokumente</text:span></text:span><text:span text:style-name="T16">. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P98"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumentenvorschau</text:span></text:span><text:span text:style-name="T16">: Textinhalte von Dokumenten werden in einem Vorschaufenster angezeigt. So kann man schnell Inhalte erfassen ohne das Dokument öffnen zu müssen. </text:span></text:p>
+     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumentenvorschau</text:span></text:span><text:span text:style-name="T16">: Textinhalte von Dokumenten werden in einem Vorschaufenster angezeigt. So kann man schnell Inhalte erfassen ohne das Dokument öffnen zu müssen. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P98"><text:span text:style-name="T16">Unterstützung für </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">.ods-Vorlagen (Tabellenkalkulation)</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+     <text:p text:style-name="P102"><text:span text:style-name="T16">Unterstützung für </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">.ods-Vorlagen (Tabellenkalkulation)</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P77">Das Vorlagenpaket wurde überarbeitet/erweitert. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P98"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Direktes Drucken:</text:span></text:span><text:span text:style-name="T16"> ein oder mehrere Dokumente können per Rechtsklick direkt gedruckt werden, ohne die Dokumente zu öffnen. </text:span></text:p>
+     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Direktes Drucken:</text:span></text:span><text:span text:style-name="T16"> ein oder mehrere Dokumente können per Rechtsklick direkt gedruckt werden, ohne die Dokumente zu öffnen. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P77">Es kann zu jedem Dateityp das zu verwendende Programm konfiguriert werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P48">Beim Erstellen von Dokumenten kann optional eine Wiedervorlage oder Frist angelegt werden. </text:p>
+     <text:p text:style-name="P43">Beim Erstellen von Dokumenten kann optional eine Wiedervorlage oder Frist angelegt werden. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Sonstige Erweiterungen:</text:span></text:span></text:p>
-   <text:list xml:id="list503647257153995202" text:style-name="L10">
+   <text:list xml:id="list3519736870359598658" text:style-name="L10">
     <text:list-item>
      <text:p text:style-name="P78">j-lawyer.org Projektneuigkeiten können direkt über die Statusleiste angezeigt werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P99"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Ad-hoc – Datensicherungen:</text:span></text:span><text:span text:style-name="T16"> Backups können per Knopfdruck angefordert werden. </text:span></text:p>
+     <text:p text:style-name="P103"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Ad-hoc – Datensicherungen:</text:span></text:span><text:span text:style-name="T16"> Backups können per Knopfdruck angefordert werden. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P78">Nach Datensicherung schickt der j-lawyer.org Server eine Zusammenfassung an die hinterlege E-Mailadreasse des Administrators. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P78">Der MySQL-Datenbankport ist nun in den Datensicherungseinstellungen konfigurierbar, falls abweichend vom Standard “3306”. </text:p>
+     <text:p text:style-name="P78">Der MySQL-Datenbankport ist nun in den Datensicherungseinstellungen <text:soft-page-break/>konfigurierbar, falls abweichend vom Standard “3306”. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P49">Das j-lawyer.org – Logo ist in verschieden Größen im Verzeichnis des Clients zu finden und kann bspw. für Verknüpfungen auf dem Desktop verwendet werden. </text:p>
+     <text:p text:style-name="P44">Das j-lawyer.org – Logo ist in verschieden Größen im Verzeichnis des Clients zu finden und kann bspw. für Verknüpfungen auf dem Desktop verwendet werden. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Korrekturen:</text:span></text:span></text:p>
-   <text:list xml:id="list4001076724045904016" text:style-name="L11">
+   <text:list xml:id="list3392639977352869550" text:style-name="L11">
     <text:list-item>
      <text:p text:style-name="P79">E-Mails mit leerem Betreff konnten nicht in Akten übernommen werden. </text:p>
     </text:list-item>
@@ -2282,31 +2567,31 @@
      <text:p text:style-name="P79">Laden einer Akte “klemmt” sporadisch – hier konnte keine eindeutige Ursache ausgemacht werden, jedoch wurde das Laden überarbeitet. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P50">Beim Speichern einer Akte traten Fehler auf, wenn “Anwalt” oder “Sachbearbeiter” mehr als 15 Zeichen umfasste. </text:p>
+     <text:p text:style-name="P45">Beim Speichern einer Akte traten Fehler auf, wenn “Anwalt” oder “Sachbearbeiter” mehr als 15 Zeichen umfasste. </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__496_1146603382"/>j-lawyer.org 1.6<text:bookmark-end text:name="__RefHeading__496_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list6846214463634132854" text:style-name="L12">
+   <text:list xml:id="list726799132153799410" text:style-name="L12">
     <text:list-item>
      <text:p text:style-name="P80">Kontakt mit zusätzlichen Feldern für Verkehrsrechtsschutz und Kraftfahrtversicherung </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P100"><text:span text:style-name="T16">integrierte </text:span><text:a xlink:type="simple" xlink:href="http://www.drebis.de/" office:target-frame-name="_blank" xlink:show="new"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Drebis</text:span></text:span></text:a><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">-Schnittstelle</text:span></text:span><text:span text:style-name="T16"> mit zentralem Posteingang zum Übermitteln von </text:span></text:p>
+     <text:p text:style-name="P104"><text:span text:style-name="T16">integrierte </text:span><text:a xlink:type="simple" xlink:href="http://www.drebis.de/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Drebis</text:span></text:span></text:a><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">-Schnittstelle</text:span></text:span><text:span text:style-name="T16"> mit zentralem Posteingang zum Übermitteln von </text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P100"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Deckungsanfragen / -erweiterungen</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+       <text:p text:style-name="P104"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Deckungsanfragen / -erweiterungen</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P100"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Kfz-Schadenmeldungen</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+       <text:p text:style-name="P104"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Kfz-Schadenmeldungen</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P100"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">freier Korrespondenz</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+       <text:p text:style-name="P104"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">freier Korrespondenz</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P100"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Export von Akten</text:span></text:span><text:span text:style-name="T16"> inklusive aller Dokumente und Daten zur </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Offline-Nutzung auf Notebook, Tablet oder Smartphone</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+     <text:p text:style-name="P104"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Export von Akten</text:span></text:span><text:span text:style-name="T16"> inklusive aller Dokumente und Daten zur </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Offline-Nutzung auf Notebook, Tablet oder Smartphone</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P80">Aktensuche sucht nun auch in „wegen“ </text:p>
@@ -2315,7 +2600,7 @@
      <text:p text:style-name="P80">Aktenvorblatt (Druck) enthält jetzt auch die E-Mailadressen der Beteiligten </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P100"><text:span text:style-name="T16">der Client sollte nun </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">auch unter </text:span></text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=355"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Mac OS X</text:span></text:span></text:a><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> lauffähig</text:span></text:span><text:span text:style-name="T16"> sein </text:span></text:p>
+     <text:p text:style-name="P104"><text:span text:style-name="T16">der Client sollte nun </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">auch unter </text:span></text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=355" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Mac OS X</text:span></text:span></text:a><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> lauffähig</text:span></text:span><text:span text:style-name="T16"> sein </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P80">E-Mails werden standardmäßig chronologisch sortiert </text:p>
@@ -2324,14 +2609,14 @@
      <text:p text:style-name="P80">E-Mails und Anhänge werden mit Datumspräfix versehen, wenn sie als Dokument in einer Akte gespeichert werden </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P100"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Bankenverzeichnis nutzt nun SEPA</text:span></text:span><text:span text:style-name="T16"> (Import der BIC statt der Bankleitzahl) </text:span></text:p>
+     <text:p text:style-name="P104"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Bankenverzeichnis nutzt nun SEPA</text:span></text:span><text:span text:style-name="T16"> (Import der BIC statt der Bankleitzahl) </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P51">Darstellung von HTML-E-Mails auch nach Doppelklick im Inhaltsfenster </text:p>
+     <text:p text:style-name="P46">Darstellung von HTML-E-Mails auch nach Doppelklick im Inhaltsfenster </text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list310160423997720382" text:style-name="L13">
+   <text:p text:style-name="P8"><text:soft-page-break/>Korrekturen:</text:p>
+   <text:list xml:id="list7433047324952035340" text:style-name="L13">
     <text:list-item>
      <text:p text:style-name="P81">verbesserte Kompatibilität mit den neueren Versionen von Libre Office </text:p>
     </text:list-item>
@@ -2345,17 +2630,17 @@
      <text:p text:style-name="P81">beim Import von Banken- und Ortsverzeichnis gab es unter bestimmten Umständen mit Sonderzeichen unter Windows </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P52">E-Mails und Anhänge mit Sonderzeichen im Betreff oder Dateinamen wurden falsch dargestellt / behandelt </text:p>
+     <text:p text:style-name="P47">E-Mails und Anhänge mit Sonderzeichen im Betreff oder Dateinamen wurden falsch dargestellt / behandelt </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__498_1146603382"/>j-lawyer.org 1.5<text:bookmark-end text:name="__RefHeading__498_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list1690477950623231758" text:style-name="L14">
+   <text:list xml:id="list2266100376843568452" text:style-name="L14">
     <text:list-item>
-     <text:p text:style-name="P65"><text:span text:style-name="T16">Erweiterungen der</text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> E-Mail-Integration</text:span></text:span></text:p>
+     <text:p text:style-name="P64"><text:span text:style-name="T16">Erweiterungen der</text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> E-Mail-Integration</text:span></text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="T16">volle </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Unterstützung für HTML-formatierte E-Mails</text:span></text:span><text:span text:style-name="T16"> (Versand, Vorlagen, etc.) </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="T16">volle </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Unterstützung für HTML-formatierte E-Mails</text:span></text:span><text:span text:style-name="T16"> (Versand, Vorlagen, etc.) </text:span></text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P82">Unterstützung für CC: und BCC: </text:p>
@@ -2364,7 +2649,7 @@
        <text:p text:style-name="P82">„Weiterleiten“ und „Allen antworten“ fertiggestellt. </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="T16">Dokumente können aus einer Akte heraus </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">automatisch nach PDF konvertiert und als Anhang verschickt</text:span></text:span><text:span text:style-name="T16"> werden. </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="T16">Dokumente können aus einer Akte heraus </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">automatisch nach PDF konvertiert und als Anhang verschickt</text:span></text:span><text:span text:style-name="T16"> werden. </text:span></text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P82">HTML-formatierte E-Mails werden erst nach expliziter Bestätigung durch den Nutzer angezeigt (Spamschutz). Der Absender der E-Mail wird dadurch permanent als vertrauenswürdig eingestuft und weitere E-Mails werden sofort dargestellt. </text:p>
@@ -2373,7 +2658,7 @@
        <text:p text:style-name="P82">In allen Ordnern im Posteingang werden die Empfängerinformationen in der Tabelle dargestellt. </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="T16">E-Mails, die als Dokument in einer Akte abgelegt wurden, können </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">per Rechtsklick in einem externen E-Mail-Programm</text:span></text:span><text:span text:style-name="T16"> geöffnet </text:span><text:soft-page-break/><text:span text:style-name="T16">werden (und dort bspw. gedruckt oder anderweitig weiterverarbeitet werden). </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="T16">E-Mails, die als Dokument in einer Akte abgelegt wurden, können </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">per Rechtsklick in einem externen E-Mail-Programm</text:span></text:span><text:span text:style-name="T16"> geöffnet werden (und dort bspw. gedruckt oder anderweitig weiterverarbeitet werden). </text:span></text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P82">Fortschrittsanzeigen für umfangreiche Aktionen. </text:p>
@@ -2385,45 +2670,45 @@
        <text:p text:style-name="P82">Ordner „Papierkorb“ und „Gesendet“ werden automatisch angelegt, sofern noch nicht vorhanden. </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="T16">Möglichkeit, </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Lesebestätigungen zu beantworten</text:span></text:span><text:span text:style-name="T16">, für E-Mails die sie erhalten. </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="T16">Möglichkeit, </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Lesebestätigungen zu beantworten</text:span></text:span><text:span text:style-name="T16">, für E-Mails die sie erhalten. </text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Suche in der Adressdatenbank beim Versenden</text:span></text:span><text:span text:style-name="T16"> von E-mails (für An:, CC:, BCC) </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Suche in der Adressdatenbank beim Versenden</text:span></text:span><text:span text:style-name="T16"> von E-mails (für An:, CC:, BCC) </text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Wiedervorlagen können optional einem Nutzer zugeordnet werden</text:span></text:span><text:span text:style-name="T16">. Wiedervorlagen, für die der angemeldete Nutzer verantwortlich ist, werden auf dem j-lawyer – Desktop gesondert angezeigt. </text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Wiedervorlagen können optional einem Nutzer zugeordnet werden</text:span></text:span><text:span text:style-name="T16">. Wiedervorlagen, für die der angemeldete Nutzer verantwortlich ist, werden auf dem j-lawyer – Desktop gesondert angezeigt. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Neues Feld für Mobilnummer</text:span></text:span><text:span text:style-name="T16"> in der Adressverwaltung, inklusive dazugehörigem Platzhalter zur Verwendung in Vorlagen. </text:span></text:p>
+     <text:p text:style-name="P105"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Neues Feld für Mobilnummer</text:span></text:span><text:span text:style-name="T16"> in der Adressverwaltung, inklusive dazugehörigem Platzhalter zur Verwendung in Vorlagen. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="T16">Das </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Wiederherstellen von Datensicherungen</text:span></text:span><text:span text:style-name="T16"> ist in der </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=11#system" office:target-frame-name="_blank" xlink:show="new"><text:span text:style-name="T16">Dokumentation</text:span></text:a><text:span text:style-name="T16"> beschrieben. </text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="T16">Das </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Wiederherstellen von Datensicherungen</text:span></text:span><text:span text:style-name="T16"> ist in der </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=11#system" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T16">Dokumentation</text:span></text:a><text:span text:style-name="T16"> beschrieben. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P82">Dokumentvorlagen (nicht Mastervorlagen) sind jetzt grundsätzlich von allen angemeldeten Benutzern editierbar. Es sind keine Administrationsrechte mehr notwendig. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="T16">Bei den Beteiligten einer Akte wurde der Typ </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">„Gegnervertreter“ in „Dritte“ umbenannt</text:span></text:span><text:span text:style-name="T16">. Die Platzhalter GEGNERVT* wurden in DRITTE* umbenannt. Eine Abwärtskompatibilität ist gewährleistet – keine Ihrer bestehenden Vorlagen muß angepasst werden. Für neue Vorlagen sollten die neuen Platzhalter verwendet werden. </text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="T16">Bei den Beteiligten einer Akte wurde der Typ </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">„Gegnervertreter“ in „Dritte“ umbenannt</text:span></text:span><text:span text:style-name="T16">. Die Platzhalter GEGNERVT* wurden in DRITTE* umbenannt. Eine Abwärtskompatibilität ist gewährleistet – keine Ihrer bestehenden Vorlagen muß angepasst werden. Für neue Vorlagen sollten die neuen Platzhalter verwendet werden. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="T16">Beim Verlassen einer Akte oder Adresse erscheint eine </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Rückfrage, ob gespeichert werden soll</text:span></text:span><text:span text:style-name="T16"> – sofern Daten geändert worden sind. </text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="T16">Beim Verlassen einer Akte oder Adresse erscheint eine </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Rückfrage, ob gespeichert werden soll</text:span></text:span><text:span text:style-name="T16"> – sofern Daten geändert worden sind. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P82">Das Speichern einer Akte führt nicht mehr zum Zurücksetzen der Dialoginhalte – somit wird ein Zwischenspeichern möglich. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Voice-over-IP – Funktionalität</text:span></text:span><text:span text:style-name="T16"> über eine </text:span><text:a xlink:type="simple" xlink:href="http://www.sipgate.de/" office:target-frame-name="_blank" xlink:show="new"><text:span text:style-name="T16">Sipgate</text:span></text:a><text:span text:style-name="T16">-Integration: (zur Nutzung tragen Sie über die Einstellungen Nutzernamen und Passwort Ihres Sipgate Basic oder Sipgate Plus-Kontos ein) </text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Voice-over-IP – Funktionalität</text:span></text:span><text:span text:style-name="T16"> über eine </text:span><text:a xlink:type="simple" xlink:href="http://www.sipgate.de/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T16">Sipgate</text:span></text:a><text:span text:style-name="T16">-Integration: (zur Nutzung tragen Sie über die Einstellungen Nutzernamen und Passwort Ihres Sipgate Basic oder Sipgate Plus-Kontos ein) </text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tätigen von Anrufen</text:span></text:span><text:span text:style-name="T16"> aus einer Akte oder Adresse </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tätigen von Anrufen</text:span></text:span><text:span text:style-name="T16"> aus einer Akte oder Adresse </text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Versenden von SMS</text:span></text:span><text:span text:style-name="T16"> aus einer Akte oder Adresse </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Versenden von SMS</text:span></text:span><text:span text:style-name="T16"> aus einer Akte oder Adresse </text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P101"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Versenden von Dokumenten als Fax</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Versenden von Dokumenten als Fax</text:span></text:span><text:span text:style-name="T16"> </text:span></text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P82">Übersicht zum Status verschickter Faxe </text:p>
@@ -2432,13 +2717,13 @@
        <text:p text:style-name="P82">erneutes Senden von nicht übertragenen Faxen </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P53">Speichern von Übertragungsberichten als Dokumente in der Akte </text:p>
+       <text:p text:style-name="P48">Speichern von Übertragungsberichten als Dokumente in der Akte </text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list621794785311257307" text:style-name="L15">
+   <text:list xml:id="list7520842203227342699" text:style-name="L15">
     <text:list-item>
      <text:p text:style-name="P83">Die maximale Länge für E-Mail-Signaturen wurde erhöht. </text:p>
     </text:list-item>
@@ -2446,7 +2731,7 @@
      <text:p text:style-name="P83">Die maximale Länge für E-Mail-Nutzernamen wurde erhöht. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P83">Beim Verschieben von E-Mail-Anhängen in eine Akte wird sichergestellt, <text:soft-page-break/>daß der Dateityp unverändert bleibt. </text:p>
+     <text:p text:style-name="P83">Beim Verschieben von E-Mail-Anhängen in eine Akte wird sichergestellt, daß der Dateityp unverändert bleibt. </text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P83">Umlaute in Absenderbezeichnungen einer E-Mail werden korrekt dargestellt. </text:p>
@@ -2458,32 +2743,32 @@
      <text:p text:style-name="P83">In der „Tipps des Tages“-Übersicht auf dem j-lawyer – Desktop gab es unter Windows fehlerhafte Anzeigen von Sonderzeichen. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P54">Das Servermonitoring hat für j-lawyer – Server, die auf Linux laufen, Fehlalarme/falsche Werte bei der Überwachung des Arbeitsspeichers geliefert. </text:p>
+     <text:p text:style-name="P49">Das Servermonitoring hat für j-lawyer – Server, die auf Linux laufen, Fehlalarme/falsche Werte bei der Überwachung des Arbeitsspeichers geliefert. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P11"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Hinweise:</text:span></text:span></text:p>
-   <text:list xml:id="list5590670534510773818" text:style-name="L16">
+   <text:list xml:id="list714571227741810072" text:style-name="L16">
     <text:list-item>
      <text:p text:style-name="P84">Mit Version 1.4 erstellte E-Mail-Signaturen müssen nach dem Update einmalig neu formatiert werden, die diese jetzt grundsätzlich als HTML gespeichert werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P84">Die automatische Konvertierung in PDF (genutzt für E-Mail- und Fax-Funktionalität) ist unter Windows dahingehend beschränkt, daß keine offene LibreOffice / OpenOffice – Anwendung offen sein darf. </text:p>
+     <text:p text:style-name="P84"><text:soft-page-break/>Die automatische Konvertierung in PDF (genutzt für E-Mail- und Fax-Funktionalität) ist unter Windows dahingehend beschränkt, daß keine offene LibreOffice / OpenOffice – Anwendung offen sein darf. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P55">Beim Erstellen von HTML-E-Mail-Vorlagen werden Platzhalter immer am Anfang eingefügt und müssen von Hand an die richtige Stelle kopiert werden. Dies ist eine Limitierung durch eine von j-lawyer verwendete externe Bibliothek. An einer Lösung wird gearbeitet. </text:p>
+     <text:p text:style-name="P50">Beim Erstellen von HTML-E-Mail-Vorlagen werden Platzhalter immer am Anfang eingefügt und müssen von Hand an die richtige Stelle kopiert werden. Dies ist eine Limitierung durch eine von j-lawyer verwendete externe Bibliothek. An einer Lösung wird gearbeitet. </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__500_1146603382"/>j-lawyer.org 1.4<text:bookmark-end text:name="__RefHeading__500_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list2011765768418939641" text:style-name="L17">
+   <text:list xml:id="list4034554848678396318" text:style-name="L17">
     <text:list-item>
-     <text:p text:style-name="P66"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">E-Mail-Integration</text:span></text:span><text:span text:style-name="T16"> – dieses Feature ist aufgrund des Umfangs noch nicht abgeschlossen und nicht final getestet – wird daher als „experimentell“ bzw. „beta“ freigegeben. Eventuell auftretende Fehler können im Forum gemeldet werden.</text:span></text:p>
+     <text:p text:style-name="P65"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">E-Mail-Integration</text:span></text:span><text:span text:style-name="T16"> – dieses Feature ist aufgrund des Umfangs noch nicht abgeschlossen und nicht final getestet – wird daher als „experimentell“ bzw. „beta“ freigegeben. Eventuell auftretende Fehler können im Forum gemeldet werden.</text:span></text:p>
      <text:list>
       <text:list-item>
        <text:p text:style-name="P85">Konfiguration der Emailkonten und Signaturen am Nutzer in der Nutzerverwaltung </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P102"><text:span text:style-name="T16">Unterstützung von POP3 und IMAP – </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">IMAP ist die empfohlene und derzeit besser getestete Variante</text:span></text:span><text:span text:style-name="T16">! </text:span></text:p>
+       <text:p text:style-name="P106"><text:span text:style-name="T16">Unterstützung von POP3 und IMAP – </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">IMAP ist die empfohlene und derzeit besser getestete Variante</text:span></text:span><text:span text:style-name="T16">! </text:span></text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P85">Empfang von Emails direkt im j-lawyer Client </text:p>
@@ -2507,55 +2792,55 @@
        <text:p text:style-name="P85">Organisation von Emails in Ordnern, Ordner anlegen/ändern/löschen, Drag&amp;Drop von Emails in Ordner </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P85"><text:soft-page-break/>Emailvorlagenverwaltung: analog zu Dokumentvorlagen können Inhalte mit Platzhaltern definiert werden – so wird das Schreiben von Emails auf ein Minimum reduziert </text:p>
+       <text:p text:style-name="P85">Emailvorlagenverwaltung: analog zu Dokumentvorlagen können Inhalte mit Platzhaltern definiert werden – so wird das Schreiben von Emails auf ein Minimum reduziert </text:p>
       </text:list-item>
       <text:list-item>
        <text:p text:style-name="P85">Anzeige neuer Emails / ungelesener Emails in der Statuszeile </text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">noch NICHT fertig</text:span></text:span><text:span text:style-name="T16"> und geplant für 1.5: Emailvorlagen und zu verschickende Emails nur im Textformat – HTML noch nicht umgesetzt, Fortschrittsanzeige beim Emailversand v.a. großer Emails, CC: und BCC:, „Allen Antworten“ und „Weiterleiten“ </text:span></text:p>
+       <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">noch NICHT fertig</text:span></text:span><text:span text:style-name="T16"> und geplant für 1.5: Emailvorlagen und zu verschickende Emails nur im Textformat – HTML noch nicht umgesetzt, Fortschrittsanzeige beim Emailversand v.a. großer Emails, CC: und BCC:, „Allen Antworten“ und „Weiterleiten“ </text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Firmenprofil inkl. Dokumentplatzhalter</text:span></text:span><text:span text:style-name="T16">: allgemeine Informationen Ihrer Kanzlei können in einem Profil hinterlegt und über Dokumentplatzhalter verwendet werden. Das ermöglicht die Nutzung allgemeingültiger Vorlagen (da kanzleispezifische Informationen erst bei Dokumenterstellung gefüllt werden) und vermeidet die aufwändige Anpassung aller Vorlagen bspw. wenn sich Adresse oder Kontaktinformationen der Kanzlei ändern. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Firmenprofil inkl. Dokumentplatzhalter</text:span></text:span><text:span text:style-name="T16">: allgemeine Informationen Ihrer Kanzlei können in einem Profil hinterlegt und über Dokumentplatzhalter verwendet werden. Das ermöglicht die Nutzung allgemeingültiger Vorlagen (da kanzleispezifische Informationen erst bei Dokumenterstellung gefüllt werden) und vermeidet die aufwändige Anpassung aller Vorlagen bspw. wenn sich Adresse oder Kontaktinformationen der Kanzlei ändern. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Vorlagenpaket</text:span></text:span><text:span text:style-name="T16">: im Downloadbereich gibt es nun fertige Dokument- und Emailvorlagen als Einstiegshilfe. </text:span></text:p>
+     <text:p text:style-name="P106"><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Vorlagenpaket</text:span></text:span><text:span text:style-name="T16">: im Downloadbereich gibt es nun fertige Dokument- und Emailvorlagen als Einstiegshilfe. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Feiertagskalender</text:span></text:span><text:span text:style-name="T16">: In der Nutzerverwaltung kann einmalig angegeben werden, in welchem Land / Bundesland / Kanton sich ein Nutzer befindet – diese Information wird anschließend verwendet um auszuschließen, daß bspw. Wiedervorlagen auf Feiertage oder Wochenenden gelegt werden. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Feiertagskalender</text:span></text:span><text:span text:style-name="T16">: In der Nutzerverwaltung kann einmalig angegeben werden, in welchem Land / Bundesland / Kanton sich ein Nutzer befindet – diese Information wird anschließend verwendet um auszuschließen, daß bspw. Wiedervorlagen auf Feiertage oder Wochenenden gelegt werden. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P85">Dokumente im Scaneingang können bei Zuordnung zu einer Akte direkt umbenannt werden. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Einstellungen zur Scannerintegration können nun direkt im Client</text:span></text:span><text:span text:style-name="T16"> bearbeitet werden, das Bearbeiten von Konfigurationsdateien auf dem Server entfällt. Wurde die Integration in Version 1.3 bereits genutzt, muß das zu überwachende Serververzeichnis einmalig im Client nochmals angegeben werden – siehe dazu Hinweise im Readme des Updatepack-Downloads. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Einstellungen zur Scannerintegration können nun direkt im Client</text:span></text:span><text:span text:style-name="T16"> bearbeitet werden, das Bearbeiten von Konfigurationsdateien auf dem Server entfällt. Wurde die Integration in Version 1.3 bereits genutzt, muß das zu überwachende Serververzeichnis einmalig im Client nochmals angegeben werden – siehe dazu Hinweise im Readme des Updatepack-Downloads. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tipps des Tages</text:span></text:span><text:span text:style-name="T16"> – der j-lawyer Client zeigt mit jedem Start auf „Mein Desktop“ 5 Tipps zur Programmnutzung an (Detailansicht nur nach Klick). Die Tipps werden von j-lawyer.org geladen, sodaß auch über Funktionalität eventuell noch nicht installierter neuer Versionen informiert wird. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Tipps des Tages</text:span></text:span><text:span text:style-name="T16"> – der j-lawyer Client zeigt mit jedem Start auf „Mein Desktop“ 5 Tipps zur Programmnutzung an (Detailansicht nur nach Klick). Die Tipps werden von j-lawyer.org geladen, sodaß auch über Funktionalität eventuell noch nicht installierter neuer Versionen informiert wird. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P85">Die Banken- und Postleitzahlenverzeichnisse werden direkt vom j-lawyer Client heruntergeladen. Es entfallen somit zwei separate manuelle Downloads. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Änderungen an Wiedervorlagen</text:span></text:span><text:span text:style-name="T16"> (Neuanlage, Änderung, Löschen) werden nun</text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> direkt und automatisch gespeichert</text:span></text:span><text:span text:style-name="T16"> – ein explizites Speichern der Akte ist nicht mehr notwendig, wenn lediglich Wiedervorlagen geändert worden sind. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Änderungen an Wiedervorlagen</text:span></text:span><text:span text:style-name="T16"> (Neuanlage, Änderung, Löschen) werden nun</text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16"> direkt und automatisch gespeichert</text:span></text:span><text:span text:style-name="T16"> – ein explizites Speichern der Akte ist nicht mehr notwendig, wenn lediglich Wiedervorlagen geändert worden sind. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumente umbenennen</text:span></text:span><text:span text:style-name="T16"> per Rechtsklick. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Dokumente umbenennen</text:span></text:span><text:span text:style-name="T16"> per Rechtsklick. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P85">Sicherheitsabfragen beim Löschen von Adressen oder Akten. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P102"><text:span text:style-name="T16">Der j-lawyer Server kann nun die </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Überwachung der wichtigsten </text:span></text:span><text:soft-page-break/><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Systemparameter</text:span></text:span><text:span text:style-name="T16"> übernehmen (RAM, Festplatte, CPU, Java-System) und bei potentiellen Problem automatisch eine definierte Emailadresse informieren. Im j-lawyer Client wird über eine Ampel in der Statuszeile der Gesamtzustand angezeigt, oder bei Klick die entsprechenden Details. </text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="T16">Der j-lawyer Server kann nun die </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">Überwachung der wichtigsten Systemparameter</text:span></text:span><text:span text:style-name="T16"> übernehmen (RAM, Festplatte, CPU, Java-System) und bei potentiellen Problem automatisch eine definierte Emailadresse informieren. Im j-lawyer Client wird über eine Ampel in der Statuszeile der Gesamtzustand angezeigt, oder bei Klick die entsprechenden Details. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66"><text:span text:style-name="T16">Die </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">automatische Datensicherung</text:span></text:span><text:span text:style-name="T16"> kann nun im j-lawyer Client konfiguriert werden: an/aus, an welchen Tagen, Uhrzeit etc. </text:span></text:p>
+     <text:p text:style-name="P65"><text:span text:style-name="T16">Die </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">automatische Datensicherung</text:span></text:span><text:span text:style-name="T16"> kann nun im j-lawyer Client konfiguriert werden: an/aus, an welchen Tagen, Uhrzeit etc. </text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list5682947794410724320" text:style-name="L18">
+   <text:list xml:id="list3312655961814556684" text:style-name="L18">
     <text:list-item>
      <text:p text:style-name="P86">Mögliche Fehler nach Umsortierung der Spaltenreihenfolgen behoben. </text:p>
     </text:list-item>
@@ -2569,14 +2854,14 @@
      <text:p text:style-name="P86">Änderungsdatum für Dokumente im Scaneingang wurde unter bestimmten Bedingungen falsch angezeigt. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P67"><text:span text:style-name="T16">Wenn Sie beim Start des j-lawyer Clients eine Fehlermeldung „failed to create session factory“ sehen, folgen Sie den Anweisungen </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=13&amp;mingleforumaction=viewtopic&amp;t=17.0"><text:span text:style-name="T16">hier</text:span></text:a><text:span text:style-name="T16">. </text:span></text:p>
+     <text:p text:style-name="P66"><text:soft-page-break/><text:span text:style-name="T16">Wenn Sie beim Start des j-lawyer Clients eine Fehlermeldung „failed to create session factory“ sehen, folgen Sie den Anweisungen </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=13&amp;mingleforumaction=viewtopic&amp;t=17.0" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T16">hier</text:span></text:a><text:span text:style-name="T16">. </text:span></text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__502_1146603382"/>j-lawyer.org 1.3<text:bookmark-end text:name="__RefHeading__502_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list1567869159757592354" text:style-name="L19">
+   <text:list xml:id="list8573937888196361970" text:style-name="L19">
     <text:list-item>
-     <text:p text:style-name="P103"><text:span text:style-name="T16">Scanner-Integration: Scans und / oder andere Dokumente lassen sich nun komfortabel und halbautomatisch zu Akten zuordnen – siehe dazu auch den Abschnitt „Dokumente“ in der </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=11"><text:span text:style-name="T16">Dokumentation</text:span></text:a><text:span text:style-name="T16">. </text:span></text:p>
+     <text:p text:style-name="P107"><text:span text:style-name="T16">Scanner-Integration: Scans und / oder andere Dokumente lassen sich nun komfortabel und halbautomatisch zu Akten zuordnen – siehe dazu auch den Abschnitt „Dokumente“ in der </text:span><text:a xlink:type="simple" xlink:href="http://www.j-lawyer.org/?page_id=11" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T16">Dokumentation</text:span></text:a><text:span text:style-name="T16">. </text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P87">Es gibt eine Vielzahl an Verbesserungen in der Oberfläche und im Bedienkonzept: </text:p>
@@ -2605,16 +2890,16 @@
      <text:p text:style-name="P87">Das Drucklayout des Aktenblattes wurde verbessert. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P56">Es gibt einen neuen Platzhalter (bei Dokumenterstellung) für Diktatzeichen. </text:p>
+     <text:p text:style-name="P51">Es gibt einen neuen Platzhalter (bei Dokumenterstellung) für Diktatzeichen. </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list1074368507506154202" text:style-name="L20">
+   <text:list xml:id="list3212168997742886991" text:style-name="L20">
     <text:list-item>
      <text:p text:style-name="P88">Die Grenze für die maximale Größe hinzuzufügender Dateien wurde angehoben. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P88">Beim Duplizieren von Dokumenten wird auf die Übernahme der <text:soft-page-break/>Dateinamenserweiterung geprüft. </text:p>
+     <text:p text:style-name="P88">Beim Duplizieren von Dokumenten wird auf die Übernahme der Dateinamenserweiterung geprüft. </text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P88">Fehlerhafte Sortierung in der Dokumenttabelle einer Akte wurde behoben. </text:p>
@@ -2626,14 +2911,14 @@
      <text:p text:style-name="P88">Beim Erstellen von Dokumenten mit „.“ im Dateinamen (bspw. für Abkürzungen) wird nun keine Warnung mehr ausgegeben weil der Dateityp unbekannt ist. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P57">In Version 1.2 war ein Login unter bestimmten Bedingungen nur für Nutzer mit Administrationsrechten möglich. </text:p>
+     <text:p text:style-name="P52">In Version 1.2 war ein Login unter bestimmten Bedingungen nur für Nutzer mit Administrationsrechten möglich. </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__504_1146603382"/>j-lawyer.org 1.2<text:bookmark-end text:name="__RefHeading__504_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list6037968362551126950" text:style-name="L21">
+   <text:list xml:id="list8225213073421155578" text:style-name="L21">
     <text:list-item>
-     <text:p text:style-name="P89">beim Bearbeiten einer Akte kann direkt in die Bearbeitung der Kontakte gewechselt (und zurückgewechselt) werden </text:p>
+     <text:p text:style-name="P89"><text:soft-page-break/>beim Bearbeiten einer Akte kann direkt in die Bearbeitung der Kontakte gewechselt (und zurückgewechselt) werden </text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P89">jedes Dokument einer Akte hat ein eigenes Diktatzeichen </text:p>
@@ -2669,21 +2954,21 @@
      <text:p text:style-name="P89">Wiedervorlagen können in der Akte direkt mit einem Klick erledigt/offen gesetzt werden </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P58">Druckvorschau für Aktendatenblatt inklusive Möglichkeit, als PDF, ODT, XLS, DOC/DOCX, RTF, HTML u.a. zu speichern </text:p>
+     <text:p text:style-name="P53">Druckvorschau für Aktendatenblatt inklusive Möglichkeit, als PDF, ODT, XLS, DOC/DOCX, RTF, HTML u.a. zu speichern </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list7307468881192948993" text:style-name="L22">
+   <text:list xml:id="list7653183800797340182" text:style-name="L22">
     <text:list-item>
      <text:p text:style-name="P90">Sortierung nach Datum und Aktenzeichen in den Tabellenansichten </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P59">Ausdruck des Aktendatenblattes war nur möglich wenn mindestens eine Wiedervorlage existierte </text:p>
+     <text:p text:style-name="P54">Ausdruck des Aktendatenblattes war nur möglich wenn mindestens eine Wiedervorlage existierte </text:p>
     </text:list-item>
    </text:list>
-   <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__506_1146603382"/><text:soft-page-break/>j-lawyer.org 1.1<text:bookmark-end text:name="__RefHeading__506_1146603382"/></text:h>
+   <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__506_1146603382"/>j-lawyer.org 1.1<text:bookmark-end text:name="__RefHeading__506_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list2016540923116834208" text:style-name="L23">
+   <text:list xml:id="list4534472350048191547" text:style-name="L23">
     <text:list-item>
      <text:p text:style-name="P91">Einfacher Backupautomatismus, der wochentäglich eine Datensicherung anfertigt </text:p>
     </text:list-item>
@@ -2697,11 +2982,11 @@
      <text:p text:style-name="P91">In einigen Dialogen konnte mit ENTER noch nicht direkt die jeweilige Aktion angestossen werden (es musste mit der Maus der entsprechend Knopf gedrückt werden) </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P60">Beim Erstellen von Dokumenten zu einer Akte kann jetzt innerhalb der Vorlagen gesucht werden (besonders sinnvoll bei einer großen Menge an Vorlagen) </text:p>
+     <text:p text:style-name="P55">Beim Erstellen von Dokumenten zu einer Akte kann jetzt innerhalb der <text:soft-page-break/>Vorlagen gesucht werden (besonders sinnvoll bei einer großen Menge an Vorlagen) </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list2318695404563060546" text:style-name="L24">
+   <text:list xml:id="list4852635679855106174" text:style-name="L24">
     <text:list-item>
      <text:p text:style-name="P92">Sortierung nach Datum und Aktenzeichen in den Tabellenansichten teilweise unlogisch </text:p>
     </text:list-item>
@@ -2715,12 +3000,12 @@
      <text:p text:style-name="P92">Bei der Suche nach Wiedervorlagen anhand eines Datums wurden Zeiten beachtet (was nicht sinnvoll ist) </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P61">Wurde ein Dokument erstellt und sofort danach geöffnet, gab es einen Fehler </text:p>
+     <text:p text:style-name="P56">Wurde ein Dokument erstellt und sofort danach geöffnet, gab es einen Fehler </text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P34" text:outline-level="3" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading__508_1146603382"/>j-lawyer.org 1.0<text:bookmark-end text:name="__RefHeading__508_1146603382"/></text:h>
    <text:p text:style-name="P8">Erweiterungen:</text:p>
-   <text:list xml:id="list9044831036255580175" text:style-name="L25">
+   <text:list xml:id="list7367816268190112607" text:style-name="L25">
     <text:list-item>
      <text:p text:style-name="P93">vereinfachte Installation (es wird kein FTP-Server mehr benötigt) </text:p>
     </text:list-item>
@@ -2734,19 +3019,19 @@
      <text:p text:style-name="P93">verbessertes Handling von .odt-Dokumenten, die durch eine Konvertierung aus Microsoft Word entstanden sind </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P62">verschiedene optische Verbesserungen </text:p>
+     <text:p text:style-name="P57">verschiedene optische Verbesserungen </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">Korrekturen:</text:p>
-   <text:list xml:id="list5644696824449110937" text:style-name="L26">
+   <text:list xml:id="list2304053773692446455" text:style-name="L26">
     <text:list-item>
      <text:p text:style-name="P94">Beseitigung eines Problems mit LibreOffice/OpenOffice auf Windows-Systemen, wenn der eingebaute Schnellstarter verwendet wird </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">Beseitigung eines Problems in der Nutzerverwaltung mit fehlender Warnung bei zu kurzen Nutzernamen (Danke an Forumsnutzer cjoost für die Meldung) </text:p>
+     <text:p text:style-name="P58">Beseitigung eines Problems in der Nutzerverwaltung mit fehlender Warnung bei zu kurzen Nutzernamen (Danke an Forumsnutzer cjoost für die Meldung) </text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P7"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P7"/>
   </office:text>
  </office:body>
 </office:document>
