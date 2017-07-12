@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:initial-creator>eduardunix </meta:initial-creator><meta:creation-date>2015-08-05T15:57:35.827918077</meta:creation-date><dc:date>2017-01-16T23:06:03.973947244</dc:date><meta:editing-duration>PT2H41M59S</meta:editing-duration><meta:editing-cycles>17</meta:editing-cycles><meta:generator>LibreOffice/5.1.4.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:print-date>2017-01-11T19:07:44.980192031</meta:print-date><meta:document-statistic meta:object-count="80"/></office:meta>
+ <office:meta><meta:initial-creator>eduardunix </meta:initial-creator><meta:creation-date>2015-08-05T15:57:35.827918077</meta:creation-date><dc:date>2017-07-08T23:00:36.034538505</dc:date><meta:editing-duration>PT5H55M17S</meta:editing-duration><meta:editing-cycles>24</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:print-date>2017-07-08T22:55:35.795562934</meta:print-date><meta:document-statistic meta:object-count="88"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-318</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">-2831</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">33678</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">21640</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">-2778</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">33576</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">21643</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -29,15 +29,15 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">8</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">7</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
      <config:config-item config:name="VisibleAreaTop" config:type="int">-318</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-2831</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">33682</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-2778</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">33577</config:config-item>
      <config:config-item config:name="VisibleAreaHeight" config:type="int">21644</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2000</config:config-item>
@@ -3403,7 +3403,7 @@
    <style:graphic-properties style:protect="size"/>
   </style:style>
   <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="11.64cm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="12.787cm"/>
   </style:style>
   <style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="8.03cm"/>
@@ -3510,12 +3510,9 @@
    <style:text-properties style:font-name="Carlito4" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito4" fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
-  </style:style>
-  <style:style style:name="T9" style:family="text">
    <style:text-properties fo:font-size="44pt" fo:font-weight="bold" style:font-size-asian="44pt" style:font-weight-asian="bold" style:font-size-complex="44pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T10" style:family="text">
+  <style:style style:name="T9" style:family="text">
    <style:text-properties fo:font-size="28pt" fo:font-weight="bold" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-size-complex="28pt" style:font-weight-complex="bold"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -3656,22 +3653,22 @@
   <style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp2">
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="2.898cm"/>
@@ -3703,19 +3700,31 @@
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -3738,24 +3747,36 @@
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:span><text:page-number>&lt;Foliennummer&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -3772,7 +3793,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P7" draw:layer="layout" svg:width="17cm" svg:height="2.179cm" svg:x="0cm" svg:y="15.248cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T4">Stand 07.01.2017</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Stand 09.03.2017</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="6.224cm" svg:height="1.991cm" svg:x="0.576cm" svg:y="0.6cm">
@@ -3969,7 +3990,23 @@
         <text:p>Stellen Sie die Box idealerweise in der Nähe eines Netzwerkanschlusses auf (Router, Switch) und schließen Sie es mit dem mitgelieferten Ethernetkabel an.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p>Schließen Sie das Netzteil an die Box an, die Box wird selbständig starten sobald Strom anliegt.</text:p>
+        <text:p>Schließen Sie das Netzteil an die Box an, die Box wird selbständig starten sobald Strom anliegt. LED-Status:</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p>Rote LED: Stromversorgung</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>Blaue LED:</text:p>
+          <text:list>
+           <text:list-item>
+            <text:p>durchgehend an – System fährt hoch</text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p>blinkt – System läuft</text:p>
+           </text:list-item>
+          </text:list>
+         </text:list-item>
+        </text:list>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -4165,7 +4202,7 @@
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-item>
-        <text:p><text:span text:style-name="T5">Öffnen Sie die Management Console unter </text:span><text:span text:style-name="T5"><text:a xlink:href="http://j-lawyer-box.local/" xlink:type="simple">http://j-lawyer-box.local</text:a></text:span><text:span text:style-name="T5"> mit einem Browser Ihrer Wahl und melden Sie sich mit den Zugangsdaten des Kanzleisoftwarenutzers “admin” an.</text:span></text:p>
+        <text:p><text:span text:style-name="T5">Öffnen Sie die Management Console unter </text:span><text:span text:style-name="T5"><text:a xlink:href="http://j-lawyer-box.local/" xlink:type="simple">http://j-lawyer-box.local</text:a></text:span><text:span text:style-name="T5"> bzw. </text:span><text:span text:style-name="T5"><text:a xlink:href="http://j-lawyer-box/" xlink:type="simple">http://j-lawyer-box</text:a></text:span><text:span text:style-name="T5"> mit einem Browser Ihrer Wahl und melden Sie sich mit den Zugangsdaten des Kanzleisoftwarenutzers “admin” an.</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p><text:span text:style-name="T5">Auf der Startseite der Management Console finden Sie die IP der Box in Ihrem Netzwerk.</text:span></text:p>
@@ -5106,14 +5143,14 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame draw:style-name="gr5" draw:text-style-name="P12" draw:layer="layout" svg:width="25.8cm" svg:height="11.89cm" svg:x="0.8cm" svg:y="4.2cm">
+    <draw:frame draw:style-name="gr5" draw:text-style-name="P12" draw:layer="layout" svg:width="25.8cm" svg:height="13.037cm" svg:x="0.8cm" svg:y="4.2cm">
      <draw:text-box>
       <text:list text:style-name="L1">
        <text:list-item>
         <text:p><text:span text:style-name="T6">Weisen Sie diese aktuelle IP der Box als permanente IP zu. In der Regel geht dies am einfachsten über die im (WLAN)Router integrierten Konfigurationen:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T6">FritzBox!:</text:span></text:p>
+          <text:p><text:span text:style-name="T6">Fritz!Box:</text:span></text:p>
           <text:list>
            <text:list-item>
             <text:p><text:span text:style-name="T7">https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/201_Netzwerkgeraet-immer-die-gleiche-IP-Adresse-von-FRITZ-Box-zuweisen-lassen</text:span></text:p>
@@ -5121,12 +5158,12 @@
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T6">Manuell in der Box: </text:span><text:span text:style-name="T8">&lt;todo&gt;</text:span></text:p>
+          <text:p><text:span text:style-name="T6">Manuell in der Box: Konsultieren Sie den Hersteller unter info@j-lawyer.org</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T6">Konsultieren Sie ggf. die Anleitung des Herstellers.</text:span></text:p>
+        <text:p><text:span text:style-name="T6">Konsultieren Sie ggf. die Anleitung des Herstellers Ihres Netzwerkrouters.</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -5798,7 +5835,7 @@
         <text:p>In der Management Console unter “Freigaben” finden Sie Informationen zum Zugriff auf die<text:line-break/>j-lawyer.BOX-Dateifreigaben für Ihr Betriebssystem.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p>Die Freigabe “j-lawyer-client” enthält die Installer für den j-lawyer.org Client. Installieren Sie einen oder mehrere Clients entsprechend Anleitung: <text:a xlink:href="http://www.j-lawyer.org/?page_id=88" xlink:type="simple">http://www.j-lawyer.org/?page_id=88</text:a> </text:p>
+        <text:p>Die Freigabe “j-lawyer-client” enthält die Installer für den j-lawyer.org Client. Installieren Sie einen oder mehrere Arbeitsplätze entsprechend Anleitung: <text:a xlink:href="http://www.j-lawyer.org/?page_id=88" xlink:type="simple">http://www.j-lawyer.org/?page_id=88</text:a> </text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -6161,7 +6198,7 @@
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-item>
-        <text:p>Nach Installation der Clients verbinden Sie sich im Login-Dialog mit dem Kanzleisoftwarenutzer “admin”. Unter “Verbindung” tragen Sie dazu folgendes ein (Achtung: “j-lawyer-box” unter Windows und Linux, “j-lawyer-box.local” unter Mac):</text:p>
+        <text:p>Nach Installation der Clients verbinden Sie sich im Login-Dialog mit dem Kanzleisoftwarenutzer “admin” oder dem eigens für Sie eingerichteten Nutzer (siehe Identity Card). Unter “Verbindung” tragen Sie dazu folgendes ein (Achtung: “j-lawyer-box” unter Windows und Linux, “j-lawyer-box.local” unter Mac):</text:p>
         <text:p/>
         <text:p/>
         <text:p/>
@@ -6172,7 +6209,7 @@
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="7.882cm" svg:height="4.073cm" svg:x="9cm" svg:y="10.927cm">
+    <draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="7.882cm" svg:height="4.073cm" svg:x="9.118cm" svg:y="11.327cm">
      <draw:image xlink:href="">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAASoAAACaCAYAAAAehwXuAAAACXBIWXMAAA7EAAAOxAGVKw4b
        AAAe+UlEQVR4nO2dCVxUVfvHf+yLbAruS2Dur72VS5uaS4UbCipKmltqmaGiuaCCCKi4oKK4
@@ -6521,16 +6558,16 @@
         <text:p>Decken Sie das Gerät nicht ab und sorgen sie für ausreichenden Seitenabstand um eine Luftzirkulation zu ermöglichen.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p>Fahren Sie die Box stets über die Management Console herunter, trennen Sie es nicht direkt vom Strom.</text:p>
+        <text:p>Fahren Sie die Box stets über die Management Console herunter, trennen Sie sie nicht direkt vom Strom.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p>Laden Sie regelmäßig Datensicherungen über die Management Console auf ein anderes Gerät, oder konfigurieren Sie ein automatisches Kopieren auf externen Speicher (ab j-lawyer.org 1.8.1).</text:p>
+        <text:p>Laden Sie regelmäßig Datensicherungen über die Management Console auf ein anderes Gerät, oder konfigurieren Sie ein automatisches Kopieren auf externen Speicher</text:p>
        </text:list-item>
        <text:list-item>
         <text:p>Die Box ist für einen 24x7-Dauerbetrieb ausgelegt und vorgesehen.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p>Um automatische Systemwarnungen zu erhalten (bspw. Bei geringem verbleibenden Speicherplatz), sollten Sie im j-lawyer.org Client unter “Einstellungen – Systemmonitoring” die E-Mail-Funktionalität konfigurieren.</text:p>
+        <text:p>Um automatische Systemwarnungen zu erhalten (bspw. bei geringem verbleibenden Speicherplatz), sollten Sie im j-lawyer.org Client unter “Einstellungen – Systemmonitoring” die E-Mail-Funktionalität konfigurieren.</text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -6557,8 +6594,8 @@
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-header>
-        <text:p text:style-name="P13"><text:span text:style-name="T9">Unterstützung:</text:span></text:p>
-        <text:p text:style-name="P13"><text:span text:style-name="T10">http://www.j-lawyer.org/?forum=j-lawyer-box</text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T8">Unterstützung:</text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T9">http://www.j-lawyer.org/?forum=j-lawyer-box</text:span></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
