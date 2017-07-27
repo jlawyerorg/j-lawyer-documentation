@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT3H14M12S</meta:editing-duration><meta:editing-cycles>48</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><dc:title>j-lawyer.org Anwenderdokumentation</dc:title><dc:date>2017-07-12T13:14:41.879666196</dc:date><meta:keyword>j-lawyer.org</meta:keyword><meta:keyword>Dokumentation</meta:keyword><meta:keyword>User Guide</meta:keyword><meta:document-statistic meta:table-count="38" meta:image-count="14" meta:object-count="0" meta:page-count="35" meta:paragraph-count="673" meta:word-count="4694" meta:character-count="37325" meta:non-whitespace-character-count="32974"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2016-06-24T21:57:07.631420669</meta:creation-date><meta:editing-duration>PT3H24M4S</meta:editing-duration><meta:editing-cycles>49</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><dc:title>j-lawyer.org Anwenderdokumentation</dc:title><dc:date>2017-07-27T22:48:14.128728259</dc:date><meta:keyword>j-lawyer.org</meta:keyword><meta:keyword>Dokumentation</meta:keyword><meta:keyword>User Guide</meta:keyword><meta:document-statistic meta:table-count="38" meta:image-count="15" meta:object-count="0" meta:page-count="36" meta:paragraph-count="680" meta:word-count="4762" meta:character-count="37819" meta:non-whitespace-character-count="33406"/><meta:user-defined meta:name="Language">en_GB</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">22860</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">49003</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">21539</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">20454</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">11550</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">3762</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">15752</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">51844</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">22860</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">49001</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">21537</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">43312</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -68,7 +68,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">6590724</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">6697721</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -532,6 +532,18 @@
    <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
   </style:style>
   <style:style style:name="Table1.D14" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.A15" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.B15" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.C15" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table1.D15" style:family="table-cell">
    <style:table-cell-properties style:vertical-align="middle" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
   </style:style>
   <style:style style:name="Tabelle20" style:family="table">
@@ -2400,181 +2412,138 @@
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
   </style:style>
-  <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="004d7528" officeooo:paragraph-rsid="004d7528"/>
+  <style:style style:name="P261" style:family="paragraph" style:parent-style-name="Contents_20_2">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="16.501cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="004d7528" officeooo:paragraph-rsid="0060c14c"/>
+  <style:style style:name="P262" style:family="paragraph" style:parent-style-name="Illustration_20_Index_20_1">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="005cdf59" officeooo:paragraph-rsid="005cdf59"/>
+  <style:style style:name="P263" style:family="paragraph" style:parent-style-name="Contents_20_3">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="16.002cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="003ffa15" officeooo:paragraph-rsid="003ffa15"/>
+  <style:style style:name="P264" style:family="paragraph" style:parent-style-name="Contents_20_1">
+   <style:paragraph-properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
+    </style:tab-stops>
+   </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
-  </style:style>
-  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003c4cc6"/>
-  </style:style>
-  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="005deaa7" officeooo:paragraph-rsid="005deaa7"/>
-  </style:style>
-  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="005b0441" officeooo:paragraph-rsid="005b0441"/>
-  </style:style>
-  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
-  </style:style>
-  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f11e" officeooo:paragraph-rsid="0048f11e"/>
-  </style:style>
-  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="00634611" officeooo:paragraph-rsid="00634611"/>
-  </style:style>
-  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="00457280" officeooo:paragraph-rsid="00457280"/>
-  </style:style>
-  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="0055889e" officeooo:paragraph-rsid="0055889e"/>
-  </style:style>
-  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="005193be" officeooo:paragraph-rsid="0055889e"/>
-  </style:style>
-  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="005cdf59" officeooo:paragraph-rsid="005cdf59"/>
-  </style:style>
-  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="00570985" officeooo:paragraph-rsid="00570985"/>
-  </style:style>
-  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="00524f1c" officeooo:paragraph-rsid="00524f1c"/>
-  </style:style>
-  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties style:font-name="Verdana" officeooo:rsid="0062534f" officeooo:paragraph-rsid="0062534f"/>
-  </style:style>
-  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="005b0441"/>
-  </style:style>
-  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="003dd1d9" officeooo:paragraph-rsid="003dd1d9"/>
-  </style:style>
-  <style:style style:name="P282" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="0048f650"/>
-  </style:style>
-  <style:style style:name="P283" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="005b4962"/>
-  </style:style>
-  <style:style style:name="P284" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
-  </style:style>
-  <style:style style:name="P285" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
-  </style:style>
-  <style:style style:name="P286" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P265" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="004d7528" officeooo:paragraph-rsid="004d7528"/>
   </style:style>
-  <style:style style:name="P287" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P266" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="004d7528" officeooo:paragraph-rsid="004d7528"/>
   </style:style>
-  <style:style style:name="P288" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
+  <style:style style:name="P267" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0060c14c" officeooo:paragraph-rsid="0060c14c"/>
   </style:style>
-  <style:style style:name="P289" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
+  <style:style style:name="P268" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005d5058" officeooo:paragraph-rsid="005d5058"/>
   </style:style>
-  <style:style style:name="P290" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
+  <style:style style:name="P269" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L7">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005b4962" officeooo:paragraph-rsid="005b4962"/>
   </style:style>
-  <style:style style:name="P291" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
+  <style:style style:name="P270" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L20">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005b4962" officeooo:paragraph-rsid="005b4962"/>
   </style:style>
-  <style:style style:name="P292" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
+  <style:style style:name="P271" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L9">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="003dd1d9" officeooo:paragraph-rsid="003dd1d9" style:font-size-asian="10.5pt"/>
   </style:style>
-  <style:style style:name="P293" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+  <style:style style:name="P272" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f650" officeooo:paragraph-rsid="0048f650"/>
   </style:style>
-  <style:style style:name="P294" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
+  <style:style style:name="P273" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L10">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f650" officeooo:paragraph-rsid="00499487"/>
   </style:style>
-  <style:style style:name="P295" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
+  <style:style style:name="P274" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L11">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005deaa7" officeooo:paragraph-rsid="005deaa7"/>
   </style:style>
-  <style:style style:name="P296" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
+  <style:style style:name="P275" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L12">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005fa6d6" officeooo:paragraph-rsid="005fa6d6"/>
   </style:style>
-  <style:style style:name="P297" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
+  <style:style style:name="P276" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L13">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="005b0441" officeooo:paragraph-rsid="005b0441"/>
   </style:style>
-  <style:style style:name="P298" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+  <style:style style:name="P277" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P299" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
+  <style:style style:name="P278" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P300" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
+  <style:style style:name="P279" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P301" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
+  <style:style style:name="P280" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L22">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P302" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
+  <style:style style:name="P281" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L16">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f11e" officeooo:paragraph-rsid="0048f11e"/>
   </style:style>
-  <style:style style:name="P303" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+  <style:style style:name="P282" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00634611" officeooo:paragraph-rsid="00634611"/>
   </style:style>
-  <style:style style:name="P304" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
+  <style:style style:name="P283" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00473ac1" officeooo:paragraph-rsid="00473ac1"/>
   </style:style>
-  <style:style style:name="P305" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
+  <style:style style:name="P284" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L18">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00457280" officeooo:paragraph-rsid="00457280"/>
   </style:style>
-  <style:style style:name="P306" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+  <style:style style:name="P285" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0055889e" officeooo:paragraph-rsid="0055889e"/>
   </style:style>
-  <style:style style:name="P307" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
+  <style:style style:name="P286" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L23">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="00524f1c" officeooo:paragraph-rsid="00524f1c"/>
   </style:style>
-  <style:style style:name="P308" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
+  <style:style style:name="P287" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L24">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0062534f" officeooo:paragraph-rsid="0062534f"/>
   </style:style>
-  <style:style style:name="P309" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
+  <style:style style:name="P288" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L25">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana" officeooo:rsid="0062534f" officeooo:paragraph-rsid="0062534f"/>
   </style:style>
-  <style:style style:name="P310" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
+  <style:style style:name="P289" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="006632f9" officeooo:paragraph-rsid="006632f9"/>
+  </style:style>
+  <style:style style:name="P290" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="003ffa15" officeooo:paragraph-rsid="003ffa15"/>
   </style:style>
-  <style:style style:name="P311" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
+  <style:style style:name="P291" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false">
     <style:tab-stops>
      <style:tab-stop style:position="5.006cm"/>
@@ -2582,25 +2551,106 @@
    </style:paragraph-properties>
    <style:text-properties officeooo:paragraph-rsid="00408509"/>
   </style:style>
-  <style:style style:name="P312" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
+  <style:style style:name="P292" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L17">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="00634611" officeooo:paragraph-rsid="00634611"/>
   </style:style>
-  <style:style style:name="P313" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
+  <style:style style:name="P293" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L19">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Courier New" officeooo:rsid="0055889e" officeooo:paragraph-rsid="0055889e"/>
   </style:style>
-  <style:style style:name="P314" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
+  <style:style style:name="P294" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L14">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P315" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
+  <style:style style:name="P295" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L15">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
   </style:style>
-  <style:style style:name="P316" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
+  <style:style style:name="P296" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L21">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Verdana"/>
+  </style:style>
+  <style:style style:name="P297" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="004d7528" officeooo:paragraph-rsid="004d7528"/>
+  </style:style>
+  <style:style style:name="P298" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="004d7528" officeooo:paragraph-rsid="0060c14c"/>
+  </style:style>
+  <style:style style:name="P299" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="005cdf59" officeooo:paragraph-rsid="005cdf59"/>
+  </style:style>
+  <style:style style:name="P300" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="003ffa15" officeooo:paragraph-rsid="003ffa15"/>
+  </style:style>
+  <style:style style:name="P301" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P302" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003e2e3d"/>
+  </style:style>
+  <style:style style:name="P303" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003bba84" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P304" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="005deaa7" officeooo:paragraph-rsid="005deaa7"/>
+  </style:style>
+  <style:style style:name="P305" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="005b0441" officeooo:paragraph-rsid="005b0441"/>
+  </style:style>
+  <style:style style:name="P306" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P307" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="0048f11e" officeooo:paragraph-rsid="0048f11e"/>
+  </style:style>
+  <style:style style:name="P308" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00634611" officeooo:paragraph-rsid="00634611"/>
+  </style:style>
+  <style:style style:name="P309" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00457280" officeooo:paragraph-rsid="00457280"/>
+  </style:style>
+  <style:style style:name="P310" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="0055889e" officeooo:paragraph-rsid="0055889e"/>
+  </style:style>
+  <style:style style:name="P311" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="005193be" officeooo:paragraph-rsid="0055889e"/>
+  </style:style>
+  <style:style style:name="P312" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="005cdf59" officeooo:paragraph-rsid="005cdf59"/>
+  </style:style>
+  <style:style style:name="P313" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00570985" officeooo:paragraph-rsid="00570985"/>
+  </style:style>
+  <style:style style:name="P314" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="00524f1c" officeooo:paragraph-rsid="00524f1c"/>
+  </style:style>
+  <style:style style:name="P315" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties style:font-name="Verdana" officeooo:rsid="0062534f" officeooo:paragraph-rsid="0062534f"/>
+  </style:style>
+  <style:style style:name="P316" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="005b0441"/>
+  </style:style>
+  <style:style style:name="P317" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="003dd1d9" officeooo:paragraph-rsid="003dd1d9"/>
+  </style:style>
+  <style:style style:name="P318" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="0048f650"/>
+  </style:style>
+  <style:style style:name="P319" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="005b4962"/>
+  </style:style>
+  <style:style style:name="P320" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="00430fbe"/>
+  </style:style>
+  <style:style style:name="P321" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="003c4cc6" officeooo:paragraph-rsid="003c4cc6"/>
+  </style:style>
+  <style:style style:name="P322" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties style:font-name="Verdana" fo:font-size="10pt" officeooo:rsid="006632f9" officeooo:paragraph-rsid="006632f9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P323" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties style:font-name="Verdana" fo:font-size="10pt" officeooo:rsid="00624b28" officeooo:paragraph-rsid="006632f9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="003b2052"/>
@@ -2775,6 +2825,9 @@
   </style:style>
   <style:style style:name="T58" style:family="text">
    <style:text-properties officeooo:rsid="00634611"/>
+  </style:style>
+  <style:style style:name="T59" style:family="text">
+   <style:text-properties officeooo:rsid="006632f9"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -4062,7 +4115,7 @@
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1">
    <style:header>
-    <text:p text:style-name="P1"><draw:frame draw:style-name="fr1" draw:name="Bild1" text:anchor-type="paragraph" svg:x="0.085cm" svg:y="-0.243cm" svg:width="1.041cm" svg:height="1.041cm" draw:z-index="34"><draw:image>
+    <text:p text:style-name="P1"><draw:frame draw:style-name="fr1" draw:name="Bild1" text:anchor-type="paragraph" svg:x="0.085cm" svg:y="-0.243cm" svg:width="1.041cm" svg:height="1.041cm" draw:z-index="35"><draw:image>
        <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAANjklEQVR4nOWba28c13nHf+fM
         7M5eKZGsLFE3y0nFmq3dCkiNpHHdV0UdIAiQAIXfFAjyNRIkfuN3blqgQD9ALARNkLZBL4Cb
         1BfUsOoGKJLCbhQ5lF0putikJFPkktzdmTnnPH1xZmaHqyW5Sy6kFH2A5ezO5cx5/ud/nts5
@@ -4135,7 +4188,7 @@
     <text:p text:style-name="P1"><text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T4">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License</text:span></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">35</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>35</text:page-count></text:span></text:p>
+    <text:p text:style-name="P2"><text:span text:style-name="T5"><text:tab/></text:span><text:span text:style-name="T5"><text:page-number text:select-page="current">36</text:page-number></text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">von</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T7"><text:page-count>36</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Endnote" style:page-layout-name="pm2"/>
@@ -4265,28 +4318,28 @@
      <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__425_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Scanner integrieren<text:tab/>18</text:a></text:p>
      <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__427_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Volltextsuche<text:tab/>19</text:a></text:p>
      <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__429_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Dokumente in externen Programmen öffnen<text:tab/>19</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1206_139744116" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">PDF-Konvertierung<text:tab/>20</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc6939_821220459" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">LibreOffice Auto-Texte zentral im Netzwerk nutzen<text:tab/>21</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__112_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Wiedervorlagen und Fristen<text:tab/>22</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__114_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Emailintegration<text:tab/>23</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__116_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Add-Ons: Drebis<text:tab/>24</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__431_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Allgemeines zur Drebis-Schnittstelle<text:tab/>24</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__118_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Add-Ons: Sipgate<text:tab/>25</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1786_1623122946" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Unterstützte Landeskennzahlen<text:tab/>25</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__120_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Systemadministration<text:tab/>26</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1750_579777149" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Netzwerkeinstellungen für Mehrbenutzerbetrieb<text:tab/>26</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1752_579777149" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Portkonflikte beheben<text:tab/>26</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__433_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Datensicherung und -synchronisation<text:tab/>27</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__435_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Daten aus einer Sicherung wiederherstellen<text:tab/>28</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2108_186327974" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Automatischer HTML-Export<text:tab/>29</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__437_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Monitoring<text:tab/>29</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1825_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation<text:tab/>31</text:a></text:p>
-     <text:p text:style-name="P189"><text:soft-page-break/><text:a xlink:type="simple" xlink:href="#__RefHeading__1555_63167301911" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Windows-Systemen<text:tab/>31</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1827_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Linux-Systemen<text:tab/>31</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1829_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Mac OS-Systemen<text:tab/>32</text:a></text:p>
-     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1669_645688181" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Fehlerbehebung<text:tab/>33</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1555_6316730191" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">LibreOffice öffnet Dokumente immer im Hintergrund<text:tab/>33</text:a></text:p>
-     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2435_821220459" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Probleme mit Kopieren und Einfügen unter Mac OS<text:tab/>33</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1206_139744116" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">PDF-Konvertierung<text:tab/>21</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc6939_821220459" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">LibreOffice Auto-Texte zentral im Netzwerk nutzen<text:tab/>22</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__112_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Wiedervorlagen und Fristen<text:tab/>23</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__114_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Emailintegration<text:tab/>24</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__116_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Add-Ons: Drebis<text:tab/>25</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__431_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Allgemeines zur Drebis-Schnittstelle<text:tab/>25</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__118_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Add-Ons: Sipgate<text:tab/>26</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1786_1623122946" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Unterstützte Landeskennzahlen<text:tab/>26</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading__120_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Systemadministration<text:tab/>27</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1750_579777149" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Netzwerkeinstellungen für Mehrbenutzerbetrieb<text:tab/>27</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1752_579777149" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Portkonflikte beheben<text:tab/>27</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__433_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Datensicherung und -synchronisation<text:tab/>28</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__435_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Daten aus einer Sicherung wiederherstellen<text:tab/>29</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2108_186327974" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Automatischer HTML-Export<text:tab/>30</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__437_1146603382" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Monitoring<text:tab/>30</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1825_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation<text:tab/>32</text:a></text:p>
+     <text:p text:style-name="P189"><text:soft-page-break/><text:a xlink:type="simple" xlink:href="#__RefHeading__1555_63167301911" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Windows-Systemen<text:tab/>32</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1827_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Linux-Systemen<text:tab/>32</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1829_400316781" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Deinstallation auf Mac OS-Systemen<text:tab/>33</text:a></text:p>
+     <text:p text:style-name="P190"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc1669_645688181" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Fehlerbehebung<text:tab/>34</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading__1555_6316730191" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">LibreOffice öffnet Dokumente immer im Hintergrund<text:tab/>34</text:a></text:p>
+     <text:p text:style-name="P189"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc2435_821220459" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Probleme mit Kopieren und Einfügen unter Mac OS<text:tab/>34</text:a></text:p>
     </text:index-body>
    </text:table-of-content>
    <text:h text:style-name="P244" text:outline-level="1"/>
@@ -4313,185 +4366,199 @@
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P150">0.1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P150">Jun 24 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P150">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P150">Initial<text:span text:style-name="T18">e</text:span> <text:span text:style-name="T18">V</text:span>ersion, <text:span text:style-name="T18">Inhalte aus der aktuellen Dokumentation auf der Website übernommen</text:span>.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P172">0.2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P172">Jun 29 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P172">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P172"><text:span text:style-name="T51">j</text:span>-lawyer.org 1.8</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P175">0.3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P175">Aug 1 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P175">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P175">Start der Anwendung</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P176">0.4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P176">Sep 21 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P176">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P176">Nutzerdefinierte Aktenzeichen</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P177">0.5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P177">Oct 21 2016</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P177">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P177">Portkonfiguration</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P178">0.6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P178">Jan 18 2017</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P178">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P178">LibreOffice immer im Vordergrund starten</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P179">0.61</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
       <text:p text:style-name="P179">Jan 23 2017</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P179">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P179">Update Drebis-Editierbarkeit</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P180">0.62</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P180">Jan 25</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P180">Jan 25 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P180">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P180">Netzwerkbindings</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P182">0.7</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P182">Feb 10</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P182">Feb 10 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P182">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P182">Deinstallation</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P183">0.8</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P183">Feb 17</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P183">Feb 17 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P183">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P183">j-lawyer.org Version 1.8.1</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P185">0.9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P185">Apr 24</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P185">Apr 24 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P185">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P185">Direktstart in Desktopansicht</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P186">1.1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P186">May 13</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P186">May 13 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P186">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P186">Dokumente in externen Programmen öffnen auf Mac</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="Table1.A14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
       <text:p text:style-name="P188">1.2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.B14" office:value-type="string">
-      <text:p text:style-name="P188">Jul 11</text:p>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P188">Jul 11 <text:span text:style-name="T59">2017</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.C14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
       <text:p text:style-name="P188">Jens Kutschke</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Table1.D14" office:value-type="string">
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
       <text:p text:style-name="P188">Kopieren und Einfügen unter Mac OS, <text:span text:style-name="T58">LibreOffice-AutoText zentral im Netzwerk</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table1.A15" office:value-type="string">
+      <text:p text:style-name="P322">1.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.B15" office:value-type="string">
+      <text:p text:style-name="P322">Jul 27 2017</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.C15" office:value-type="string">
+      <text:p text:style-name="P322">Jens Kutschke</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.D15" office:value-type="string">
+      <text:p text:style-name="P323">Dokumente in externen Programmen öffnen <text:span text:style-name="T59">unter</text:span> <text:span text:style-name="T59">Microsoft Windows</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
@@ -4520,7 +4587,7 @@
    </table:table>
    <text:p text:style-name="P82"/>
    <text:p text:style-name="P51"/>
-   <text:h text:style-name="P119" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__3859_916935510"/><text:bookmark-start text:name="__DdeLink__2286_656293559"/>Start des j-lawyer.org Clients<text:bookmark-end text:name="__RefHeading__3859_916935510"/></text:h>
+   <text:h text:style-name="P119" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__2286_656293559"/><text:bookmark-start text:name="__RefHeading__3859_916935510"/>Start des j-lawyer.org Clients<text:bookmark-end text:name="__RefHeading__3859_916935510"/></text:h>
    <table:table table:name="Tabelle21" table:style-name="Tabelle21">
     <table:table-column table:style-name="Tabelle21.A"/>
     <table:table-column table:style-name="Tabelle21.B"/>
@@ -4551,17 +4618,17 @@
    </table:table>
    <text:p text:style-name="P82"/>
    <text:p text:style-name="P52">Nach dem S<text:bookmark-end text:name="__DdeLink__2286_656293559"/>tart des j-lawyer.org Clients ist zwingend eine Anmeldung mit gültigen Nutzerdaten notwendig. Handelt es sich um eine Neuinstallation, so gibt es folgende voreingestellte Nutzer:</text:p>
-   <text:list xml:id="list5780508698315426646" text:style-name="L1">
+   <text:list xml:id="list8184594780326906118" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P286">Nutzer “user”, Passwort “u” - Nutzer mit eingeschränkten Rechten</text:p>
+     <text:p text:style-name="P265">Nutzer “user”, Passwort “u” - Nutzer mit eingeschränkten Rechten</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P286">Nutzer “admin”, Passwort “a” - Nutzer mit vollen administrativen Rechten</text:p>
+     <text:p text:style-name="P265">Nutzer “admin”, Passwort “a” - Nutzer mit vollen administrativen Rechten</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P89"><draw:frame draw:style-name="fr2" draw:name="Rahmen4" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="44">
+   <text:p text:style-name="P89"><draw:frame draw:style-name="fr2" draw:name="Rahmen4" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="45">
      <draw:text-box fo:min-height="3.388cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Bild8" text:anchor-type="paragraph" svg:width="7.421cm" svg:height="3.835cm" draw:z-index="46"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Bild8" text:anchor-type="paragraph" svg:width="7.421cm" svg:height="3.835cm" draw:z-index="47"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAASoAAACaCAYAAAAehwXuAAAACXBIWXMAAA+wAAAPsQHwZa38
           AAAk/UlEQVR4nO2dB1gURxvH/5SjNymiaNRoFDWJJhpjbDFRoyYmUazRzxJjF7tiLwjSEewl
           lthijQULUbHHxBaxxViisdIRFKUf8O2M3oajXAHxFnh/z7PP7ZR9d8ru/96Znbs1/PvWvRwQ
@@ -4746,26 +4813,26 @@
     </draw:frame></text:p>
    <text:p text:style-name="P52">Vor einer Anmeldung ist im Falle einer ersten Nutzung unter “Verbindung” der Name oder die IP des Servers einzutragen (bzw. “localhost”, wenn j-lawyer.org Server und j-lawyer.org Client auf dem selben Gerät genutzt werden).</text:p>
    <text:p text:style-name="P52">Bis einschließlich Version 1.7.1. sind die Ports wie folgt einzugeben:</text:p>
-   <text:list xml:id="list3250217835077821328" text:style-name="L2">
+   <text:list xml:id="list8315529696248480728" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P287">JNDI-Port: 1099</text:p>
+     <text:p text:style-name="P266">JNDI-Port: 1099</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P287">HTTP-Port: 8080</text:p>
+     <text:p text:style-name="P266">HTTP-Port: 8080</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P52">Ab Version 1.8 wie folgt:</text:p>
-   <text:list xml:id="list131442266811156" text:continue-numbering="true" text:style-name="L2">
+   <text:list xml:id="list224815335513834" text:continue-numbering="true" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P287">JNDI-Port: 8080</text:p>
+     <text:p text:style-name="P266">JNDI-Port: 8080</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P287">HTTP-Port: 8080<text:bookmark-start text:name="__DdeLink__3867_916935510"/></text:p>
+     <text:p text:style-name="P266">HTTP-Port: 8080<text:bookmark-start text:name="__DdeLink__3867_916935510"/></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P89"><draw:frame draw:style-name="fr2" draw:name="Rahmen5" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="45">
+   <text:p text:style-name="P89"><draw:frame draw:style-name="fr2" draw:name="Rahmen5" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="46">
      <draw:text-box fo:min-height="3.388cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Bild9" text:anchor-type="paragraph" svg:width="7.421cm" svg:height="3.835cm" draw:z-index="47"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Bild9" text:anchor-type="paragraph" svg:width="7.421cm" svg:height="3.835cm" draw:z-index="48"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAASoAAACaCAYAAAAehwXuAAAACXBIWXMAAA+wAAAPsQHwZa38
           AAAdFklEQVR4nO2dCXxMV9/Hf9kXskkQlIbaebW1Pe/z4LHWXgkNKSWUqCUIRYMskiB2IbUT
           rVRtjaJUQypt0FaFVMnbaqvUElnEEirbTGbee046t0nMmpnINf1/P5/7yfmf7Z57J+d3/+fc
@@ -4934,21 +5001,21 @@
    </table:table>
    <text:p text:style-name="P84"/>
    <text:p text:style-name="P67">Der Login-Dialog des j-lawyer.org Clients kann optional übersprungen werden – so ist ein direkter Start bis zur “Mein Desktop”-Ansicht möglich. Dazu müssen beim Start folgende Kommandozeoilenparameter übergeben werden:</text:p>
-   <text:list xml:id="list2905985876610033389" text:style-name="L3">
+   <text:list xml:id="list7562345669916072576" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P288">Server</text:p>
+     <text:p text:style-name="P267">Server</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P288">Port</text:p>
+     <text:p text:style-name="P267">Port</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P288">HTTP-Port</text:p>
+     <text:p text:style-name="P267">HTTP-Port</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P288">Nutzername</text:p>
+     <text:p text:style-name="P267">Nutzername</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P288">Passwort</text:p>
+     <text:p text:style-name="P267">Passwort</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P67">also bspw. “localhost 8080 8080 admin a”</text:p>
@@ -4983,21 +5050,21 @@
    <text:p text:style-name="P53"><text:span text:style-name="T52">j-lawyer.BOX</text:span> <text:span text:style-name="T52">ist ein Mini-Server für Installationen mit bis zu 5 Client-Arbeitsplätzen. Die Box wird als komplett vorinstallierter und vorkonfigurierter Server mit j-lawyer.org-Installation, Dateifreigaben u.v.m geliefert.</text:span></text:p>
    <text:p text:style-name="P63">Im Login-Dialog wird die Erreichbarkeit einer eventuell installierten j-lawer.BOX geprüft und angezeigt (als rote oder grüne Kontrollanzeige). Ein grüner Indikator zeigt an daß die Box erreichbar ist, ein roter Indikator zeigt an dass entweder keine Box installiert oder eine vorhandene Box nicht erreichbar ist.</text:p>
    <text:p text:style-name="P63">In der Registerkarte “j-lawyer.BOX” sind folgende Operationen verfügbar:</text:p>
-   <text:list xml:id="list5238388962743664884" text:style-name="L4">
+   <text:list xml:id="list6542424594168645003" text:style-name="L4">
     <text:list-item>
-     <text:p text:style-name="P289">Erreichbarkeit und Status des j-lawyer.org Serverdienstes prüfen</text:p>
+     <text:p text:style-name="P268">Erreichbarkeit und Status des j-lawyer.org Serverdienstes prüfen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P289">j-lawyer.org Serverdienst neu starten</text:p>
+     <text:p text:style-name="P268">j-lawyer.org Serverdienst neu starten</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P289">j-lawyer.BOX komplett rebooten</text:p>
+     <text:p text:style-name="P268">j-lawyer.BOX komplett rebooten</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P64">Geben Sie zur Ausführung der Kommandos das auf Ihrer mit der j-lawyer.BOX gelieferten “Identity Card” root-Passwort ein.</text:p>
-   <text:p text:style-name="P64"><draw:frame draw:style-name="fr2" draw:name="Rahmen7" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="50">
+   <text:p text:style-name="P64"><draw:frame draw:style-name="fr2" draw:name="Rahmen7" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="51">
      <draw:text-box fo:min-height="3.388cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr5" draw:name="Bild11" text:anchor-type="paragraph" svg:width="7.438cm" svg:height="3.844cm" draw:z-index="51"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr5" draw:name="Bild11" text:anchor-type="paragraph" svg:width="7.438cm" svg:height="3.844cm" draw:z-index="52"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAaEAAACsCAYAAADSQROoAAAACXBIWXMAAA7EAAAOxAGVKw4b
           AAAnnElEQVR4nO3dB3wURd8H8N/lLuXSeyCh14QmHQWRpggI0rE8CoqISEdBBF/pvTdpj6jY
           UbqgCEpTUFBRiiJSQ2ghCSE9ufrubLh7kpByG4ibg99X75PbndnZmd1k/jO7e4fur1PnrSAi
@@ -5190,7 +5257,7 @@
           AAAAAElFTkSuQmCC
          </office:binary-data>
         </draw:image>
-       </draw:frame><draw:frame draw:style-name="fr6" draw:name="Bild12" text:anchor-type="paragraph" svg:width="11.031cm" svg:height="4.551cm" draw:z-index="52"><draw:image>
+       </draw:frame><draw:frame draw:style-name="fr6" draw:name="Bild12" text:anchor-type="paragraph" svg:width="11.031cm" svg:height="4.551cm" draw:z-index="53"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAaEAAACsCAYAAADSQROoAAAACXBIWXMAAA7EAAAOxAGVKw4b
           AAAnnElEQVR4nO3dB3wURd8H8N/lLuXSeyCh14QmHQWRpggI0rE8CoqISEdBBF/pvTdpj6jY
           UbqgCEpTUFBRiiJSQ2ghCSE9ufrubLh7kpByG4ibg99X75PbndnZmd1k/jO7e4fur1PnrSAi
@@ -5440,41 +5507,41 @@
    </table:table>
    <text:p text:style-name="Text_20_body"><text:soft-page-break/></text:p>
    <text:p text:style-name="P81"><text:bookmark-start text:name="__DdeLink__1377_915061253"/>Die “Mein Desktop”-Ansicht bietet alle wichtigen Informationen auf einen Blick und ermöglicht eine Navigation zum jeweiligen Element:</text:p>
-   <text:list xml:id="list1639694956185701110" text:style-name="L5">
+   <text:list xml:id="list5590075153653746144" text:style-name="L5">
     <text:list-item>
-     <text:p text:style-name="P310">aktuelles Datum</text:p>
+     <text:p text:style-name="P290">aktuelles Datum</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">ungelesene Emails</text:p>
+     <text:p text:style-name="P290">ungelesene Emails</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">Tipp des Tages</text:p>
+     <text:p text:style-name="P290">Tipp des Tages</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">angemeldeter Nutzer</text:p>
+     <text:p text:style-name="P290">angemeldeter Nutzer</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">Welche Akten wurden zuletzt geändert? Durch wen?</text:p>
+     <text:p text:style-name="P290">Welche Akten wurden zuletzt geändert? Durch wen?</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">Welche Fristen und Wiedervorlagen sind fällig oder überfällig? Wer ist zuständig?</text:p>
+     <text:p text:style-name="P290">Welche Fristen und Wiedervorlagen sind fällig oder überfällig? Wer ist zuständig?</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P310">u.v.m.</text:p>
+     <text:p text:style-name="P290">u.v.m.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P81"/>
    <text:p text:style-name="P81">Der Bereich “Zuletzt geändert” zeigt Informationen zur Akte sowie den <text:span text:style-name="T9">für die Akte verantwortlichen </text:span>Anwalt.</text:p>
    <text:p text:style-name="P81">Der Bereich “Fällig” zeigt fällige und überfällige Fristen und Wiedervorlagen, sortiert nach Fälligkeitsdatum in absteigender Reihenfolge. Es wird der für die <text:span text:style-name="T9">Frist oder Wiedervorlage verantwortliche</text:span> Bearbeiter angezeigt. <text:span text:style-name="T31">Die Bedeutung der Icons und Schriftformatierungen im Einzelnen:</text:span></text:p>
-   <text:list xml:id="list2924311062033925322" text:style-name="L6">
+   <text:list xml:id="list2989112423158402015" text:style-name="L6">
     <text:list-item>
-     <text:p text:style-name="P311"><text:span text:style-name="T14">schwarze Beschriftung<text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1342_915061253"/><text:span text:style-name="T32">heute fällig</text:span><text:bookmark-end text:name="__DdeLink__1342_915061253"/></text:p>
+     <text:p text:style-name="P291"><text:span text:style-name="T14">schwarze Beschriftung<text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1342_915061253"/><text:span text:style-name="T32">heute fällig</text:span><text:bookmark-end text:name="__DdeLink__1342_915061253"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P311"><text:span text:style-name="T33">rote Beschriftung<text:tab/></text:span><text:span text:style-name="T34">überfällig</text:span></text:p>
+     <text:p text:style-name="P291"><text:span text:style-name="T33">rote Beschriftung<text:tab/></text:span><text:span text:style-name="T34">überfällig</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P311"><draw:frame draw:style-name="fr7" draw:name="Bild4" text:anchor-type="paragraph" svg:x="1.445cm" svg:y="-0.025cm" svg:width="0.464cm" svg:height="0.464cm" draw:z-index="39"><draw:image>
+     <text:p text:style-name="P291"><draw:frame draw:style-name="fr7" draw:name="Bild4" text:anchor-type="paragraph" svg:x="1.445cm" svg:y="-0.025cm" svg:width="0.464cm" svg:height="0.464cm" draw:z-index="40"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwY
          AAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUI
          IFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuj
@@ -5547,7 +5614,7 @@
       </draw:frame><text:span text:style-name="T34"> <text:tab/></text:span><text:bookmark-start text:name="__DdeLink__1345_915061253"/><text:span text:style-name="T35">Wiedervorlage, angemeldeter Nutzer ist verantwortlich</text:span><text:bookmark-end text:name="__DdeLink__1345_915061253"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P311"><draw:frame draw:style-name="fr7" draw:name="Bild5" text:anchor-type="paragraph" svg:x="1.469cm" svg:y="0.049cm" svg:width="0.446cm" svg:height="0.446cm" draw:z-index="40"><draw:image>
+     <text:p text:style-name="P291"><draw:frame draw:style-name="fr7" draw:name="Bild5" text:anchor-type="paragraph" svg:x="1.469cm" svg:y="0.049cm" svg:width="0.446cm" svg:height="0.446cm" draw:z-index="41"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAKT2lDQ1BQaG90b3Nob3AgSUND
          IHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcER
          RUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyW
@@ -5616,7 +5683,7 @@
       </draw:frame><text:span text:style-name="T34"> <text:tab/></text:span><text:span text:style-name="T35">Frist!</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P311"><draw:frame draw:style-name="fr7" draw:name="Bild6" text:anchor-type="paragraph" svg:x="1.528cm" svg:y="0.025cm" svg:width="0.399cm" svg:height="0.399cm" draw:z-index="41"><draw:image>
+     <text:p text:style-name="P291"><draw:frame draw:style-name="fr7" draw:name="Bild6" text:anchor-type="paragraph" svg:x="1.528cm" svg:y="0.025cm" svg:width="0.399cm" svg:height="0.399cm" draw:z-index="42"><draw:image>
         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADIUlEQVQ4jW2TzUsrZxjFz8xk
          JmPGjopTokltqGidu7hKywVBLEG7CC667UKC/Q9KoAuh7v2g0PgB7cpFscxO6FbTUnQXFdrS
          glXMhNxJSgyO40zfcTIZ37xd3Hppbc/2OefAeeDHMcbwVPl8/q3e3t4Xqqq+AwCe51U9zzs1
@@ -5640,9 +5707,9 @@
    </text:list>
    <text:p text:style-name="P85">Ein Verweilen mit der Maus über einer Akte, Wiedervorlage oder Frist blendet weitere Informationen ein. Über Doppelklick können Sie zur Akte navigieren. Fristen und Wiedervorlagen lassen sich durch Klicken der Auswahlkästchens als erledigt markieren und verschwinden beim nächsten Laden der Darstellung aus dem Arbeitsvorrat.<text:bookmark-end text:name="__DdeLink__1377_915061253"/></text:p>
    <text:p text:style-name="P85"/>
-   <text:h text:style-name="P100" text:outline-level="2"><draw:frame draw:style-name="fr2" draw:name="Rahmen2" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="37">
+   <text:h text:style-name="P100" text:outline-level="2"><draw:frame draw:style-name="fr2" draw:name="Rahmen2" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="38">
      <draw:text-box fo:min-height="9.959cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr8" draw:name="Bild3" text:anchor-type="paragraph" svg:y="0.21cm" svg:width="17cm" style:rel-width="100%" svg:height="9.961cm" style:rel-height="scale" draw:z-index="38"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr8" draw:name="Bild3" text:anchor-type="paragraph" svg:y="0.21cm" svg:width="17cm" style:rel-width="100%" svg:height="9.961cm" style:rel-height="scale" draw:z-index="39"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABIcAAAKnCAIAAACTb7rAAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAOCMElEQVR4nOy9B7hlN3UoLGmfO+MyNi7jho17x9gGG9tA6DWNlB9CSHUCAQIvJDwSSh6h
           pr2QEEJCQgv1IwFCXhoYAqaaFgzGxtgGd49nXMcee/rce7b0trRUlpbK1jn3Osn//1eYO/vs
@@ -9912,7 +9979,7 @@
    <text:p text:style-name="P34"/>
    <text:h text:style-name="P245" text:outline-level="1"/>
    <text:h text:style-name="P139" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__108_1146603382"/>Aktenverwaltung<text:bookmark-end text:name="__RefHeading__108_1146603382"/></text:h>
-   <text:h text:style-name="P123" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__2008_186327974"/><text:bookmark-start text:name="__RefHeading___Toc2045_186327974"/>Akten <text:span text:style-name="T50">suchen</text:span><text:bookmark-end text:name="__RefHeading___Toc2045_186327974"/></text:h>
+   <text:h text:style-name="P123" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc2045_186327974"/><text:bookmark-start text:name="__DdeLink__2008_186327974"/>Akten <text:span text:style-name="T50">suchen</text:span><text:bookmark-end text:name="__RefHeading___Toc2045_186327974"/></text:h>
    <table:table table:name="Tabelle30" table:style-name="Tabelle30">
     <table:table-column table:style-name="Tabelle30.A"/>
     <table:table-column table:style-name="Tabelle30.B"/>
@@ -9935,23 +10002,23 @@
    </table:table>
    <text:p text:style-name="P92"/>
    <text:p text:style-name="P60">Im Navigationsbaum am linken Bildschirmrand <text:span text:style-name="T51">unter “bearbeiten” bzw. “einsehen” können Sie Akten über eine Schnellsuche finden. Durchsucht werden</text:span></text:p>
-   <text:list xml:id="list6069806056534333585" text:style-name="L7">
+   <text:list xml:id="list1776849208919341706" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P290">Aktenzeichen</text:p>
+     <text:p text:style-name="P269">Aktenzeichen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">Kurzrubrum</text:p>
+     <text:p text:style-name="P269">Kurzrubrum</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">wegen</text:p>
+     <text:p text:style-name="P269">wegen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">eigene Felder (alle)</text:p>
+     <text:p text:style-name="P269">eigene Felder (alle)</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P62">Zusätzlich ist eine Einschränkung über Tags möglich. </text:p>
    <text:p text:style-name="P62">Voreingestellt ist eine Suche ohne archivierte Akten – soll das Archiv mit durchsucht werden, so ist die Option “Archivsuche” zu aktivieren.<text:bookmark-end text:name="__DdeLink__2008_186327974"/></text:p>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__423_1146603382"/><text:bookmark-start text:name="__DdeLink__1212_1579042734"/>Aktenzeichen<text:bookmark-end text:name="__RefHeading__423_1146603382"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1212_1579042734"/><text:bookmark-start text:name="__RefHeading__423_1146603382"/>Aktenzeichen<text:bookmark-end text:name="__RefHeading__423_1146603382"/></text:h>
    <table:table table:name="Tabelle2" table:style-name="Tabelle2">
     <table:table-column table:style-name="Tabelle2.A"/>
     <table:table-column table:style-name="Tabelle2.B"/>
@@ -10011,7 +10078,7 @@
    <text:p text:style-name="P7"/>
    <text:p text:style-name="P7">Daraus lassen sich für individuelle Anforderungen passende Aktenzeichen-Schemata definieren, bspw.</text:p>
    <text:p text:style-name="P7"/>
-   <text:list xml:id="list1523765480618097278" text:style-name="L8">
+   <text:list xml:id="list2933837705161931910" text:style-name="L8">
     <text:list-item>
      <text:p text:style-name="P243"><text:span text:style-name="T9">nnnnn/YY</text:span> – 5-stellige laufende Nummer innerhalb eines Jahres, gefolgt von fixem Schrägstrich, gefolgt von 2-stelliger Jahreszahl</text:p>
     </text:list-item>
@@ -10052,21 +10119,21 @@
    </table:table>
    <text:p text:style-name="P79"/>
    <text:p text:style-name="P40">Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorschau angezeigt. Folgende Formate werden unterstützt:</text:p>
-   <text:list xml:id="list8469231840781301094" text:style-name="L9">
+   <text:list xml:id="list4835471205503806271" text:style-name="L9">
     <text:list-item>
-     <text:p text:style-name="P292">Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF</text:p>
+     <text:p text:style-name="P271">Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P292">Textanzeige (Inhalt des Dokumentes als Textextrakt): alle Dokumente mit Textinformationen</text:p>
+     <text:p text:style-name="P271">Textanzeige (Inhalt des Dokumentes als Textextrakt): alle Dokumente mit Textinformationen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P292">keine Vorschau: alle weiteren Binärformate</text:p>
+     <text:p text:style-name="P271">keine Vorschau: alle weiteren Binärformate</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40">Ein Doppelklick öffnet das Dokument im entsprechenden Editor.</text:p>
-   <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr3" draw:name="Rahmen1" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="35">
+   <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr3" draw:name="Rahmen1" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="36">
      <draw:text-box fo:min-height="13.383cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr9" draw:name="Bild2" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.381cm" draw:z-index="36"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr9" draw:name="Bild2" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.381cm" draw:z-index="37"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABL0AAAO7CAIAAAA+3WFlAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAKIiklEQVR4nOy9B7Rcx3kmWOF2v4hMgMhgTgAlkhKjRMoiZVuesSRHyXTQeMf2Wa93xzNn
           d+2118d7dsZngvfs7gSPz3g89o5t2ZJleRyUKFmSlRgkMYgkGMAEkCABEiCI8PBi962qrT9U
@@ -13150,7 +13217,7 @@
        </draw:frame>Abbildung <text:sequence text:ref-name="refIllustration4" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">5</text:sequence>: Direkte Anzeige eines Dokumentes am Beispiel eines PDFs</text:p>
      </draw:text-box>
     </draw:frame><text:soft-page-break/></text:p>
-   <text:h text:style-name="P118" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__1953_1689631286"/><text:bookmark-start text:name="__DdeLink__1960_1689631286"/>Akten<text:span text:style-name="T40">historie</text:span><text:bookmark-end text:name="__RefHeading__1953_1689631286"/></text:h>
+   <text:h text:style-name="P118" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1960_1689631286"/><text:bookmark-start text:name="__RefHeading__1953_1689631286"/>Akten<text:span text:style-name="T40">historie</text:span><text:bookmark-end text:name="__RefHeading__1953_1689631286"/></text:h>
    <table:table table:name="Tabelle18" table:style-name="Tabelle18">
     <table:table-column table:style-name="Tabelle18.A"/>
     <table:table-column table:style-name="Tabelle18.B"/>
@@ -13196,18 +13263,18 @@
    </table:table>
    <text:p text:style-name="P88"/>
    <text:p text:style-name="P49">Neben der in jeder Akte angezeigten spezifischen Historie, gibt es </text:p>
-   <text:list xml:id="list4734392743487926843" text:style-name="L10">
+   <text:list xml:id="list5973610035221507138" text:style-name="L10">
     <text:list-item>
-     <text:p text:style-name="P293">eine aktenübergreifende Historie über alle Änderungen des aktuellen Nutzers <text:span text:style-name="T41">(“Verlauf” - “Meine Timeline” im Navigationsbaum)</text:span></text:p>
+     <text:p text:style-name="P272">eine aktenübergreifende Historie über alle Änderungen des aktuellen Nutzers <text:span text:style-name="T41">(“Verlauf” - “Meine Timeline” im Navigationsbaum)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P294"><text:soft-page-break/>eine aktenübergreifende Historie über alle Änderungen aller Nutzer im System <text:span text:style-name="T41">(“Verlauf” - “Historie” im Navigationsbaum)</text:span></text:p>
+     <text:p text:style-name="P273"><text:soft-page-break/>eine aktenübergreifende Historie über alle Änderungen aller Nutzer im System <text:span text:style-name="T41">(“Verlauf” - “Historie” im Navigationsbaum)</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P49">So lassen sich schnell eigene Änderungen auffinden oder von Kollegen bearbeitete Fälle auffinden.</text:p>
-   <text:p text:style-name="P49"><draw:frame draw:style-name="fr2" draw:name="Rahmen3" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="42">
+   <text:p text:style-name="P49"><draw:frame draw:style-name="fr2" draw:name="Rahmen3" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="43">
      <draw:text-box fo:min-height="13.67cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr10" draw:name="Bild7" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.67cm" draw:z-index="43"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr10" draw:name="Bild7" text:anchor-type="paragraph" svg:width="17cm" svg:height="13.67cm" draw:z-index="44"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABKsAAAPBCAIAAAC+1L5tAAAACXBIWXMAAA+wAAAPsAHpfpy9
           AAIyD0lEQVR4nMx9CbglRXVwVXff997sC7MyMswMI8gOsshiFFfUiCyaIK6JIXGNGwaN+bIZ
           l8QtIWpiXKJijBojRtTwGwRRQXaVXdZhhhFmmIVZ33a7u/4651SdPl3d996+971HUg7Pe/tW
@@ -15906,18 +15973,18 @@
    </table:table>
    <text:p text:style-name="P93"/>
    <text:p text:style-name="P61">Im Navigationsbaum am linken Bildschirmrand <text:span text:style-name="T51">unter “bearbeiten” bzw. “einsehen” können Sie Adressen über eine Schnellsuche finden. Durchsucht werden</text:span></text:p>
-   <text:list xml:id="list131442095787590" text:continue-list="list6069806056534333585" text:style-name="L7">
+   <text:list xml:id="list224816079539248" text:continue-list="list1776849208919341706" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P290">Name</text:p>
+     <text:p text:style-name="P269">Name</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">Vorname</text:p>
+     <text:p text:style-name="P269">Vorname</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">Firma</text:p>
+     <text:p text:style-name="P269">Firma</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P290">eigene Felder (alle)</text:p>
+     <text:p text:style-name="P269">eigene Felder (alle)</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P62">Zusätzlich ist eine Einschränkung über Tags möglich. </text:p>
@@ -15969,45 +16036,45 @@
    </table:table>
    <text:p text:style-name="P21"/>
    <text:p text:style-name="P65">Mit Version 1.8.1 wurde eine vollständig überarbeitete Anwendungsanbindung für LibreOffice und andere externe Applikationen geliefert. Folgendes ist bei der Arbeit mit Dokumenten zu beachten:</text:p>
-   <text:list xml:id="list5898866237053029063" text:style-name="L11">
+   <text:list xml:id="list213753651640522485" text:style-name="L11">
     <text:list-item>
-     <text:p text:style-name="P295">es können beliebig viele Dokumente gleichzeitig geöffnet werden</text:p>
+     <text:p text:style-name="P274">es können beliebig viele Dokumente gleichzeitig geöffnet werden</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P295">es können Dokumente verschiedener Akten gleichzeitig geöffnet werden</text:p>
+     <text:p text:style-name="P274">es können Dokumente verschiedener Akten gleichzeitig geöffnet werden</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P295">Dokumente müssen gespeichert und geschlossen werden, bevor der j-lawyer.org Client beendet wird – anderenfalls findet keine Rückspeicherung in die Akte(n) statt</text:p>
+     <text:p text:style-name="P274">Dokumente müssen gespeichert und geschlossen werden, bevor der j-lawyer.org Client beendet wird – anderenfalls findet keine Rückspeicherung in die Akte(n) statt</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P65">Wird der j-lawyer.org Client geschlossen während noch Dokumente geöffnet sind, so wird ein Dialog mit den als noch offen erkannten Dokumenten angezeigt. Speichern und schließen Sie dann alle Dokumente und beenden Sie dann den j-lawyer.org Client.</text:p>
    <text:p text:style-name="P65">Der genannte Dialog ist auch jederzeit über das Menü “?”, Menüpunkt “Dokumentmonitor” zu öffnen und zeigt aktuell “überwachte” Dokumente an:</text:p>
-   <text:list xml:id="list3981564282596955762" text:style-name="L12">
+   <text:list xml:id="list2074589922863655398" text:style-name="L12">
     <text:list-item>
-     <text:p text:style-name="P296">Dateiname</text:p>
+     <text:p text:style-name="P275">Dateiname</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">schreibgeschützt ja/nein</text:p>
+     <text:p text:style-name="P275">schreibgeschützt ja/nein</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">geöffnet (Zeit)</text:p>
+     <text:p text:style-name="P275">geöffnet (Zeit)</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">zuletzt gespeichert (Zeit)</text:p>
+     <text:p text:style-name="P275">zuletzt gespeichert (Zeit)</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">Starttyp</text:p>
+     <text:p text:style-name="P275">Starttyp</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">Speichertyp</text:p>
+     <text:p text:style-name="P275">Speichertyp</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P296">Status</text:p>
+     <text:p text:style-name="P275">Status</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P66"><draw:frame draw:style-name="fr2" draw:name="Rahmen8" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="53">
+   <text:p text:style-name="P66"><draw:frame draw:style-name="fr2" draw:name="Rahmen8" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="54">
      <draw:text-box fo:min-height="3.388cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr11" draw:name="Bild13" text:anchor-type="paragraph" svg:width="17cm" svg:height="9.294cm" draw:z-index="54"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr11" draw:name="Bild13" text:anchor-type="paragraph" svg:width="17cm" svg:height="9.294cm" draw:z-index="55"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAtgAAAGOCAYAAACt7HRyAAAACXBIWXMAAA7EAAAOxAGVKw4b
           AACKCElEQVR4nO3dB1QU1wIG4B+QgAW7giXGEjWKCIpdUVGUqIgiNmyxxt57R8VCFXuLmvjs
           vXdB7AWNHcHeY8OOGEXf3kt2s8AuLDAGTf7vnTnT7ty5M+PJ+/dydzbdpfAbn0BERERERIpI
@@ -16824,15 +16891,15 @@
    </table:table>
    <text:p text:style-name="P19"/>
    <text:p text:style-name="P60"><text:span text:style-name="T18">I</text:span>n den Voreinstellungen bildet j-lawyer.org automatisch einen Dateinamen auf Basis der gewählten Vorlagen und des aktuellen Datums. Zusätzlich gibt es die Möglichkeit, die Namen von Mandanten, Gegnern oder Dritten automatisch im Dateinamen zu vermerken. Dazu müssen im Dateinamen der jeweiligen Vorlage folgende Zeichenketten enthalten sein:</text:p>
-   <text:list xml:id="list6826257219216884585" text:style-name="L13">
+   <text:list xml:id="list186687384700060057" text:style-name="L13">
     <text:list-item>
-     <text:p text:style-name="P297"><text:soft-page-break/>MANDANT</text:p>
+     <text:p text:style-name="P276"><text:soft-page-break/>MANDANT</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P297">GEGNER</text:p>
+     <text:p text:style-name="P276">GEGNER</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P297">DRITTE</text:p>
+     <text:p text:style-name="P276">DRITTE</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P60">Beispiel:</text:p>
@@ -16893,21 +16960,21 @@
    </table:table>
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P26">j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:</text:p>
-   <text:list xml:id="list3769911774311675027" text:style-name="L14">
+   <text:list xml:id="list830253148303753715" text:style-name="L14">
     <text:list-item>
-     <text:p text:style-name="P314">text: Text des Dokumentes (Standardfeld) </text:p>
+     <text:p text:style-name="P294">text: Text des Dokumentes (Standardfeld) </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P314">dateiname: Dateiname des Dokumentes </text:p>
+     <text:p text:style-name="P294">dateiname: Dateiname des Dokumentes </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P314">autor: Nutzername des Autors des Dokumentes </text:p>
+     <text:p text:style-name="P294">autor: Nutzername des Autors des Dokumentes </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P314">akte: Rubrum der Akte, die das Dokument enthält </text:p>
+     <text:p text:style-name="P294">akte: Rubrum der Akte, die das Dokument enthält </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P298">az: Aktenzeichen der Akte, die das Dokument enthält </text:p>
+     <text:p text:style-name="P277">az: Aktenzeichen der Akte, die das Dokument enthält </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P35">Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht „autor:anwalt1“ nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1“ erstellt wurden.</text:p>
@@ -16937,20 +17004,20 @@
    </table:table>
    <text:p text:style-name="P12"/>
    <text:p text:style-name="P37">j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu öffnen:</text:p>
-   <text:list xml:id="list6459023853828257680" text:style-name="L15">
+   <text:list xml:id="list9869296941518698" text:style-name="L15">
     <text:list-item>
-     <text:p text:style-name="P315">wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet </text:p>
+     <text:p text:style-name="P295">wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P299">alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet </text:p>
+     <text:p text:style-name="P278">alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P35">Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend <text:soft-page-break/>mit einer anderen Applikation geöffnet werden sollen. Dazu gibt es unter „Einstellungen“ – „Dokumente“ – „externe Programme“ entsprechende Konfigurationen. Fügen Sie zuerst einen Dateityp hinzu, bspw. jpg. Daraufhin können Sie eine ausführbare Datei auswählen und Parameter, die beim Öffnen zum Lesen bzw. zum Editieren an das ausgewählte Programm übergeben werden. Der (voreingestellte) Parameter DATEINAME wird dabei von j-lawyer automatisch ersetzt und sollte in jedem Fall erhalten bleiben und bei Bedarf lediglich um weitere Parameter ergänzt werden.</text:p>
    <text:p text:style-name="P35"/>
    <text:p text:style-name="P68">Auf Mac OS gibt es einen “Universalstarter” namens “open”, der zum Öffnen von Dateien mit vorhandenen Programmen verwendet werden kann. Zu finden ist er unter /usr/bin/open, er erwartet als Parameter unter anderem auch den Namen des auszuführenden Programmes. Um bspw. PNG-Dateien mit “Preview” bzgw. “Vorschau” zu öffnen, lauten die Einstellungen im j-lawyer.org Client wie folgt:</text:p>
-   <text:p text:style-name="P68"><draw:frame draw:style-name="fr2" draw:name="Rahmen9" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="55">
+   <text:p text:style-name="P68"><draw:frame draw:style-name="fr2" draw:name="Rahmen9" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="56">
      <draw:text-box fo:min-height="3.388cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr12" draw:name="Bild14" text:anchor-type="paragraph" svg:width="16.058cm" svg:height="10.105cm" draw:z-index="56"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr12" draw:name="Bild14" text:anchor-type="paragraph" svg:width="16.058cm" svg:height="10.105cm" draw:z-index="57"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAl8AAAF+CAIAAAAzxehEAAAACXBIWXMAAA7EAAAOxAGVKw4b
           AACIVklEQVR4nO2dDUAU173252tnl2VdEQkSQwgxhFBKCCXGGksptYZaa6m1lnKt5XotL9cQ
           Yi2x1lrjtZRSa42lhHgt1xprrddaa62xxHIJL/VaainhJdRLiSVeQgghhCDBZdmdz/c/c2Bc
@@ -17604,6 +17671,385 @@
        </draw:frame>Abbildung <text:sequence text:ref-name="refIllustration7" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">8</text:sequence>: <text:span text:style-name="T56">externes Programm unter Mac OS konfigurieren</text:span></text:p>
      </draw:text-box>
     </draw:frame></text:p>
+   <text:p text:style-name="P289">Ein ähnliches “Universalstarter”-Verhalten kann unter Windows mit cmd.exe und dem “start”-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:</text:p>
+   <text:p text:style-name="P289"><draw:frame draw:style-name="fr2" draw:name="Rahmen10" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="58">
+     <draw:text-box fo:min-height="3.388cm">
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr12" draw:name="Bild15" text:anchor-type="paragraph" svg:width="15.82cm" svg:height="10.634cm" draw:z-index="59"><draw:image>
+         <office:binary-data>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
+         </office:binary-data>
+        </draw:image>
+       </draw:frame>Abbildung <text:sequence text:ref-name="refIllustration9" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">9</text:sequence>: <text:span text:style-name="T56">externes Programm unter Microsoft Windows konfigurieren</text:span></text:p>
+     </draw:text-box>
+    </draw:frame><text:soft-page-break/></text:p>
    <text:p text:style-name="P37"/>
    <text:h text:style-name="P103" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__1206_139744116"/>PDF-Konvertierung<text:bookmark-end text:name="__RefHeading__1206_139744116"/></text:h>
    <table:table table:name="Tabelle17" table:style-name="Tabelle17">
@@ -17627,22 +18073,22 @@
     </table:table-row>
    </table:table>
    <text:p text:style-name="P14"/>
-   <text:p text:style-name="P29"><text:span text:style-name="T38">j</text:span>-lawyer.<text:span text:style-name="T38">org ist in der Lage, die meisten Dokumentenformate automatisch im </text:span><text:soft-page-break/><text:span text:style-name="T38">Hintergrund nach PDF zu konvertieren, insbesondere bei</text:span></text:p>
-   <text:list xml:id="list72580509274233893" text:style-name="L16">
+   <text:p text:style-name="P29"><text:span text:style-name="T38">j</text:span>-lawyer.<text:span text:style-name="T38">org ist in der Lage, die meisten Dokumentenformate automatisch im Hintergrund nach PDF zu konvertieren, insbesondere bei</text:span></text:p>
+   <text:list xml:id="list2790111375175870950" text:style-name="L16">
     <text:list-item>
-     <text:p text:style-name="P302">Versand von Dokumenten via Email</text:p>
+     <text:p text:style-name="P281">Versand von Dokumenten via Email</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P302">Versand von Dokumenten über die Drebis-Schnittstelle</text:p>
+     <text:p text:style-name="P281">Versand von Dokumenten über die Drebis-Schnittstelle</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P302">Versand von Dokumenten als Fax via Sipgate</text:p>
+     <text:p text:style-name="P281">Versand von Dokumenten als Fax via Sipgate</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P48">Die Konvertierung wird dabei für den Nutzer nicht direkt sichtbar im Hintergrund durchgeführt und benutzt eine externe Bibliothek “unoconv”.</text:p>
    <text:p text:style-name="P48">Zum Zeitpunkt der Veröffentlichung von j-lawyer.org 1.8 bestand eine Restriktion insbesondere für Installationen auf Mac OS X: unoconv ist <text:span text:style-name="T39">auf Mac OS X nicht lauffähig in Kombination mit LibreOffice 5</text:span>.</text:p>
    <text:p text:style-name="P48"/>
-   <text:h text:style-name="P113" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc6939_821220459"/>LibreOffice Auto-Texte zentral im Netzwerk nutzen<text:bookmark-end text:name="__RefHeading___Toc6939_821220459"/></text:h>
+   <text:h text:style-name="P113" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc6939_821220459"/><text:soft-page-break/>LibreOffice Auto-Texte zentral im Netzwerk nutzen<text:bookmark-end text:name="__RefHeading___Toc6939_821220459"/></text:h>
    <table:table table:name="Tabelle37" table:style-name="Tabelle37">
     <table:table-column table:style-name="Tabelle37.A"/>
     <table:table-column table:style-name="Tabelle37.B"/>
@@ -17666,24 +18112,24 @@
    <text:p text:style-name="P23"/>
    <text:p text:style-name="P70">Die AutoText-Funktionalität von LibreOffice ist eine Möglichkeit, über Kürzel ganze Textbausteine einzufügen und so Tipparbeit zu reduzieren. Dazu können Kürzel und Inhalte den Anforderungen entsprechend konfiguriert werden.</text:p>
    <text:p text:style-name="P70">Hier eine kurze beispielhafte Beschreibung, wie Auto-Texte zentral auf einer j-lawyer.BOX abgelegt und auf Windows-Arbeitsplätzen genutzt werden können:</text:p>
-   <text:list xml:id="list5988792597139567023" text:style-name="L17">
+   <text:list xml:id="list7730418593335284908" text:style-name="L17">
     <text:list-item>
-     <text:p text:style-name="P303">Über den Explorer ein Netzlaufwerk <text:a xlink:type="simple" xlink:href="../../../../../../J:/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">J:\</text:a> verbinden, für den Pfad <text:line-break/><text:a xlink:type="simple" xlink:href="smb://j-lawyer-box/j-lawyer-share/daten" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">\\j-lawyer-box\j-lawyer-share\daten</text:a>. Dabei die Option aktivieren, das Netzlaufwerk automatisch bei Anmeldung zu verbinden.</text:p>
+     <text:p text:style-name="P282">Über den Explorer ein Netzlaufwerk <text:a xlink:type="simple" xlink:href="../../../../../../J:/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">J:\</text:a> verbinden, für den Pfad <text:line-break/><text:a xlink:type="simple" xlink:href="smb://j-lawyer-box/j-lawyer-share/daten" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">\\j-lawyer-box\j-lawyer-share\daten</text:a>. Dabei die Option aktivieren, das Netzlaufwerk automatisch bei Anmeldung zu verbinden.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P303">Im Verzeichnis “daten” der j-lawyer.BOX wird ein neues Verzeichnis angelegt: libreoffice-autotext</text:p>
+     <text:p text:style-name="P282">Im Verzeichnis “daten” der j-lawyer.BOX wird ein neues Verzeichnis angelegt: libreoffice-autotext</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P303">LibreOffice öffnen</text:p>
+     <text:p text:style-name="P282">LibreOffice öffnen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P303">Menü “Bearbeiten”, Menüpunkt “AutoText”</text:p>
+     <text:p text:style-name="P282">Menü “Bearbeiten”, Menüpunkt “AutoText”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P303">Im Dialog einmal auf “Pfad” gehen und dieses Verzeichnis hinzufügen: J:\daten\libreoffice-autotext</text:p>
+     <text:p text:style-name="P282">Im Dialog einmal auf “Pfad” gehen und dieses Verzeichnis hinzufügen: J:\daten\libreoffice-autotext</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P312"><text:span text:style-name="T27">D</text:span><text:span text:style-name="T19">ann im Dialog auf “Kategorien” gehen und eine neue Kategorie anlegen, mit Namen “j-lawyer” und Nutzung des eben angelegten Pfades. Mit “Neu” bestätigen. Nun hat man eine zentrale AutoText-Ablage für alle Auto-Texte, die in der Kategorie “j-lawyer” angelegt werden.</text:span></text:p>
+     <text:p text:style-name="P292"><text:span text:style-name="T27">D</text:span><text:span text:style-name="T19">ann im Dialog auf “Kategorien” gehen und eine neue Kategorie anlegen, mit Namen “j-lawyer” und Nutzung des eben angelegten Pfades. Mit “Neu” bestätigen. Nun hat man eine zentrale AutoText-Ablage für alle Auto-Texte, die in der Kategorie “j-lawyer” angelegt werden.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P138" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__112_1146603382"/>Wiedervorlagen und Fristen<text:bookmark-end text:name="__RefHeading__112_1146603382"/></text:h>
@@ -17731,7 +18177,7 @@
     </table:table-row>
    </table:table>
    <text:h text:style-name="P136" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__116_1146603382"/>Add-Ons: Drebis<text:bookmark-end text:name="__RefHeading__116_1146603382"/></text:h>
-   <text:h text:style-name="P101" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__431_1146603382"/><text:bookmark-start text:name="__DdeLink__1696_1623122946"/>Allgemeines zur Drebis-Schnittstelle<text:bookmark-end text:name="__RefHeading__431_1146603382"/></text:h>
+   <text:h text:style-name="P101" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1696_1623122946"/><text:bookmark-start text:name="__RefHeading__431_1146603382"/>Allgemeines zur Drebis-Schnittstelle<text:bookmark-end text:name="__RefHeading__431_1146603382"/></text:h>
    <table:table table:name="Tabelle6" table:style-name="Tabelle6">
     <table:table-column table:style-name="Tabelle6.A"/>
     <table:table-column table:style-name="Tabelle6.B"/>
@@ -17785,42 +18231,42 @@
    </table:table>
    <text:p text:style-name="P13"/>
    <text:p text:style-name="P28"><text:span text:style-name="T36">j</text:span>-lawyer.<text:span text:style-name="T36">org unterstützt seit Version 1.8 folgende Landeskennzahlen:</text:span></text:p>
-   <text:list xml:id="list1894347195229580063" text:style-name="L18">
+   <text:list xml:id="list5102488545887180657" text:style-name="L18">
     <text:list-item>
-     <text:p text:style-name="P304">+1<text:tab/>USA</text:p>
+     <text:p text:style-name="P283">+1<text:tab/>USA</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+31<text:tab/><text:span text:style-name="T37">Niederlande</text:span></text:p>
+     <text:p text:style-name="P284">+31<text:tab/><text:span text:style-name="T37">Niederlande</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+34<text:tab/><text:span text:style-name="T37">Spanien</text:span></text:p>
+     <text:p text:style-name="P284">+34<text:tab/><text:span text:style-name="T37">Spanien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+39<text:tab/><text:span text:style-name="T37">Italien</text:span></text:p>
+     <text:p text:style-name="P284">+39<text:tab/><text:span text:style-name="T37">Italien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+41<text:tab/><text:span text:style-name="T37">Schweiz</text:span></text:p>
+     <text:p text:style-name="P284">+41<text:tab/><text:span text:style-name="T37">Schweiz</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+43<text:tab/><text:span text:style-name="T37">Österreich</text:span></text:p>
+     <text:p text:style-name="P284">+43<text:tab/><text:span text:style-name="T37">Österreich</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+44<text:tab/><text:span text:style-name="T37">UK</text:span></text:p>
+     <text:p text:style-name="P284">+44<text:tab/><text:span text:style-name="T37">UK</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+49<text:tab/><text:span text:style-name="T37">Deutschland</text:span></text:p>
+     <text:p text:style-name="P284">+49<text:tab/><text:span text:style-name="T37">Deutschland</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+53<text:tab/><text:span text:style-name="T37">Kuba</text:span></text:p>
+     <text:p text:style-name="P284">+53<text:tab/><text:span text:style-name="T37">Kuba</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+54<text:tab/><text:span text:style-name="T37">Argentinien</text:span></text:p>
+     <text:p text:style-name="P284">+54<text:tab/><text:span text:style-name="T37">Argentinien</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+598<text:tab/><text:span text:style-name="T37">Uruguay</text:span></text:p>
+     <text:p text:style-name="P284">+598<text:tab/><text:span text:style-name="T37">Uruguay</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P305">+7<text:tab/><text:span text:style-name="T37">Russland</text:span></text:p>
+     <text:p text:style-name="P284">+7<text:tab/><text:span text:style-name="T37">Russland</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P45">Anschlüsse in den angegebenen Ländern können aus j-lawyer.org heraus Faxe, SMS und Anrufe empfangen.</text:p>
@@ -17850,18 +18296,18 @@
    </table:table>
    <text:p text:style-name="P17"/>
    <text:p text:style-name="P59">Wird das System mit mehren Arbeitsplätzen im Netzwerk verwendet, so sind folgende Voraussetzungen zu erfüllen:</text:p>
-   <text:list xml:id="list6492727223657148882" text:style-name="L19">
+   <text:list xml:id="list8542587413954623285" text:style-name="L19">
     <text:list-item>
-     <text:p text:style-name="P306">Das Gerät mit dem j-lawyer.org Server sollte über eine feste IPv4 verfügen. Es empfiehlt sich diese Einstellung am DHCP-Server vorzunehmen, in kleinen Netzwerken ist diese Funktion bspw. in gängige Router integriert.</text:p>
+     <text:p text:style-name="P285">Das Gerät mit dem j-lawyer.org Server sollte über eine feste IPv4 verfügen. Es empfiehlt sich diese Einstellung am DHCP-Server vorzunehmen, in kleinen Netzwerken ist diese Funktion bspw. in gängige Router integriert.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P306">Der j-lawyer.org Server muss an die feste IP “gebunden” werden. Verbinden Sie dazu mit einem lokal laufenden j-lawyer.org Client und öffnen Sie “Einstellungen” - “Administratorkonsole”. Rufen Sie den Befehl “getbindings” auf. <text:s/>Im Fall einer falschen Konfiguration erscheint eine Ausgabe wie folgt:</text:p>
-     <text:p text:style-name="P313">server misconfigured! use setbindings command to correct.<text:line-break/> setbindings 192.168.178.24</text:p>
-     <text:p text:style-name="P306">Führen Sie dann den in der zweiten Zeile angegebenen Befehl aus und starten Sie anschließend den j-lawyer.org Server neu.</text:p>
+     <text:p text:style-name="P285">Der j-lawyer.org Server muss an die feste IP “gebunden” werden. Verbinden Sie dazu mit einem lokal laufenden j-lawyer.org Client und öffnen Sie “Einstellungen” - “Administratorkonsole”. Rufen Sie den Befehl “getbindings” auf. <text:s/>Im Fall einer falschen Konfiguration erscheint eine Ausgabe wie folgt:</text:p>
+     <text:p text:style-name="P293">server misconfigured! use setbindings command to correct.<text:line-break/> setbindings 192.168.178.24</text:p>
+     <text:p text:style-name="P285">Führen Sie dann den in der zweiten Zeile angegebenen Befehl aus und starten Sie anschließend den j-lawyer.org Server neu.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P55"/>
-   <text:h text:style-name="P105" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1556_631673019"/><text:bookmark-start text:name="__RefHeading___Toc1752_579777149"/>Portkonflikte beheben<text:bookmark-end text:name="__RefHeading___Toc1752_579777149"/></text:h>
+   <text:h text:style-name="P105" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc1752_579777149"/><text:bookmark-start text:name="__DdeLink__1556_631673019"/>Portkonflikte beheben<text:bookmark-end text:name="__RefHeading___Toc1752_579777149"/></text:h>
    <table:table table:name="Tabelle23" table:style-name="Tabelle23">
     <table:table-column table:style-name="Tabelle23.A"/>
     <table:table-column table:style-name="Tabelle23.B"/>
@@ -17884,9 +18330,9 @@
    </table:table>
    <text:p text:style-name="P15"/>
    <text:p text:style-name="P30"><text:span text:style-name="T44">Der j-lawyer.org Server “lauscht” an verschiedenen Ports auf eingehende Netzwerkverbindungen, so bspw. auch auf Port 8080</text:span>. <text:span text:style-name="T44">Eine vollständige Liste der verwendeten Ports findet man im Installationsverzeichnis des Servers unter \wildfly-9.0.2.Final\standalone\configuration\standalone-full.xml:</text:span></text:p>
-   <text:p text:style-name="P30"><draw:frame draw:style-name="fr2" draw:name="Rahmen6" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="48">
+   <text:p text:style-name="P30"><draw:frame draw:style-name="fr2" draw:name="Rahmen6" text:anchor-type="paragraph" svg:width="17cm" draw:z-index="49">
      <draw:text-box fo:min-height="4.334cm">
-      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr13" draw:name="Bild10" text:anchor-type="paragraph" svg:width="17cm" svg:height="3.704cm" draw:z-index="49"><draw:image>
+      <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr13" draw:name="Bild10" text:anchor-type="paragraph" svg:width="17cm" svg:height="3.704cm" draw:z-index="50"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAA/YAAADdCAIAAACe+X5rAAAACXBIWXMAAA+wAAAPsQHwZa38
           AADi9UlEQVR4nOydCVxO2fvA3/ZFolVaNCTaZDdEpcwwpSmJkm0sI5Q22pX23t7eQoTIEuNf
           UamoUMww/Wwzyp4MQ0rKkqQpoeX/vO+t6/W+773dm5fI/X7up895n8597rnnPOfc55x77jmi
@@ -18967,7 +19413,7 @@
           AZ4bzx+Ts9oWAAAAAElFTkSuQmCC
          </office:binary-data>
         </draw:image>
-       </draw:frame>Abbildung <text:sequence text:ref-name="refIllustration8" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">9</text:sequence>: <text:span text:style-name="T44">Portkonfiguration</text:span></text:p>
+       </draw:frame>Abbildung <text:sequence text:ref-name="refIllustration8" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">10</text:sequence>: <text:span text:style-name="T44">Portkonfiguration</text:span></text:p>
      </draw:text-box>
     </draw:frame><text:soft-page-break/></text:p>
    <text:p text:style-name="P54">Sollte es einen Portkonflikt geben, so kann entweder der betroffene Port direkt geändert werden, oder es kann ein “Offset” definiert werden, bspw. “100” um auf alle Portkonfigurationen den Wert 100 zu addieren. Die Angabe erfolgt in der obersten dargestellten Zeile, bspw. Wie folgt:</text:p>
@@ -19003,18 +19449,18 @@
    <text:p text:style-name="P38">Ab Version 1.7 kann im gleichen Dialog ein Sofort-Backup erstellt werden.</text:p>
    <text:p text:style-name="P38">Es wird empfohlen eine Administrator-Email (unter „Einstellungen“ – „Servermonitoring“) zu hinterlegen – Sie erhalten dann eine Zusammenfassung per E-Mail, sobald die Datensicherung abgeschlossen ist.</text:p>
    <text:p text:style-name="P62">Es ist dringend empfohlen, die Datensicherungen regelmäßig auf einem <text:soft-page-break/>externen Speicher abzulegen und nicht ausschließlich auf dem j-lawyer.org Server zu archivieren (bspw. für den Fall eines Festplattendefekts). Ab Version 1.8.1 kann in der Registerkarte “Synchronisation” ein Abgleich mit einem externen Speicherort eingestellt werden. Unterstützt werden</text:p>
-   <text:list xml:id="list8484868073707078537" text:style-name="L20">
+   <text:list xml:id="list3768823683356849739" text:style-name="L20">
     <text:list-item>
-     <text:p text:style-name="P291">Windows-Freigaben</text:p>
+     <text:p text:style-name="P270">Windows-Freigaben</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P291">Samba-Freigaben</text:p>
+     <text:p text:style-name="P270">Samba-Freigaben</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P291">SFTP (SSH)-Server</text:p>
+     <text:p text:style-name="P270">SFTP (SSH)-Server</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P291">anderer lokaler Ordner (sinnvoll bspw. wenn es auf dem j-lawyer.org Server ein Verzeichnis gibt, das mit Clouddiensten synchronisiert wird). </text:p>
+     <text:p text:style-name="P270">anderer lokaler Ordner (sinnvoll bspw. wenn es auf dem j-lawyer.org Server ein Verzeichnis gibt, das mit Clouddiensten synchronisiert wird). </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P62">Stellen Sie in jedem Fall sicher, daß der externe Speicherplatz vor Fremdzugriffen ausreichend gesichert ist!<text:line-break/>Es ist nicht zwingend notwendig, daß der externe Speicher zum Zeitpunkt der Datensicherung verfügbar ist. Das System wird stündlich eine Synchronisation probieren. So ist es möglich, in einem Kanzleinetzwerk eine Synchronisation auf einen “normalen” Arbeitsplatzrechner durchzuführen der nur zur üblichen Bürozeiten eingeschaltet ist.</text:p>
@@ -19042,20 +19488,20 @@
    </table:table>
    <text:p text:style-name="P12"/>
    <text:p text:style-name="P27">Eine Wiederherstellung Ihrer Daten aus einem Backup ist über folgende Schritte möglich:</text:p>
-   <text:list xml:id="list3543157221846954308" text:style-name="L21">
+   <text:list xml:id="list1025326098400380608" text:style-name="L21">
     <text:list-item>
-     <text:p text:style-name="P316">Stoppen Sie den j-lawyer – Server </text:p>
+     <text:p text:style-name="P296">Stoppen Sie den j-lawyer – Server </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P300">Entpacken Sie eine vom j-lawyer Server erstellte Backup-ZIP-Datei </text:p>
+     <text:p text:style-name="P279">Entpacken Sie eine vom j-lawyer Server erstellte Backup-ZIP-Datei </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P35">Unter Linux nutzen Sie Ihr favorisiertes Packprogramm ihres Window Managers oder nutzen das Terminal:</text:p>
    <text:p text:style-name="P237"><text:tab/>unzip &lt;Dateiname&gt;</text:p>
    <text:p text:style-name="P73"><text:span text:style-name="T19">Unter Windows kann ich das kostenlose Programm </text:span><text:a xlink:type="simple" xlink:href="http://www.7-zip.de/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T19">7zip</text:span></text:a><text:span text:style-name="T19"> empfehlen.</text:span></text:p>
-   <text:list xml:id="list1120816027122359060" text:style-name="L22">
+   <text:list xml:id="list367057865643902888" text:style-name="L22">
     <text:list-item>
-     <text:p text:style-name="P301">Datenbank einspielen </text:p>
+     <text:p text:style-name="P280">Datenbank einspielen </text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P35">Öffnen Sie eine Eingabeaufforderung / Terminal und wechseln Sie in das Verzeichnis, in welches Sie die ZIP-Datei entpackt haben. Von dort starten Sie den MySQL-Kommandozeilen-Client</text:p>
@@ -19093,7 +19539,7 @@
    </table:table>
    <text:p text:style-name="P20"/>
    <text:p text:style-name="P32"><text:span text:style-name="T52">Für den Fall von Problemen mit dem System (j-lawyer.org Serverdienst und/oder j-lawyer.org Client) oder für eine Offline-Nutzung Ihrer Daten ohne Software (abgesehen von einem gängigen Internetbrowser)</text:span><text:span text:style-name="T21"> </text:span><text:span text:style-name="T52">können Sie mit jeder Datensicherung einen Export aller Aktendaten in das HTML-Format konfigurieren. In den Einstellungen zur automatischen Datensicherungen geben Sie dazu in der Registerkarte “HTML-Export” ein Zielverzeichnis auf dem </text:span><text:span text:style-name="T12">Server</text:span><text:span text:style-name="T52"> an. Jede Akte wird in einen Unterordner exportiert – das Aktenzeichen fungiert dabei als Ordnername. Direkt im Zielverzeichnis befindet sich auch eine LibreOffice-Datei mit allen Wiedervorlagen und Fristen, sodass keine Fälligkeit verpasst werden kann.</text:span></text:p>
-   <text:h text:style-name="P101" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__437_1146603382"/><text:bookmark-start text:name="__DdeLink__1694_1623122946"/>Monitoring<text:bookmark-end text:name="__RefHeading__437_1146603382"/></text:h>
+   <text:h text:style-name="P101" text:outline-level="2"><text:bookmark-start text:name="__DdeLink__1694_1623122946"/><text:bookmark-start text:name="__RefHeading__437_1146603382"/>Monitoring<text:bookmark-end text:name="__RefHeading__437_1146603382"/></text:h>
    <table:table table:name="Tabelle13" table:style-name="Tabelle13">
     <table:table-column table:style-name="Tabelle13.A"/>
     <table:table-column table:style-name="Tabelle13.B"/>
@@ -19229,27 +19675,27 @@
    </table:table>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P56">Sollte beim Öffnen von Dokumenten aus einer Akte heraus die LibreOffice-Anwendung immer im Hintergrund starten, so kann wie folgt erzwungen werden, das Dokument im Vordergrund zu öffnen:</text:p>
-   <text:list xml:id="list2736023299433240901" text:style-name="L23">
+   <text:list xml:id="list4443545316370237455" text:style-name="L23">
     <text:list-item>
-     <text:p text:style-name="P307">LibreOffice Writer öffnen </text:p>
+     <text:p text:style-name="P286">LibreOffice Writer öffnen </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">Menü “Extra” - “Optionen” anklicken</text:p>
+     <text:p text:style-name="P286">Menü “Extra” - “Optionen” anklicken</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">Eintrag “LibreOffice” - “Erweitert” wählen</text:p>
+     <text:p text:style-name="P286">Eintrag “LibreOffice” - “Erweitert” wählen</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">Rechts unten Button &quot;Experteneinstellungen öffnen&quot; klicken</text:p>
+     <text:p text:style-name="P286">Rechts unten Button &quot;Experteneinstellungen öffnen&quot; klicken</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">ins Suchfeld &quot;ForceFocusAndToFront&quot; eingeben und auf suchen klicken</text:p>
+     <text:p text:style-name="P286">ins Suchfeld &quot;ForceFocusAndToFront&quot; eingeben und auf suchen klicken</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">Eintrag &quot;NewDocumentHandling&quot; markieren und unten auf Bearbeiten klicken</text:p>
+     <text:p text:style-name="P286">Eintrag &quot;NewDocumentHandling&quot; markieren und unten auf Bearbeiten klicken</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P307">Der Wert des Eintrages sollte dann von false auf true wechseln</text:p>
+     <text:p text:style-name="P286">Der Wert des Eintrages sollte dann von false auf true wechseln</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P56">Dann mit OK betätigen und LibreOffice (Writer und Calc) sollten die Dokumente nun auch im Vordergrund öffnen.</text:p>
@@ -19279,21 +19725,21 @@
    <text:p text:style-name="P57"><text:span text:style-name="T57">Unter Mac OS ist mit CMD(“Apfeltaste”)+C ein Kopieren, mit CMD(“Apfeltaste”)+V ein Einfügen möglich</text:span>.</text:p>
    <text:p text:style-name="P69">j-lawyer.org wird plattformübergreifend für Windows, Linux und Mac OS entwickelt und es gibt an dieser Stelle eine Besonderheit für Mac OS-Nutzer zu beachten: die “Schlüsseltest” innerhalb von j-lawyer.org ist Strg / Ctrl. Man verfährt daher wie folgt:</text:p>
    <text:p text:style-name="P69">Kopieren aus einer Mac OS-Anwendung nach j-lawyer.org:</text:p>
-   <text:list xml:id="list9151255870817180358" text:style-name="L24">
+   <text:list xml:id="list3449983935732899634" text:style-name="L24">
     <text:list-item>
-     <text:p text:style-name="P308">In Mac OS-Anwendung markieren und CMD+C</text:p>
+     <text:p text:style-name="P287">In Mac OS-Anwendung markieren und CMD+C</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P308">In j-lawyer.org anschließend Strg+V</text:p>
+     <text:p text:style-name="P287">In j-lawyer.org anschließend Strg+V</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P69">Und für das Kopieren aus j-lawyer.org in eine Mac OS-Anwendung:</text:p>
-   <text:list xml:id="list2592157152601914662" text:style-name="L25">
+   <text:list xml:id="list8363105943052620140" text:style-name="L25">
     <text:list-item>
-     <text:p text:style-name="P309"><text:soft-page-break/>In j-lawyer.org markieren und Strg+C</text:p>
+     <text:p text:style-name="P288"><text:soft-page-break/>In j-lawyer.org markieren und Strg+C</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P309">In Mac OS-Awendung anschließend CMD+V</text:p>
+     <text:p text:style-name="P288">In Mac OS-Awendung anschließend CMD+V</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P27"/>
@@ -19319,7 +19765,8 @@
      <text:p text:style-name="P241">Abbildung 6: aktenübergreifende Historienanzeige<text:tab/>12</text:p>
      <text:p text:style-name="P241">Abbildung 7: Dokumentmonitor<text:tab/>15</text:p>
      <text:p text:style-name="P241">Abbildung 8: externes Programm unter Mac OS konfigurieren<text:tab/>20</text:p>
-     <text:p text:style-name="P241">Abbildung 9: Portkonfiguration<text:tab/>27</text:p>
+     <text:p text:style-name="P241">Abbildung 9: externes Programm unter Microsoft Windows konfigurieren<text:tab/>21</text:p>
+     <text:p text:style-name="P241">Abbildung 10: Portkonfiguration<text:tab/>28</text:p>
     </text:index-body>
    </text:illustration-index>
    <text:p text:style-name="P27"/>
