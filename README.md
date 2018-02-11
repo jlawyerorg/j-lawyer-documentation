@@ -24,9 +24,9 @@ http://www.j-lawyer.org
 
 ## Lizenz
 
-Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License
+GNU AFFERO GENERAL PUBLIC LICENSE
 
-http://creativecommons.org/licenses/by-nc-nd/3.0/de/
+https://www.gnu.org/licenses/agpl-3.0.txt
 
 # EN: j-lawyer-documentation
 
@@ -54,6 +54,6 @@ http://www.j-lawyer.org
 
 ## License
 
-Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany License
+GNU AFFERO GENERAL PUBLIC LICENSE
 
-http://creativecommons.org/licenses/by-nc-nd/3.0/de/
+https://www.gnu.org/licenses/agpl-3.0.txt
