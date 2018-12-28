@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/jlawyerorg/j-lawyer-documentation.svg?branch=master)](https://travis-ci.org/jlawyerorg/j-lawyer-documentation)
+
 # DE: j-lawyer-documentation
 
 Dokumentationsprojekt für j-lawyer.org
