@@ -86,24 +86,25 @@
     </target>
     
     <target name="publish" depends="convertToPdf, convertToHtml">
-        <echo message="publishing to ${remoteuser}@${remotedir}"/>
-            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-de.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-de.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-en.pdf" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
+        <property environment="env"/>
+        <echo message="publishing to ${env.remoteuser}@${env.remotedir}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-de.pdf" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-UserGuide-en.pdf" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-de.pdf" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/pdf/j-lawyer.org-ReleaseNotes-en.pdf" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
             
-            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-de.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>   
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-de.html" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-UserGuide-en.html" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-de.html" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/build/html/j-lawyer.org-ReleaseNotes-en.html" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>   
             
-            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-de.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-en.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/>
-            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt" todir="${remoteuser}@${remotedir}" password="${remotepwd}"/> 
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-de.fodt" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-UserGuide-en.fodt" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-de.fodt" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/>
+            <scp trust="true" file="${basedir}/src/j-lawyer.org-ReleaseNotes-en.fodt" todir="${env.remoteuser}@${env.remotedir}" password="${env.remotepwd}"/> 
             
             <!-- updates the "last generated" timestamp on the website -->
-            <sshexec trust="true" host="www.j-lawyer.org" username="${remoteuser}" password="${remotepwd}" command="${remotecommand1}" failonerror="false"/>
+            <sshexec trust="true" host="www.j-lawyer.org" username="${env.remoteuser}" password="${env.remotepwd}" command="${env.remotecommand1}" failonerror="false"/>
             
         </target>
     
