@@ -24,4 +24,4 @@ before_install:
   - cd /home/travis/build/jlawyerorg/j-lawyer-documentation
   - sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de
   - sudo apt-get install unoconv
-script: ant publish
+script: ant convertToPdf && ant publish
