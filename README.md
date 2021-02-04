@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/jlawyerorg/j-lawyer-documentation.svg?branch=master)](https://travis-ci.org/jlawyerorg/j-lawyer-documentation)
+![CI](https://github.com/jlawyerorg/j-lawyer-documentation/workflows/CI/badge.svg)
 
 
 # DE: j-lawyer-documentation
