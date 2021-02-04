@@ -30,7 +30,9 @@ jobs:
           java-package: jdk # (jre, jdk, or jdk+fx) - defaults to jdk
           architecture: x64 # (x64 or x86) - defaults to x64
 
-      # Runs a single command using the runners shell
+      - name: Install LibreOffice and unoconv
+        run: sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de unoconv
+        
       - name: Create documentation and publish to server
         run: ant convertToPdf && ant publish
 
