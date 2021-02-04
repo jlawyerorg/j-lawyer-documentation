@@ -42,4 +42,8 @@ jobs:
 
       - name: Create documentation and publish to server
         run: ant convertToPdf && ant publish
+        env:
+          remotedir: ${{ secrets.REMOTEDIR }}
+          remoteuser: ${{ secrets.REMOTEUSER }}
+          remotepwd: ${{ secrets.REMOTEPWD }}:  
 
