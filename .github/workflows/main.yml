@@ -31,8 +31,8 @@ jobs:
           architecture: x64 # (x64 or x86) - defaults to x64
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Create documentation and publish to server
+        run: ant convertToPdf && ant publish
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
