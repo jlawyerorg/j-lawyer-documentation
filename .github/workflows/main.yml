@@ -31,10 +31,15 @@ jobs:
           architecture: x64 # (x64 or x86) - defaults to x64
 
       - name: Install LibreOffice and unoconv
-        run: sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de unoconv
+        run: sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de unoconv wget
         
       - name: Create documentation and publish to server
         run: ant convertToPdf && ant publish
+        
+      - name: Get JSch libraries
+        run:  |
+          wget -O /home/runner/.ant/lib/jsh.jar https://search.maven.org/remotecontent?filepath=com/jcraft/jsch/0.1.55/jsch-0.1.55.jar
+          wget -O /home/runner/.ant/lib/ant-jsh.jar https://search.maven.org/remotecontent?filepath=org/apache/ant/ant-jsch/1.10.6/ant-jsch-1.10.6.jar
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
