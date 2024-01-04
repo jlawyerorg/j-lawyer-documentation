@@ -10,3 +10,5 @@ nbactions.xml
 .nb-gradle/
 /temp/
 /src/.directory
+/src/j-lawyer.org-UserGuide-de.pdf
+/src/j-lawyer.BOX-QuickStart-de.pdf
