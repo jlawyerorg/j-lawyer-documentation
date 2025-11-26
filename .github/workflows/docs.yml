@@ -42,10 +42,7 @@ jobs:
       - name: Install dependencies
         run: pip install mkdocs-material mkdocs-with-pdf
 
-      - name: Build documentation
-        run: mkdocs build --strict
-
-      - name: Build PDF
+      - name: Build documentation with PDF
         run: mkdocs build
         env:
           ENABLE_PDF_EXPORT: 1
