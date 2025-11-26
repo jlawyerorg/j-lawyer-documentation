@@ -1,11 +1,13 @@
 # j-lawyer.org Dokumentation
 
+![j-lawyer.org Logo](images/logo.png){ width="200" }
+
 Willkommen zur Dokumentation von **j-lawyer.org** - der freien Kanzleisoftware.
 
 ## Schnellstart
 
-- **[Benutzerhandbuch](benutzerhandbuch/vollstaendig.md)** - Umfassende Anleitung zur Nutzung von j-lawyer.org
-- **[Installation](benutzerhandbuch/vollstaendig.md#installation)** - Installationsanleitungen für Windows, macOS und Linux
+- **[Benutzerhandbuch](benutzerhandbuch/index.md)** - Umfassende Anleitung zur Nutzung von j-lawyer.org
+- **[Installation](benutzerhandbuch/installation.md)** - Installationsanleitungen für Windows, macOS und Linux
 - **[Release Notes](releasenotes/index.md)** - Aktuelle Änderungen und neue Funktionen
 
 ## Über j-lawyer.org

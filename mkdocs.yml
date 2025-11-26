@@ -9,6 +9,8 @@ repo_name: jlawyerorg/j-lawyer-documentation
 theme:
   name: material
   language: de
+  logo: images/logo.png
+  favicon: images/logo.png
   palette:
     - scheme: default
       primary: indigo
@@ -60,7 +62,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/j-lawyer-org
+      link: https://github.com/jlawyerorg
   generator: false
 
 copyright: Copyright &copy; j-lawyer.org - GNU AGPL v3
@@ -69,7 +71,40 @@ nav:
   - Start: index.md
   - Benutzerhandbuch:
     - Übersicht: benutzerhandbuch/index.md
-    - Vollständiges Handbuch: benutzerhandbuch/vollstaendig.md
+    - Grundlagen:
+      - Systemvoraussetzungen: benutzerhandbuch/systemvoraussetzungen.md
+      - Installation: benutzerhandbuch/installation.md
+      - Programmoberfläche: benutzerhandbuch/oberflaeche.md
+      - Erste Schritte: benutzerhandbuch/erste-schritte.md
+    - Tägliche Arbeit:
+      - Aktenverwaltung: benutzerhandbuch/aktenverwaltung.md
+      - Kontakte / Adressen: benutzerhandbuch/adressen.md
+      - Dokumentenmanagement: benutzerhandbuch/dokumentenmanagement.md
+      - Kalender: benutzerhandbuch/kalender.md
+    - Kommunikation:
+      - E-Mail: benutzerhandbuch/email.md
+      - Postvorlagen: benutzerhandbuch/postvorlagen.md
+      - Instant Messaging: benutzerhandbuch/messaging.md
+    - Finanzen & Auswertungen:
+      - Finanzen: benutzerhandbuch/finanzen.md
+      - Forderungskonto: benutzerhandbuch/forderungskonto.md
+      - Auswertungen: benutzerhandbuch/auswertungen.md
+    - KI-Assistent: benutzerhandbuch/ki-assistent.md
+    - Add-Ons:
+      - beA: benutzerhandbuch/addon-bea.md
+      - E-POST: benutzerhandbuch/addon-epost.md
+      - Drebis: benutzerhandbuch/addon-drebis.md
+      - Sipgate: benutzerhandbuch/addon-sipgate.md
+      - Softphone: benutzerhandbuch/addon-softphone.md
+      - Nextcloud: benutzerhandbuch/addon-nextcloud.md
+      - Gravity Forms: benutzerhandbuch/addon-gravityforms.md
+      - XJustiz: benutzerhandbuch/addon-xjustiz.md
+    - Verwaltung:
+      - Administration: benutzerhandbuch/administration.md
+      - Schnittstellen: benutzerhandbuch/schnittstellen.md
+      - Deinstallation: benutzerhandbuch/deinstallation.md
+      - Fehlerbehebung: benutzerhandbuch/fehlerbehebung.md
+      - j-lawyer.BOX: benutzerhandbuch/jlawyer-box.md
   - Release Notes:
     - Übersicht: releasenotes/index.md
     - Version 3.4: releasenotes/v3-4.md
