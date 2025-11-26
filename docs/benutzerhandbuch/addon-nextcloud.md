@@ -23,7 +23,7 @@ Die Verknüpfung mit dem Nutzer der Kanzleisoftware gibt die größtmögliche Fl
 
 Nach erfolgreicher Verknüpfung eines Nextcloud-Zugangs können aus der Akte heraus ein oder mehrere Dokumente selektiert und per Aktionsdropdown freigegeben werden (“Freigabe senden”). Anschließend kann in einem Dialog entweder eine vorhandene Freigabe genutzt und die Dokumente dorthin hochgeladen oder eine neue Freigabe erstellt werden.
 
-![Abbildung 57](../images/j-lawyer-org-UserGuide-de-057.png)
+![Abbildung 57](../images/j-lawyer-org-UserGuide-de-063.png)
 
 
 Der Empfänger der Freigabe als auch das Aktenzeichen können automatisch als Ordner verwendet werden, auch in Kombination.

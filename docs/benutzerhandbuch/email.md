@@ -18,17 +18,17 @@ Microsoft 365 Admin Center öffnen: https://admin.microsoft.com/
 
 Links auf „Benutzer“, danach „Aktive Benutzer“.
 
-![Abbildung 27](../images/j-lawyer-org-UserGuide-de-027.png)
+![Abbildung 27](../images/j-lawyer-org-UserGuide-de-033.png)
 
 
 Für jeden Nutzer wird in den Einstellungen (vgl. Screenshots) die Anmeldung mittels SMTP erlaubt. Dazu einmal auf den jeweiligen Account klicken und anschließend auf „E-Mail“, gefolgt von „E-Mail-Apps verwalten“:
 
-![Abbildung 28](../images/j-lawyer-org-UserGuide-de-028.png)
+![Abbildung 28](../images/j-lawyer-org-UserGuide-de-034.png)
 
 
 Stellen Sie sicher, dass „IMAP“ und „Authentifiziertes SMTP“ aktiviert sind:
 
-![Abbildung 29](../images/j-lawyer-org-UserGuide-de-029.png)
+![Abbildung 29](../images/j-lawyer-org-UserGuide-de-035.png)
 
 
 2. optional: Konten ohne Zweifaktor-Authentifizierung erlauben
@@ -37,10 +37,10 @@ Sollen Konten ohne Zweifaktor-Authentifizierung angebunden werden, so sind Einst
 
 Einstellungen öffnen: https://entra.microsoft.com/#home
 
-![Abbildung 30](../images/j-lawyer-org-UserGuide-de-030.png)
+![Abbildung 30](../images/j-lawyer-org-UserGuide-de-036.png)
 
 
-![Abbildung 31](../images/j-lawyer-org-UserGuide-de-031.png)
+![Abbildung 31](../images/j-lawyer-org-UserGuide-de-037.png)
 
 
 3. Moderne Authentifizierung konfigurieren
@@ -49,10 +49,10 @@ Microsoft 365 Admin Center öffnen: https://admin.microsoft.com/
 
 Links im Menü auf „Alle anzeigen“, dann auf „Einstellungen“ und „Einstellungen der Organisation“. Dort unter „Moderne Authentifizierung“ die Option „Authentifiziertes SMTP“ aktivieren:
 
-![Abbildung 32](../images/j-lawyer-org-UserGuide-de-032.png)
+![Abbildung 32](../images/j-lawyer-org-UserGuide-de-038.png)
 
 
-![Abbildung 33](../images/j-lawyer-org-UserGuide-de-033.png)
+![Abbildung 33](../images/j-lawyer-org-UserGuide-de-039.png)
 
 
 4. App erstellen
@@ -63,7 +63,7 @@ https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Over
 
 Nach erfolgreichem Login sollte man eine Übersichtsseite erhalten, welche Basisinformation wie bspw. die Mandanten-ID beinhaltet:
 
-![Abbildung 34](../images/j-lawyer-org-UserGuide-de-034.png)
+![Abbildung 34](../images/j-lawyer-org-UserGuide-de-040.png)
 
 
 Die Mandanten-ID sollte kopiert werden – sie wird später für die Konfiguration im j-lawyer.org Client benötigt.
@@ -72,12 +72,12 @@ Neue App registrieren
 
 Im linken Navigationsbereich auf „App-Berechtigungen“, anschließend auf „Neue Registrierung“.
 
-![Abbildung 35](../images/j-lawyer-org-UserGuide-de-035.png)
+![Abbildung 35](../images/j-lawyer-org-UserGuide-de-041.png)
 
 
 Im ersten Schritt wird ein Name für die App angegeben, bspw. „j-lawyer.org IMAP“ oder „j-lawyer.org E-Mail“:
 
-![Abbildung 36](../images/j-lawyer-org-UserGuide-de-036.png)
+![Abbildung 36](../images/j-lawyer-org-UserGuide-de-042.png)
 
 
 Anschließend per Klick auf „Registrieren“ eine leere App-Hülle erstellen.
@@ -88,18 +88,18 @@ Im Folgenden werden der App Berechtigungen gegeben und es wird ein App-spezifisc
 
 Zunächst notiert / kopiert man sich die „Anwendungs-ID“ (auch Client-ID genannt) zur späteren Nutzung im j-lawyer.org Client:
 
-![Abbildung 37](../images/j-lawyer-org-UserGuide-de-037.png)
+![Abbildung 37](../images/j-lawyer-org-UserGuide-de-043.png)
 
 
 Nach einem Klick auf „API-Berechtigungen“ sollte die App bereits über das Recht „User.Read“ verfügen:
 
-![Abbildung 38](../images/j-lawyer-org-UserGuide-de-038.png)
+![Abbildung 38](../images/j-lawyer-org-UserGuide-de-044.png)
 
 
 Nach einem Klick auf „Berechtigung hinzufügen“ wählt man „Microsoft Graph“ aus:
 
 
-![Abbildung 39](../images/j-lawyer-org-UserGuide-de-039.png)
+![Abbildung 39](../images/j-lawyer-org-UserGuide-de-045.png)
 
 
 Nach Auswahl von „Delegierte Berechtigungen“ werden in der Kategorie „OpenID-Berechtigungen“ die Werte
@@ -109,12 +109,12 @@ Nach Auswahl von „Delegierte Berechtigungen“ werden in der Kategorie „Open
 
 ausgewählt.
 
-![Abbildung 40](../images/j-lawyer-org-UserGuide-de-040.png)
+![Abbildung 40](../images/j-lawyer-org-UserGuide-de-046.png)
 
 
 Im selben Dialog wird in der Kategorie „IMAP“ die folgende Berechtigung gewählt:
 
-![Abbildung 41](../images/j-lawyer-org-UserGuide-de-041.png)
+![Abbildung 41](../images/j-lawyer-org-UserGuide-de-047.png)
 
 
 Analog verfahren für „SMTP.Send“ in der Kategorie „SMTP“.
@@ -127,28 +127,28 @@ Im letzten Schritt wird für die App ein eigenes Passwort vergeben, das sogenann
 
 Dazu zunächst im linken Navigationsbereich auf „Zertifikate und Geheimnisse“, anschließend auf „Neuer geheimer Clientschlüssel“:
 
-![Abbildung 42](../images/j-lawyer-org-UserGuide-de-042.png)
+![Abbildung 42](../images/j-lawyer-org-UserGuide-de-048.png)
 
 
 Im daraufhin erscheinenden Detail-Dialog vergeben Sie eine Beschreibung, bspw. „Zugriff auf das Postfach über j-lawyer“ o.ä., sowie eine Gültigkeitsdauer. Wer Aufwand sparen möchte, nutzt die maximal möglichen 24 Monate. Es ist empfehlenswert, sich einen Termin ein paar Wochen vor Ablauf im Kalender zu vermerken: „Azure AD Client Secret erneuern“. Zu diesem Zeitpunkt muss Punkt (4) dieser Anleitung erneut ausgeführ und das neue Client Secret im j-lawyer.org Client hinterlegt werden.
 
 Nach Bestätigung erhält man das eigentliche Client Secret:
 
-![Abbildung 43](../images/j-lawyer-org-UserGuide-de-043.png)
+![Abbildung 43](../images/j-lawyer-org-UserGuide-de-049.png)
 
 
 Relevant ist der „Wert“, nicht die „Geheime ID“. Den Wert daher für die spätere Nutzung kopieren. Anschließend wird die Einrichtung im j-lawyer.org Client abgeschlossen.
 
 Abschließend unter „Authentifizierung“ der App die Option „Öffentliche Clientflows zulassen“ aktivieren:
 
-![Abbildung 44](../images/j-lawyer-org-UserGuide-de-044.png)
+![Abbildung 44](../images/j-lawyer-org-UserGuide-de-050.png)
 
 
 5. Einbinden des Postfaches im j-lawyer.org Client
 
 Im Client im Menü „Einstellungen“ – „E-Mail – Postfächer“ wird über den „+“-Knopf ein Postfach hinzugefügt und wie folgt konfiguriert:
 
-![Abbildung 45](../images/j-lawyer-org-UserGuide-de-045.png)
+![Abbildung 45](../images/j-lawyer-org-UserGuide-de-051.png)
 
 
 Die Servernamen sind hier kopierbar aufgeführt:

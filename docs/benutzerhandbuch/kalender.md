@@ -6,7 +6,7 @@ Termine, Wiedervorlagen und Fristen können in separaten Kalendern organisiert w
 
 Hat ein Nutzer nur Zugriff auf jeweils einen Kalender für einen Ereignistyp, ist nichts weiter zu beachten. Gibt es für einen Nutzer bspw. mehrere Terminkalender, so kann bei Terminerstellung der gewünschte Zielkalender ausgewählt werden:
 
-![Abbildung 21](../images/j-lawyer-org-UserGuide-de-021.png)
+![Abbildung 21](../images/j-lawyer-org-UserGuide-de-027.png)
 
 
 Beim Erstellen und Ändern von Kalendereinträgen wird eine Konfliktprüfung ausgeführt.

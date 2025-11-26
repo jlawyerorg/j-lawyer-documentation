@@ -47,7 +47,7 @@ Wird das System mit mehren Arbeitsplätzen im Netzwerk verwendet, so sind folgen
 
 Der j-lawyer.org Server “lauscht” an verschiedenen Ports auf eingehende Netzwerkverbindungen, so bspw. auch auf Port 8080. Eine vollständige Liste der verwendeten Ports findet man im Installationsverzeichnis des Servers, dort unter \wildfly\standalone\configuration\standalone.xml:
 
-![Abbildung 63](../images/j-lawyer-org-UserGuide-de-063.png)
+![Abbildung 63](../images/j-lawyer-org-UserGuide-de-069.png)
 
 
 Sollte es einen Portkonflikt geben, so kann entweder der betroffene Port direkt geändert werden, oder es kann ein “Offset” definiert werden, bspw. “100” um auf alle Portkonfigurationen den Wert 100 zu addieren. Die Angabe erfolgt in der obersten dargestellten Zeile, bspw. Wie folgt:
@@ -86,7 +86,7 @@ Nach dem Anlegen einer Freigabe – entweder passwortgeschützt oder anonym nutz
 
 Anschließend kann die Freigabe wie folgt im j-lawyer.org Client eingetragen werden:
 
-![Abbildung 64](../images/j-lawyer-org-UserGuide-de-064.png)
+![Abbildung 64](../images/j-lawyer-org-UserGuide-de-070.png)
 
 
 Konfigurationsbeispiel: Synchronisation per SSH
@@ -103,14 +103,14 @@ cd /home/anwalt/datensicherung
 
 Sind die Verbindung und der Verzeichniswechsel ohne Fehlermeldung möglich, so werden die Daten wie wie folgt im j-lawyer.org Client eingetragen:
 
-![Abbildung 65](../images/j-lawyer-org-UserGuide-de-065.png)
+![Abbildung 65](../images/j-lawyer-org-UserGuide-de-071.png)
 
 
 Konfigurationsbeispiel: anderer lokaler Ordner
 
 Soll die Datensicherung innerhalb des Servers in ein anderes Verzeichnis synchronisiert werden, so ist der vollständige Pfad anzugeben. Da es sich um einen lokalen Zugriff handelt, sind Rechnername, Nutzername und Passwort leer zu lassen.
 
-![Abbildung 66](../images/j-lawyer-org-UserGuide-de-066.png)
+![Abbildung 66](../images/j-lawyer-org-UserGuide-de-072.png)
 
 
 Stellen Sie in jedem Fall sicher, daß der externe Speicherplatz vor Fremdzugriffen ausreichend gesichert ist! Nutzen Sie idealerweise die Möglichkeit, Datensicherungen automatisch zu verschlüsseln / mit einem Passwort zu schützen. 

@@ -102,7 +102,7 @@ Die Struktur einer elektronischen Rechnung ist streng formalisiert. Insbesondere
 
 Rechnungen, die durch j-lawyer.org generiert oder von außen empfangen und als Dokument zur Akte gespeichert worden sind, können entsprechend visualisiert werden. Im Dokumente-Tab der Akte wurden dazu verschiedene Viewer entwickelt und erweitert. So hat zum Beispiel der PDF-Viewer zusätzliche Tabs erhalten, welche einen Einblick in die Rohform der elektronischen Rechnung sowie deren Darstellung als HTML ermöglichen. Eine Rechnungskontrolle sollte niemals ausschließlich anhand eines PDFs durchgeführt werden, sondern immer die elektronische Rechnung mit einschließen. Technisch ist es möglich, dass beide – im selben Dokument vorhandenen – Daten abweichende Informationen enthalten. Eine solche Rechnung wäre zu hinterfragen.
 
-![Abbildung 22](../images/j-lawyer-org-UserGuide-de-022.png)
+![Abbildung 22](../images/j-lawyer-org-UserGuide-de-028.png)
 
 
 ## Zeiterfassung {#zeiterfassung}
@@ -119,9 +119,7 @@ Alle relevanten Stundensätze lassen sich im Menü unter „Einstellungen“ –
 
 In manchen Fällen kann es sinnvoll sein, die Menge der auswählbaren Positionen für ein Projekt zu beschränken – bspw. weil man ausschließen möchte, versehentlich einen Stundensatz zu wählen, der mit dem Auftraggeber nicht vereinbart wurde. Dazu kann direkt im Zeiterfassungsprojekt (Akte öffnen, Tab „Finanzen“, Sub-Tab „Zeiterfassung“, dort ein vorhandenes Projekt öffnen) eine entsprechende Beschränkung konfiguriert werden:
 
-![Abbildung 23](../images/j-lawyer-org-UserGuide-de-023.png)
-
-![Abbildung 24](../images/j-lawyer-org-UserGuide-de-024.png)
+![Abbildung 23](../images/j-lawyer-org-UserGuide-de-030.png)
 
 
 ### Projektumfang/-leistung beschränken
@@ -132,12 +130,12 @@ Sofern benötigt, lässt sich die Leistung / lassen sich die Kosten eines Zeiter
 
 Dazu wird direkt im Projekt ein Netto-Limit hinterlegt. Es spielt also keine Rolle, mit welchen (auch unterschiedlichen) Stundensätzen gebucht wird – die Anwendung wird dabei unterstützen, dass nicht mehr geleistet als bestellt wurde.
 
-![Abbildung 25](../images/j-lawyer-org-UserGuide-de-025.png)
+![Abbildung 25](../images/j-lawyer-org-UserGuide-de-031.png)
 
 
 Nach Aktivierung eines Limits werden sowohl in der Akte als auch beim Buchen von Zeiten Hinweise in Form kleiner Diagramme mit Farbgebung angezeigt, bspw. wie folgt:
 
-![Abbildung 26](../images/j-lawyer-org-UserGuide-de-026.png)
+![Abbildung 26](../images/j-lawyer-org-UserGuide-de-032.png)
 
 
 Verweilt man mit dem Mauszeiger auf dem Diagramm, werden weitere Informationen eingeblendet, bspw. die prozentuale Abarbeitung und das absolute Limit.

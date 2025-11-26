@@ -28,4 +28,4 @@ Der Bereich “Fällig” zeigt fällige und überfällige Termine, Fristen und 
 
 Ein Verweilen mit der Maus über einer Akte, Wiedervorlage oder Frist blendet weitere Informationen ein. Über Doppelklick können Sie zur Akte navigieren. Fristen und Wiedervorlagen lassen sich durch Klicken der Auswahlkästchens als erledigt markieren und verschwinden beim nächsten Laden der Darstellung aus dem Arbeitsvorrat.
 
-### Abbildung 4: Desktopansicht in j-lawyer.org ab Version 1.13
+![Abbildung 4](../images/j-lawyer-org-UserGuide-de-008.png)

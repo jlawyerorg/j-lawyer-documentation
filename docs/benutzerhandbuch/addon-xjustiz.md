@@ -24,12 +24,12 @@ Wurde eine elektronische Akte per beA zugesandt, so speichert man alle mit der N
 
 Ein Klick auf den Strukturdatensatz in einer Akte öffnet eine Vorschau. Aus der Vorschau heraus gibt es dann die Möglichkeit über den Knopf „XJustiz-Viewer“ die separate Anwendung zu öffnen:
 
-![Abbildung 61](../images/j-lawyer-org-UserGuide-de-061.png)
+![Abbildung 61](../images/j-lawyer-org-UserGuide-de-067.png)
 
 
 Der Strukturdatensatz und die darin referenzierten Dokumente werden daraufhin vom j-lawyer.org Server geladen und lokal bereitgestellt. Anschließend öffnet sich der Viewer automatisch:
 
-![Abbildung 62](../images/j-lawyer-org-UserGuide-de-062.png)
+![Abbildung 62](../images/j-lawyer-org-UserGuide-de-068.png)
 
 
 An dieser Stelle ein großes „DANKESCHÖN“ an Uwe Möller und Dr. Henning Müller von ervjustiz.de.

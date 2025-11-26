@@ -95,7 +95,7 @@ Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorsch
 
 Ein Doppelklick öffnet das Dokument im entsprechenden Editor.
 
-![Abbildung 3](../images/j-lawyer-org-UserGuide-de-003.png)
+![Abbildung 3](../images/j-lawyer-org-UserGuide-de-009.png)
 
 Dokumentvorschau
         Direkte Anzeige einens Dokumentes am Beispiel eines PDFs
@@ -115,7 +115,7 @@ Neben der in jeder Akte angezeigten spezifischen Historie, gibt es eine aktenüb
 
 So lassen sich schnell eigene Änderungen auffinden oder von Kollegen bearbeitete Fälle auffinden.
 
-![Abbildung 4](../images/j-lawyer-org-UserGuide-de-004.png)
+![Abbildung 4](../images/j-lawyer-org-UserGuide-de-010.png)
 
 
 Im oberen Bereich des Dialogs ist ein Zeistrahl abgebildet, der die gesamte im System erfasste Historie umfasst. Durch Bewegung der blauen (ab...) und roten (bis...) Markierungen kann auf einen Zeitraum eingeschränkt werden. Ebenfalls im oberen Bereich befindet sich ein Auswahlfeld zur Einschränkung der Treffermenge. Voreingestellt ist eine Beschränkung auf 500 Einträge.
@@ -144,7 +144,7 @@ Als Eigentümer gelten der unter “Anwalt” geführte Nutzer, sowie alle Mitgl
 
 Nur die Eigentümer sind berechtigt, weitere Gruppe über den Tab “Berechtigte” hinzuzufügen oder Gruppen vom Zugriff auszuschliessen. Auch das Ändern der Eigentümergruppe ist möglich – jedoch nur auf eine Gruppe, in welcher der aktuelle Nutzer auch Mitglied ist.
 
-![Abbildung 5](../images/j-lawyer-org-UserGuide-de-005.png)
+![Abbildung 5](../images/j-lawyer-org-UserGuide-de-011.png)
 
 
 Berechtigte:
@@ -155,7 +155,7 @@ Im Tab “Berechtigte” werden alle Gruppen aktiviert, welche Zugriff auf die A
 
 Die Angabe berechtigter Gruppen bestimmt ausschließlich die Sichtbarkeit / Zugriffsmöglichkeit auf eine Akte. Welche Aktionen innerhalb der Akte möglich sind, leitet sich aus den Berechtigungen des Nutzers in der Nutzerverwaltung ab.
 
-![Abbildung 6](../images/j-lawyer-org-UserGuide-de-006.png)
+![Abbildung 6](../images/j-lawyer-org-UserGuide-de-012.png)
 
 
 ### Akten löschen {#loeschen}

@@ -24,7 +24,7 @@ Die j-lawyer.BOX wird über halbautomatisch über die browserbasierte Administra
 
 Ist eine Replikation zu einer weiteren j-lawyer.BOX aktiv, so ist zuerst die “Zweit-Box” (d.h. die empfangende Box) zu aktualisieren! Dabei wird zwischen zwei Updatearten unterschieden:
 
-![Abbildung 67](../images/j-lawyer-org-UserGuide-de-067.png)
+![Abbildung 67](../images/j-lawyer-org-UserGuide-de-074.png)
 
 
 Update der j-lawyer.BOX Management Console
@@ -78,10 +78,10 @@ Anleitung bei Nutzung einer zweiten j-lawyer.BOX als Notfallsystem: Was tun bei 
 1. Dienstneustart auf der Primärbox
 - j-lawyer.org Client starten, Tab „Verbindung“ - unter „Server“ ist die IP der Primärbox einzutragen: ____________________
 
-![Abbildung 68](../images/j-lawyer-org-UserGuide-de-068.png)
+![Abbildung 68](../images/j-lawyer-org-UserGuide-de-075.png)
 - Tab „j-lawyer.BOX“: Passwort des Betriebssystemnutzers „root“ eintragen (____________________) und den zweiten Knopf von links nutzen („j-lawyer.org Serverdienst neu starten“)
 
-![Abbildung 69](../images/j-lawyer-org-UserGuide-de-069.png)
+![Abbildung 69](../images/j-lawyer-org-UserGuide-de-076.png)
 - Nach einer Wartezeit von 3min mit dem üblichen Einloggen fortfahren.
 - Nur wenn ein Login weiter nicht möglich ist:
 
@@ -94,7 +94,7 @@ Anleitung bei Nutzung einer zweiten j-lawyer.BOX als Notfallsystem: Was tun bei 
 3. Wechsel auf die Sekundärbox / Notfallbox
 - j-lawyer.org Client starten, Tab „Verbindung“ - unter „Server“ ist die IP der Sekundärbox einzutragen: ____________________
 
-![Abbildung 70](../images/j-lawyer-org-UserGuide-de-070.png)
+![Abbildung 70](../images/j-lawyer-org-UserGuide-de-079.png)
 - Mit dem üblichen Einloggen fortfahren.
 - Die Primärbox vom Netzwerk trennen.
 
@@ -104,7 +104,7 @@ boxsync enable
 
 Alle folgenden Synchronisationen von der Primärbox werden nun wieder akzeptiert und verarbeitet. Die gleiche Einstellung ist auch in der Startseite der Management Console der empfangenden Box verfügbar:
 
-![Abbildung 71](../images/j-lawyer-org-UserGuide-de-071.png)
+![Abbildung 71](../images/j-lawyer-org-UserGuide-de-080.png)
 
 
 Die “sendende” j-lawyer.BOX stellt zu Analysezwecken in der Management Console eine Protokolldatei bzgl. der Replikation bereit (replicate.log für eine zyklische Replikation, replicate-forced.log für eine ad-hoch angeforderte Synchronisation).

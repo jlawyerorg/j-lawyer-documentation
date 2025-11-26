@@ -34,7 +34,7 @@ Der genannte Dialog ist auch jederzeit über das Menü “?”, Menüpunkt “Do
 - Speichertyp
 - Status
 
-![Abbildung 7](../images/j-lawyer-org-UserGuide-de-007.png)
+![Abbildung 7](../images/j-lawyer-org-UserGuide-de-013.png)
 
 
 ### Dokumentvorlagen {#vorlagen}
@@ -448,7 +448,7 @@ Es ist nicht notwendig, für jeden möglichen Beteiligtentyp eigene Vorlagen zu 
 
 Nach Auswahl einer Vorlage wird auf Vorhandensein von Platzhaltern geprüft, und die in der Vorlage verwendeten Beteiligtentypen werden angezeigt (Spalten). Zusätzlich werden alle in der Akte geführten Beteiligten angezeigt und deren Beteiligtentyp ist vorausgewählt. Es ist nun problemlos möglich, eine als Mandantin geführte Beteiligte nur für die Erstellung eines Dokuments als Gegner o.a. zu verwenden.  Ein Klick in der Tabelle genügt. Eine Beteiligte kann dabei auch mehreren Beteiligtentypen zugeordnet werden (bspw. “Kundin” und “Lieferant”), aber es kann immer nur eine Beteiligte pro Typ geben (also bspw. kein zwei Beteiligte die als “Versicherung” genutzt werden sollen), da sonst keine eindeutige Befüllung der Platzhalter möglich wäre.
 
-![Abbildung 8](../images/j-lawyer-org-UserGuide-de-008.png)
+![Abbildung 8](../images/j-lawyer-org-UserGuide-de-014.png)
 
 
 #### Verwendung einfacher Logik / Funktionen in Vorlagen
@@ -824,7 +824,7 @@ Beispiel:
 
 Im Menüpunkt „Einstellungen“ – „Dokumente“ – „Dateinamen“ lassen sich ein oder mehrere Dateinamenskonventionen konfigurieren.
 
-![Abbildung 9](../images/j-lawyer-org-UserGuide-de-009.png)
+![Abbildung 9](../images/j-lawyer-org-UserGuide-de-015.png)
 
 
 Mit den Voreinstellungen wird j-lawyer.org Dateinamen in dieser Form nutzen:
@@ -868,7 +868,7 @@ Nur exakt ein Schema kann das „Standardschema“ sein (Option „als Standard 
 
 Im Dialog zur Zuordnung von Dokumenten kann das Dateinamensschema für alle Dokumente oder einzelne Dokumente angepasst werden:
 
-![Abbildung 10](../images/j-lawyer-org-UserGuide-de-010.png)
+![Abbildung 10](../images/j-lawyer-org-UserGuide-de-016.png)
 
 
 Eine entsprechende Einstellmöglichkeit gibt es im Rahmen der Erstellung von Dokumenten aus einer Vorlage.
@@ -879,7 +879,7 @@ Eine entsprechende Einstellmöglichkeit gibt es im Rahmen der Erstellung von Dok
 
 Über den Knopf  “Erstellen” im Reiter “Dokumente” eine Akte können neue Dateien erstellt werden. Es erscheint folgendes Fenster:
 
-![Abbildung 11](../images/j-lawyer-org-UserGuide-de-011.png)
+![Abbildung 11](../images/j-lawyer-org-UserGuide-de-017.png)
 
 
 Im linken Bereich des Fensters wird die Vorlage ausgewählt. Es kann auch nach einer Vorlage gesucht werden (in dem Feld neben „Filter“).
@@ -896,7 +896,7 @@ Zum Schluss wird auf “Erstellen” geklickt.
 
 Das Dokument ist nun im Reiter “Dokumente” vorhanden und kann durch Doppelklick geöffnet und editiert werden. Ein Rechtsklick auf den Namen des Dokuments bietet folgende Optionen:
 
-![Abbildung 12](../images/j-lawyer-org-UserGuide-de-012.png)
+![Abbildung 12](../images/j-lawyer-org-UserGuide-de-018.png)
 
 ### Vorhandene Dokumente zu einer Akte hinzufügen
 
@@ -1026,12 +1026,12 @@ Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend mit
 
 Auf Mac OS gibt es einen “Universalstarter” namens “open”, der zum Öffnen von Dateien mit vorhandenen Programmen verwendet werden kann. Zu finden ist er unter /usr/bin/open, er erwartet als Parameter unter anderem auch den Namen des auszuführenden Programmes. Um bspw. PNG-Dateien mit “Preview” bzgw. “Vorschau” zu öffnen, lauten die Einstellungen im j-lawyer.org Client wie folgt:
 
-![Abbildung 13](../images/j-lawyer-org-UserGuide-de-013.png)
+![Abbildung 13](../images/j-lawyer-org-UserGuide-de-019.png)
 
 
 Ein ähnliches “Universalstarter”-Verhalten kann unter Windows mit cmd.exe und dem “start”-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:
 
-![Abbildung 14](../images/j-lawyer-org-UserGuide-de-014.png)
+![Abbildung 14](../images/j-lawyer-org-UserGuide-de-020.png)
 
 
 Hinweis: sollte es mit den Einstellungen oben Probleme beim Öffnen von Dateien mit Leerzeichen im Dateinamen geben, so sind die Parameter zu ändern von “/c start /wait DATEINAME” nach “/c DATEINAME”.
@@ -1054,7 +1054,7 @@ pdf
 
 ohne führenden Punkt ein und klickt anschließend “Hinzufügen”. In der Liste im linken Bereich erscheint nun pdf als Auswahlmöglichkeit. Man wählt den Eintrag aus und klickt dann auf den […]-Knopf hinter “Ausführbare Datei”. Navigieren Sie zur Datei “FoxitReader.exe”, der Standardpfad ist unten im Bild exemplarisch gezeigt.
 
-![Abbildung 15](../images/j-lawyer-org-UserGuide-de-015.png)
+![Abbildung 15](../images/j-lawyer-org-UserGuide-de-021.png)
 
 
 Nach erfolgter Auswahl wird der Dialog mit “Speichern”, gefolgt von “Schliessen” beendet. Foxit Reader ist nun als externe Anwendung zur Bearbeitung von PDFs registriert.
@@ -1063,7 +1063,7 @@ Aus einer Akte heraus öffnet ein Doppelklick auf ein PDF-Dokument nun Foxit Rea
 
 Unter Umständen kann der j-lawyer.org Client das Schliessen von Dokumenten nicht korrekt erkennen. Wird das selbe Dokument dann erneut geöffnet, so erscheint folgende Meldung:
 
-![Abbildung 16](../images/j-lawyer-org-UserGuide-de-016.png)
+![Abbildung 16](../images/j-lawyer-org-UserGuide-de-022.png)
 
 
 Die Frage kann dann einfach mit “Ja” quittiert werden.
@@ -1087,9 +1087,7 @@ Die Konvertierung wird dabei für den Nutzer nicht direkt sichtbar im Hintergrun
 
 Mittels eines Buttons oberhalb der Dokumentenliste lassen sich alle ausgewählten Dokumente in ein einzelnes PDF exportieren. Die relevanten Dokumente können mittels Dokumentselektion und Ordnerselektion bestimmt werden.
 
-![Abbildung 17](../images/j-lawyer-org-UserGuide-de-017.png)
-
-![Abbildung 18](../images/j-lawyer-org-UserGuide-de-018.png)
+![Abbildung 18](../images/j-lawyer-org-UserGuide-de-024.png)
 
 
 Die Sortierung der Dokumente wird in das PDF übernommen, daher empfiehlt sich das bewusste Sortieren nach dem gewünschten Kriterium, bevor der Exportprozess gestartet wird.
@@ -1132,7 +1130,7 @@ Passwort vergeben
 
 Um ein Passwort zu vergeben, einzusehen oder zu ändern, wird der Kontakt über die Adressverwaltung geöffnet. Im Kopfbereich (oben rechts) befindet sich ein Verschlüsselungssymbol.
 
-![Abbildung 19](../images/j-lawyer-org-UserGuide-de-019.png)
+![Abbildung 19](../images/j-lawyer-org-UserGuide-de-023.png)
 
 
 Bei einem Klick auf das Symbol kann ein Passwort vergeben (oder zurückgesetzt) werden. Das Symbol wechselt die Farbe. Verweilt der Mauszeiger über dem Symbol, so wird das Passwort angezeigt. So können Sie einem Mandanten bspw. auf Rückfrage auch das aktuelle Passwort bspw. telefonisch mitteilen. Sofern die Voice-over-IP-Schnittstelle aktiviert ist, kann man das Passwort auch mit einem Klick per SMS an den Kontakt senden. Senden Sie niemals verschlüsseltes Dokument und Passwort in einer E-Mail.
@@ -1147,7 +1145,7 @@ Hinweise: Die Verschlüsselung ist empfängerspezifisch implementiert. Werden Do
 
 All dies geschieht vollautomatisch. Ist die Verschlüsselungsoption aktiviert, aber nur für einige der Empfänger ein Passwort hinterlegt, so erscheint eine Rückfrage für den Anwender, wie verfahren werden soll.
 
-![Abbildung 20](../images/j-lawyer-org-UserGuide-de-020.png)
+![Abbildung 20](../images/j-lawyer-org-UserGuide-de-026.png)
 
 
 ### LibreOffice Auto-Texte zentral im Netzwerk nutzen

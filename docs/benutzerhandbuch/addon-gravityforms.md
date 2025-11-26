@@ -27,7 +27,7 @@ Hat man keine Wordpress-Installation oder plant nur sporadisch Formulareingaben 
 
 Damit die Kanzleisoftware auf die Formulardaten zugreifen kann, müssen Zugangsschlüssel erstellt werden. Im Wordpress-Dashboard zu „Formulare“ – „Einstellungen“ navigieren. Dort zur Ansicht „REST API“ wechseln und per „Add Key“ einen neuen Schlüssel erzeugen.
 
-![Abbildung 58](../images/j-lawyer-org-UserGuide-de-058.png)
+![Abbildung 58](../images/j-lawyer-org-UserGuide-de-064.png)
 
 
 Im Rahmen der Schlüsselerstellung erhält mein zwei Werte, einer ist vergleichbar mit einem Nutzernamen und beginnt mit dem Präfix „ck_“, der andere ist der eigentliche Schlüssel (vergleichbar mit einem Passwort). Diese Werte sind zu notieren / kopieren.
@@ -38,7 +38,7 @@ Anschließend ist ein separates Falldatenblatt für die Anbindung von Gravity Fo
 - Nutzer / API-Key: den mit „ck_“ beginnenden Wert eintragen, den man bei der Schlüsselerstellung in Wordpress erhalten hat
 - Passwort: den mit „cs_“ beginnenden Wert eintragen, den man bei der Schlüsselerstellung in Wordpress erhalten hat
 
-![Abbildung 59](../images/j-lawyer-org-UserGuide-de-059.png)
+![Abbildung 59](../images/j-lawyer-org-UserGuide-de-065.png)
 
 
 Fertig- Ihre Onlineformulare sind nun angebunden.
@@ -63,7 +63,7 @@ Ohne weiteres Zutun vergibt Gravity Forms numerische Platzhalternamen. Diese hab
 
 Im Formulareditor von Gravity Forms hat jedes Oberflächenelement im Abschnitt „Erweitert“ ein Attribut „Admin-Etikett“. Dies kann vom Anwender frei verwendet werden. Vergibt man für ein Feld das Admin-Etikett „WUNSCHTERMIN“, so lautet der Platzhalter für Vorlagen „{{FORM_WUNSCHTERMIN}}“
 
-![Abbildung 60](../images/j-lawyer-org-UserGuide-de-060.png)
+![Abbildung 60](../images/j-lawyer-org-UserGuide-de-066.png)
 
 
 ### Adressbucheinträge aus Formulardaten erstellen

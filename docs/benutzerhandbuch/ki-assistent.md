@@ -19,7 +19,7 @@ Der grundsätzliche Aufbau der Dialoge ist dabei immer ähnlich:
 - Unter dem Prompt auf der linken Seite gibt es die Eingangsdatenmenge. Das ist in der Regel ein aus Dokumenten oder E-Mails extrahierter Text oder eine Datei. Für Transkriptionen werden Sounddateien als Eingabe verwendet.
 - Unter dem Prompt auf der rechten Seite werden die Ergebnisse der Anfrage ausgegeben. Die Ergebnisse werden in der Regel iterativ  dargestellt (es erscheinen also Teilergebnisse, sobald sie vorliegen). Im Fall eines Chats oder einer Befragung von Dokumenten können mehrere Frage-Antwort-Abfolgen entstehen.
 
-![Abbildung 46](../images/j-lawyer-org-UserGuide-de-046.png)
+![Abbildung 46](../images/j-lawyer-org-UserGuide-de-052.png)
 
 
 ### Transkription / Diktieren {#transkription}
@@ -38,7 +38,7 @@ Beim Diktieren gibt es ein Dropdown zur Auswahl des Aufnahmegerätes. Hier ist d
 - Diktieren mehrerer Wörter bis hin zu ganzen Textpassagen. Dabei werden keinerlei Satzzeichen diktiert, es wird einfach natürlichsprachig aufgenommen und eine KI übernimmt die Interpunktion, in dem sie den Kontext des gesprochenen Textes insgesamt betrachtet.
 - Start-/Stoppknopf erneut nutzen, um Aufnahme zu stoppen. Daraufhin findet die eigentliche Transkription statt und der Text erscheint im Ausgabefenster.
 
-![Abbildung 47](../images/j-lawyer-org-UserGuide-de-047.png)
+![Abbildung 47](../images/j-lawyer-org-UserGuide-de-053.png)
 
 
 Das Nutzen KI-basierter Transkriptionen hat Vorteile (höhere Erkennungsrate, automatische Interpunktion, hohe mögliche Sprechgeschwindigkeit, …) als auch Nachteile (der erkannte Text sollte korrekturgelesen werden, insbesondere um unerwünschte „Halluzinationen“ auszuschließen).
@@ -49,7 +49,7 @@ Bereits seit längerem können sogenannte Sprachmemos innerhalb einer Akte aufge
 
 Der Text wird dabei auch direkt am Sprachmemo gespeichert, sodass die Erstellung eines Schriftsatzes auch zu späterem Zeitpunkt erfolgen kann.
 
-![Abbildung 48](../images/j-lawyer-org-UserGuide-de-048.png)
+![Abbildung 48](../images/j-lawyer-org-UserGuide-de-054.png)
 
 
 Für die Transkription stehen verschiedene Varianten zur Verfügung:
@@ -119,12 +119,12 @@ Die DeepL-basierten Übersetzungsfunktionen haben jeweils eigene Kontextmenüein
 
 Assistent Ingo kann einzelne Begriffe, Wortgruppen oder ganze Passagen nachschlagen / erläutern / bewerten. Die Funktion ist bspw. im E-Mail-Posteingang integriert:
 
-![Abbildung 49](../images/j-lawyer-org-UserGuide-de-049.png)
+![Abbildung 49](../images/j-lawyer-org-UserGuide-de-055.png)
 
 
 Die relevanten Passagen können markiert werden. Ohne Markierung wird der gesamte Text betrachtet.
 
-![Abbildung 50](../images/j-lawyer-org-UserGuide-de-050.png)
+![Abbildung 50](../images/j-lawyer-org-UserGuide-de-056.png)
 
 
 Der Prompt kann optional entsprechend der Erfordernisse angepasst werden, bspw. um das Ausgabeformat zu bestimmen („Stichpunkte“) oder den Umfang zu definieren („in maximal 300 Wörtern“).
@@ -137,7 +137,7 @@ Assistent Ingo kann Texte zusammenfassen, bspw. umfangreiche E-Mail-Threads oder
 
 Das Ergebnis einer Zusammenfassung kann anschließend in eine Notiz übernommen werden.
 
-![Abbildung 51](../images/j-lawyer-org-UserGuide-de-051.png)
+![Abbildung 51](../images/j-lawyer-org-UserGuide-de-057.png)
 
 
 Der Prompt sollte entsprechend der Erfordernisse angepasst werden, bspw. um das Ausgabeformat zu bestimmen („Stichpunkte“) oder den Umfang zu definieren („in maximal 300 Wörtern“).
@@ -150,12 +150,12 @@ Assistent Ingo kann dabei unterstützen, Dokumentinhalte in einem interaktiven F
 
 Die Funktion ist im Kontextmenü von Dokumenten einer Akte zu finden. Der Dateityp des Dokuments spielt dabei keine Rolle, solange Text extrahierbar ist. Aktuell funktioniert das Befragen von Dokumenten zuverlässig bis ca. 60-80 typische A4-Seiten. Das Befragen mehrere Dokumente (oder einer ganzen Akte) ist in Arbeit.
 
-![Abbildung 52](../images/j-lawyer-org-UserGuide-de-052.png)
+![Abbildung 52](../images/j-lawyer-org-UserGuide-de-058.png)
 
 
 Hinweis: Im Gegensatz zu allen anderen KI-Funktionen ist die Eingangsdatenmenge beim Chat nicht automatisch definiert. Per Kontextmenü im linken Eingangsdatenbereich können ausgewählte Passagen oder der gesamte Text in den Prompt übernommen werden. Über den Button oben rechts kann der Prompt dann ausgeführt werden.
 
-![Abbildung 53](../images/j-lawyer-org-UserGuide-de-053.png)
+![Abbildung 53](../images/j-lawyer-org-UserGuide-de-059.png)
 
 
 Der gesamte Chatverlauf kann sowohl in eine Notiz als auch in ein Dokument übernommen werden.
@@ -174,7 +174,7 @@ Um den Prozess zu vereinfachen und zu beschleunigen, kann Assistent Ingo aus ein
 
 Assistent Ingo kann bei der Extraktion von Text aus Bildern unterstützen sowie Bildinhalte beschreiben. Die Funktion ist per Rechtsklick auf ein JPEG oder PNG nutzbar, und die Konfiguration eigener Prompts ist möglich (Funktion „vision“), bspw. zur wiederholte Analyse gleichartiger Bilddokumente wie Scans von Formularen oder amtlichen Dokumenten.
 
-![Abbildung 54](../images/j-lawyer-org-UserGuide-de-054.png)
+![Abbildung 54](../images/j-lawyer-org-UserGuide-de-060.png)
 
 
 ### Inhalte in einen Prompt übernehmen
@@ -183,7 +183,7 @@ Assistent Ingo kann bei der Extraktion von Text aus Bildern unterstützen sowie 
 
 Über das Kontextmenü im linken Teil der Dialoge (Eingangsdaten) kann ein ausgewählter Text oder der gesamte Text in den Prompt übernommen werden. In der Regel ist eine sinnvolle Eingangsdatenmenge automatisch vorgegeben. Im Falle eines Chats ist es oftmals gewünscht, nur Passagen des Textes zu verwenden, daher ist dort stets eine Auswahl zu treffen.
 
-![Abbildung 55](../images/j-lawyer-org-UserGuide-de-055.png)
+![Abbildung 55](../images/j-lawyer-org-UserGuide-de-061.png)
 
 
 ### Konfigurieren eigener Prompts {#eigene-prompts}

@@ -51,12 +51,12 @@ Nach dem Start des j-lawyer.org Clients ist zwingend eine Anmeldung mit gültige
 - Nutzer “user”, Passwort “u” - Nutzer mit eingeschränkten Rechten
 - Nutzer “admin”, Passwort “a” - Nutzer mit vollen administrativen Rechten
 
-![Abbildung 1](../images/j-lawyer-org-UserGuide-de-001.png)
+![Abbildung 1](../images/j-lawyer-org-UserGuide-de-002.png)
 
 
 Vor einer Anmeldung ist im Falle einer ersten Nutzung unter “Verbindung” der Name oder die IP des Servers einzutragen (bzw. “localhost”, wenn j-lawyer.org Server und j-lawyer.org Client auf dem selben Gerät genutzt werden) sowie der zu verwendende Netzwerkport (in der Regel 8080).
 
-![Abbildung 2](../images/j-lawyer-org-UserGuide-de-002.png)
+![Abbildung 2](../images/j-lawyer-org-UserGuide-de-003.png)
 
 
 Folgende Verbindungsarten sind verfügbar:
@@ -123,4 +123,4 @@ Insbesondere in Umgebungen in denen der Client regelmäßig für verschiedene j-
 
 Hinweis: Um die Sicherheit Ihrer Installation zu gewährleisten, stellen Sie sicher dass die Funktionalität nur in kontrollierten und entsprechend abgesicherten Umgebungen genutzt wird. Insbesondere wenn Nutzername und  Passwort in Skripten verwendet werden, so ist sicherzustellen dass kein anderer Nutzer des Betriebssystems das Skript lesen und somit Kenntnis des Passwortes erhalten kann.
 
-### Abbildung 3: Login-Dialog, j-lawyer.BOX-Integration
+![Abbildung 3](../images/j-lawyer-org-UserGuide-de-004.png)

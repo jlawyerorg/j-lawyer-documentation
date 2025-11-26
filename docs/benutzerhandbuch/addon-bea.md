@@ -44,7 +44,7 @@ Im Folgenden werden die Schritte zur vollständigen Inbetriebnahme der beA-Integ
 - Markieren Sie den Nutzer, welcher mit einem oder mehreren beA-Postfächern arbeiten soll.
 - Im Tab “beA” kann nun über den “...”-Knopf (“Zertifikat uploaden”) das Softwarezertifikat samt PIN/Passwort hinterlegt werden. Ist der Upload erfolgreich, so werden Seriennummer und weitere Informationen angezeigt.
 
-![Abbildung 56](../images/j-lawyer-org-UserGuide-de-056.png)
+![Abbildung 56](../images/j-lawyer-org-UserGuide-de-062.png)
 - Abschließend aktivieren Sie die automatische oder manuelle Anmeldung. Bei automatischer Anmeldung wird das beA-Postfach bereits beim Start des j-lawyer.org Clients geöffnet und auf neu eingegangene Nachrichten geprüft. Bei manueller Anmeldung muss das Postfach explizit geöffnet werden (durch Navigation zur Posteingangssicht im linken Navigationsbaum). In diesem Fall findet eine Nachfrage statt, ob mit dem hinterlegten Softwarezertifikat oder der Smartcard angemeldet werden soll.
 
 ### Anzeige des Übermittlungsstatus
