@@ -13,17 +13,18 @@ theme:
   favicon: images/logo.png
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Zum Dunkelmodus wechseln
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Zum Hellmodus wechseln
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - navigation.tracking
@@ -74,6 +75,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/jlawyerorg
   generator: false
+
+extra_css:
+  - overrides/stylesheets/extra.css
 
 copyright: Copyright &copy; j-lawyer.org - GNU AGPL v3
 

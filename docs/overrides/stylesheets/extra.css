@@ -1,0 +1,90 @@
+/* j-lawyer.org Farbschema */
+/* Rot: #de313b - für Warnungen/Fehler */
+/* Grün: #97bf0d - für Akzente/Erfolg */
+/* Blau: #0e72b5 - Primärfarbe */
+/* Grau: #666666 - Text/Sekundär */
+
+:root {
+  /* Primärfarbe (Blau) */
+  --md-primary-fg-color: #0e72b5;
+  --md-primary-fg-color--light: #3d8ec7;
+  --md-primary-fg-color--dark: #0a5a91;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+
+  /* Akzentfarbe (Grün) */
+  --md-accent-fg-color: #97bf0d;
+  --md-accent-fg-color--transparent: rgba(151, 191, 13, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #ffffff;
+
+  /* Textfarben */
+  --md-default-fg-color: #333333;
+  --md-default-fg-color--light: #666666;
+  --md-default-fg-color--lighter: #999999;
+}
+
+/* Dunkelmodus */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0e72b5;
+  --md-primary-fg-color--light: #3d8ec7;
+  --md-primary-fg-color--dark: #0a5a91;
+  --md-accent-fg-color: #97bf0d;
+}
+
+/* Links */
+.md-typeset a {
+  color: #0e72b5;
+}
+
+.md-typeset a:hover {
+  color: #97bf0d;
+}
+
+/* Navigation aktives Element */
+.md-nav__link--active {
+  color: #0e72b5 !important;
+}
+
+/* Suchleiste Fokus */
+.md-search__input:focus {
+  border-color: #0e72b5;
+}
+
+/* Code-Blöcke */
+.md-typeset code {
+  background-color: rgba(14, 114, 181, 0.1);
+}
+
+/* Admonitions - Hinweise */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: #0e72b5;
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: rgba(14, 114, 181, 0.1);
+}
+
+/* Admonitions - Warnungen */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #de313b;
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(222, 49, 59, 0.1);
+}
+
+/* Admonitions - Tipps */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #97bf0d;
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(151, 191, 13, 0.1);
+}
