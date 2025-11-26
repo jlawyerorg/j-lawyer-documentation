@@ -104,7 +104,6 @@ Rechnungen, die durch j-lawyer.org generiert oder von außen empfangen und als D
 
 ![Abbildung 22](../images/j-lawyer-org-UserGuide-de-022.png)
 
-Abbildung 22: E-Rechnung – links im maschinell lesbaren Rohformat, rechts als menschenlesbares HTML
 
 ## Zeiterfassung {#zeiterfassung}
 
@@ -124,7 +123,6 @@ In manchen Fällen kann es sinnvoll sein, die Menge der auswählbaren Positionen
 
 ![Abbildung 24](../images/j-lawyer-org-UserGuide-de-024.png)
 
-Abbildung 23: auswählbare Zeiterfassungspositionen beschränken
 
 ### Projektumfang/-leistung beschränken
 
@@ -136,13 +134,11 @@ Dazu wird direkt im Projekt ein Netto-Limit hinterlegt. Es spielt also keine Rol
 
 ![Abbildung 25](../images/j-lawyer-org-UserGuide-de-025.png)
 
-Abbildung 24: Zeiterfassung: Limit für Projekt definieren
 
 Nach Aktivierung eines Limits werden sowohl in der Akte als auch beim Buchen von Zeiten Hinweise in Form kleiner Diagramme mit Farbgebung angezeigt, bspw. wie folgt:
 
 ![Abbildung 26](../images/j-lawyer-org-UserGuide-de-026.png)
 
-Abbildung 25: Zeiterfassung: Darstellung des bereits geleisteten Umfangs im Vergleich zum Limit
 
 Verweilt man mit dem Mauszeiger auf dem Diagramm, werden weitere Informationen eingeblendet, bspw. die prozentuale Abarbeitung und das absolute Limit.
 

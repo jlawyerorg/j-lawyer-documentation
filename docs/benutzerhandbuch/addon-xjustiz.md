@@ -26,12 +26,10 @@ Ein Klick auf den Strukturdatensatz in einer Akte öffnet eine Vorschau. Aus der
 
 ![Abbildung 61](../images/j-lawyer-org-UserGuide-de-061.png)
 
-Abbildung 60: “XJustiz-Viewer”-Knopf im oberen rechten Bereich der Vorschau
 
 Der Strukturdatensatz und die darin referenzierten Dokumente werden daraufhin vom j-lawyer.org Server geladen und lokal bereitgestellt. Anschließend öffnet sich der Viewer automatisch:
 
 ![Abbildung 62](../images/j-lawyer-org-UserGuide-de-062.png)
 
-Abbildung 61: XJustiz-Viewer
 
 An dieser Stelle ein großes „DANKESCHÖN“ an Uwe Möller und Dr. Henning Müller von ervjustiz.de.

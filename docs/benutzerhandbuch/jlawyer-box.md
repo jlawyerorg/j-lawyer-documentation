@@ -26,7 +26,6 @@ Ist eine Replikation zu einer weiteren j-lawyer.BOX aktiv, so ist zuerst die “
 
 ![Abbildung 67](../images/j-lawyer-org-UserGuide-de-067.png)
 
-Abbildung 67: Update-Informationen der j-lawyer.BOX
 
 Update der j-lawyer.BOX Management Console
 
@@ -107,7 +106,6 @@ Alle folgenden Synchronisationen von der Primärbox werden nun wieder akzeptiert
 
 ![Abbildung 71](../images/j-lawyer-org-UserGuide-de-071.png)
 
-Abbildung 68: Reaktivieren einer Synchronisation
 
 Die “sendende” j-lawyer.BOX stellt zu Analysezwecken in der Management Console eine Protokolldatei bzgl. der Replikation bereit (replicate.log für eine zyklische Replikation, replicate-forced.log für eine ad-hoch angeforderte Synchronisation).
 
@@ -143,139 +141,3 @@ read only = no
 - Freigabedienst neu starten: sudo service smbd restart
 
 Die Freigabe lässt sich nun von anderen Geräten aus benutzen, in dem der Nutzername “shares” und das vergebene Passwort zur Verbindung genutzt werden.
-
-###### Abbildungsverzeichnis
-
-Abbildung 1: Login-Dialog, Eingabe von Nutzername und Passwort	10
-
-Abbildung 2: Login-Dialog, Eingabe der Verbindungsdaten	11
-
-Abbildung 3: Login-Dialog, j-lawyer.BOX-Integration	14
-
-Abbildung 4: Desktopansicht in j-lawyer.org ab Version 1.13	16
-
-Abbildung 5: Direkte Anzeige eines Dokumentes am Beispiel eines PDFs	23
-
-Abbildung 6: aktenübergreifende Historienanzeige	24
-
-Abbildung 7: Angabe der Eigentümer innerhalb einer Akte	26
-
-Abbildung 8: Angabe der berechtigten Gruppen innerhalb einer Akte	26
-
-Abbildung 9: Dokumentmonitor	31
-
-Abbildung 10: Beteiligte und Platzhalterrolle verknüpfen	41
-
-Abbildung 11: Dateinamen konfigurieren	53
-
-Abbildung 12: Dateinamen bei Zuordnung von Dokumenten	55
-
-Abbildung 13: Beteiligte und Platzhalterrolle verknüpfen	56
-
-Abbildung 14: externes Programm unter Mac OS konfigurieren	64
-
-Abbildung 15: externes Programm unter Microsoft Windows konfigurieren	65
-
-Abbildung 16: Einstellungen zum Registrieren von Foxit Reader als externe Anwendung	66
-
-Abbildung 17: Bestätigen bei erneutem Öffnen	66
-
-Abbildung 18: PDF-Export ausgewählter Dokumente	67
-
-Abbildung 19: Verschlüsselung für einen Kontakt aktivieren	69
-
-Abbildung 20: Verschlüsselung, mehrere Empfänger	70
-
-Abbildung 21: Kalenderauswahl (Wechsel durch Klick auf die Farbe hinter “Termin”)	72
-
-Abbildung 22: E-Rechnung – links im maschinell lesbaren Rohformat, rechts als menschenlesbares HTML	76
-
-Abbildung 23: auswählbare Zeiterfassungspositionen beschränken	78
-
-Abbildung 24: Zeiterfassung: Limit für Projekt definieren	79
-
-Abbildung 25: Zeiterfassung: Darstellung des bereits geleisteten Umfangs im Vergleich zum Limit	80
-
-Abbildung 26: Microsoft 365 Admin Center, Benutzer	81
-
-Abbildung 27: Microsoft 365 Admin Center, E-Mail-Einstellungen eines Accounts	82
-
-Abbildung 28: Microsoft 365 Admin Center, IMAP und SMTP aktivieren	83
-
-Abbildung 29: Microsoft Entra ID - Einstellungen	84
-
-Abbildung 30: Microsoft Entra ID – Einstellungen, Sicherheitsstandards	85
-
-Abbildung 31: Microsoft 365 Admin Center, Moderne Authentifizierung	87
-
-Abbildung 32: Microsoft 365 Admin Center, Moderne Authentifizierung – authentifiziertes SMTP	87
-
-Abbildung 33: Azure Active Directory, Übersichtsseite	88
-
-Abbildung 34: Azure Active Directory, App-Registrierungen	88
-
-Abbildung 35: Azure Active Directory, App-Name	89
-
-Abbildung 36: Azure Active Directory, Client-ID ermitteln	90
-
-Abbildung 37: Azure Active Directory, initiale App-Berechtigungen	90
-
-Abbildung 38: Azure Active Directory, Berechtigungen hinzufügen	90
-
-Abbildung 39: Azure Active Directory, Microsoft Graph-Berechtigungen	91
-
-Abbildung 40: Azure Active Directory, Berechtigungen Open-ID	92
-
-Abbildung 41: Azure Active Directory, Berechtigungen IMAP	92
-
-Abbildung 42: Azure Active Directory, neues Client Secret	93
-
-Abbildung 43: Azure Active Directory, Client Secret ermitteln	93
-
-Abbildung 44: Azure Active Directory, Öffentliche Clientflows zulassen	94
-
-Abbildung 45: j-lawyer.org Client, Office 365-Postfach einrichten	95
-
-Abbildung 46: Aufbau KI-Dialoge	99
-
-Abbildung 47: Diktatfunktion	100
-
-Abbildung 48: Transkription eines Sprachmemos	100
-
-Abbildung 49: KI-basierte Recherche im E-Mail-Posteingang	103
-
-Abbildung 50: KI-basierte Recherche im E-Mail-Posteingang: Ergebnis	104
-
-Abbildung 51: Assistent Ingo: Ergebnis der Zusammenfassung eines Mietvertrages	104
-
-Abbildung 52: Assistent Ingo: Dokument befragen – Eingangsdaten definieren	105
-
-Abbildung 53: Assistent Ingo: Dokument befragen - Chatverlauf	106
-
-Abbildung 54: j-lawyer.org Client, Inhalte in einem Prompt übernehmen	107
-
-Abbildung 55: Anlegen einer neuen Freigabe	123
-
-Abbildung 56: neuen Gravity Forms-API-Schlüssel generieren	127
-
-Abbildung 57: Gravity Forms-API-Schlüssel in der Kanzleisoftware hinterlegen	128
-
-Abbildung 58: Nutzerdefinierten Platzhalternamen vergeben	129
-
-Abbildung 59: “XJustiz-Viewer”-Knopf im oberen rechten Bereich der Vorschau	132
-
-Abbildung 60: XJustiz-Viewer	132
-
-Abbildung 61: Portkonfiguration	135
-
-Abbildung 62: Konfigurationsbeispiel Synchronisation Datensicherung: Windowsfreigabe	137
-
-Abbildung 63: Konfigurationsbeispiel Synchronisation Datensicherung: SFTP / SSH	138
-
-Abbildung 64: Konfigurationsbeispiel Synchronisation Datensicherung: lokale Kopie	138
-
-Abbildung 65: SSH-Verbindung zur j-lawyer.BOX mit putty.exe	154
-
-Abbildung 66: Update-Informationen der j-lawyer.BOX	157
-
-Abbildung 67: Reaktivieren einer Synchronisation	161

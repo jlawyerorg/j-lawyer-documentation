@@ -25,7 +25,6 @@ Nach erfolgreicher Verknüpfung eines Nextcloud-Zugangs können aus der Akte her
 
 ![Abbildung 57](../images/j-lawyer-org-UserGuide-de-057.png)
 
-Abbildung 56: Anlegen einer neuen Freigabe
 
 Der Empfänger der Freigabe als auch das Aktenzeichen können automatisch als Ordner verwendet werden, auch in Kombination.
 

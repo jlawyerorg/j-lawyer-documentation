@@ -53,13 +53,11 @@ Nach dem Start des j-lawyer.org Clients ist zwingend eine Anmeldung mit gültige
 
 ![Abbildung 1](../images/j-lawyer-org-UserGuide-de-001.png)
 
-Abbildung 1: Login-Dialog, Eingabe von Nutzername und Passwort
 
 Vor einer Anmeldung ist im Falle einer ersten Nutzung unter “Verbindung” der Name oder die IP des Servers einzutragen (bzw. “localhost”, wenn j-lawyer.org Server und j-lawyer.org Client auf dem selben Gerät genutzt werden) sowie der zu verwendende Netzwerkport (in der Regel 8080).
 
 ![Abbildung 2](../images/j-lawyer-org-UserGuide-de-002.png)
 
-Abbildung 2: Login-Dialog, Eingabe der Verbindungsdaten
 
 Folgende Verbindungsarten sind verfügbar:
 - Standard: die Daten zwischen j-lawyer.org Client und Server werden unverschlüsselt übertragen. Diese Option ist innerhalb eines lokalen Unternehmensnetzwerkes in der Regel akzeptabel.

@@ -29,7 +29,6 @@ Damit die Kanzleisoftware auf die Formulardaten zugreifen kann, müssen Zugangss
 
 ![Abbildung 58](../images/j-lawyer-org-UserGuide-de-058.png)
 
-Abbildung 57: neuen Gravity Forms-API-Schlüssel generieren
 
 Im Rahmen der Schlüsselerstellung erhält mein zwei Werte, einer ist vergleichbar mit einem Nutzernamen und beginnt mit dem Präfix „ck_“, der andere ist der eigentliche Schlüssel (vergleichbar mit einem Passwort). Diese Werte sind zu notieren / kopieren.
 
@@ -41,7 +40,6 @@ Anschließend ist ein separates Falldatenblatt für die Anbindung von Gravity Fo
 
 ![Abbildung 59](../images/j-lawyer-org-UserGuide-de-059.png)
 
-Abbildung 58: Gravity Forms-API-Schlüssel in der Kanzleisoftware hinterlegen
 
 Fertig- Ihre Onlineformulare sind nun angebunden.
 
@@ -67,7 +65,6 @@ Im Formulareditor von Gravity Forms hat jedes Oberflächenelement im Abschnitt �
 
 ![Abbildung 60](../images/j-lawyer-org-UserGuide-de-060.png)
 
-Abbildung 59: Nutzerdefinierten Platzhalternamen vergeben
 
 ### Adressbucheinträge aus Formulardaten erstellen
 

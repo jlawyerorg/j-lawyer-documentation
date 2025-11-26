@@ -117,7 +117,6 @@ So lassen sich schnell eigene Änderungen auffinden oder von Kollegen bearbeitet
 
 ![Abbildung 4](../images/j-lawyer-org-UserGuide-de-004.png)
 
-Abbildung 6: aktenübergreifende Historienanzeige
 
 Im oberen Bereich des Dialogs ist ein Zeistrahl abgebildet, der die gesamte im System erfasste Historie umfasst. Durch Bewegung der blauen (ab...) und roten (bis...) Markierungen kann auf einen Zeitraum eingeschränkt werden. Ebenfalls im oberen Bereich befindet sich ein Auswahlfeld zur Einschränkung der Treffermenge. Voreingestellt ist eine Beschränkung auf 500 Einträge.
 
@@ -147,7 +146,6 @@ Nur die Eigentümer sind berechtigt, weitere Gruppe über den Tab “Berechtigte
 
 ![Abbildung 5](../images/j-lawyer-org-UserGuide-de-005.png)
 
-Abbildung 7: Angabe der Eigentümer innerhalb einer Akte
 
 Berechtigte:
 
@@ -159,7 +157,6 @@ Die Angabe berechtigter Gruppen bestimmt ausschließlich die Sichtbarkeit / Zugr
 
 ![Abbildung 6](../images/j-lawyer-org-UserGuide-de-006.png)
 
-Abbildung 8: Angabe der berechtigten Gruppen innerhalb einer Akte
 
 ### Akten löschen {#loeschen}
 

@@ -8,6 +8,5 @@ Hat ein Nutzer nur Zugriff auf jeweils einen Kalender für einen Ereignistyp, is
 
 ![Abbildung 21](../images/j-lawyer-org-UserGuide-de-021.png)
 
-Abbildung 21: Kalenderauswahl (Wechsel durch Klick auf die Farbe hinter “Termin”)
 
 Beim Erstellen und Ändern von Kalendereinträgen wird eine Konfliktprüfung ausgeführt.

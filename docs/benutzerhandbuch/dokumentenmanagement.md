@@ -36,7 +36,6 @@ Der genannte Dialog ist auch jederzeit über das Menü “?”, Menüpunkt “Do
 
 ![Abbildung 7](../images/j-lawyer-org-UserGuide-de-007.png)
 
-Abbildung 9: Dokumentmonitor
 
 ### Dokumentvorlagen {#vorlagen}
 
@@ -451,7 +450,6 @@ Nach Auswahl einer Vorlage wird auf Vorhandensein von Platzhaltern geprüft, und
 
 ![Abbildung 8](../images/j-lawyer-org-UserGuide-de-008.png)
 
-Abbildung 10: Beteiligte und Platzhalterrolle verknüpfen
 
 #### Verwendung einfacher Logik / Funktionen in Vorlagen
 
@@ -828,7 +826,6 @@ Im Menüpunkt „Einstellungen“ – „Dokumente“ – „Dateinamen“ lasse
 
 ![Abbildung 9](../images/j-lawyer-org-UserGuide-de-009.png)
 
-Abbildung 11: Dateinamen konfigurieren
 
 Mit den Voreinstellungen wird j-lawyer.org Dateinamen in dieser Form nutzen:
 
@@ -873,7 +870,6 @@ Im Dialog zur Zuordnung von Dokumenten kann das Dateinamensschema für alle Doku
 
 ![Abbildung 10](../images/j-lawyer-org-UserGuide-de-010.png)
 
-Abbildung 12: Dateinamen bei Zuordnung von Dokumenten
 
 Eine entsprechende Einstellmöglichkeit gibt es im Rahmen der Erstellung von Dokumenten aus einer Vorlage.
 
@@ -885,7 +881,6 @@ Eine entsprechende Einstellmöglichkeit gibt es im Rahmen der Erstellung von Dok
 
 ![Abbildung 11](../images/j-lawyer-org-UserGuide-de-011.png)
 
-Abbildung 13: Beteiligte und Platzhalterrolle verknüpfen
 
 Im linken Bereich des Fensters wird die Vorlage ausgewählt. Es kann auch nach einer Vorlage gesucht werden (in dem Feld neben „Filter“).
 
@@ -1033,13 +1028,11 @@ Auf Mac OS gibt es einen “Universalstarter” namens “open”, der zum Öffn
 
 ![Abbildung 13](../images/j-lawyer-org-UserGuide-de-013.png)
 
-Abbildung 14: externes Programm unter Mac OS konfigurieren
 
 Ein ähnliches “Universalstarter”-Verhalten kann unter Windows mit cmd.exe und dem “start”-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:
 
 ![Abbildung 14](../images/j-lawyer-org-UserGuide-de-014.png)
 
-Abbildung 15: externes Programm unter Microsoft Windows konfigurieren
 
 Hinweis: sollte es mit den Einstellungen oben Probleme beim Öffnen von Dateien mit Leerzeichen im Dateinamen geben, so sind die Parameter zu ändern von “/c start /wait DATEINAME” nach “/c DATEINAME”.
 
@@ -1063,7 +1056,6 @@ ohne führenden Punkt ein und klickt anschließend “Hinzufügen”. In der Lis
 
 ![Abbildung 15](../images/j-lawyer-org-UserGuide-de-015.png)
 
-Abbildung 16: Einstellungen zum Registrieren von Foxit Reader als externe Anwendung
 
 Nach erfolgter Auswahl wird der Dialog mit “Speichern”, gefolgt von “Schliessen” beendet. Foxit Reader ist nun als externe Anwendung zur Bearbeitung von PDFs registriert.
 
@@ -1073,7 +1065,6 @@ Unter Umständen kann der j-lawyer.org Client das Schliessen von Dokumenten nich
 
 ![Abbildung 16](../images/j-lawyer-org-UserGuide-de-016.png)
 
-Abbildung 17: Bestätigen bei erneutem Öffnen
 
 Die Frage kann dann einfach mit “Ja” quittiert werden.
 
@@ -1100,7 +1091,6 @@ Mittels eines Buttons oberhalb der Dokumentenliste lassen sich alle ausgewählte
 
 ![Abbildung 18](../images/j-lawyer-org-UserGuide-de-018.png)
 
-Abbildung 18: PDF-Export ausgewählter Dokumente
 
 Die Sortierung der Dokumente wird in das PDF übernommen, daher empfiehlt sich das bewusste Sortieren nach dem gewünschten Kriterium, bevor der Exportprozess gestartet wird.
 
@@ -1144,7 +1134,6 @@ Um ein Passwort zu vergeben, einzusehen oder zu ändern, wird der Kontakt über 
 
 ![Abbildung 19](../images/j-lawyer-org-UserGuide-de-019.png)
 
-Abbildung 19: Verschlüsselung für einen Kontakt aktivieren
 
 Bei einem Klick auf das Symbol kann ein Passwort vergeben (oder zurückgesetzt) werden. Das Symbol wechselt die Farbe. Verweilt der Mauszeiger über dem Symbol, so wird das Passwort angezeigt. So können Sie einem Mandanten bspw. auf Rückfrage auch das aktuelle Passwort bspw. telefonisch mitteilen. Sofern die Voice-over-IP-Schnittstelle aktiviert ist, kann man das Passwort auch mit einem Klick per SMS an den Kontakt senden. Senden Sie niemals verschlüsseltes Dokument und Passwort in einer E-Mail.
 
@@ -1160,7 +1149,6 @@ All dies geschieht vollautomatisch. Ist die Verschlüsselungsoption aktiviert, a
 
 ![Abbildung 20](../images/j-lawyer-org-UserGuide-de-020.png)
 
-Abbildung 20: Verschlüsselung, mehrere Empfänger
 
 ### LibreOffice Auto-Texte zentral im Netzwerk nutzen
 

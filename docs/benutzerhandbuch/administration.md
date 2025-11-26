@@ -49,7 +49,6 @@ Der j-lawyer.org Server “lauscht” an verschiedenen Ports auf eingehende Netz
 
 ![Abbildung 63](../images/j-lawyer-org-UserGuide-de-063.png)
 
-Abbildung 62: Portkonfiguration
 
 Sollte es einen Portkonflikt geben, so kann entweder der betroffene Port direkt geändert werden, oder es kann ein “Offset” definiert werden, bspw. “100” um auf alle Portkonfigurationen den Wert 100 zu addieren. Die Angabe erfolgt in der obersten dargestellten Zeile, bspw. Wie folgt:
 
@@ -89,7 +88,6 @@ Anschließend kann die Freigabe wie folgt im j-lawyer.org Client eingetragen wer
 
 ![Abbildung 64](../images/j-lawyer-org-UserGuide-de-064.png)
 
-Abbildung 63: Konfigurationsbeispiel Synchronisation Datensicherung: Windowsfreigabe
 
 Konfigurationsbeispiel: Synchronisation per SSH
 
@@ -107,7 +105,6 @@ Sind die Verbindung und der Verzeichniswechsel ohne Fehlermeldung möglich, so w
 
 ![Abbildung 65](../images/j-lawyer-org-UserGuide-de-065.png)
 
-Abbildung 64: Konfigurationsbeispiel Synchronisation Datensicherung: SFTP / SSH
 
 Konfigurationsbeispiel: anderer lokaler Ordner
 
@@ -115,7 +112,6 @@ Soll die Datensicherung innerhalb des Servers in ein anderes Verzeichnis synchro
 
 ![Abbildung 66](../images/j-lawyer-org-UserGuide-de-066.png)
 
-Abbildung 65: Konfigurationsbeispiel Synchronisation Datensicherung: lokale Kopie
 
 Stellen Sie in jedem Fall sicher, daß der externe Speicherplatz vor Fremdzugriffen ausreichend gesichert ist! Nutzen Sie idealerweise die Möglichkeit, Datensicherungen automatisch zu verschlüsseln / mit einem Passwort zu schützen. 
 Auch wenn die Synchronisation direkt nach der Datensicherung ausgeführt wird, ist es nicht zwingend notwendig, dass der externe Speicher zum Zeitpunkt der Datensicherung verfügbar ist. Das System wird stündlich eine Synchronisation probieren. So ist es möglich, in einem Kanzleinetzwerk eine Synchronisation auf einen “normalen” Arbeitsplatzrechner durchzuführen der nur zur üblichen Bürozeiten eingeschaltet ist.
