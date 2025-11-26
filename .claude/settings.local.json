@@ -5,7 +5,8 @@
       "Bash(openspec validate:*)",
       "Bash(python3:*)",
       "Bash(~/.local/bin/mkdocs build:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(ENABLE_PDF_EXPORT=1 ~/.local/bin/mkdocs build:*)"
     ],
     "deny": [],
     "ask": []

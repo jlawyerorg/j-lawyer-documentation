@@ -42,6 +42,16 @@ plugins:
   - search:
       lang: de
   - offline
+  - with-pdf:
+      author: j-lawyer.org Team
+      copyright: GNU AGPL v3
+      cover: true
+      cover_title: j-lawyer.org
+      cover_subtitle: Dokumentation
+      toc_level: 4
+      heading_shift: false
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: ../j-lawyer-dokumentation.pdf
 
 markdown_extensions:
   - attr_list

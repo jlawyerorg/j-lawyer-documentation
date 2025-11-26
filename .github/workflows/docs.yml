@@ -40,10 +40,15 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install mkdocs-material
+        run: pip install mkdocs-material mkdocs-with-pdf
 
       - name: Build documentation
         run: mkdocs build --strict
+        env:
+          ENABLE_PDF_EXPORT: 1
+
+      - name: Move PDF to site
+        run: mv j-lawyer-dokumentation.pdf site/ || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
