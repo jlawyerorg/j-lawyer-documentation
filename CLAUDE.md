@@ -23,44 +23,68 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the documentation repository for j-lawyer.org, a free case management solution for law firms. Documentation is maintained in **.fodt** (Flat OpenDocument Text) format - a plain-text XML format compatible with LibreOffice/OpenOffice that works well with version control.
+This is the documentation repository for j-lawyer.org, a free case management solution for law firms. Documentation is maintained in **Markdown** format and built with **MkDocs** using the Material theme.
 
 ## Build Commands
 
-Requires: LibreOffice, unoconv, Ant, Java 8+
+Requires: Python 3, pip
 
 ```bash
-# Convert .fodt files to PDF
-ant convertToPdf
+# Install dependencies
+pip install mkdocs-material mkdocs-with-pdf
 
-# Convert .fodt files to HTML
-ant convertToHtml
+# Local development server (auto-reload)
+mkdocs serve
 
-# Build and publish (requires remote server credentials as env vars)
-ant publish
+# Build static site
+mkdocs build
+
+# Build with PDF export
+ENABLE_PDF_EXPORT=1 mkdocs build
 ```
 
-Output directories:
-- `build/pdf/` - PDF exports
-- `build/html/` - HTML exports
+Output:
+- `site/` - Static HTML site
+- `j-lawyer-dokumentation.pdf` - PDF export (when enabled)
 
 ## Repository Structure
 
 ```
-src/
-├── j-lawyer.org-UserGuide-de.fodt      # German user guide (main doc)
-├── j-lawyer.org-UserGuide-en.fodt      # English user guide
-├── j-lawyer.org-ReleaseNotes-de.fodt   # German release notes
-├── j-lawyer.org-ReleaseNotes-en.fodt   # English release notes
-├── j-lawyer.BOX-QuickStart-de.fodp     # German quickstart (presentation)
-└── j-lawyer.BOX-IdentityCard-de.fodp   # German identity card docs
+docs/
+├── index.md                    # Landing page
+├── benutzerhandbuch/           # User guide (German)
+│   ├── index.md
+│   ├── installation.md
+│   ├── aktenverwaltung.md
+│   └── ...
+├── releasenotes/               # Release notes by version
+│   ├── index.md
+│   ├── v3-4.md
+│   └── ...
+├── images/                     # Screenshots and images
+└── overrides/                  # Theme customizations
+    └── stylesheets/extra.css
+scripts/                        # Helper scripts
+├── add_anchors.py              # Add stable anchors to headings
+├── extract_images.py           # Extract images from .fodt
+└── fodt_to_markdown.py         # Convert .fodt to Markdown
+mkdocs.yml                      # MkDocs configuration
+.github/workflows/docs.yml      # GitHub Actions for deployment
 ```
 
-## Working with .fodt Files
+## Working with Documentation
 
-- .fodt files are XML-based and can be edited directly, but LibreOffice/OpenOffice is recommended for formatting
-- The German documentation (`*-de.fodt`) is the primary/most current version
-- Changes to .fodt files trigger CI builds that convert to PDF/HTML and publish to the server
+- Edit Markdown files in `docs/`
+- Add images to `docs/images/` and reference them with `![Alt](../images/filename.png)`
+- Stable anchors use the format `{#anchor-id}` after headings
+- Run `mkdocs serve` to preview changes locally at http://localhost:8000
+- Push to `master` branch to trigger automatic deployment to GitHub Pages
+
+## Deployment
+
+GitHub Actions automatically builds and deploys to GitHub Pages on push to `master`.
+
+Live site: https://jlawyerorg.github.io/j-lawyer-documentation/
 
 ## License
 
