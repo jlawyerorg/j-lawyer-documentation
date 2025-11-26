@@ -107,9 +107,9 @@ nav:
     - Add-Ons:
       - beA: benutzerhandbuch/addon-bea.md
       - E-POST: benutzerhandbuch/addon-epost.md
-      - Drebis: benutzerhandbuch/addon-drebis.md
       - Sipgate: benutzerhandbuch/addon-sipgate.md
       - Softphone: benutzerhandbuch/addon-softphone.md
+      - Stirling PDF: benutzerhandbuch/addon-stirlingpdf.md
       - Nextcloud: benutzerhandbuch/addon-nextcloud.md
       - Gravity Forms: benutzerhandbuch/addon-gravityforms.md
       - XJustiz: benutzerhandbuch/addon-xjustiz.md
