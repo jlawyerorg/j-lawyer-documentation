@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(openspec validate:*)",
+      "Bash(python3:*)",
+      "Bash(~/.local/bin/mkdocs build:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

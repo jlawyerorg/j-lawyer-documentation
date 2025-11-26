@@ -1,0 +1,106 @@
+site_name: j-lawyer.org Dokumentation
+site_url: https://j-lawyer-org.github.io/j-lawyer-documentation/
+site_description: Dokumentation für j-lawyer.org - Freie Kanzleisoftware
+site_author: j-lawyer.org Team
+
+repo_url: https://github.com/j-lawyer-org/j-lawyer-documentation
+repo_name: j-lawyer-org/j-lawyer-documentation
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Zum Dunkelmodus wechseln
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Zum Hellmodus wechseln
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: de
+  - offline
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 4
+      title: Inhaltsverzeichnis
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/j-lawyer-org
+  generator: false
+
+copyright: Copyright &copy; j-lawyer.org - GNU AGPL v3
+
+nav:
+  - Start: index.md
+  - Benutzerhandbuch:
+    - Übersicht: benutzerhandbuch/index.md
+    - Vollständiges Handbuch: benutzerhandbuch/vollstaendig.md
+  - Release Notes:
+    - Übersicht: releasenotes/index.md
+    - Version 3.4: releasenotes/v3-4.md
+    - Version 3.3: releasenotes/v3-3.md
+    - Version 3.2: releasenotes/v3-2.md
+    - Version 3.1: releasenotes/v3-1.md
+    - Version 3.0: releasenotes/v3-0.md
+    - Version 2.6.1: releasenotes/v2-6-1.md
+    - Version 2.6: releasenotes/v2-6.md
+    - Version 2.5: releasenotes/v2-5.md
+    - Version 2.4: releasenotes/v2-4.md
+    - Version 2.3: releasenotes/v2-3.md
+    - Version 2.2: releasenotes/v2-2.md
+    - Version 2.1: releasenotes/v2-1.md
+    - Version 2.0.1: releasenotes/v2-0-1.md
+    - Version 2.0: releasenotes/v2-0.md
+    - Version 1.14: releasenotes/v1-14.md
+    - Version 1.13: releasenotes/v1-13.md
+    - Version 1.12: releasenotes/v1-12.md
+    - Version 1.11: releasenotes/v1-11.md
+    - Version 1.10: releasenotes/v1-10.md
+    - Version 1.9.1: releasenotes/v1-9-1.md
+    - Version 1.9: releasenotes/v1-9.md
+    - Version 1.8.1: releasenotes/v1-8-1.md
+    - Version 1.8: releasenotes/v1-8.md
+    - Version 1.7.1: releasenotes/v1-7-1.md
+    - Version 1.7: releasenotes/v1-7.md
+    - Version 1.6: releasenotes/v1-6.md
+    - Version 1.5: releasenotes/v1-5.md
+    - Version 1.4: releasenotes/v1-4.md
+    - Version 1.3: releasenotes/v1-3.md
+    - Version 1.2: releasenotes/v1-2.md
+    - Version 1.1: releasenotes/v1-1.md
+    - Version 1.0: releasenotes/v1-0.md

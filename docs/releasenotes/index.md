@@ -1,0 +1,38 @@
+# Release Notes
+
+Übersicht aller Versionen von j-lawyer.org.
+
+## Aktuelle Versionen
+
+- [Version 3.4](v3-4.md)
+- [Version 3.3](v3-3.md)
+- [Version 3.2](v3-2.md)
+- [Version 3.1](v3-1.md)
+- [Version 3.0](v3-0.md)
+- [Version 2.6.1](v2-6-1.md)
+- [Version 2.6](v2-6.md)
+- [Version 2.5](v2-5.md)
+- [Version 2.4](v2-4.md)
+- [Version 2.3](v2-3.md)
+- [Version 2.2](v2-2.md)
+- [Version 2.1](v2-1.md)
+- [Version 2.0.1](v2-0-1.md)
+- [Version 2.0](v2-0.md)
+- [Version 1.14](v1-14.md)
+- [Version 1.13](v1-13.md)
+- [Version 1.12](v1-12.md)
+- [Version 1.11](v1-11.md)
+- [Version 1.10](v1-10.md)
+- [Version 1.9.1](v1-9-1.md)
+- [Version 1.9](v1-9.md)
+- [Version 1.8.1](v1-8-1.md)
+- [Version 1.8](v1-8.md)
+- [Version 1.7.1](v1-7-1.md)
+- [Version 1.7](v1-7.md)
+- [Version 1.6](v1-6.md)
+- [Version 1.5](v1-5.md)
+- [Version 1.4](v1-4.md)
+- [Version 1.3](v1-3.md)
+- [Version 1.2](v1-2.md)
+- [Version 1.1](v1-1.md)
+- [Version 1.0](v1-0.md)

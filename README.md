@@ -1,62 +1,95 @@
-![CI](https://github.com/jlawyerorg/j-lawyer-documentation/workflows/CI/badge.svg)
+# j-lawyer.org Dokumentation
 
+[![Deploy Documentation](https://github.com/j-lawyer-org/j-lawyer-documentation/actions/workflows/docs.yml/badge.svg)](https://github.com/j-lawyer-org/j-lawyer-documentation/actions/workflows/docs.yml)
 
-# DE: j-lawyer-documentation
-
-Dokumentationsprojekt für j-lawyer.org
-
-In diesem Repository soll die j-lawyer.org-Anwenderdokumentation gepflegt werden. j-lawyer.org ist eine kostenfreie Software für Anwaltskanzleien.
+Dokumentationsprojekt für [j-lawyer.org](http://www.j-lawyer.org) - eine kostenfreie Kanzleisoftware.
 
 ## Format
 
-Die Dokumentation wird im .fodt-Formta gepflegt - ein Dateiformat das einfach mit LibreOffice oder OpenOffice bearbeitet werden kann und gleichzeitig sehr gut mit Versionskontrolle funktioniert, da es ein reines Textformat ist.
+Die Dokumentation wird im Markdown-Format gepflegt und mit [MkDocs](https://www.mkdocs.org/) und dem [Material Theme](https://squidfunk.github.io/mkdocs-material/) als statische Website generiert.
 
-## Motivation
+## Struktur
 
-Wir haben uns dazu entschieden diesen Teil als erstes zu veröffentlichen, damit jeder - ob Entwickler oder nicht - beitragen kann.
+```
+docs/
+├── index.md                    # Startseite
+├── benutzerhandbuch/
+│   ├── index.md                # Übersicht
+│   └── vollstaendig.md         # Vollständiges Handbuch
+├── releasenotes/
+│   ├── index.md                # Übersicht aller Versionen
+│   └── v*.md                   # Release Notes pro Version
+└── images/                     # Bilder
+mkdocs.yml                      # MkDocs Konfiguration
+```
 
-## Installation
+## Lokale Entwicklung
 
-(provide step by step tutorial for cloning repository, editing the documentation and getting changes back into the repository)
+### Voraussetzungen
+
+- Python 3.x
+- pip
+
+### Installation
+
+```bash
+pip install mkdocs-material
+```
+
+### Lokaler Server starten
+
+```bash
+mkdocs serve
+bzw.
+~/.local/bin/mkdocs serve
+```
+
+Die Dokumentation ist dann unter http://localhost:8000 erreichbar. Änderungen an Markdown-Dateien werden automatisch neu geladen.
+
+### Build
+
+```bash
+mkdocs build
+```
+
+Die generierte Website liegt im Verzeichnis `site/`.
+
+## Deployment
+
+Die Dokumentation wird automatisch über GitHub Actions auf GitHub Pages veröffentlicht:
+
+1. Bei jedem Push auf den `master`-Branch (wenn Änderungen in `docs/`, `mkdocs.yml` oder `.github/workflows/docs.yml`)
+2. Der Workflow baut die Dokumentation und deployt sie auf GitHub Pages
+
+### GitHub Pages einrichten
+
+1. Repository Settings → Pages
+2. Source: "GitHub Actions" auswählen
+3. Nach dem ersten erfolgreichen Workflow ist die Dokumentation unter `https://<org>.github.io/j-lawyer-documentation/` erreichbar
+
+## Dokumentation bearbeiten
+
+1. Markdown-Dateien im `docs/` Verzeichnis bearbeiten
+2. Lokal testen mit `mkdocs serve`
+3. Änderungen committen und pushen
+4. GitHub Actions baut und deployt automatisch
+
+### Neue Seite hinzufügen
+
+1. Markdown-Datei unter `docs/` erstellen
+2. In `mkdocs.yml` unter `nav:` eintragen
+
+### Bilder hinzufügen
+
+1. Bild in `docs/images/` ablegen
+2. In Markdown einbinden: `![Beschreibung](images/bildname.png)`
 
 ## Mitwirkende
 
-j-dimension, AKA j-lawyer.org
-
-http://www.j-lawyer.org
+j-dimension / j-lawyer.org
 
 ## Lizenz
 
-GNU AFFERO GENERAL PUBLIC LICENSE
-
-https://www.gnu.org/licenses/agpl-3.0.txt
-
-# EN: j-lawyer-documentation
-
-Documentation project for j-lawyer.org
-
-This repository is to maintain user documentation for j-lawyer.org - a free case management solution for lawyers. 
-
-## Format
-
-Documentation will be maintained as .fodt file - a file format that can easily be edited using LibreOffice or OpenOffice, and at the same time is well suited for version control due to its nature of being a text file.
-
-## Motivation
-
-I decided to make this part public first so everyone - developer or not - has a chance to contribute.
-
-## Installation
-
-(provide step by step tutorial for cloning repository, editing the documentation and getting changes back into the repository)
-
-## Contributors
-
-j-dimension, AKA j-lawyer.org
-
-http://www.j-lawyer.org
-
-## License
-
-GNU AFFERO GENERAL PUBLIC LICENSE
+GNU AFFERO GENERAL PUBLIC LICENSE (AGPL-3.0)
 
 https://www.gnu.org/licenses/agpl-3.0.txt
