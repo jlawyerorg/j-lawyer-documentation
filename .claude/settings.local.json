@@ -6,7 +6,8 @@
       "Bash(python3:*)",
       "Bash(~/.local/bin/mkdocs build:*)",
       "Bash(cat:*)",
-      "Bash(ENABLE_PDF_EXPORT=1 ~/.local/bin/mkdocs build:*)"
+      "Bash(ENABLE_PDF_EXPORT=1 ~/.local/bin/mkdocs build:*)",
+      "Bash(awk:*)"
     ],
     "deny": [],
     "ask": []

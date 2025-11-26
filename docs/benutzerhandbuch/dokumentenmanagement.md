@@ -66,292 +66,174 @@ Folgende Platzhalterinhalte einer Dokumentvorlage werden beim Erstellen eines ne
 
 #### Platzhalter für das Kanzleiprofil
 
-{{PROFIL_FIRMA}}	Profildaten: Firmenbezeichnung
-
-{{PROFIL_STRASSE}}	Profildaten: Strasse
-
-{{PROFIL_STRASSE2}}	Profildaten: Adresszusatz
-
-{{PROFIL_PLZ}}	Profildaten: Postleitzahl
-
-{{PROFIL_ORT}}	Profildaten: Ort
-
-{{PROFIL_LAND}}	Profildaten: Land
-
-{{PROFIL_TEL}}	Profildaten: Telefonnummer
-
-{{PROFIL_FAX}}	Profildaten: Faxnummer
-
-{{PROFIL_MOBIL}}	Profildaten: Mobilnummer
-
-{{PROFIL_EMAIL}}	Profildaten: E-Mailadresse
-
-{{PROFIL_WWW}}	Profildaten: Internetadresse
-
-{{PROFIL_STNR}}	Profildaten: Steuernummer
-
-{{PROFIL_USTIDNR}}	Profildaten: USt-IdNr.
-
-{{PROFIL_BANK}}	Profildaten: Bank
-
-{{PROFIL_KONTONR}}	Profildaten: Kontonummer
-
-{{PROFIL_BLZ}}	Profildaten: Bankleitzahl
-
-{{PROFIL_BANK_AK}}	Profildaten: Bank (Anderkonto)
-
-{{PROFIL_KONTONR_AK}}	Profildaten: Kontonummer (Anderkonto)
-
-{{PROFIL_BLZ_AK}}	Profildaten: Bankleitzahl (Anderkonto)
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{PROFIL_FIRMA}}` | Firmenbezeichnung |
+| `{{PROFIL_STRASSE}}` | Strasse |
+| `{{PROFIL_STRASSE2}}` | Adresszusatz |
+| `{{PROFIL_PLZ}}` | Postleitzahl |
+| `{{PROFIL_ORT}}` | Ort |
+| `{{PROFIL_LAND}}` | Land |
+| `{{PROFIL_TEL}}` | Telefonnummer |
+| `{{PROFIL_FAX}}` | Faxnummer |
+| `{{PROFIL_MOBIL}}` | Mobilnummer |
+| `{{PROFIL_EMAIL}}` | E-Mailadresse |
+| `{{PROFIL_WWW}}` | Internetadresse |
+| `{{PROFIL_STNR}}` | Steuernummer |
+| `{{PROFIL_USTIDNR}}` | USt-IdNr. |
+| `{{PROFIL_BANK}}` | Bank |
+| `{{PROFIL_KONTONR}}` | Kontonummer |
+| `{{PROFIL_BLZ}}` | Bankleitzahl |
+| `{{PROFIL_BANK_AK}}` | Bank (Anderkonto) |
+| `{{PROFIL_KONTONR_AK}}` | Kontonummer (Anderkonto) |
+| `{{PROFIL_BLZ_AK}}` | Bankleitzahl (Anderkonto) |
 
 #### Platzhalter für die angemeldete Person
 
-{{USER_AN}}	Nutzerdaten: Anzeigename
-
-{{USER_KRZ}}	Nutzerdaten: Kürzel
-
-{{USER_VORNAME}}	Nutzerdaten: Vorname
-
-{{USER_NAME}}	Nutzerdaten: Name
-
-{{USER_UNTERNEHMEN}}	Nutzerdaten: Firmenbezeichnung
-
-{{USER_FKT}}	Nutzerdaten: Funktion
-
-{{USER_STRASSE}}	Nutzerdaten: Strasse
-
-{{USER_ZUSATZ}}	Nutzerdaten: Adresszusatz
-
-{{USER_PLZ}}	Nutzerdaten: Postleitzahl
-
-{{USER_ORT}}	Nutzerdaten: Ort
-
-{{USER_LAND}}	Nutzerdaten: Land
-
-{{USER_TEL}}	Nutzerdaten: Telefonnummer
-
-{{USER_FAX}}	Nutzerdaten: Faxnummer
-
-{{USER_MOBIL}}	Nutzerdaten: Mobilnummer
-
-{{USER_EMAIL}}	Nutzerdaten: E-Mailadresse
-
-{{USER_WWW}}	Nutzerdaten: Internetadresse
-
-{{USER_STEUERNR}}	Nutzerdaten: Steuernummer
-
-{{USER_USTIDNR}}	Nutzerdaten: USt-IdNr.
-
-{{USER_BANK}}	Nutzerdaten: Bank
-
-{{USER_IBAN}}	Nutzerdaten: IBAN
-
-{{USER_BIC}}	Nutzerdaten: BIC
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{USER_AN}}` | Anzeigename |
+| `{{USER_KRZ}}` | Kürzel |
+| `{{USER_VORNAME}}` | Vorname |
+| `{{USER_NAME}}` | Name |
+| `{{USER_UNTERNEHMEN}}` | Firmenbezeichnung |
+| `{{USER_FKT}}` | Funktion |
+| `{{USER_STRASSE}}` | Strasse |
+| `{{USER_ZUSATZ}}` | Adresszusatz |
+| `{{USER_PLZ}}` | Postleitzahl |
+| `{{USER_ORT}}` | Ort |
+| `{{USER_LAND}}` | Land |
+| `{{USER_TEL}}` | Telefonnummer |
+| `{{USER_FAX}}` | Faxnummer |
+| `{{USER_MOBIL}}` | Mobilnummer |
+| `{{USER_EMAIL}}` | E-Mailadresse |
+| `{{USER_WWW}}` | Internetadresse |
+| `{{USER_STEUERNR}}` | Steuernummer |
+| `{{USER_USTIDNR}}` | USt-IdNr. |
+| `{{USER_BANK}}` | Bank |
+| `{{USER_IBAN}}` | IBAN |
+| `{{USER_BIC}}` | BIC |
 
 #### Allgemeine Platzhalter
 
-{{KURZDATUM}}	Datum in der Form TT.MM.JJJJ
-
-{{LANGDATUM}}	Datum in der Form Wochentag, TT.MM.JJJJ
-
-{{DOK_DZ}}	Diktatzeichen des Dokuments
-
-{{AUTOR_AN}}	Autor des Dokuments / der Nachricht
-
-(Anzeigename)
-
-{{AUTOR_KRZ}}	Kürzel des Autors des Dokuments / der Nachricht
-
-{{AUTOR_EMAIL}}	E-Mail-Adresse des Autors
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{KURZDATUM}}` | Datum in der Form TT.MM.JJJJ |
+| `{{LANGDATUM}}` | Datum in der Form Wochentag, TT.MM.JJJJ |
+| `{{DOK_DZ}}` | Diktatzeichen des Dokuments |
+| `{{AUTOR_AN}}` | Autor des Dokuments / der Nachricht (Anzeigename) |
+| `{{AUTOR_KRZ}}` | Kürzel des Autors des Dokuments / der Nachricht |
+| `{{AUTOR_EMAIL}}` | E-Mail-Adresse des Autors |
 
 #### Platzhalter für Beteiligte
 
-Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. Für GEGNER lauten diese dann bspw. {{GEGNER_NAME}} statt {{MANDANT_NAME}}.
+Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. Für GEGNER lauten diese dann bspw. `{{GEGNER_NAME}}` statt `{{MANDANT_NAME}}`.
 
-{{MANDANT_NAME}}	Name des Mandanten
-
-{{MANDANT_VORNAME}}	Vorname / Rufname des Mandanten
-
-{{MANDANT_VORNAME2}}	weitere Vornamen des Mandanten
-
-{{MANDANT_GESCHLECHT}}	Geschlecht des Mandanten
-
-{{MANDANT_INITIAL}}	Initialen des Mandanten
-
-{{MANDANT_AGRAD1}}	akademischer Grad des Mandanten, vor dem Namen
-
-{{MANDANT_AGRAD2}}	akademischer Grad des Mandanten, nach dem Namen
-
-{{MANDANT_BERUF}}	Beruf des Mandanten
-
-{{MANDANT_FKT}}	Funktion des Mandanten
-
-{{MANDANT_ZUSATZ}}	Adresszusatz des Mandanten
-
-{{MANDANT_NOTIZ}}	Notiz des Mandanten
-
-{{MANDANT_STA}}	Staatsangehörigkeit des Mandanten
-
-{{MANDANT_ABTLG}}	Abteilung des Mandanten
-
-{{MANDANT_UNTERNEHMEN}}	Unternehmensbezeichnung
-
-{{MANDANT_USTIDNR}}	Umsatzsteuer-Ident-Nr. des Mandanten
-
-{{MANDANT_STEUERNR}}	Steuernummer / TIN des Mandanten
-
-{{MANDANT_RFORM}}	Rechtsform des Mandanten
-
-{{MANDANT_REGNR}} 	Registernummer des Mandanten (juristische Person)
-
-{{MANDANT_REGGERICHT}}	Registergericht des Mandanten (juristische Person)
-
-{{MANDANT_ANREDE1}}	Anrede des Mandanten
-
-{{MANDANT_ANREDE2}}	Briefanrede des Mandanten, bspw. „Herrn“ statt „Herr“
-
-{{MANDANT_BEGRUESSUNG}}	Begrüßung in Briefanrede des Mandanten
-
-{{MANDANT_NACHTEXT}}	Nachtext des Mandanten
-
-{{MANDANT_STRASSE}}	Strasse des Mandanten
-
-{{MANDANT_HAUSNR}}	Hausnummer des Mandanten
-
-{{MANDANT_ORTSTEIL}}	Ortsteil des Mandanten
-
-{{MANDANT_ORT}}	Ort des Mandanten
-
-{{MANDANT_PLZ}}	Postleitzahl des Mandanten
-
-{{MANDANT_LAND}}	Land des Mandanten
-
-{{MANDANT_TEL}}	Telefonnummer des Mandanten
-
-{{MANDANT_MOBIL}}	Mobilnummer des Mandanten
-
-{{MANDANT_FAX}}	Faxnummer des Mandanten
-
-{{MANDANT_EMAIL}}	Emailadresse des Mandanten
-
-{{MANDANT_WWW}}	Homepage des Mandanten
-
-{{MANDANT_BANK}}	Bank des Mandanten
-
-{{MANDANT_BLZ}}	Bankleitzahl der Bank des Mandanten
-
-{{MANDANT_KONTONR}}	Kontonummer des Mandanten
-
-{{MANDANT_RECHTSSCHUTZ}}	Rechtsschutz des Mandanten
-
-{{MANDANT_VRECHTSSCHUTZ}}	Verkehrsrechtsschutz des Mandanten
-
-{{MANDANT_EIGENE1}}	Eigenes Feld 1
-
-{{MANDANT_EIGENE2}}	Eigenes Feld 2
-
-{{MANDANT_EIGENE3}}	Eigenes Feld 3
-
-{{MANDANT_GEB}}	Geburtsdatum des Mandanten
-
-{{MANDANT_GEBNAME}}	Geburtsname des Mandanten
-
-{{MANDANT_ALTER}}	Alter des Mandanten
-
-{{MANDANT_GEBORT}}	Geburtsort des Mandanten
-
-{{MANDANT_GEST}}	Sterbedatum des Mandanten
-
-{{MANDANT_AKTE_KONTAKT}}	Ansprechpartner des Mandanten innerhalb einer Akte
-
-{{MANDANT_AKTE_ZEICHEN}}	AZ1/Referenz des Mandanten innerhalb einer Akte
-
-{{MANDANT_AKTE_EIGENE1}}	Eigenes Feld 1 des Mandanten innerhalb einer Akte
-
-{{MANDANT_AKTE_EIGENE2}}	Eigenes Feld 2 des Mandanten innerhalb einer Akte
-
-{{MANDANT_AKTE_EIGENE3}}	Eigenes Feld 3 des Mandanten innerhalb einer Akte
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{MANDANT_NAME}}` | Name des Mandanten |
+| `{{MANDANT_VORNAME}}` | Vorname / Rufname des Mandanten |
+| `{{MANDANT_VORNAME2}}` | weitere Vornamen des Mandanten |
+| `{{MANDANT_GESCHLECHT}}` | Geschlecht des Mandanten |
+| `{{MANDANT_INITIAL}}` | Initialen des Mandanten |
+| `{{MANDANT_AGRAD1}}` | akademischer Grad des Mandanten, vor dem Namen |
+| `{{MANDANT_AGRAD2}}` | akademischer Grad des Mandanten, nach dem Namen |
+| `{{MANDANT_BERUF}}` | Beruf des Mandanten |
+| `{{MANDANT_FKT}}` | Funktion des Mandanten |
+| `{{MANDANT_ZUSATZ}}` | Adresszusatz des Mandanten |
+| `{{MANDANT_NOTIZ}}` | Notiz des Mandanten |
+| `{{MANDANT_STA}}` | Staatsangehörigkeit des Mandanten |
+| `{{MANDANT_ABTLG}}` | Abteilung des Mandanten |
+| `{{MANDANT_UNTERNEHMEN}}` | Unternehmensbezeichnung |
+| `{{MANDANT_USTIDNR}}` | Umsatzsteuer-Ident-Nr. des Mandanten |
+| `{{MANDANT_STEUERNR}}` | Steuernummer / TIN des Mandanten |
+| `{{MANDANT_RFORM}}` | Rechtsform des Mandanten |
+| `{{MANDANT_REGNR}}` | Registernummer des Mandanten (juristische Person) |
+| `{{MANDANT_REGGERICHT}}` | Registergericht des Mandanten (juristische Person) |
+| `{{MANDANT_ANREDE1}}` | Anrede des Mandanten |
+| `{{MANDANT_ANREDE2}}` | Briefanrede des Mandanten, bspw. „Herrn" statt „Herr" |
+| `{{MANDANT_BEGRUESSUNG}}` | Begrüßung in Briefanrede des Mandanten |
+| `{{MANDANT_NACHTEXT}}` | Nachtext des Mandanten |
+| `{{MANDANT_STRASSE}}` | Strasse des Mandanten |
+| `{{MANDANT_HAUSNR}}` | Hausnummer des Mandanten |
+| `{{MANDANT_ORTSTEIL}}` | Ortsteil des Mandanten |
+| `{{MANDANT_ORT}}` | Ort des Mandanten |
+| `{{MANDANT_PLZ}}` | Postleitzahl des Mandanten |
+| `{{MANDANT_LAND}}` | Land des Mandanten |
+| `{{MANDANT_TEL}}` | Telefonnummer des Mandanten |
+| `{{MANDANT_MOBIL}}` | Mobilnummer des Mandanten |
+| `{{MANDANT_FAX}}` | Faxnummer des Mandanten |
+| `{{MANDANT_EMAIL}}` | Emailadresse des Mandanten |
+| `{{MANDANT_WWW}}` | Homepage des Mandanten |
+| `{{MANDANT_BANK}}` | Bank des Mandanten |
+| `{{MANDANT_BLZ}}` | Bankleitzahl der Bank des Mandanten |
+| `{{MANDANT_KONTONR}}` | Kontonummer des Mandanten |
+| `{{MANDANT_RECHTSSCHUTZ}}` | Rechtsschutz des Mandanten |
+| `{{MANDANT_VRECHTSSCHUTZ}}` | Verkehrsrechtsschutz des Mandanten |
+| `{{MANDANT_EIGENE1}}` | Eigenes Feld 1 |
+| `{{MANDANT_EIGENE2}}` | Eigenes Feld 2 |
+| `{{MANDANT_EIGENE3}}` | Eigenes Feld 3 |
+| `{{MANDANT_GEB}}` | Geburtsdatum des Mandanten |
+| `{{MANDANT_GEBNAME}}` | Geburtsname des Mandanten |
+| `{{MANDANT_ALTER}}` | Alter des Mandanten |
+| `{{MANDANT_GEBORT}}` | Geburtsort des Mandanten |
+| `{{MANDANT_GEST}}` | Sterbedatum des Mandanten |
+| `{{MANDANT_AKTE_KONTAKT}}` | Ansprechpartner des Mandanten innerhalb einer Akte |
+| `{{MANDANT_AKTE_ZEICHEN}}` | AZ1/Referenz des Mandanten innerhalb einer Akte |
+| `{{MANDANT_AKTE_EIGENE1}}` | Eigenes Feld 1 des Mandanten innerhalb einer Akte |
+| `{{MANDANT_AKTE_EIGENE2}}` | Eigenes Feld 2 des Mandanten innerhalb einer Akte |
+| `{{MANDANT_AKTE_EIGENE3}}` | Eigenes Feld 3 des Mandanten innerhalb einer Akte |
 
 #### Platzhalter für die Akte
 
-{{AKTE_NR}}	Aktennummer
-
-{{AKTE_ERSTELLT}}	Erstellungsdatum der Akte
-
-{{AKTE_ZEICHEN}}	Aktenzeichen
-
-{{AKTE_KURZRUBRUM}}	Bezeichnung der Akte
-
-{{AKTE_NOTIZ}}	Notiz zur Akte
-
-{{AKTE_SCHADENNR}}	Schadennummer zur Akte
-
-{{AKTE_GEGENSTANDSWERT}}	Gegenstandswert
-
-{{AKTE_WEGEN}}	wegen
-
-{{AKTE_ANWALT}}	Anwalt (Nutzername)
-
-{{AKTE_ANWALT_AN}}	Anwalt (Anzeigename)
-
-{{AKTE_ANWALT_KRZ}}	Kürzel des verantwortlichen Anwalts
-
-{{AKTE_SACHBEARBEITER}}	Bearbeiter (Nutzername)
-
-{{AKTE_SACHBEARBEITER_AN}}	Bearbeiter (Anzeigename)
-
-{{AKTE_SACHBEARBEITER_KRZ}}	Kürzel des verantwortlichen Sachbearbeiters
-
-{{AKTE_EIGENE1}}	Eigenes Feld 1
-
-{{AKTE_EIGENE2}}	Eigenes Feld 2
-
-{{AKTE_EIGENE3}}	Eigenes Feld 3
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{AKTE_NR}}` | Aktennummer |
+| `{{AKTE_ERSTELLT}}` | Erstellungsdatum der Akte |
+| `{{AKTE_ZEICHEN}}` | Aktenzeichen |
+| `{{AKTE_KURZRUBRUM}}` | Bezeichnung der Akte |
+| `{{AKTE_NOTIZ}}` | Notiz zur Akte |
+| `{{AKTE_SCHADENNR}}` | Schadennummer zur Akte |
+| `{{AKTE_GEGENSTANDSWERT}}` | Gegenstandswert |
+| `{{AKTE_WEGEN}}` | wegen |
+| `{{AKTE_ANWALT}}` | Anwalt (Nutzername) |
+| `{{AKTE_ANWALT_AN}}` | Anwalt (Anzeigename) |
+| `{{AKTE_ANWALT_KRZ}}` | Kürzel des verantwortlichen Anwalts |
+| `{{AKTE_SACHBEARBEITER}}` | Bearbeiter (Nutzername) |
+| `{{AKTE_SACHBEARBEITER_AN}}` | Bearbeiter (Anzeigename) |
+| `{{AKTE_SACHBEARBEITER_KRZ}}` | Kürzel des verantwortlichen Sachbearbeiters |
+| `{{AKTE_EIGENE1}}` | Eigenes Feld 1 |
+| `{{AKTE_EIGENE2}}` | Eigenes Feld 2 |
+| `{{AKTE_EIGENE3}}` | Eigenes Feld 3 |
 
 #### Platzhalter für Berechnungsergebnisse / RVG
 
 Zum Übernehmen von Ergebnistabellen aus Plugins (bspw. RVG-Plugins) wird eine Tabelle mit exakt einer Zelle erstellt und ein Platzhalter wie folgt eingefügt:
 
-| {{TABELLE_1}} |
-| --- |
-
+| `{{TABELLE_1}}` |
+|-----------------|
 
 #### Platzhalter für Belege / Rechnungen
 
-{{BEL_NR}}	Belegnummer
-
-{{BEL_TYP}}	Art des Belegs, bspw. „Rechnung“, „Angebot“
-
-{{BEL_NAME}}	Name / Bezeichnung des Belegs
-
-{{BEL_BESCHR}}	Beschreibung des Belegs
-
-{{BEL_DTFAELLIG}}	Fälligkeitsdatum
-
-{{BEL_DTLZVON}}	Datum, Beginn des Leistungszeitraumes
-
-{{BEL_DTLZBIS}}	Datum, Ende des Leistungszeitraumes
-
-{{BEL_DTERSTELLT}}	Erstellungsdatum des Belegs
-
-{{BEL_TOTAL}}	Gesamtbetrag des Belegs
-
-{{BEL_WHRG}}	Währung des Belegs
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{BEL_NR}}` | Belegnummer |
+| `{{BEL_TYP}}` | Art des Belegs, bspw. „Rechnung", „Angebot" |
+| `{{BEL_NAME}}` | Name / Bezeichnung des Belegs |
+| `{{BEL_BESCHR}}` | Beschreibung des Belegs |
+| `{{BEL_DTFAELLIG}}` | Fälligkeitsdatum |
+| `{{BEL_DTLZVON}}` | Datum, Beginn des Leistungszeitraumes |
+| `{{BEL_DTLZBIS}}` | Datum, Ende des Leistungszeitraumes |
+| `{{BEL_DTERSTELLT}}` | Erstellungsdatum des Belegs |
+| `{{BEL_TOTAL}}` | Gesamtbetrag des Belegs |
+| `{{BEL_WHRG}}` | Währung des Belegs |
 
 Geldbeträge und Datumsangaben werden dabei entsprechend der Spracheinstellungen des Belegs formatiert.
 
 Zum Übernehmen der Belegpositionen in Form einer Tabelle wird eine Tabelle mit exakt einer Zelle erstellt und ein Platzhalter wie folgt eingefügt:
 
-| {{BEL_TABELLE}} |
-| --- |
-
-
-ab Version 2.6.1:
-
-Zum Übernehmen der Belegpositionen in Form einer Tabelle wird eine Tabelle mit exakt einer Zelle erstellt und ein Platzhalter wie folgt eingefügt:
-
-| {{BEL_TABELLE}} |
-| --- |
+| `{{BEL_TABELLE}}` |
+|-------------------|
 
 
 Die Spalten der Belegtabelle lassen sich derzeit nicht über die Tabelleneinstellungen anpassen. Stattdessen ist es möglich, eine Tabelle mit der korrekten Anzahl an Spalten und deren Breite zu erstellen. Beispielsweise wie folgt (es ist unerheblich, in welcher Zelle sich der Platzhalter {{BEL_TABELLE}} befindet):
@@ -414,9 +296,11 @@ Um solche Konstellationen zu vermeiden, kann das Leerzeichen zwischen Platzhalte
 
 Die Anwendung hat für diese Fälle eine „Intelligenz“ und fügt automatisch Leerzeichen an benötigten Stellen ein, bspw. zwischen den Platzhaltern, aber keines vor einem Komma.
 
-#### Platzhalter für Texte aus KI-Assistenzfunktionen („Assistent Ingo“)
+#### Platzhalter für Texte aus KI-Assistenzfunktionen („Assistent Ingo")
 
-{{INGO_TEXT}}	Ergebnistext des jeweiligen Dialogs (bspw. KI-Assistenten oder Sprachmemo)
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{INGO_TEXT}}` | Ergebnistext des jeweiligen Dialogs (bspw. KI-Assistenten oder Sprachmemo) |
 
 #### PDF-Formulare als Vorlagen verwenden
 
@@ -472,11 +356,13 @@ Nach Auswahl einer Vorlage wird auf Vorhandensein von Platzhaltern geprüft, und
 
 Die Nutzung herkömmlicher Platzhalter ermöglicht eine grundlegende Automatisierung der Dokumenterstellung. Für fortgeschrittene Szenarien ist jedoch eine manuelle Nachbearbeitung notwendig, bspw. um geschlechterspezifische Formulierungen zu automatisieren, oder auf Basis vorhandender Daten aus der Akte, den Beteiligten oder einem Falldatenblatt Varianten bestimmter Inhalte hinzuzufügen.
 
-Zu diesem Zweck können einfache Logiken / Programmcode („Skripte“) in einer Vorlage verwendet werden. Skripte werden über einen eigenen Platzhalter eingefügt, der wie folgt aussieht:
+Zu diesem Zweck können einfache Logiken / Programmcode („Skripte") in einer Vorlage verwendet werden. Skripte werden über einen eigenen Platzhalter eingefügt, der wie folgt aussieht:
 
+```
 [[SCRIPT:…]]
+```
 
-Anstelle des rot markierten Teils wird die eigentliche Logik – bspw. eine Funktion oder eine Kombination mehrerer Funktionen - eingefügt. Das Ergebnis eines Skriptes muss immer eine Zeichenkette (also ein Text) sein.
+Anstelle des `…` wird die eigentliche Logik – bspw. eine Funktion oder eine Kombination mehrerer Funktionen - eingefügt. Das Ergebnis eines Skriptes muss immer eine Zeichenkette (also ein Text) sein.
 
 Innerhalb eines Skriptes können Standardplatzhalter verwendet werden, bspw. als Parameter. In diesem Fall werden die doppelt geschweiften Klammern weggelassen.
 
@@ -484,17 +370,23 @@ Innerhalb von Werten sind keine Absatzumbrüche zu verwenden (Enter). Zeilenumbr
 
 Werden über Platzhalter die Werte mehrzeiliger Eingabefelder übernommen, so sind die Platzhalternamen in 2fache doppelte Anführungszeiten aufzunehmen, also bspw.
 
+```
 [[SCRIPT: WENNGLEICH(UKSC_7EINLASSGJANEIN,"ja",""UKSC_7EINLASSGINH"");]]
+```
 
-Zeilenumbrüche können ebenfalls mittels "\n" eingefügt werden, Einrückungen mittels "\t". Der Wert
+Zeilenumbrüche können ebenfalls mittels `\n` eingefügt werden, Einrückungen mittels `\t`. Der Wert
 
+```
 "Hallo hier folgt eine neue Zeile,\nund das folgende Wort ist eingerückt:
 \teingerückt"
+```
 
 ergibt die Ausgabe
 
+```
 "Hallo hier folgt eine neue Zeile,
 und das folgende Wort ist eingerückt:	eingerückt"
+```
 
 Ist ein Skriptausdruck der einzige Inhalt einer Zeile, und ergibt einen leeren Wert, so wird die Zeile aus dem Dokument entfernt.
 
@@ -510,59 +402,55 @@ Gibt das aktuelle Datum und / oder die aktuelle Zeit im gewünschten Format aus.
 
 Folgende Buchstaben können im Format verwendet werden:
 
-y 	Jahr
-
-M 	Monat im Jahr
-
-w 	Woche im Jahr
-
-W 	Woche im Monat
-
-D 	Tag im Jahr
-
-d 	Tag im Monat
-
-E 	Name des Wochentages
-
-a 	am/pm
-
-H 	Stunde (0-23)
-
-k 	Stunde (1-24)
-
-K 	Stunde in am/pm (0-11)
-
-h 	Stunde in am/pm (0-12)
-
-m 	Minute
-
-s 	Sekunde
-
-z 	Zeitzone
-
-Z 	Zeitzone
-
-X 	Zeitzone
+| Buchstabe | Bedeutung |
+|-----------|-----------|
+| `y` | Jahr |
+| `M` | Monat im Jahr |
+| `w` | Woche im Jahr |
+| `W` | Woche im Monat |
+| `D` | Tag im Jahr |
+| `d` | Tag im Monat |
+| `E` | Name des Wochentages |
+| `a` | am/pm |
+| `H` | Stunde (0-23) |
+| `k` | Stunde (1-24) |
+| `K` | Stunde in am/pm (0-11) |
+| `h` | Stunde in am/pm (0-12) |
+| `m` | Minute |
+| `s` | Sekunde |
+| `z` | Zeitzone |
+| `Z` | Zeitzone |
+| `X` | Zeitzone |
 
 Beispiel: 14 Tage nach aktuellem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRIST(KURZDATUM,"14");]] notiert.
+```
 
 Beispiel: 10 Tage nach fixem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRIST("01.01.2022","10");]] notiert.
+```
 
 Beispiel: Fr., 11.02.2022
 
+```
 [[SCRIPT:DATUMZEIT("EEE, dd.MM.yyyy");]]
+```
 
 Beispiel: Fr., 11. Februar 2022 15:30
 
+```
 [[SCRIPT:DATUMZEIT("EEE, dd. MMMMM yyyy HH:mm");]]
+```
 
 Beispiel: Freitag, 11. Februar 2022
 
+```
 [[SCRIPT:DATUMZEIT("EEEEE, dd. MMMMM yyyy");]]
+```
 
 Details zu Formatmöglichkeiten: <https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>
 
@@ -580,11 +468,15 @@ Gibt ein errechnetes Datum x Tage nach einem gegebenen Datum zurück.
 
 Beispiel: 14 Tage nach aktuellem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRIST(KURZDATUM,"14");]] notiert.
+```
 
 Beispiel: 10 Tage nach fixem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRIST("01.01.2022","10");]] notiert.
+```
 
 Fristen: Funktion FRISTBANKTAG
 
@@ -600,11 +492,15 @@ Gibt ein errechnetes Datum x Tage nach einem gegebenen Datum zurück. Fällt das
 
 Beispiel: 14 Tage nach aktuellem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRISTBANKTAG(KURZDATUM,"14");]] notiert.
+```
 
 Beispiel: 10 Tage nach fixem Datum
 
+```
 Als Frist habe ich mir den [[SCRIPT:FRISTBANKTAG("01.01.2022","10");]] notiert.
+```
 
 Text: Funktion MWDJU
 
@@ -623,7 +519,9 @@ Gibt in Abhängigkeit eines Geschlechts einen vorgegebenen Text zurück.
 
 Beispiel: eine Anrede die dynamisch erstellt wird, je nachdem ob die Mandantin weiblich / männlich / divers / juristische Person / undefiniert ist
 
+```
 [[SCRIPT:MWDJU(MANDANT_GESCHLECHT,"Sehr geehrter Herr " + MANDANT_NAME,"Sehr geehrte Frau " + MANDANT_NAME,"Guten Tag, " + MANDANT_VORNAME + " " + MANDANT_NAME, "Sehr geehrte Damen und Herren", "Sehr geehrte Damen und Herren");]]
+```
 
 Text: Funktion GROSS
 
@@ -637,7 +535,9 @@ Wandelt einen gegebenen Text in Großschreibung um, bspw. weil der Wert eines Pl
 
 Beispiel
 
+```
 [[SCRIPT:GROSS(MANDANT_GESCHLECHT);]] ist in der Akte kleingeschrieben, hier im Text aber gross.
+```
 
 Text: Funktion KLEIN
 
@@ -651,7 +551,9 @@ Wandelt einen gegebenen Text in Kleinschreibung um.
 
 Beispiel
 
+```
 [[SCRIPT:KLEIN(MANDANT_GESCHLECHT);]] erscheint hier im Text klein.
+```
 
 Text: Funktion WENNGLEICH
 
@@ -668,9 +570,13 @@ Gibt einen Text aus, wenn ein Referenzwert einem Vergleichswert entspricht, oder
 
 Beispiel
 
+```
 [[SCRIPT:WENNGLEICH(MANDANT_ORT, "Hamburg", "Moin moin " + MANDANT_VORNAME + " " + MANDANT_NAME);]]
+```
 
+```
 [[SCRIPT:WENNGLEICH(MANDANT_ORT, "Hamburg", "Moin moin " + MANDANT_VORNAME + " " + MANDANT_NAME, "Guten Tag " + MANDANT_VORNAME + " " + MANDANT_NAME);]]
+```
 
 Text: Funktion WENNENTHAELT
 
@@ -687,9 +593,13 @@ Gibt einen Text aus, wenn ein Referenzwert einen Vergleichswert enthält, oder o
 
 Beispiel
 
+```
 [[SCRIPT:WENNENTHAELT(MANDANT_STA, "deutsch", "Die Person hat die deutsche Staatsangehörigkeit.");]]
+```
 
+```
 [[SCRIPT:WENNENTHAELT(MANDANT_STA, "deutsch", "Die Person hat die deutsche Staatsangehörigkeit.", "Die Person verfügt nicht über die deutsche Staatsangehörigkeit.");]]
+```
 
 Text: Funktion WENNLEER
 
@@ -705,9 +615,13 @@ Gibt einen Text aus, wenn ein Referenzwert leer ist, oder optional einen anderen
 
 Beispiel
 
+```
 [[SCRIPT:WENNLEER(KSCHUTZ_GRUNDK, "Ein Grund für die Kündigung wurde nicht mitgeteilt.");]]
+```
 
+```
 [[SCRIPT:WENNLEER(KSCHUTZ_GRUNDK, "Ein Grund für die Kündigung wurde nicht mitgeteilt.", "Eine Begründung der Kündigung liegt uns vor.");]]
+```
 
 Text: Funktion WENNGROESSER
 
@@ -724,9 +638,13 @@ Gibt einen Text aus, wenn ein Referenzwert ein numerisches Limit übersteigt, od
 
 Beispiel
 
+```
 [[SCRIPT:WENNGROESSER(AKTE_GEGENSTANDSWERT, "50000", "Das wird ein tolles Mandat!");]]
+```
 
+```
 [[SCRIPT:WENNGROESSER(AKTE_GEGENSTANDSWERT, "50000", "Das wird ein tolles Mandat!", "Manche Dinge müssen halt einfach erledigt werden.");]]
+```
 
 Text: Funktion WENNFALLDATEN
 
@@ -744,7 +662,9 @@ Hinweis: Im Gegensatz zu den anderen Funktionsaufrufen wird der Präfix-Paramete
 
 Beispiel
 
+```
 [[SCRIPT:WENNFALLDATEN("UKBEA", "Falldaten UKBEA vorhanden", "Falldaten UKBEA nicht vorhanden");]]
+```
 
 Text: Funktion GENDERN
 
@@ -760,9 +680,13 @@ Gibt einen geschlechts- und fallspezifischen Wert für einen Begiff aus.
 
 Beispiel
 
-Die weibliche Form von „Kläger“ lautet   [[SCRIPT:GENDERN("Kläger","weiblich","Nominativ");]].
+```
+Die weibliche Form von „Kläger" lautet [[SCRIPT:GENDERN("Kläger","weiblich","Nominativ");]].
+```
 
-[[SCRIPT:GENDERN("Kläger",MANDANT_GESCHLECHT,"Nominativ");]].
+```
+[[SCRIPT:GENDERN("Kläger",MANDANT_GESCHLECHT,"Nominativ");]]
+```
 
 Text: Funktion ZUORDNEN
 
@@ -791,10 +715,15 @@ Zuordnungsregeln
 | AG | Kapitalgesellschaft |
 
 
+```
 Mein Mandant leitet eine [[SCRIPT:ZUORDNEN("Gesellschaftsform",MANDANT_RFORM);]].
+```
 
-Ergibt (wenn in den Stammdaten des Mandanten die Rechtsform „GmbH“ ausgewählt ist):
+Ergibt (wenn in den Stammdaten des Mandanten die Rechtsform „GmbH" ausgewählt ist):
+
+```
 Mein Mandant leitet eine Kapitalgesellschaft.
+```
 
 Akte: Funktion WENNETIKETT
 
@@ -810,29 +739,43 @@ Gibt einen Wert aus, sofern für die Akte ein bestimmtes Etikett gesetzt ist.
 
 Beispiel
 
+```
 [[SCRIPT:WENNETIKETT("bevorzugtes Mandat", "Gern biete ich Ihnen einen kurzfristigen Termin an.", "Einen Termin können wir gern für die übernächste Woche vereinbaren.");]]
+```
 
 Funktionen schachteln
 
 Funktionen können ineinander geschachtelt werden, bspw. MWDJU innerhalb von WENNGLEICH, um bei Gleichheit zweier Werte einen geschlechterspezifischen Ausgabetext zu erhalten. Zu diesem Zweck können Parameter einer übergeordneten Funktion durch die Angabe einer inneren Funktion definiert werden.
 
-Beispiel: wenn laut Falldatenblatt „Kündigungsschutz“ ein Betriebsrat vorhanden ist, gib einen  geschlechterspezifischen Wert aus
+Beispiel: wenn laut Falldatenblatt „Kündigungsschutz" ein Betriebsrat vorhanden ist, gib einen  geschlechterspezifischen Wert aus
 
+```
 [[SCRIPT:WENNGLEICH(KSCHUTZ_BTRAT,"Betriebsrat vorhanden",MWDJU(GEGNER_GESCHLECHT," Beim Beklagten ","Bei der Beklagten " ,"Bei der beklagten Partei ", "Bei den Beklagten ", "Bei der beklagten Partei ") + "ist ein Betriebsrat gebildet. Die ordnungsgemäße Anhörung des Betriebsrats wird (hilfsweise mit Nichtwissen) bestritten.","Es ist kein Betriebsrat gebildet");]]
+```
 
 Mehrere Bedingungen in einem Skript, UND / ODER
 
 In einigen Fällen kann eine Prüfung mehrerer Bedingungen notwendig sein. Die Syntax hierfür ist noch nicht anwenderfreundlich umgesetzt, kann aber bereits realisiert werden.
 
 Anwendungsfall: Wenn Bedingungen 1 UND 2 erfüllt sind, gib Wert 1 aus, anderenfalls Wert 2
-Syntax: Bedingung1 && Bedingung2 ? Wert1 : Wert2
-Beispiel: 
+
+Syntax: `Bedingung1 && Bedingung2 ? Wert1 : Wert2`
+
+Beispiel:
+
+```
 [[SCRIPT:(MANDANT_NAME.equals("Müller") && MANDANT_ORT.equals("Dingsstadt")) ? "Frau Müller aus Dingsstadt" : "jemand anderes";]]
+```
 
 Anwendungsfall: Wenn Bedingung 1 ODER 2 erfüllt sind, gib Wert 1 aus, anderenfalls Wert 2
-Syntax: Bedingung1 || Bedingung2 ? Wert1 : Wert2
-Beispiel: 
+
+Syntax: `Bedingung1 || Bedingung2 ? Wert1 : Wert2`
+
+Beispiel:
+
+```
 [[SCRIPT:(MANDANT_NAME.equals("Müller") || MANDANT_NAME.equals("Meier")) ? "Müller oder Meier" : "jemand anderes";]]
+```
 
 ### Dateinamen-Automatik
 
@@ -845,7 +788,9 @@ Im Menüpunkt „Einstellungen“ – „Dokumente“ – „Dateinamen“ lasse
 
 Mit den Voreinstellungen wird j-lawyer.org Dateinamen in dieser Form nutzen:
 
+```
 2024-10-30_Schriftsatz.odt
+```
 
 Im Einstellungsdialog lassen sich sowohl das Standardschema anpassen, als auch weitere Bildungsvorschriften für Dateinamen definieren. Dateinamen können dabei aus Platzhaltern generiert werden:
 - Platzhalter für Zeitangaben – in eckigen Klammern
@@ -866,19 +811,27 @@ Beispiele:
 
 Beispielschema für erstellte Vollmachten
 
+```
 [yyyy][mm][dd]_Vollmacht_{{MANDANT_NAME}}
+```
 
 Wird zu
 
+```
 20241030_Vollmacht_Müller.odt
+```
 
 Beispiel für erhaltene E-Mail im Verkehrsrecht:
 
+```
 [yyyy][mm][dd]_DATEINAME_{{AKTE_ZEICHEN}}_{{MANDANT_NAME}}-vs-{{GEGNER_NAME}}_{{VRKHR_KENNZEICHEN}}
+```
 
 wird zu
 
+```
 20241030_Anfrage Schadenregulierung_003-24_Müller-vs-Meier_HH-XY 1234.eml
+```
 
 Nur exakt ein Schema kann das „Standardschema“ sein (Option „als Standard verwenden“ ist aktiv).
 
@@ -953,17 +906,21 @@ j-lawyer bietet eine einfache Möglichkeit, gescannte oder andere bereits vorhan
 
 Konfigurieren Sie Ihren Scanner so, daß alle Scans automatisch in diesem Ordner abgelegt werden, haben Sie so eine komfortable Möglichkeit, direkt im j-lawyer auf die Dokumente zuzugreifen.
 
-Um diese Funktionalität zu nutzen, bearbeiten Sie die Einstellung direkt im j-lawyer Client unter „Einstellungen“ – „Modul ‚Dokumente'“ – „Scannerintegration“, bpsw für Linux
+Um diese Funktionalität zu nutzen, bearbeiten Sie die Einstellung direkt im j-lawyer Client unter „Einstellungen" – „Modul ‚Dokumente'" – „Scannerintegration", bspw. für Linux:
 
+```
 /home/<Nutzer>/<Verzeichnis>
+```
 
-(Nutzer und Verzeichnis entsprechend ersetzen, bspw. /home/j-lawyer/j-lawyer-server/scans)
+(Nutzer und Verzeichnis entsprechend ersetzen, bspw. `/home/j-lawyer/j-lawyer-server/scans`)
 
 Oder für Windows:
 
+```
 <Laufwerk>:/<Verzeichnis>
+```
 
-(Laufwerk und Verzeichnis entsprechend ersetzen, bspw. C:/j-lawyer-server/scans)
+(Laufwerk und Verzeichnis entsprechend ersetzen, bspw. `C:/j-lawyer-server/scans`)
 
 Im „Scans“-Dialog im j-lawyer Client klicken Sie dann auf das gewünschte Dokument (Doppelklick öffnet es), und klicken Sie doppelt auf einen Aktionsvorschlag um ihn auszuführen.
 
@@ -990,12 +947,15 @@ Dokumente im zentralen Scaneingang können automatisch eine Texterkennung durchl
 
 Für die OCR-Funktionalität wird ein externes Programm aufgerufen. Der Aufruf kann unter Einstellungen - Dokumente - Scannerintegration konfiguriert werden. Für Linux-basierte Server kann bspw. "ocrmypdf" installiert und dann mittels folgendem Aufruf genutzt werden:
 
+```bash
 /usr/bin/ocrmypdf --skip-text DATEIEIN DATEIAUS
+```
 
 Die beiden letzten Parameter müssen zwingend im Aufruf enthalten sein, auch wenn eine andere OCR-Software genutzt wird. j-lawyer.org wird die Platzhalter bei Aufruf ersetzen.
-- DATEIEIN ist der volle Pfad zu einer Datei, für welche die Texterkennung ausgeführt werden soll
 
-- DATEIAUS ist der volle Pfad zur Ergebnisdatei / zu erstellenden Datei
+- `DATEIEIN` ist der volle Pfad zu einer Datei, für welche die Texterkennung ausgeführt werden soll
+
+- `DATEIAUS` ist der volle Pfad zur Ergebnisdatei / zu erstellenden Datei
 
 Der Texterkennungsstatus wird im Scaneingang in der Spalte „OCR“ angezeigt:
 - Status „gelb“: OCR läuft
@@ -1011,33 +971,36 @@ Ist der Status rot, so kann per Klick im Aktionsmenü erneut eine Texterkennung 
 
 
 j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:
-- text: Text des Dokumentes (Standardfeld)
 
-- dateiname: Dateiname des Dokumentes
+| Feld | Beschreibung |
+|------|--------------|
+| `text` | Text des Dokumentes (Standardfeld) |
+| `dateiname` | Dateiname des Dokumentes |
+| `autor` | Nutzername des Autors des Dokumentes |
+| `akte` | Rubrum der Akte, die das Dokument enthält |
+| `az` | Aktenzeichen der Akte, die das Dokument enthält |
 
-- autor: Nutzername des Autors des Dokumentes
+Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht `autor:anwalt1` nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1" erstellt wurden.
 
-- akte: Rubrum der Akte, die das Dokument enthält
+Suchen nach Wortgruppen sind über Hochkommata möglich, bspw. `"Klage gegen Müller"`. Suchen in mehreren Feldern sind durch Nutzung der Operatoren `AND` und `OR` möglich, bspw. `text:klage AND autor:anwalt1` oder einfach `klage AND autor:anwalt1`.
 
-- az: Aktenzeichen der Akte, die das Dokument enthält
-
-Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht „autor:anwalt1“ nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1“ erstellt wurden.
-
-Suchen nach Wortgruppen sind über Hochkommata möglich, bspw. „Klage gegen Müller“. Suchen in mehreren Feldern sind durch Nutzung der Operatoren AND und OR möglich, bspw. „text:klage AND autor:anwalt1“ oder einfach „klage AND autor:anwalt1“.
-
-Es werden Wildcards unterstützt, Suche nach „te?t“ sucht bspw. nach text und test, test* sucht nach allen Wörtern die mit „test“ beginnen – also: ? als Wildcard für EIN Zeichen, * als Wildcard für beliebig viele Zeichen.
+Es werden Wildcards unterstützt, Suche nach `te?t` sucht bspw. nach text und test, `test*` sucht nach allen Wörtern die mit „test" beginnen – also: `?` als Wildcard für EIN Zeichen, `*` als Wildcard für beliebig viele Zeichen.
 
 Volltextsuche deaktivieren / aktivieren
 
 In manchen Situationen kann es hilfreich sein, die Indexierung neuer Dokumente zu unterbinden – bspw. wenn im Rahmen einer Datenmigration in sehr kurzer Zeit viele Dokumente hinzugefügt werden. In diesen Fällen ist das vollständige Indexieren des Datenbestandes zu einem definierten / späteren Zeitpunkt die bessere Lösung.
 
-Zum Deaktivieren der Indexierung neuer Dokumente kann in „Administration“ – „Administrator-Konsole“ folgender Befehl genutzt werden:
+Zum Deaktivieren der Indexierung neuer Dokumente kann in „Administration" – „Administrator-Konsole" folgender Befehl genutzt werden:
 
+```
 setsetting jlawyer.server.searchindex.skip true
+```
 
 Zum Aktivieren:
 
+```
 setsetting jlawyer.server.searchindex.skip false
+```
 
 Die Einstellung beeinflusst ausschließlich neu hinzugefügte Dokumente. Dokumentänderungen oder -löschungen werden weiterhin abgearbeitet (d.h. dass in diesen Situationen weiterhin der Volltextindex aktualisiert wird).
 
@@ -1052,17 +1015,17 @@ j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu öffne
 
 Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend mit einer anderen Applikation geöffnet werden sollen. Dazu gibt es unter „Einstellungen“ – „Dokumente“ – „externe Programme“ entsprechende Konfigurationen. Fügen Sie zuerst eine Anwendung per frei wählbarem Namen hinzu, bspw. „Adobe PDF Reader“. Daraufhin können Sie eine ausführbare Datei auswählen und Parameter, die beim Öffnen zum Lesen bzw. zum Editieren an das ausgewählte Programm übergeben werden. Der (voreingestellte) Parameter DATEINAME wird dabei von j-lawyer automatisch ersetzt und sollte in jedem Fall erhalten bleiben und bei Bedarf lediglich um weitere Parameter ergänzt werden.
 
-Auf Mac OS gibt es einen “Universalstarter” namens “open”, der zum Öffnen von Dateien mit vorhandenen Programmen verwendet werden kann. Zu finden ist er unter /usr/bin/open, er erwartet als Parameter unter anderem auch den Namen des auszuführenden Programmes. Um bspw. PNG-Dateien mit “Preview” bzgw. “Vorschau” zu öffnen, lauten die Einstellungen im j-lawyer.org Client wie folgt:
+Auf Mac OS gibt es einen "Universalstarter" namens "open", der zum Öffnen von Dateien mit vorhandenen Programmen verwendet werden kann. Zu finden ist er unter `/usr/bin/open`, er erwartet als Parameter unter anderem auch den Namen des auszuführenden Programmes. Um bspw. PNG-Dateien mit “Preview” bzgw. “Vorschau” zu öffnen, lauten die Einstellungen im j-lawyer.org Client wie folgt:
 
 ![Abbildung 13](../images/j-lawyer-org-UserGuide-de-019.png)
 
 
-Ein ähnliches “Universalstarter”-Verhalten kann unter Windows mit cmd.exe und dem “start”-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:
+Ein ähnliches "Universalstarter"-Verhalten kann unter Windows mit `cmd.exe` und dem `start`-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:
 
 ![Abbildung 14](../images/j-lawyer-org-UserGuide-de-020.png)
 
 
-Hinweis: sollte es mit den Einstellungen oben Probleme beim Öffnen von Dateien mit Leerzeichen im Dateinamen geben, so sind die Parameter zu ändern von “/c start /wait DATEINAME” nach “/c DATEINAME”.
+Hinweis: sollte es mit den Einstellungen oben Probleme beim Öffnen von Dateien mit Leerzeichen im Dateinamen geben, so sind die Parameter zu ändern von `/c start /wait DATEINAME` nach `/c DATEINAME`.
 
 Ab Version 2.1.0 können für einen Dateityp mehrere verschiedene Anwendungen konfiguriert werden, bspw. für PDFs einen schnell öffnenden Reader und eine weitere Anwendung für die PDF-Bearbeitung. Für diese Fälle gibt es die Einstellung „Standardprogramm“. Die als „Standardprogramm“ markierte Anwendung wird bei Doppelklick auf ein passendes Dokument genutzt. Die Standardanwendung als auch alle weiteren Anwendungen für den Dateityp sind per Kontextmenü „Öffnen mit…“ aufrufbar.
 
@@ -1076,11 +1039,13 @@ Am Beispiel von PDFs auf Windows wird hier beschrieben, wie mit der kostenlosen 
 
 Zuerst wird die Anwendung heruntergeladen und installiert. Nach dem Öffnen wird über Menü “Datei” und “Einstellungen” in der Kategorie “Dokumente” die oberste Option “Mehrere Instanzen zulassen” aktiviert und anschließend der Einstellungsdialog und die Anwendung beendet.
 
-Im j-lawyer.org Client öffnet man das Menü “Einstellungen” - “Modul ‘Dokumente’” - “externe Programme”. Im Eingabefeld “Dateitypen” gibt man
+Im j-lawyer.org Client öffnet man das Menü "Einstellungen" - "Modul 'Dokumente'" - "externe Programme". Im Eingabefeld "Dateitypen" gibt man
 
+```
 pdf
+```
 
-ohne führenden Punkt ein und klickt anschließend “Hinzufügen”. In der Liste im linken Bereich erscheint nun pdf als Auswahlmöglichkeit. Man wählt den Eintrag aus und klickt dann auf den […]-Knopf hinter “Ausführbare Datei”. Navigieren Sie zur Datei “FoxitReader.exe”, der Standardpfad ist unten im Bild exemplarisch gezeigt.
+ohne führenden Punkt ein und klickt anschließend "Hinzufügen". In der Liste im linken Bereich erscheint nun pdf als Auswahlmöglichkeit. Man wählt den Eintrag aus und klickt dann auf den […]-Knopf hinter “Ausführbare Datei”. Navigieren Sie zur Datei “FoxitReader.exe”, der Standardpfad ist unten im Bild exemplarisch gezeigt.
 
 ![Abbildung 15](../images/j-lawyer-org-UserGuide-de-021.png)
 
