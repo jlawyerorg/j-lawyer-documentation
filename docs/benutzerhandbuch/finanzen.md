@@ -126,7 +126,7 @@ Rechnungen, die durch j-lawyer.org generiert oder von außen empfangen und als D
 
 
 
-Die Konfiguration und das Buchen von Zeiten sind als Videotutorial in der j-lawyer.ACADEMY verfügbar: https://j-lawyer.cloud/j-lawyer-academy/
+Die Konfiguration und das Buchen von Zeiten sind als Videotutorial in der j-lawyer.ACADEMY verfügbar: <https://j-lawyer.cloud/j-lawyer-academy/>
 
 ### Projekt- / aktenbezogene Stundensätze
 

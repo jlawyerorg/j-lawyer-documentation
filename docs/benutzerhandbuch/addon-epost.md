@@ -12,7 +12,7 @@ Die E-POST-Integration ermöglicht den Versand von Schriftstücken mit wenigen K
 
 Für die Nutzung der E-POST-Integration sind folgende Schritte notwendig:
 
-(1) Registrierung für die Dienstleistung „E-POSTBUSINESS API“: https://www.deutschepost.de/de/e/epost/geschaeftskunden/partner/business-api.html Hier ist nicht der Link für Softwarehersteller zu nutzen, sondern jener für Endkunden.
+(1) Registrierung für die Dienstleistung „E-POSTBUSINESS API“: <https://www.deutschepost.de/de/e/epost/geschaeftskunden/partner/business-api.html> Hier ist nicht der Link für Softwarehersteller zu nutzen, sondern jener für Endkunden.
 
 (2) Freischaltung in j-lawyer.org: im Menü „Administration“ – „Nutzer“ – Nutzer wählen – „Sipgate / E-POST“ die „Freischalten“-Funktion nutzen. Die Integration mit den Systemen der Deutschen Post generiert monatliche Kosten bei Softwareherstellern, daher ist die Funktionalität nicht komplett kostenfrei. Jedoch haben wir uns dafür entschieden, kein Abo-Modell einzuführen, sondern einen geringen Einmalbetrag zur Refinanzierung zu nutzen. Für Anwender(innen) der j-lawyer.CLOUD ist der Dienst kostenfrei, es soll jedoch der gleiche Freischaltprozess befolgt werden.
 

@@ -453,7 +453,7 @@ Ebenso kann das Format von in der Tabelle enthaltenen Geldbeträgen konfiguriert
 | 000,000.00 | 012.345,67 |
 
 
-Eine Dokumentation zu weiteren Formatmöglichkeiten ist hier zu finden: https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html
+Eine Dokumentation zu weiteren Formatmöglichkeiten ist hier zu finden: <https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html>
 
 #### Flexible Nutzung von Vorlagen für verschiedene Beteiligtentypen
 
@@ -564,7 +564,7 @@ Beispiel: Freitag, 11. Februar 2022
 
 [[SCRIPT:DATUMZEIT("EEEEE, dd. MMMMM yyyy");]]
 
-Details zu Formatmöglichkeiten: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+Details zu Formatmöglichkeiten: <https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>
 
 Fristen: Funktion FRIST
 
@@ -1072,7 +1072,7 @@ Ab Version 2.1.0 können für einen Dateityp mehrere verschiedene Anwendungen ko
 
 j-lawyer.org öffnet Dokumenttypen in LibreOffice, sofern unterstützt. Alle anderen Dokumenttypen werden mit dem auf dem System installierten “Standardprogramm” geöffnet. Dabei ist es dann vom Verhalten des externen Programmes abhängig, ob Änderugen am Dokument verlässlich in der Akte gespeichert werden.
 
-Am Beispiel von PDFs auf Windows wird hier beschrieben, wie mit der kostenlosen Anwendung “Foxit Reader” (https://www.foxitsoftware.com/de/pdf-reader/) in PDF eingefügte Lesezeichen und Kommentare direkt ind er Akte gespeichert werden können.
+Am Beispiel von PDFs auf Windows wird hier beschrieben, wie mit der kostenlosen Anwendung "Foxit Reader" (<https://www.foxitsoftware.com/de/pdf-reader/>) in PDF eingefügte Lesezeichen und Kommentare direkt in der Akte gespeichert werden können.
 
 Zuerst wird die Anwendung heruntergeladen und installiert. Nach dem Öffnen wird über Menü “Datei” und “Einstellungen” in der Kategorie “Dokumente” die oberste Option “Mehrere Instanzen zulassen” aktiviert und anschließend der Einstellungsdialog und die Anwendung beendet.
 

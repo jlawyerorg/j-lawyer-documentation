@@ -1,6 +1,6 @@
 # Add-Ons: Nextcloud-Integration
 
-Nextcloud (https://nextcloud.com) ist eine Open Source Cloudlösung, die sich auch selbst installieren und betreiben lässt. Sie beinhaltet u.a. Dateispeicherung und -freigaben, Kalender, Kontakte, E-Mail, u.v.m.
+Nextcloud (<https://nextcloud.com>) ist eine Open Source Cloudlösung, die sich auch selbst installieren und betreiben lässt. Sie beinhaltet u.a. Dateispeicherung und -freigaben, Kalender, Kontakte, E-Mail, u.v.m.
 
 ### Nextcloud-Installation für Dokumentfreigaben nutzen
 
@@ -17,7 +17,7 @@ Die Verbindungs- und Zugangsinformationen werden über die Nutzerverwaltung an d
 
 - Nutzername, Passwort: die Zugangsdaten des Nutzers dieser Nextcloud
 
-Hinweise zur „Pfad“-Angabe: Ist die Nextcloud direkt unter einer Domain abrufbar, bspw. https://cloud.musterkanzlei-12345.de, so bleibt die Pfadangabe leer. Wird die Nextcloud jedoch über  https://www.musterkanzlei-12345.de/meinecloud abgerufen, so ist der Werte „meinecloud“ (ohne Anführungszeichen) als Pfad anzugeben.
+Hinweise zur „Pfad“-Angabe: Ist die Nextcloud direkt unter einer Domain abrufbar, bspw. <https://cloud.musterkanzlei-12345.de> so bleibt die Pfadangabe leer. Wird die Nextcloud jedoch über  <https://www.musterkanzlei-12345.de/meinecloud> abgerufen, so ist der Werte „meinecloud“ (ohne Anführungszeichen) als Pfad anzugeben.
 
 Die Verknüpfung mit dem Nutzer der Kanzleisoftware gibt die größtmögliche Flexibilität, bspw. die gemeinsame Nutzung eines Nextcloud-Zugangs für alle Mitarbeiter der Kanzlei, oder die Nutzung separater Nextcloud-Zugänge je Kanzleisoftwarenutzer zwecks Nutzung unterschiedlicher Berechtigungen / Inhalte oder auch die Nutzung völlig unterschiedlicher Nextcloud-Installationen, bspw. in Bürogemeinschaften.
 
@@ -50,7 +50,7 @@ Vorbereitend sollte in der Oberfläche der Nextcloud ein separates Adressbuch an
 
 Anschließend wird über das Menü „Einstellungen“ – „Adressen“ – „Synchronisation konfigurieren“ die Verbindung zur Nextcloud-Installation hergestellt. An dieser Stelle sollte das gewünschte Zieladressbuch ausgewählt werden. Optional lässt sich das Synchronisieren von Geburtsdaten deaktiveren, sodass bspw. an mobilen Geräten keine überflüssigen Geburtstagsbenachrichtigungen ausgelöst werden. Über das Menü „Einstellungen“ – „Adressen“ – „Synchronisation ausführen“ wird eine Erstsynchronisation durchgeführt. Alle weiteren Datenänderungen werden ab sofort automatisch im Hintergrund in die Nextcloud übertragen.
 
-Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html
+Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: <https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html>
 
 ## Synchronisieren der Kalender (Nextcloud, mobile Geräte) {#kalender-sync}
 
@@ -66,4 +66,4 @@ Es ist möglich, für jeden Kalender der Kanzleisoftware einen Nextcloud-Kalende
 
 Das „erledigt“-Setzen von Kalendereinträgen führt zum Löschen des dazugehörigen Eintrages im Nextcloud-Kalender. Ist dieses Verhalten nicht erwünscht, so kann in den Einstellungen des Kalenders die Option „erledigte Termine aus Nextcloud löschen“ deaktiviert werden.
 
-Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html
+Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: <https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html>

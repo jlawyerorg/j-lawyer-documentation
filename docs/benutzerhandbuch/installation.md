@@ -2,15 +2,15 @@
 
 ### Installation auf Windows-Systemen {#windows}
 
-Die Installation auf Windowssystemen ist hier beschrieben: http://www.j-lawyer.org/?page_id=100
+Die Installation auf Windowssystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=100>
 
 ### Installation auf macOS-Systemen {#macos}
 
-Die Installation auf macOS-Systemen ist hier beschrieben: http://www.j-lawyer.org/?page_id=355
+Die Installation auf macOS-Systemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=355>
 
 ### Installation auf Linux-Systemen {#linux}
 
-Die Installation auf Windowssystemen ist hier beschrieben: http://www.j-lawyer.org/?page_id=93
+Die Installation auf Windowssystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=93>
 
 ## Start der Anwendung {#start}
 

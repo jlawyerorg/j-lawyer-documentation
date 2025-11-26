@@ -250,7 +250,7 @@ Im Menü „Einstellungen“ – „Assistent Ingo“ – „eigene Prompts“ k
     - transcribe: aktuell nicht unterstützt
     - translate: für Prompts, die Texte übersetzen sollen
     - vision: für Prompts, welche eine Bildanalyse durchführen sollen – bspw. Extraktion von Text oder Beschreibung von Bildinhalten
-- Prompt: die Anfrage an das für die jeweilige „Funktion“ genutzte KI-Modell. Auch wenn beliebige Formulierungen oftmals zu guten Ergebnissen führen, so ist es doch ratsam, sich mit den Grundlagen für das Prompting vertraut zu machen. Dazu gibt es eine Vielzahl guter Ressourcen, eine davon ist bspw. https://www.promptingguide.ai/de.
+- Prompt: die Anfrage an das für die jeweilige „Funktion“ genutzte KI-Modell. Auch wenn beliebige Formulierungen oftmals zu guten Ergebnissen führen, so ist es doch ratsam, sich mit den Grundlagen für das Prompting vertraut zu machen. Dazu gibt es eine Vielzahl guter Ressourcen, eine davon ist bspw. <https://www.promptingguide.ai/de>
 
 Ein Prompt kann beliebige Platzhalter enthalten, welche auch über das Vorlagensystem genutzt werden können (siehe Kapitel „Verwendung von Platzhaltern in Prompts“).
 

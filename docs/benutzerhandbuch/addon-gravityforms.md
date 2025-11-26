@@ -24,10 +24,10 @@ Um diesen manuellen Aufwand zu automatisieren, gibt es in j-lawyer.org ein eigen
 Um Onlineformulare anbinden zu können, benötigt man eine Wordpress-Website mit installiertem Gravity Forms-Plugin.
 - Option 1: eigene Wordpress-Installation betreiben
 
-Hat man bereits eine eigene Wordpress-Installation und plant die intensive Nutzung der Formulare, so ist es sinnvoll Gravity Forms als Plugin hinzuzufügen. Ein Download ist hier möglich: https://rocketgenius.pxf.io/0JBoXO (*)
+Hat man bereits eine eigene Wordpress-Installation und plant die intensive Nutzung der Formulare, so ist es sinnvoll Gravity Forms als Plugin hinzuzufügen. Ein Download ist hier möglich: <https://rocketgenius.pxf.io/0JBoXO> (*)
 - Option 2: fertige Wordpress-Installation samt Gravity Forms nutzen
 
-Hat man keine Wordpress-Installation oder plant nur sporadisch Formulareingaben von externen Parteien zu verarbeiten, so kann man eine fertige Installation nutzen. Dazu erhält man einen an den eigenen Unternehmensnamen angelehnten Bereich unter einer repräsentativen Domain. Mehr Informationen: https://www.j-dimension.com/angebote/j-lawyer-org/
+Hat man keine Wordpress-Installation oder plant nur sporadisch Formulareingaben von externen Parteien zu verarbeiten, so kann man eine fertige Installation nutzen. Dazu erhält man einen an den eigenen Unternehmensnamen angelehnten Bereich unter einer repräsentativen Domain. Mehr Informationen: <https://www.j-dimension.com/angebote/j-lawyer-org/>
 
 Damit die Kanzleisoftware auf die Formulardaten zugreifen kann, müssen Zugangsschlüssel erstellt werden. Im Wordpress-Dashboard zu „Formulare“ – „Einstellungen“ navigieren. Dort zur Ansicht „REST API“ wechseln und per „Add Key“ einen neuen Schlüssel erzeugen.
 

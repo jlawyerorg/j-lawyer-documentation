@@ -23,7 +23,7 @@ Geben Sie zur Ausführung der Kommandos das auf Ihrer mit der j-lawyer.BOX gelie
 
 
 
-Die j-lawyer.BOX wird über halbautomatisch über die browserbasierte Administrationsoberfläche (http://j-lawyer-box:8080/j-lawyer.box/) aktualisiert. Ein Login ist mit jedem Nutzer der Kanzleisoftware möglich, sofern der Nutzer administrative Berechtigungen hat. Die initialen Zugangsdaten werden mit der j-lawyer.BOX auf einer “Identity Card” ausgeliefert.
+Die j-lawyer.BOX wird halbautomatisch über die browserbasierte Administrationsoberfläche (<http://j-lawyer-box:8080/j-lawyer.box/>) aktualisiert. Ein Login ist mit jedem Nutzer der Kanzleisoftware möglich, sofern der Nutzer administrative Berechtigungen hat. Die initialen Zugangsdaten werden mit der j-lawyer.BOX auf einer "Identity Card" ausgeliefert.
 
 Ist eine Replikation zu einer weiteren j-lawyer.BOX aktiv, so ist zuerst die “Zweit-Box” (d.h. die empfangende Box) zu aktualisieren! Dabei wird zwischen zwei Updatearten unterschieden:
 

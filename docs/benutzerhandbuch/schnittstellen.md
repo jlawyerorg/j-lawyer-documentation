@@ -8,7 +8,7 @@ Zusätzlich können externe Anwendungen über sogenannte „Web Hooks“ aktiv b
 
 
 
-Die API liefert auch eine interaktiv nutzbare Weboberfläche aus, welche unter http://localhost:8080/j-lawyer-io/swagger-ui/ aufgerufen werden kann (Host / Port ggf. anpassen). Eine Anmeldung ist mit den Zugangsdaten eines Nutzers der Kanzleisoftware möglich.
+Die API liefert auch eine interaktiv nutzbare Weboberfläche aus, welche unter <http://localhost:8080/j-lawyer-io/swagger-ui/> aufgerufen werden kann (Host / Port ggf. anpassen). Eine Anmeldung ist mit den Zugangsdaten eines Nutzers der Kanzleisoftware möglich.
 
 Die Swagger UI liefert sowohl eine vollständige Dokumentation der Schnittstellen, als auch eine Möglichkeit die Aufrufe interaktiv im Browser zu auszuführen. Auch werden vollständige Kommandozeilenaufrufe geliefert. Wer sich bestimmte Schritte per Skript automatisieren möchte, kann diese Kommandozeilen direkt nutzen, bspw in Shell- oder Batchscripts.
 

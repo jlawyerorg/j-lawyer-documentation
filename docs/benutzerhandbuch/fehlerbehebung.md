@@ -74,7 +74,7 @@ sudo service j-lawyer-server restart (und ENTER)
     - Die Terminalsitzung mit folgendem Kommando beenden: exit (und ENTER)
     - Nach ca. zwei Minuten ist ein Login über den j-lawyer.org Client wieder auf üblichem Weg möglich.
 - Windows:
-    - Putty herunterladen – Quelle: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+    - Putty herunterladen – Quelle: <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>
     - Nach dem Start von putty.exe bitte folgende Einstellungen vornehmen (in der Regel ist nur der Wert unter “Hostname (or IP address)” zu ändern):
 
 ![Abbildung 66](../images/j-lawyer-org-UserGuide-de-073.png)

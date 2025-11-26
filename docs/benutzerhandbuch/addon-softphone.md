@@ -25,4 +25,4 @@ Dieses Kapitel wird nach und nach erweitert. Weitere Hinweise / Konfigurationen 
     - in Twinkle: keine Anpassungen / besondere Einstellungen notwendig
 - macOS – Telefon
     - in j-lawyer.org: Aufruf per Protokollhandler
-    - in den Voreinstellungen von macOS wird beim Initiieren eines Anrufs die Anwendung Facetime geöffnet. Möchte man eine andere Anwendung nutzen, so öffnet man in Facetime die Einstellungen und ändert die Standardanwendung für Anrufe. Eine Empfehlung ist die App „Telefon“ von 64 Characters („https://www.64characters.com/telephone/“).
+    - in den Voreinstellungen von macOS wird beim Initiieren eines Anrufs die Anwendung Facetime geöffnet. Möchte man eine andere Anwendung nutzen, so öffnet man in Facetime die Einstellungen und ändert die Standardanwendung für Anrufe. Eine Empfehlung ist die App „Telefon" von 64 Characters (<https://www.64characters.com/telephone/>).

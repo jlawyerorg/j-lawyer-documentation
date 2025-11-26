@@ -14,7 +14,7 @@ Ab Version 3.1 unterstützt j-lawyer.org eine Anbindung von Office 365-Postfäch
 
 1. IMAP und SMTP erlauben
 
-Microsoft 365 Admin Center öffnen: https://admin.microsoft.com/
+Microsoft 365 Admin Center öffnen: <https://admin.microsoft.com/>
 
 Links auf „Benutzer“, danach „Aktive Benutzer“.
 
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass „IMAP“ und „Authentifiziertes SMTP“ aktiviert s
 
 Sollen Konten ohne Zweifaktor-Authentifizierung angebunden werden, so sind Einstellungen entsprechend der untenstehenden Screenshots vorzunehmen.
 
-Einstellungen öffnen: https://entra.microsoft.com/#home
+Einstellungen öffnen: <https://entra.microsoft.com/#home>
 
 ![Abbildung 30](../images/j-lawyer-org-UserGuide-de-036.png)
 
@@ -45,7 +45,7 @@ Einstellungen öffnen: https://entra.microsoft.com/#home
 
 3. Moderne Authentifizierung konfigurieren
 
-Microsoft 365 Admin Center öffnen: https://admin.microsoft.com/
+Microsoft 365 Admin Center öffnen: <https://admin.microsoft.com/>
 
 Links im Menü auf „Alle anzeigen“, dann auf „Einstellungen“ und „Einstellungen der Organisation“. Dort unter „Moderne Authentifizierung“ die Option „Authentifiziertes SMTP“ aktivieren:
 
@@ -59,7 +59,7 @@ Links im Menü auf „Alle anzeigen“, dann auf „Einstellungen“ und „Eins
 
 Anmeldung im Azure Portal
 
-https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview
+<https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview>
 
 Nach erfolgreichem Login sollte man eine Übersichtsseite erhalten, welche Basisinformation wie bspw. die Mandanten-ID beinhaltet:
 
@@ -169,16 +169,16 @@ Nach erfolgreichem Test kann das Postfach über die Nutzerverwaltung für die ge
 Google Mail-Postfächer können mittels eines sogenannten App-Passworts angebunden werden. Bedingung ist, dass für den Account eine 2-Faktor-Authentifizierung (2FA) aktiv ist.
 
 2FA aktivieren
-- Zu den Kontoeinstellungen wechseln: https://myaccount.google.com/
+- Zu den Kontoeinstellungen wechseln: <https://myaccount.google.com/>
 
 - Wählen Sie „Sicherheit“ aus
 
 - Wählen Sie unter „Bei Google anmelden“ die Option für 2-Faktor-Authentifizierung aus
 
-Ist die Einstellung bei Google Workspace-Konten nicht zu finden, so muss sie vorab vom Administrator aktiviert / freigegeben werden (https://admin.google.com/ac/security/2sv).
+Ist die Einstellung bei Google Workspace-Konten nicht zu finden, so muss sie vorab vom Administrator aktiviert / freigegeben werden (<https://admin.google.com/ac/security/2sv>).
 
 App-Passwort erstellen
-- Öffnen Sie die Seite zur Erstellung von App-Passwörtern: https://myaccount.google.com/apppasswords
+- Öffnen Sie die Seite zur Erstellung von App-Passwörtern: <https://myaccount.google.com/apppasswords>
 
 - Nutzen Sie einen leicht identifizierbaren Namen für das App-Passwort. Es sollte den Zweck widerspiegeln, bspw. „j-lawyer-mail“.
 

@@ -6,7 +6,7 @@
 
 j-lawyer.org bietet eine integrierte Drebis-Schnittstelle zum Übermitteln von Deckungsanfragen / -erweiterungen, Kfz-Schadenmeldungen und freier Korrespondenz sowie einen zentralen Posteingang für Nachrichten von Versicherungsunternehmen.
 
-Voraussetzung ist ein Konto in der Drebis-Plattform, Sie können sich kostenlos anmelden unter https://www.drebis.de
+Voraussetzung ist ein Konto in der Drebis-Plattform, Sie können sich kostenlos anmelden unter <https://www.drebis.de>
 
 Sofern Sie Schadenmeldungen ohne Angabe der Versicherung übermitteln möchten, so müssen Sie im Drebis-Portal eine Kennung für den Zentralruf hinterlegen.
 
