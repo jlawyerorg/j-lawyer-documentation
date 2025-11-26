@@ -8,7 +8,11 @@
       "Bash(cat:*)",
       "Bash(ENABLE_PDF_EXPORT=1 ~/.local/bin/mkdocs build:*)",
       "Bash(awk:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(pip3 --version:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/mkdocs build:*)",
+      "Bash(.venv/bin/mkdocs serve:*)"
     ],
     "deny": [],
     "ask": []

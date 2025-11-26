@@ -220,6 +220,49 @@ Wurde die Wiederherstellung mit einem anderen Nutzer ausgeführt, als für die A
 
 Achtung: Haben sie zwischen dem Zeitpunkt der Erstellung der Datensicherung und dem Zeitpunkt des Rückspielens der Datensicherung ein oder mehrere j-lawyer-Versionsupdates eingespielt, so müssen Sie die Datenbank-Updatescripts auf die wiederhergestellte Datenbank anwenden.
 
+### Daten aus einer Sicherung wiederherstellen (Docker)
+
+Für Docker-Installationen ist das Wiederherstellen aus einem Backup über den Backupmanager möglich. Gehen Sie wie folgt vor:
+
+- Stoppen Sie den j-lawyer.org Docker-Container:
+
+```
+docker compose down
+```
+
+- Kopieren Sie die Datensicherung auf das Gerät, auf welchem die Docker-Installation läuft.
+
+- Starten Sie den Backupmanager. Java 8 oder höher ist erforderlich:
+
+```
+sudo java -jar j-lawyer-backupmgr-<VERSION>.jar -console
+```
+
+- Geben Sie die erforderlichen Parameter an:
+    - Pfad zur einzuspielenden Datensicherung
+    - Pfad zum Datenverzeichnis der Docker-Installation (üblicherweise das gemountete Volume, z.B. `/opt/j-lawyer-data` oder das in `docker-compose.yml` konfigurierte Verzeichnis)
+    - MySQL-root-Passwort
+    - Optional: Verschlüsselungspasswort der Datensicherung
+
+- Folgen Sie den Anweisungen des Backupmanagers.
+
+- Nachdem die Wiederherstellung abgeschlossen ist, müssen die Dateiberechtigungen im Container angepasst werden. Starten Sie dazu den Container und führen Sie folgende Befehle aus:
+
+```
+docker compose up -d
+sudo docker exec -u root -it docker_server_1 /bin/bash
+chown -R jboss:jboss /opt/jboss/j-lawyer-data/
+exit
+```
+
+- Starten Sie den Container neu, um sicherzustellen dass alle Änderungen übernommen werden:
+
+```
+docker compose restart
+```
+
+Hinweis: Der Containername (`docker_server_1`) kann je nach Konfiguration abweichen. Prüfen Sie den korrekten Namen mit `docker ps`.
+
 ### Automatischer HTML-Export
 
 
