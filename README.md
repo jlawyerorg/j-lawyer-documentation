@@ -65,7 +65,7 @@ Die Dokumentation wird automatisch über GitHub Actions auf GitHub Pages veröff
 
 1. Repository Settings → Pages
 2. Source: "GitHub Actions" auswählen
-3. Nach dem ersten erfolgreichen Workflow ist die Dokumentation unter `https://<org>.github.io/j-lawyer-documentation/` erreichbar
+3. Nach dem ersten erfolgreichen Workflow ist die Dokumentation unter `https://<org>.github.io/j-lawyer-documentation/` erreichbar (https://jlawyerorg.github.io/j-lawyer-documentation/)
 
 ## Dokumentation bearbeiten
 

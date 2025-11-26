@@ -1,10 +1,10 @@
 site_name: j-lawyer.org Dokumentation
-site_url: https://j-lawyer-org.github.io/j-lawyer-documentation/
+site_url: https://jlawyerorg.github.io/j-lawyer-documentation/
 site_description: Dokumentation für j-lawyer.org - Freie Kanzleisoftware
 site_author: j-lawyer.org Team
 
-repo_url: https://github.com/j-lawyer-org/j-lawyer-documentation
-repo_name: j-lawyer-org/j-lawyer-documentation
+repo_url: https://github.com/jlawyerorg/j-lawyer-documentation
+repo_name: jlawyerorg/j-lawyer-documentation
 
 theme:
   name: material
