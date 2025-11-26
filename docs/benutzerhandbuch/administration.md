@@ -6,7 +6,9 @@
 
 In Ausnahmefällen kann es notwendig sein, ein automatisch vergebenes Aktenzeichen manuell anzupassen. Für diese Fälle kann wie folgt verfahren werden:
 - Menü “Einstellungen”, Menüpunkt “Administrator-Konsole”
+
 - Eingabe des Befehls setrefno ALTESAZ NEUESAZ, bspw
+
 - setrefno 00345/18 00348/17
 
 Dabei werden keine eventuell in Dokumenten vorhandene Aktenzeichen angepasst, und es findet keine Prüfung des neuen Aktenzeichens statt. Stellen Sie sicher dass es noch nicht vergeben ist.
@@ -23,9 +25,13 @@ Im Menü “Einstellungen”, Menüpunkt “Sicherheit” kann eingestellt werde
 
 Als hinreichend komplex gelten Passwörter die die folgenden Kriterien erfüllen:
 - mindestens 8 Zeichen lang
+
 - enthält Kleinbuchstaben
+
 - enthält Großbuchstaben
+
 - enthält Ziffern
+
 - enthält mindestens eines der folgenden Sonderzeichen: -_@#$%^&+=
 
 Der Dialog zur Passworterstellung / -änderung zeigt an, ob die Komplexität schwach, mittel oder stark ist.
@@ -36,7 +42,9 @@ Der Dialog zur Passworterstellung / -änderung zeigt an, ob die Komplexität sch
 
 Wird das System mit mehren Arbeitsplätzen im Netzwerk verwendet, so sind folgende Voraussetzungen zu erfüllen:
 - Das Gerät mit dem j-lawyer.org Server sollte über eine feste IPv4 verfügen. Es empfiehlt sich diese Einstellung am DHCP-Server vorzunehmen, in kleinen Netzwerken ist diese Funktion bspw. in gängige Router integriert.
+
 - Für alle Client-Versionen bis einschliesslich 1.9: Der j-lawyer.org Server muss an die feste IP “gebunden” werden. Verbinden Sie dazu mit einem lokal laufenden j-lawyer.org Client und öffnen Sie “Einstellungen” - “Administratorkonsole”. Rufen Sie den Befehl “getbindings” auf.  Im Fall einer falschen Konfiguration erscheint eine Ausgabe wie folgt:
+
 - server misconfigured! use setbindings command to correct.
  setbindings 192.168.178.24
 - Führen Sie dann den in der zweiten Zeile angegebenen Befehl aus und starten Sie anschließend den j-lawyer.org Server neu.
@@ -76,8 +84,11 @@ Es wird empfohlen eine Administrator-Email (unter „Administration“ – „Sy
 
 Es ist dringend empfohlen, die Datensicherungen regelmäßig auf einem externen Speicher abzulegen und nicht ausschließlich auf dem j-lawyer.org Server zu archivieren (bspw. für den Fall eines Festplattendefekts). Dazu kann in der Registerkarte “Synchronisation” ein Abgleich mit einem externen Speicherort eingestellt werden. Unterstützt werden
 - Windows-Freigaben
+
 - Samba-Freigaben
+
 - SFTP (SSH)-Server
+
 - anderer lokaler Ordner (sinnvoll bspw. wenn es auf dem j-lawyer.org Server ein Verzeichnis gibt, das mit Clouddiensten synchronisiert wird).
 
 Konfigurationsbeispiel: Windows-Freigabe
@@ -132,16 +143,22 @@ Auch bei regelmäßigem Entfernen des USB-Speichers sowie bei Verwendung weitere
 
 Eine Wiederherstellung Ihrer Daten aus einem Backup ist über die separate Anwendung “j-lawyer.org Backupmanager” möglich:
 - Stoppen Sie den j-lawyer – Server
+
 - Kopieren Sie die Datensicherung auf das Gerät, auf welchem der j-lawyer.org Server läuft
+
 - Starten Sie den Backupmanager über das Startmenü. Sollte die Installation nicht über eine grafische Oberfläche verfügen (bspw. Minimalinstallation eines Linuxservers), so öffnen Sie eine Konsole, wechseln Sie in das Verzeichnis Ihrer j-lawyer.org Serverinstallation, Unterverzeichnis “backupmgr”, und starten dort “java -jar j-lawyer-backupmgr.jar -console”
+
 - Geben Sie die Pfade zu den Verzeichnissen mit der einzuspielenden Datensicherung sowie dem aktuell genutzten Datenverzeichnis des j-lawyer.org Servers an, sowie das MySQL-root-Passwort und optional das Verschlüsselungspasswort, mit welchem die Datensicherung verschlüsselt wurde.
+
 - Folgen Sie den Anweisungen.
 
 Abschließend starten Sie Ihren j-lawyer.org Server neu. Wurde der Backupmanager mit einem anderen Nutzer ausgeführt, als für die Ausführung des j-lawyer.org Servers verwendet wird, so sind ggf. Berechtigungen auf das Datenverzeichnis anzupassen. Der Nutzer des j-lawyer.org Servers muss Schreibberechtigungen im Datenverzeichnis haben.
 
 macOS: Auf macOS muss der Backupmanager als administrativer Nutzer (root-Rechte) gestartet werden. Nutzen Sie daher einen Nutzer mit administrativen Rechten zum Starten des Backupmanagers, oder starten Sie die Anwendung über “sudo”:
 - Terminal öffnen
+
 - cd /Applications/j-lawyer-server/j-lawyer-backupmgr/j-lawyer-backupmgr.app/Contents/MacOS
+
 - sudo ./JavaApplicationStub
 
 Danach wählen Sie den Ordner in welchem die Datensicherung liegt, bspw. “/Users/anwalt123/Downloads/j-lawyer-backup”, geben das Datenbankpasswort und optional das Passwort ein, welches zur Verschlüsselung der Datensicherung genutzt wurde. Das j-lawyer.org Datenverzeichnis lautet “/Applications/j-lawyer-server/j-lawyer-data”. Über “Wiederherstellen” startet der Wiederherstellungsvorgang.
@@ -156,7 +173,9 @@ Achtung: Haben sie zwischen dem Zeitpunkt der Erstellung der Datensicherung und 
 
 Für Nutzer einer j-lawyer.BOX ist das Wiederherstellen aus einem Backup direkt über den Logindialog des j-lawyer.org Clients möglich:
 - Kopieren Sie alle zur Sicherung gehörenden Dateien und Verzeichnisse in ein Verzeichnis “restore” in der Dateifreigabe “j-lawyer-share” der j-lawyer.BOX. Existiert das Verzeichnis “restore” noch nicht, so erstellen Sie es.
+
 - Öffnen Sie einen j-lawyer.org Client. Im Logindialog tragen Sie die Verbindungsinformationen der j-lawyer.BOX ein. Anschließend wird im Tab “j-lawyer.BOX” das root-Passwort (Betriebssystemnutzer der j-lawyer.BOX) eingegeben und der Button “j-lawyer.BOX mittels Datenrücksicherung resetten” genutzt. Auf Rückfrage geben Sie das Datenbankpasswort und optional das Verschlüsselungspasswort Ihrer Datensicherung ein. Anschließend beginnt die Rücksicherung und der Dienst der j-lawyer.BOX wird automatisch neu gestartet.
+
 - Die Rücksicherung wird in einer Datei “restore.log” im Wurzelverzeichnis der Dateifreigaben der j-lawyer.BOX protokolliert. Im Fehlerfall sowie zur Kontrolle kann der Inhalt der Datei geprüft werden.
 
 Achtung: Haben sie zwischen dem Zeitpunkt der Erstellung der Datensicherung und dem Zeitpunkt des Rückspielens der Datensicherung ein oder mehrere j-lawyer-Versionsupdates eingespielt, so müssen Sie die Datenbank-Updatescripts auf die wiederhergestellte Datenbank anwenden.
@@ -167,6 +186,7 @@ Achtung: Haben sie zwischen dem Zeitpunkt der Erstellung der Datensicherung und 
 
 Eine Wiederherstellung Ihrer Daten aus einem Backup ist über folgende Schritte möglich:
 - Stoppen Sie den j-lawyer – Server
+
 - Entpacken Sie die vom j-lawyer.org Server erstellte(n) Backup-ZIP-Datei(en)
 
 Unter Linux nutzen Sie Ihr favorisiertes Packprogramm ihres Window Managers oder nutzen das Terminal:
@@ -226,10 +246,14 @@ In den folgenden Dateien werden eventuell auftretende Fehler protokolliert:
 
 Server:
 - Windows: „server.log“ in C:\Programme\j-lawyer-server\wildfly\standalone\log
+
 - Linux: „server.log“ in /opt/j-lawyer-server/wildfly/standalone/log oder /usr/local/j-lawyer-server/wildfly/standalone/log
+
 - macOS: „server.log“ in /Applications/j-lawyer-server/wildfly/standalone/log
 
 Client:
 - Windows: „client.log“ in C:\Benutzer\EIGENERNUTZERNAME\.j-lawyer-client\log
+
 - Linux: „client.log“ in /home/EIGENERNUTZERNAME/.j-lawyer-client/log
+
 - Mac OS: „client.log“ in /Users/EIGENERNUTZERNAME/.j-lawyer-client/log

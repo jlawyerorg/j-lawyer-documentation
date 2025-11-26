@@ -8,9 +8,13 @@ Oftmals ist die Kanzlei-Website der erste Anlaufpunkt für Mandanten (bspw. in d
 
 Um diesen manuellen Aufwand zu automatisieren, gibt es in j-lawyer.org ein eigenes Falldatenblatt „Gravity Forms“ (Menü „Einstellungen“ – „Akten“ – „Falldatenblätter“). Gravity Forms ist ein Online-Formulareditor für Wordpress-Websites, der ohne Programmierkenntnisse verwendet werden kann. Ist ein solches Formulare einmal erstellt, ist der Arbeitsfluss wie folgt:
 - externe Partei füllt Formular aus
+
 - Kanzlei erhält eine E-Mail-Benachrichtigung
+
 - Kanzlei öffnet die relevante Akte und fügt ein Gravity-Forms-Falldatenblatt hinzu
+
 - Über das Falldatenblatt wird das ausgefüllte Formular mit wenigen Klicks in die Kanzleisoftware importiert
+
 - Über das Vorlagensystem stehen alle Eingabefelder des Formulars für eine automatische Dokumenterstellung zur Verfügung.
 
 ### Voraussetzungen
@@ -34,8 +38,11 @@ Im Rahmen der Schlüsselerstellung erhält mein zwei Werte, einer ist vergleichb
 
 Anschließend ist ein separates Falldatenblatt für die Anbindung von Gravity Forms zu installieren: Menü „Einstellungen“ – „Akten“ – „Falldatenblätter“. Nach erfolgreicher Installation ist der Einstellungen-Knopf am Falldatenblatt aktiv. Über diesen können die API-Schlüssel hinterlegt werden. Es können bis zu fünf verschiedene Websites / Wordpress-Installationen angebunden werden.
 - Bezeichung Website: frei wählbar
+
 - API-Endpunkt: hier ist in der Regel ausschließlich der Domainname anzupassen, der Rest bleibt unverändert
+
 - Nutzer / API-Key: den mit „ck_“ beginnenden Wert eintragen, den man bei der Schlüsselerstellung in Wordpress erhalten hat
+
 - Passwort: den mit „cs_“ beginnenden Wert eintragen, den man bei der Schlüsselerstellung in Wordpress erhalten hat
 
 ![Abbildung 59](../images/j-lawyer-org-UserGuide-de-065.png)
@@ -72,17 +79,31 @@ Im Formulareditor von Gravity Forms hat jedes Oberflächenelement im Abschnitt �
 
 Das Gravity Forms-Falldatenblatt bietet die Möglichkeit, aus Formulardaten neue Einträge im Adressbuch der Kanzleisoftware zu generieren. Dabei wird ein Dialog geöffnet, der eine Zuordnung der Formularfelder zu Adressfeldern erlaubt. Um diesen Vorgang weitestgehend zu automatisieren, können im Formular die Felder (deren „Admin-Feld-Etiketten“) so benannt werden, dass j-lawyer eine automatische Zuordnung anwenden kann:
 - E-Mail: Admin-Feld-Etikett sollte „EMAIL“ enthalten (bpsw. MANDANT_EMAIL oder EMAIL_ANFRAGENDE – „EMAIL“ muss also lediglich enthalten sein)
+
 - Telefonnummer:  Admin-Feld-Etikett sollte „TELEFON“ enthalten
+
 - Mobilnummer:  Admin-Feld-Etikett sollte „MOBIL“ enthalten
+
 - Faxnummer:  Admin-Feld-Etikett sollte „FAX“ enthalten
+
 - PLZ:  Admin-Feld-Etikett sollte „PLZ“ enthalten
+
 - Ort:  Admin-Feld-Etikett sollte „ORT“ enthalten
+
 - Land:  Admin-Feld-Etikett sollte „LAND“ enthalten
+
 - Strasse:  Admin-Feld-Etikett sollte „STRASSE“ enthalten
+
 - Hausnummer:  Admin-Feld-Etikett sollte „HAUSNR“ enthalten
+
 - Vorname: Admin-Feld-Etikett sollte „VORNAME“ enthalten
+
 - Name: Admin-Feld-Etikett sollte „NAME“ enthalten
+
 - Unternehmensname: Admin-Feld-Etikett sollte „UNTERNEHMEN“ enthalten
+
 - Beruf: Admin-Feld-Etikett sollte „BERUF“ enthalten
+
 - Funktion: Admin-Feld-Etikett sollte „FUNKTION“ enthalten
+
 - Abteilung: Admin-Feld-Etikett sollte „ABTEILUNG“ enthalten

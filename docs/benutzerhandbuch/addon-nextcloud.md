@@ -8,9 +8,13 @@ Nextcloud (https://nextcloud.com) ist eine Open Source Cloudlösung, die sich au
 
 Die Verbindungs- und Zugangsinformationen werden über die Nutzerverwaltung an den gewünschten Nutzerkonten hinterlegt. Es werden folgende Angaben benötigt:
 - Servername: Name des Servers ohne Prokoll (ohne http / https), bspw. www.advobox.com
+
 - Port: 443 wenn der Server https unterstützt, ansonsten in der Regel 80 oder 8080
+
 - Pfad: Unterverzeichnis, in welchem die Nextcloud installiert ist.
+
 - SSL: aktivieren, wenn der Server https unterstützt, ansonsten inaktiv setzen
+
 - Nutzername, Passwort: die Zugangsdaten des Nutzers dieser Nextcloud
 
 Hinweise zur „Pfad“-Angabe: Ist die Nextcloud direkt unter einer Domain abrufbar, bspw. https://cloud.musterkanzlei-12345.de, so bleibt die Pfadangabe leer. Wird die Nextcloud jedoch über  https://www.musterkanzlei-12345.de/meinecloud abgerufen, so ist der Werte „meinecloud“ (ohne Anführungszeichen) als Pfad anzugeben.

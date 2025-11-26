@@ -104,7 +104,9 @@ Nach einem Klick auf „Berechtigung hinzufügen“ wählt man „Microsoft Grap
 
 Nach Auswahl von „Delegierte Berechtigungen“ werden in der Kategorie „OpenID-Berechtigungen“ die Werte
 - email
+
 - offline_access
+
 - openid
 
 ausgewählt.
@@ -153,6 +155,7 @@ Im Client im Menü „Einstellungen“ – „E-Mail – Postfächer“ wird üb
 
 Die Servernamen sind hier kopierbar aufgeführt:
 - Eingangsserver: outlook.office365.com
+
 - Ausgangsserver: smtp.office365.com
 
 Danach mittels des Buttons hinter „Client-ID“ das Postfach koppeln. Nach Anmeldung im Browser findet die Verknüpfung des Konto mit der App statt.
@@ -167,15 +170,20 @@ Google Mail-Postfächer können mittels eines sogenannten App-Passworts angebund
 
 2FA aktivieren
 - Zu den Kontoeinstellungen wechseln: https://myaccount.google.com/
+
 - Wählen Sie „Sicherheit“ aus
+
 - Wählen Sie unter „Bei Google anmelden“ die Option für 2-Faktor-Authentifizierung aus
 
 Ist die Einstellung bei Google Workspace-Konten nicht zu finden, so muss sie vorab vom Administrator aktiviert / freigegeben werden (https://admin.google.com/ac/security/2sv).
 
 App-Passwort erstellen
 - Öffnen Sie die Seite zur Erstellung von App-Passwörtern: https://myaccount.google.com/apppasswords
+
 - Nutzen Sie einen leicht identifizierbaren Namen für das App-Passwort. Es sollte den Zweck widerspiegeln, bspw. „j-lawyer-mail“.
+
 - Nach Klick auf „Erstellen“ wird das App-Passwort angezeigt. Es besteht aus 4 Gruppen mit je 4 Zeichen, getrennt durch Leerzeichen und sollte in die Zwischenablage übernommen oder anderweitig gespeichert werden.
+
 - Abschließend nutzen Sie dieses App-Passwort anstelle des Google-Account-Passworts in den Einstellen des E-Mail-Postfaches im j-lawyer.org Client.
 
 ### Bei Verbindungsproblemen: Mailserver als vertrauenswürdig deklarieren {#mailserver-vertrauen}

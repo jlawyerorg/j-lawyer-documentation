@@ -32,9 +32,13 @@ Sollten weitere Nutzer gewünscht sein, können Sie ebenfalls über die Nutzerve
 
 Ebenfalls über das Menü „Einstellungen“ können Sie wichtige Textbausteine definieren und so vermeiden, diese wiederholt neu eingeben zu müssen:
 - Anreden und Titel (für Adressverwaltung und Nutzung in Dokumenten)
+
 - Grussformeln (für Adressverwaltung und Nutzung in Dokumenten)
+
 - Diktatzeichen
+
 - Wiedervorlagegründe (genutzt in der Aktenverwaltung)
+
 - Sachgebiete
 
 ### Erstellen einer ersten Dokumentvorlage

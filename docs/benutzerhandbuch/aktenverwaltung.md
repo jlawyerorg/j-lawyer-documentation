@@ -6,8 +6,11 @@
 
 Im Navigationsbaum am linken Bildschirmrand unter “suchen” können Sie Akten über eine Schnellsuche finden. Durchsucht werden
 - Aktenzeichen
+
 - Kurzrubrum
+
 - wegen
+
 - eigene Felder (alle)
 
 Zusätzlich ist eine Einschränkung über Etiketten möglich.
@@ -22,7 +25,9 @@ Eine Aktenanlage ist im linken Navigationsbereich unter “Akten” – “neu�
 
 Im Reiter Allgemeine Daten können im Bereich „Aktenkopf“ u.a.
 - das Kurzrubrum,
+
 - „wegen“ und
+
 - das Sachgebiet
 
 eingetragen werden. Im mittleren Bereich können Etiketten aktiviert und im unteren Bereich Notizen eingetragen werden.
@@ -49,7 +54,9 @@ n – innerhalb anderer Kriterien laufende Nummer
 
 Daraus lassen sich für individuelle Anforderungen passende Aktenzeichen-Schemata definieren, bspw.
 - nnnnn/YY – 5-stellige laufende Nummer innerhalb eines Jahres, gefolgt von fixem Schrägstrich, gefolgt von 2-stelliger Jahreszahl
+
 - YY-CCCCC – 2-stellige Jahreszahl, gefolgt von fixem Bindestrich, gefolgt von 5 zufälligen Buchstaben
+
 - NNNNN/YYYYMMDD – 5-stellige unabhängig laufende Nummer, gefolgt von fixem Schrägstrich, gefolgt von 4-stelliger Jahreszahl, gefolgt von 2-stelliger Monatsangabe, gefolgt von 2-stelliger Tagesangabe
 
 Monat und Tag können wahlweise als M oder MM bzw. D oder DD angegeben werden. Bei einfachem Buchstaben M oder D werden einstellige Zahlenwerte auch nur einstellig übernommen, bei Nutzung von MM oder DD werden ggf. führende Nullen eingefügt.
@@ -62,8 +69,11 @@ In jedem Fall wird j-lawyer.org die Eindeutigkeit des Aktenzeichens forcieren.
 
 Über das Menü “Einstellungen” - “Akten” - “Aktenzeichen-Schema” lassen sich auch erweiterte Aktenzeichen aktivieren. Die Aktenzeichenerweiterung wird grundsätzlich als Suffix ans Ende des Aktenzeichens angefügt. Folgende Werte können in die Erweiterungsangabe aufgenommen werden:
 - eine beliebige feste Angabe am Beginn der Aktenzeichenerweiterung
+
 - das Kürzel des Anwalts, der als Eigentümer einer Akte angegeben wird
+
 - das Kürzel der Gruppe, welche als Eigentümergruppe einer Akte angegeben wird
+
 - eine beliebige feste Angabe am Ende der Aktenzeichenerweiterung
 
 Es ist möglich, die Trennzeichen (zwischen Aktenzeichen und Erweiterung, sowie zwischen den einzelnen Angaben innerhalb der Erweiterung) zu definieren.
@@ -76,6 +86,7 @@ Grundsätzlich gilt: das Aktenzeichen ist dafür verantwortlich, die Akte eindeu
 
 Grundsätzlich werden alle Dateien einer Akte in einem “Dokumente”-Ordner gespeichert. Soll eine detailliertere Strukturierung genutzt werden, so können
 - Ordner direkt in der Akte hinzugefügt, umbenannt und gelöscht werden sowie
+
 - vorgefertigte Ordnerstrukturen zu einer Akte hinzugefügt werden.
 
 Die sogenannten Ordnervorlagen können unter Menü “Einstellungen” - “Modul ‘Akten’” - “Dokumentordner” hinterlegt werden.
@@ -90,7 +101,9 @@ Somit ist es leicht möglich, mehrere Ordnervorlagen nacheinander auf eine Akte 
 
 Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorschau angezeigt. Folgende Formate werden unterstützt:
 - Direkte Anzeige (Inhalt und Layout): GIF, JPG, PDF, PNG, TIF
+
 - Textanzeige (Inhalt des Dokumentes als Textextrakt): alle Dokumente mit Textinformationen
+
 - keine Vorschau: alle weiteren Binärformate
 
 Ein Doppelklick öffnet das Dokument im entsprechenden Editor.
@@ -151,6 +164,7 @@ Berechtigte:
 
 Im Tab “Berechtigte” werden alle Gruppen aktiviert, welche Zugriff auf die Akte haben sollen.
 - Wird KEINE Gruppe gewählt, so ist der Zugriffsschutz für die Akte deaktiviert, es haben alle Nutzer Zugriff!
+
 - Wird mindestens eine Gruppe gewählt, so haben nur solche Nutzer Zugriff auf die Akte, die in mindestens einer der ausgewählten Gruppen Mitglied sind.
 
 Die Angabe berechtigter Gruppen bestimmt ausschließlich die Sichtbarkeit / Zugriffsmöglichkeit auf eine Akte. Welche Aktionen innerhalb der Akte möglich sind, leitet sich aus den Berechtigungen des Nutzers in der Nutzerverwaltung ab.

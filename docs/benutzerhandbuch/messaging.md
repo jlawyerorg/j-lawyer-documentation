@@ -8,8 +8,11 @@ Im ersten Tab einer Akte lassen sich Nachrichten mit Aktenbezug verfassen (über
 
 Über die Hauptnavigation am linken Bildschirmrand gelangt man zum zentralen Nachrichteneingang, welcher alle Nachrichten eines ausgewählten Zeitraums darstellt. Dort findet automatische eine Gruppierung der Nachrichten statt:
 - alle Nachrichten
+
 - Nachrichten mit Erwähnugen an den angemeldeten Nutzer / Nutzerin
+
 - Nachrichten die vom angemeldeten Nutzer / Nutzerin verfasst wurden und Erwähnungen an andere enthalten
+
 - je ein eigener Tab pro Akte für Nachrichten mit Aktenbezug
 
 Nachrichten mit Akten- oder Dokumentenbezug ermöglichen eine Navigation zum verlinkten Element.
@@ -26,8 +29,11 @@ Sowohl auf dem Desktop als auch links in der Hauptnavigation werden unbearbeitet
 
 Folgende Regeln bestimmen, für welchen Nutzer / welche Nutzerin eine Nachricht sichtbar ist:
 - Wird eine Nachricht mit einem Aktenbezug gesendet, ist sie "öffentlich" - zu Dokumentationszwecken. Jede Person mit Berechtigung für die Akte kann die Nachricht einsehen.
+
 - Ist ein Nutzer / eine Nutzerin der Absender, sieht er / sie die Nachricht.
+
 - Wurde der angemeldete Nutzer / Nutzerin in er Nachricht per „@“ erwähnt, sieht er / sie die Nachricht.
+
 - Ist die Nachricht ohne Aktenbezug und es gibt keine Erwähnungen, sieht ist die Nachricht öffentlich.
 
 Das bedeutet: Nachrichten ohne Aktenbezug von Person A an Person B (mittels Erwähnung) können nicht von anderen Personen eingesehen werden, die nicht an dieser Kommunikation beteiligt sind.

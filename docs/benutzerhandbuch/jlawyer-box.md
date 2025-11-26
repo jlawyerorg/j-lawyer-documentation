@@ -10,8 +10,11 @@ Im Login-Dialog wird die Erreichbarkeit einer eventuell installierten j-lawer.BO
 
 In der Registerkarte “j-lawyer.BOX” sind folgende Operationen verfügbar:
 - Erreichbarkeit und Status des j-lawyer.org Serverdienstes prüfen
+
 - j-lawyer.org Serverdienst neu starten
+
 - j-lawyer.BOX komplett rebooten
+
 - j-lawyer.BOX herunterfahren
 
 Geben Sie zur Ausführung der Kommandos das auf Ihrer mit der j-lawyer.BOX gelieferten “Identity Card” root-Passwort ein.
@@ -31,15 +34,20 @@ Update der j-lawyer.BOX Management Console
 
 Hiermit werden Updates des Betriebssystems sowie der Administrationsoberfläche selbst durchgeführt.
 - Ein Update liegt vor wenn in der Administrationsoberfläche ein Knopf “j-lawyer.BOX-Update verfügbar” angezeigt wird.
+
 - Nach dem Betätigen des Knopfes erhält man Informationen zum Update, in der Regel als Link zum Inhalt des Updates sowie Versionsinformationen (Veröffentlichungsdatum und Versionsnummer).
+
 - Nach einem Klick auf “Aktualisieren” läuft das Update im Hintergrund. Je nach Umfang kann das Update einige Zeit in Anspruch nehmen. Wenn man ganz sicher gehen möchte, dass das Update installiert wurde, so wartet man nach Starten des Updates ca. 5 Minuten und öffnet anschließend die Administrationsoberfläche erneut. Der Knopf “j-lawyer.BOX-Update verfügbar” sollte nun verschwunden sein und die Oberfläche sollte die neue Version im Kopfbereich anzeigen.
 
 Update der j-lawyer.org Serverinstallation
 
 Hiermit werden neue Versionen der Kanzleisoftware installiert.
 - Ein Update liegt vor wenn in der Administrationsoberfläche ein Knopf “j-lawyer.org-Serverupdate verfügbar” angezeigt wird.
+
 - Vor dem Installieren eines solchen Updates ist zwingend ein evtl. verfügbares j-lawyer.BOX-Update zu installieren!
+
 - Nach dem Betätigen des Knopfes erhält man Informationen zum Update, in der Regel als Link zum Inhalt des Updates sowie Versionsinformationen (Veröffentlichungsdatum und Versionsnummer für den Softwarestand und die Datenbank).
+
 - Nach einem Klick auf “Installieren” startet das Update und gibt fortlaufend Informationen zum Fortschritt. Je nach Umfang kann das Update mehrere Minuten in Anspruch nehmen. Scrollen Sie innerhalb des Ausgabefensters nach unten. Das Update ist beendet wenn eine Ausgabe wie folgt erscheint:
 
 Im Freigabeverzeichnis "j-lawyer-client" Ihrer Box liegen nun neue Installer fuer Ihre Arbeitsplaetze bereit. Nach deren Installation auf den Clients ist Ihr Update abgeschlossen.
@@ -48,6 +56,7 @@ Updateskript erfolgreich ausgefuehrt - Dienst wird neu gestartet...
 
 15s  14s  13s  12s  11s  10s  9s  8s  7s  6s  5s  4s  3s  2s  1s
 - Die Box wird nun selbständig den Dienst der j-lawyer.org-Kanzleisoftware neu starten. Dieser Vorgang kann ca. 3 Minuten in Anspruch nehmen.
+
 - Wenn man sicher gehen möchte, dass das Update installiert wurde, so aktualisiert man die Administrationsoberfläche über einen Klick auf “Start” im linken Menü. Der Knopf “j-lawyer.org-Serverupdate verfügbar” sollte nun verschwunden sein.
 
 Die j-lawyer.BOX ist somit vollständig aktualisiert. In den Dateifreigaben der Box finden Sie automatische Installer für die Arbeitsplätze und führen diese aus. Informationen zu den Freigaben finden Sie in der Administrationsoberfläche unter “Freigaben”. Das Verzeichnis “j-lawyer-client” innerhalb der Freigaben enthält die Installer.
@@ -62,7 +71,9 @@ Mit wenigen Einstellungen lässt sich in der Management Console unter “Replika
 
 In der aktuellen Umsetzung handelt es sich um eine Synchronisation in eine Richtung, d.h. sie ist geeignet für Anwendungsfälle wie
 - Installation einer „Notfallbox“ – im Falle eines Hardwaredefektes der primären Box kann nahtlos auf der zweiten Box weitergearbeitet werden. Das Einspielen von Datensicherungen entfällt.
+
 - Räumlich verteilte Datensicherung: besteht bspw. eine VPN-Verbindung zwischen Büroräumlichkeiten und einem zweiten Standort, so kann der gesamte Datenbestand vollautomatisch transferiert werden. Im Falle eines Diebstahls oder Brandes sind Ihre Daten am zweiten Standort sofort verfügbar.
+
 - Lesende Nutzung der Daten an zweitem Standort: ebenfalls im Fall einer VPN-Verbindung: Daten können lesend genutzt werden.
 
 Benötigt werden das MySQL-Passwort der Quelle sowie IP, MySQL-Passwort, root-Passwort des Ziels. Synchronisiert wird in Intervallen: montags bis freitags jeweils 10 Uhr, 12 Uhr, 15 Uhr und 17 Uhr.
@@ -83,12 +94,16 @@ Anleitung bei Nutzung einer zweiten j-lawyer.BOX als Notfallsystem: Was tun bei 
 
 ![Abbildung 69](../images/j-lawyer-org-UserGuide-de-076.png)
 - Nach einer Wartezeit von 3min mit dem üblichen Einloggen fortfahren.
+
 - Nur wenn ein Login weiter nicht möglich ist:
 
 2. Systemneustart auf der Primärbox
 - j-lawyer.org Client starten, Tab „Verbindung“ - unter „Server“ ist die IP der Primärbox einzutragen (s.o.)
+
 - Tab „j-lawyer.BOX“: Passwort des Betriebssystemnutzers „root“ eintragen (s.o.) und den dritten Knopf von links nutzen („j-lawyer.BOX neustarten (Reboot)“)
+
 - Nach einer Wartezeit von 3min mit dem üblichen Einloggen fortfahren.
+
 - Nur wenn ein Login weiter nicht möglich ist:
 
 3. Wechsel auf die Sekundärbox / Notfallbox
@@ -96,6 +111,7 @@ Anleitung bei Nutzung einer zweiten j-lawyer.BOX als Notfallsystem: Was tun bei 
 
 ![Abbildung 70](../images/j-lawyer-org-UserGuide-de-079.png)
 - Mit dem üblichen Einloggen fortfahren.
+
 - Die Primärbox vom Netzwerk trennen.
 
 4. Optional: Soll eine Synchronisation von der Primärbox auf die Sekundärbox wieder aktiviert werden, so loggen Sie sich mit einem Nutzer mit Administratorrechten auf der Sekundärbox ein, öffnen über das Menü “Einstellungen”, “Administratorkonsole” und führen Sie folgenden Befehl aus:
@@ -117,13 +133,21 @@ Im Auslieferungszustand bietet eine j-lawyer.BOX Freigaben für Scans, allgemein
 
 Sollen weitere Freigaben zur Verfügung stehen, welche zusätzlich per Nutzername und Passwort abgesichert sind, so kann wie folgt verfahren werden.
 - Eine SSH-Verbindung zur j-lawyer.BOX aufbauen
+
 - Eine neue Gruppe anlegen: sudo addgroup smbgrp
+
 - Einen neuen Nutzer anlegen, welcher Mitglied der neu erstellten Gruppe ist: sudo useradd shares -G smbgrp
+
 - Dem neuen Nutzer ein Passwort geben: sudo smbpasswd -a shares
+
 - Verzeichnis anlegen: sudo mkdir /usr/local/j-lawyer-server/samba-protected
+
 - Berechtigungen für das Verzeichnis anpassen: sudo chmod -R 0770 /usr/local/j-lawyer-server/samba-protected
+
 - Eigentümerschaft des Verzeichnisses anpassen: sudo chown root:smbgrp /usr/local/j-lawyer-server/samba-protected
+
 - Verzeichnis freigeben, dazu wird die Konfigurationsdatei wie folgt bearbeitet: sudo mcedit /etc/samba/smb.conf
+
 - Am Ende der Datei wird folgender Eintrag hinzugefügt:
 
 [j-lawyer-secure]
@@ -138,6 +162,7 @@ writable = yes
 
 read only = no
 - Datei mit F10 verlassen und speichern.
+
 - Freigabedienst neu starten: sudo service smbd restart
 
 Die Freigabe lässt sich nun von anderen Geräten aus benutzen, in dem der Nutzername “shares” und das vergebene Passwort zur Verbindung genutzt werden.

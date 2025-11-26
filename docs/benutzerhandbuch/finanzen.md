@@ -30,9 +30,13 @@ Belegnummern werden automatisch vergeben. Damit die Schemata den eigenen Anforde
 
 Ein Nummernkreis hat die Attribute
 - Anzeigename (zwecks Auswahl bei Belegerstellung)
+
 - Schema (Definition ähnlich Aktenzeichenschema)
+
 - Zahlungsziel (zur automatischen Berechnung des Fälligkeitsdatums)
+
 - Start-Index (laufende Nummer in der Belegnummer beginnt bei diesem Wert)
+
 - USt ausweisen (wird bei Belegerstellung ausgewertet und angewendet)
 
 Nach Erstellung eines neuen Nummernkreises ist dessen Nutzung ggf. über die Nutzerverwaltung zu ermöglichen. An jedem Nutzer ist einstellbar, welche Nummernkreise genutzt werden dürfen. So ist im Falle einer Bürogemeinschaft ein unabhängiges Abrechnen möglich.
@@ -47,8 +51,11 @@ Um einen Girocode in der Rechnung aufzunehmen, so ist – analog zu anderen Tabe
 
 Folgende Hinweise gelten für die Nutzung von Girocode:
 - Unterstützt werden ausschließlich Rechnungen, die in EUR abgerechnet werden.
+
 - Das Konto, auf welches der Rechnungsempfänger überweisen soll, wird aus dem Absender der Rechnung übernommen.
+
 - Ab j-lawyer.org Version 3.0 kann die Größe der generierten Girocodes über das Menü „Einstellungen“ – „Finanzen“ – „Girocodes“ konfiguriert werden.
+
 - Vor der Nutzung von Girocodes sollte die korrekte Funktionsweise einmal ausprobiert werden: In der Detailansicht eines Belegs findet man im Kopf (links neben der Rechnungsnummer) einen Button zur Anzeige des Girocodes. Diesen kann man mit der eigenen Banking-App scannen (und dann natürlich nicht absenden) und so die Korrektheit der Daten im Kanzleiprofil etc. testen.
 
 ### Rechnungen / Belege erstellen {#rechnungen}
@@ -61,10 +68,15 @@ In einem nächsten Schritt ist der Beleg mit Positionen zu befüllen. Es gibt fo
 
 #### Beleg vorbereiten
 - Gehe in einer Akte auf den Reiter oben „Finanzen“.
+
 - Gehe dort auf den Menüpunkt links „Belege“.
+
 - Klicke nun auf das Pluszeichen.
+
 - Wähle den Typ aus (z.B. „Rechnung“ für die Erstellung einer Rechnung).
+
 - Wähle den verwendeten Nummernkreis aus. Beachte dabei, dass Rechnungsnummern nur einmalig verwendet werden können und automatisch erstellt werden. Bei einer Testrechnung solltest du also den „Testnummernkreis“ anwählen, für eine „echte Rechnung“ den „Standardnummernkreis“.
+
 - Zur automatischen Vergabe der Rechnungsnummer und Eröffnung der Möglichkeit, weitere Felder auszufüllen, klicke nun auf den Haken neben dem „Typ“ der „Rechnung“.
 
 #### Position hinzufügen: manuell / vollständige händische Eingabe
@@ -77,13 +89,18 @@ Bevor eine Rechnung erstellt wird, erstellt man zunächst ein Zeiterfassungsproj
 
 #### Position hinzufügen: aus Gebührenrechner / Plugin
 - Im Reiter „Positionen“ oben auf das Symbol für „Positionen aus Rechnungsplugin übernehmen“ klicken und einen Berechner auswählen, bspw. „Rechnung RVG Wertgebühren“.
+
 - Relevante Gebühreneingaben tätigen
+
 - Button ganz unten nutzen: „als Rechnung“. Daraufhin werden die Gebührenpositionen in den Beleg aufgenommen.
 
 #### Belegdokument erstellen
 - Im Reiter Dokumente klickt man auf „erstellen“, „elektronische Rechnung“ und wähle die gewünschte Rechnungsvorlage aus und gehe auf „erstellen und öffnen“. Hinweis: Bei der Auswahl des E-Rechnungs-Formates sollte „Elektronische Rechnung (an Unternehmen)“ ausgewählt werden, wenn die Rechnung an Unternehmen oder Verbraucher gestellt wird.
+
 - Im nun geöffneten Rechnungsdokument kann jetzt das Layout angepasst werden. Inhaltliche Angaben, die auch im maschinenlesbaren Format enthalten sind (wie Rechnungssumme oder Rechnungsempfänger), sollten nicht mehr verändert werden.
+
 - Nach einem speichern und schließen des Dokuments speichert man im j-lawyer das Popup des Rechnungsfensters und geht in der Akte auf Dokumente. Dort klickt man mit der rechten Maustaste auf das Rechnungsdokument und wählt aus „als pdf zur Akte speichern“. Nun ist das Rechnungsdokument als pdf in der Akte.
+
 - Auf das Rechnungsdokument als pdf klickt man nun mit einem Rechtsklick und wählt aus „@ als pdf versenden“, um die Rechnung per E-Mail an den Mandanten zu senden.
 
 ### Elektronische Rechnungen (“E-Rechnung”) {#e-rechnung}

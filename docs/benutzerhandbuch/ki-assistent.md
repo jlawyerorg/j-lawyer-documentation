@@ -2,21 +2,32 @@
 
 j-lawyer.org verfügt über integrierte KI(„künstliche Intelligenz“)-Funktionen, die unterschiedliche Aufgaben übernehmen oder unterstützen können, so bspw.
 - Transkription
+
 - Übersetzung
+
 - Erläutern von Sachverhalten
+
 - Antworten vorformulieren
+
 - Generieren von Inhalten
+
 - Zusammenfassen von Dokumenten
+
 - Befragen von Dokumenten
+
 - Bilder analysieren / beschreiben
 
 Die Integration dieser Funktionen zielt darauf ab, an vielfältigen Stellen im Arbeitsfluss auf KI-basierte Unterstützung zurückgreifen zu können. An den relevanten Stellen ist dazu ein „AI“-Button (AI = „Assistent Ingo“) zu finden.
 
 Der grundsätzliche Aufbau der Dialoge ist dabei immer ähnlich:
 - Im Kopfbereich wird die Funktion beschrieben und am rechten Bildschirmrand gibt es einen Button zum (erneuten) Ausführen einer Anfrage
+
 - Direkt unter dem Kopfbereich gibt es eine Fortschrittsanzeige, die anzeigt ob gerade noch eine Anfrage bearbeitet wird
+
 - Unterhalb der Fortschrittsanzeige befindet sich der sogenannte „Prompt“, also eine Anfrage oder Beschreibung der Aufgabe an ein KI-Modell. Der Prompt ist in der Regel bearbeitbar und kann frei verändert werden. Ausnahmen sind bspw. Transkriptionen (Sprache zu Text), welche nicht über ein Promptmöglichkeit verfügen.
+
 - Unter dem Prompt auf der linken Seite gibt es die Eingangsdatenmenge. Das ist in der Regel ein aus Dokumenten oder E-Mails extrahierter Text oder eine Datei. Für Transkriptionen werden Sounddateien als Eingabe verwendet.
+
 - Unter dem Prompt auf der rechten Seite werden die Ergebnisse der Anfrage ausgegeben. Die Ergebnisse werden in der Regel iterativ  dargestellt (es erscheinen also Teilergebnisse, sobald sie vorliegen). Im Fall eines Chats oder einer Befragung von Dokumenten können mehrere Frage-Antwort-Abfolgen entstehen.
 
 ![Abbildung 46](../images/j-lawyer-org-UserGuide-de-052.png)
@@ -28,14 +39,18 @@ Der grundsätzliche Aufbau der Dialoge ist dabei immer ähnlich:
 
 Die Funktion kann an folgenden Stellen genutzt werden:
 - Diktieren in E-Mail
+
 - Diktieren in eine Notiz
+
 - Sprachmemo in Text umwandeln
 
 Diktieren
 
 Beim Diktieren gibt es ein Dropdown zur Auswahl des Aufnahmegerätes. Hier ist das gewünschte Mikrofon auszuwählen. Die zuletzt getroffene Auswahl wird jeweils automatisch erneut angeboten. Rechts neben dem Dropdown gibt es einen Button zum Starten und Stoppen der Aufnahme. Das Diktieren sollte wie folgt gehandhabt werden:
 - Start-/Stoppknopf nutzen, um Aufnahme zu starten. Eine grünfarbige laufende Zeit signalisiert die Aufnahme.
+
 - Diktieren mehrerer Wörter bis hin zu ganzen Textpassagen. Dabei werden keinerlei Satzzeichen diktiert, es wird einfach natürlichsprachig aufgenommen und eine KI übernimmt die Interpunktion, in dem sie den Kontext des gesprochenen Textes insgesamt betrachtet.
+
 - Start-/Stoppknopf erneut nutzen, um Aufnahme zu stoppen. Daraufhin findet die eigentliche Transkription statt und der Text erscheint im Ausgabefenster.
 
 ![Abbildung 47](../images/j-lawyer-org-UserGuide-de-053.png)
@@ -54,7 +69,9 @@ Der Text wird dabei auch direkt am Sprachmemo gespeichert, sodass die Erstellung
 
 Für die Transkription stehen verschiedene Varianten zur Verfügung:
 - reine Transkription
+
 - Transkription mit automatischer Verbesserung von Formulierungen
+
 - Transkription mit automatischer Übersetzung in eine andere Sprache
 
 Über den Button „neues Dokument“ wird das Vorlagensystem genutzt, um den Text in einen Schriftsatz zu übernehmen. Der von Assistent Ingo generierte Text wird dabei an die Stelle des Platzhalters {{INGO_TEXT}} gesetzt.
@@ -63,6 +80,7 @@ Diktatbausteine und nutzerdefinierte Ersetzungen
 
 Im Menü „Einstellungen“ – „Assistent Ingo“ – „automatische Ersetzungen“ lassen sich erkannte Textinhalte (einzelne Wörter oder Wortgruppen) definieren, bei deren Erkennung ein alternativer Wert (einzelne Wörter, Wortgruppen, komplette Absätze) erscheinen soll. Das ermöglicht bspw.
 - das Korrigieren von konsistent falsch erkannten Termen, bspw. Namen (den falsch erkannten „Stefan Laiendecker“ durch den korrekten Namen „Stephan Leijendekker“ ersetzen)
+
 - das effizientere Diktieren häufig wiederkehrerender Passagen, bspw. „Vollmachthinweis“ ersetzen durch „Bitte bringen Sie zum Termin vollständige Unterlagen und die unterschriebene Vollmacht mit.“
 
 ### Übersetzung {#uebersetzung}
@@ -71,34 +89,63 @@ Im Menü „Einstellungen“ – „Assistent Ingo“ – „automatische Ersetz
 
 Assistent Ingo kann Übersetzungsaufgaben übernehmen und unterstützt dazu insgesamt 30 Sprachen:
 - bulgarisch
+
 - chinesisch
+
 - dänisch
+
 - deutsch
+
 - englisch (GB)
+
 - englisch (US)
+
 - estnisch
+
 - finnisch
+
 - französisch
+
 - griechisch
+
 - indonesisch
+
 - italienisch
+
 - japanisch
+
 - koreanisch
+
 - lettisch
+
 - litauisch
+
 - niederländisch
+
 - norwegisch (bokmål)
+
 - polnisch
+
 - portugiesisch (BR)
+
 - portugiesisch (PT)
+
 - rumänisch
+
 - russisch
+
 - schwedisch
+
 - slowakisch
+
 - slowenisch
+
 - spanisch
+
 - tschechisch
+
 - türkisch
+
 - ukrainisch
 
 Integriert ist die Übersetzungsfunktion u.a. für Postein- und Postausgang per E-Mail, also das Übersetzen eingehender Nachrichten als auch das Übersetzen vor dem Versand. Die zu übersetzenden Passagen können dabei markiert werden. Ohne Markierung wird der gesamte Text übersetzt.
@@ -194,6 +241,7 @@ Oftmals gibt es den Bedarf, Anfragen an eine KI mehrfach verwenden zu können. B
 
 Im Menü „Einstellungen“ – „Assistent Ingo“ – „eigene Prompts“ können Anfragen konfiguriert und gespeichert werden. Dazu werden nach einem Klick auf „+“ folgende Wert bereitgestellt:
 - Name: der Name der Anfrage – dieser Wert erscheint bspw. in Kontextmenüs und sollte daher bewusst gewählt werden und nicht zu lang sein.
+
 - Funktion: Zeigt an, welche Art einer Anfrage mittels des eigenen Prompts ausgeführt werden soll. Mögliche Werte sind
     - chat: für Prompts, die zur Befragung / für iterative Frage-Antwort-Szenarien verwendet werden können
     - explain: für Prompts, die zu Recherchezwecken verwendet werden können (bspw. Erläutern von Begriffen oder Sachverhalten in E-Mails)

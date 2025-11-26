@@ -26,17 +26,29 @@ Unter „Administration“ – „Web Hooks“ können beliebig viele Benachrich
 
 Unterstützt werden folgende Ereignistypen:
 - DOCUMENT_CREATED: Dokument erstellt
+
 - DOCUMENT_UPDATED: Dokument geändert
+
 - DOCUMENT_REMOVED: Dokument gelöscht
+
 - ADDRESS_CREATED: Adresse erstellt
+
 - ADDRESS_UPDATED: Adresse geändert
+
 - ADDRESS_REMOVED: Adresse gelöscht
+
 - CASE_CREATED: Akte erstellt
+
 - CASE_UPDATED: Akte geändert
+
 - CASE_REMOVED: Akte gelöscht
+
 - ADDRESSTAG_CHANGED: Etikett an Adresse aktiviert / deaktiviert
+
 - CASETAG_CHANGED: Etikett an Akte aktiviert / deaktiviert
+
 - DOCUMENTTAG_CHANGED: Etikett an Dokument aktiviert / deaktiviert
+
 - CASE_FORM_UPDATED: Falldatenblatt geändert
 
 Für jeden Ereignistyp sind beliebig viele Hooks möglich. Daten zum Ereignis werden im JSON-Format per HTTP POST gesendet.

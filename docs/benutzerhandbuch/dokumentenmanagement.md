@@ -20,18 +20,26 @@ HINWEIS: aktuell wird von der Verwendung von Textfeldern in .docx-Vorlagen  abge
 
 Mit Version 1.8.1 wurde eine vollständig überarbeitete Anwendungsanbindung für LibreOffice und andere externe Applikationen geliefert. Folgendes ist bei der Arbeit mit Dokumenten zu beachten:
 - es können beliebig viele Dokumente gleichzeitig geöffnet werden
+
 - es können Dokumente verschiedener Akten gleichzeitig geöffnet werden
+
 - Dokumente müssen gespeichert und geschlossen werden, bevor der j-lawyer.org Client beendet wird – anderenfalls findet keine Rückspeicherung in die Akte(n) statt
 
 Wird der j-lawyer.org Client geschlossen während noch Dokumente geöffnet sind, so wird ein Dialog mit den als noch offen erkannten Dokumenten angezeigt. Speichern und schließen Sie dann alle Dokumente und beenden Sie dann den j-lawyer.org Client.
 
 Der genannte Dialog ist auch jederzeit über das Menü “?”, Menüpunkt “Dokumentmonitor” zu öffnen und zeigt aktuell “überwachte” Dokumente an:
 - Dateiname
+
 - schreibgeschützt ja/nein
+
 - geöffnet (Zeit)
+
 - zuletzt gespeichert (Zeit)
+
 - Starttyp
+
 - Speichertyp
+
 - Status
 
 ![Abbildung 7](../images/j-lawyer-org-UserGuide-de-013.png)
@@ -41,9 +49,13 @@ Der genannte Dialog ist auch jederzeit über das Menü “?”, Menüpunkt “Do
 
 Unterstützt werden Vorlagen in den folgenden Formaten:
 - ODT (LibreOffice-Textverarbeitung)
+
 - ODS (LibreOffice-Tabellenkalkulation) – jedoch ohne Verwendung von Scripts
+
 - DOCX (Microsoft Office-Textverarbeitung)
+
 - XLSX (Microsoft Office-Tabellenkalkulation) – jedoch ohne Verwendung von Scripts
+
 - PDF – PDF-Dateien, die Formulare enthalten; jedoch ohne Verwendung von Scripts
 
 #### Platzhalter {#platzhalter}
@@ -422,8 +434,11 @@ Die Nutzung von Skriptfunktionen in PDF-Vorlagen wird nicht unterstützt.
 
 Über das Menü „Plugins“, „Tabelleneinstellungen“ kann das Aussehen der über das Vorlagensystem generierten Tabellen beeinflusst werden, bspw.
 - Schriftart und -größe
+
 - Tabellenlinien
+
 - fett / kursiv / unterstrichen
+
 - weitere
 
 Ebenso kann das Format von in der Tabelle enthaltenen Geldbeträgen konfiguriert werden. Dazu kann das gewünschte Format in einer bestimmten Syntax definiert werden:
@@ -764,6 +779,7 @@ Beispiel
 
 Zuordnungstabelle
 - Name: Gesellschaftsform
+
 - Schlüssel 1: Rechtsform
 
 Zuordnungsregeln
@@ -910,7 +926,9 @@ Mit einem Klick auf  “Hinzufügen” werden vorhandene Dateien einer Akte hinz
 
 Werden Dokumente aus einer Akte gelöscht, so werden Sie zunächst im Papierkorb abgelegt. Dabei
 - bleibt der Aktenbezug erhalten
+
 - wird die Zugehörigkeit zu einem bestimmten Ordner der Akte zurückgesetzt
+
 - bleibt der Dateiname des Dokuments für die betroffene Akte “reserviert” und kann erst durch endgültige Löschen aus dem Papierkorb wiederverwendet werden.
 
 Über das Menü “Datei” – “Papierkorb” kann der Papierkorb verwaltet werden. Selektierte Dokumente lassen sich endgültig löschen oder wiederherstellen. Bei einer Wiederherstellung werden die Dokumente in den obersten Ordner der Akte einsortiert.
@@ -957,7 +975,9 @@ Zusätzlich zu einem zentralen Scanordner lässt sich an jedem Arbeitsplatz ein 
 
 Das Verhalten des lokalen Scanordners ist wie folgt:
 - das Verzeichnis wird zyklisch auf neue Dokumente überwacht
+
 - alle Dokumente in diesem Ordner werden anschließend in den zentralen Scanordner transferiert
+
 - und aus dem lokalen Verzeichnis gelöscht
 
 Somit sind verschiedene Anwendungsszenarien abbildbar, bspw. ein Arbeiten aller Mitarbeiter im Home Office, bei gleichzeitiger zentraler Abarbeitung der Dokumente durch eine definierte Person.
@@ -974,11 +994,14 @@ Für die OCR-Funktionalität wird ein externes Programm aufgerufen. Der Aufruf k
 
 Die beiden letzten Parameter müssen zwingend im Aufruf enthalten sein, auch wenn eine andere OCR-Software genutzt wird. j-lawyer.org wird die Platzhalter bei Aufruf ersetzen.
 - DATEIEIN ist der volle Pfad zu einer Datei, für welche die Texterkennung ausgeführt werden soll
+
 - DATEIAUS ist der volle Pfad zur Ergebnisdatei / zu erstellenden Datei
 
 Der Texterkennungsstatus wird im Scaneingang in der Spalte „OCR“ angezeigt:
 - Status „gelb“: OCR läuft
+
 - Status „grün“: OCR ist erfolgreich abgeschlossen
+
 - Status „rot“: OCR nicht möglich, fehlgeschlagen, oder nicht konfiguriert
 
 Ist der Status rot, so kann per Klick im Aktionsmenü erneut eine Texterkennung für das Dokument angefordert werden (bspw. weil zum Zeitpunkt der Texterkennung eine fehlende Konfiguration bestand).
@@ -989,9 +1012,13 @@ Ist der Status rot, so kann per Klick im Aktionsmenü erneut eine Texterkennung 
 
 j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:
 - text: Text des Dokumentes (Standardfeld)
+
 - dateiname: Dateiname des Dokumentes
+
 - autor: Nutzername des Autors des Dokumentes
+
 - akte: Rubrum der Akte, die das Dokument enthält
+
 - az: Aktenzeichen der Akte, die das Dokument enthält
 
 Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht „autor:anwalt1“ nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1“ erstellt wurden.
@@ -1020,6 +1047,7 @@ Die Einstellung beeinflusst ausschließlich neu hinzugefügte Dokumente. Dokumen
 
 j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu öffnen:
 - wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet
+
 - alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet
 
 Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend mit einer anderen Applikation geöffnet werden sollen. Dazu gibt es unter „Einstellungen“ – „Dokumente“ – „externe Programme“ entsprechende Konfigurationen. Fügen Sie zuerst eine Anwendung per frei wählbarem Namen hinzu, bspw. „Adobe PDF Reader“. Daraufhin können Sie eine ausführbare Datei auswählen und Parameter, die beim Öffnen zum Lesen bzw. zum Editieren an das ausgewählte Programm übergeben werden. Der (voreingestellte) Parameter DATEINAME wird dabei von j-lawyer automatisch ersetzt und sollte in jedem Fall erhalten bleiben und bei Bedarf lediglich um weitere Parameter ergänzt werden.
@@ -1076,7 +1104,9 @@ Hinweis: die Einstellung ist an jedem Arbeitsplatz durchzuführen. Sie wird im W
 
 j-lawyer.org ist in der Lage, die meisten Dokumentenformate automatisch im Hintergrund nach PDF zu konvertieren, insbesondere bei
 - Versand von Dokumenten via Email
+
 - Versand von Dokumenten über die Drebis-Schnittstelle
+
 - Versand von Dokumenten als Fax via Sipgate
 
 Die Konvertierung wird dabei für den Nutzer nicht direkt sichtbar im Hintergrund durchgeführt.
@@ -1094,7 +1124,9 @@ Die Sortierung der Dokumente wird in das PDF übernommen, daher empfiehlt sich d
 
 Der Exportprozess läuft wie folgt ab:
 - Prüfung der Dateiformate: nicht unterstützte Formate (bspw. können Sprachmemos nicht in PDF konvertiert werden) werden ausgegeben. E-Mails werden samt Ihrer Anlagen konvertiert, sofern der Anlagentyp nach PDF konvertiert werden kann.
+
 - Die einzelnen Dokumente werden in einer Übersicht dargestellt, samt Seitenzahlen und Dateigrößen. Für das zu erstellende Gesamt-PDF werden die Summen für beide Wert ausgegeben. In diesem Schritt können die Dokumente mittels auf-/ab-Tasten in eine abweichende Reihenfolge gebracht werden.
+
 - Im nächsten Schritt werden zwei Seiten generiert: eine mit den Stammdaten der Akte, sowie eine weitere mit einem Inhaltsverzeichnis. Das Ergebnis kann als Vorschau betrachtet werden. In diesem Schritt kann der Export in die Akte, in ein Verzeichnis auf dem Arbeitsplatz, oder beides gewählt werden.
 
 Bei sehr vielen und / oder sehr umfangreichen Dokumenten kann der Export eine Weile in Anspruch nehmen.
@@ -1107,11 +1139,14 @@ Das Gesamt-PDF ist mit Lesezeichen versehen, um schnell zwischen den ehemaligen 
 
 Über das Kontextmenü auf ein PDF („PDF und Konvertierung“ – „PDF schwärzen“) lassen sich PDF-Dokumente anonymisieren, d.h. es werden Inhalte und Metadaten angepasst:
 - Anmerkungen können automatisch entfernt werden
+
 - Metadaten, bspw. Autor, Titel, Betreff, Schlüsselwörter, erstellende Anwendung, Erstellungsdatum und Änderungsdatum werden entfernt oder auf einen Standardwert gesetzt
+
 - Wörter werden im PDF geschwärzt und der ursprüngliche Inhalt entfernt. Eine Suche nach diesen Wörtern ist dann nicht mehr möglich.
 
 Zum Entfernen mehrerer Wörter können diese durch Komma separiert angegeben werden. Voreingestellt sind
 - Aktenzeichen
+
 - Beteiligtendaten: Bankverbindung, beA Safe-ID, Geburtsdatum und -name, Anschrift, Unternehmen und Abteilung, Sterbedatum, Kontaktdaten, Versicherungsinformationen, TIN und UstId
 
 Es gibt im Dialog die Möglichkeit, weitere anonymisierungswürdige Terme KI-gestützt extrahieren zu lassen.
@@ -1141,6 +1176,7 @@ Voraussetzung ist, dass Dokumente per PDF verschickt werden. Über die Dokumenta
 
 Hinweise: Die Verschlüsselung ist empfängerspezifisch implementiert. Werden Dokumente an mehrere Empfänger versendet, so werden
 - separate E-Mails pro Empfänger verschickt, mit individueller Verschlüsselung
+
 - die Dokumente nur für diejenigen Emfpänger verschlüsselt, für welche ein Passwort vergeben ist
 
 All dies geschieht vollautomatisch. Ist die Verschlüsselungsoption aktiviert, aber nur für einige der Empfänger ein Passwort hinterlegt, so erscheint eine Rückfrage für den Anwender, wie verfahren werden soll.
@@ -1158,7 +1194,11 @@ Hier eine kurze beispielhafte Beschreibung, wie Auto-Texte zentral auf einer j-l
 - Über den Explorer ein Netzlaufwerk J:\ verbinden, für den Pfad 
 \\j-lawyer-box\j-lawyer-share\daten. Dabei die Option aktivieren, das Netzlaufwerk automatisch bei Anmeldung zu verbinden.
 - Im Verzeichnis “daten” der j-lawyer.BOX wird ein neues Verzeichnis angelegt: libreoffice-autotext
+
 - LibreOffice öffnen
+
 - Menü “Bearbeiten”, Menüpunkt “AutoText”
+
 - Im Dialog einmal auf “Pfad” gehen und dieses Verzeichnis hinzufügen: J:\daten\libreoffice-autotext
+
 - Dann im Dialog auf “Kategorien” gehen und eine neue Kategorie anlegen, mit Namen “j-lawyer” und Nutzung des eben angelegten Pfades. Mit “Neu” bestätigen. Nun hat man eine zentrale AutoText-Ablage für alle Auto-Texte, die in der Kategorie “j-lawyer” angelegt werden.
