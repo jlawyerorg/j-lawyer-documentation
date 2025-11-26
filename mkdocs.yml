@@ -102,6 +102,7 @@ nav:
     - Finanzen & Auswertungen:
       - Finanzen: benutzerhandbuch/finanzen.md
       - Forderungskonto: benutzerhandbuch/forderungskonto.md
+      - Ausgehende Zahlungen: benutzerhandbuch/zahlungen.md
       - Auswertungen: benutzerhandbuch/auswertungen.md
     - KI-Assistent: benutzerhandbuch/ki-assistent.md
     - Add-Ons:
