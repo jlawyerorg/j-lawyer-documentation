@@ -44,8 +44,12 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Build PDF
+        run: mkdocs build
         env:
           ENABLE_PDF_EXPORT: 1
+        continue-on-error: true
 
       - name: Move PDF to site
         run: mv j-lawyer-dokumentation.pdf site/ || true
