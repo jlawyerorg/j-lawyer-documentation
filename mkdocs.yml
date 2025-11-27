@@ -90,11 +90,10 @@ nav:
       - Installation: benutzerhandbuch/installation.md
       - Programmoberfläche: benutzerhandbuch/oberflaeche.md
       - Erste Schritte: benutzerhandbuch/erste-schritte.md
-    - Tägliche Arbeit:
-      - Aktenverwaltung: benutzerhandbuch/aktenverwaltung.md
-      - Kontakte / Adressen: benutzerhandbuch/adressen.md
-      - Dokumentenmanagement: benutzerhandbuch/dokumentenmanagement.md
-      - Kalender: benutzerhandbuch/kalender.md
+    - Aktenverwaltung: benutzerhandbuch/aktenverwaltung.md
+    - Kontakte / Adressen: benutzerhandbuch/adressen.md
+    - Dokumentenmanagement: benutzerhandbuch/dokumentenmanagement.md
+    - Kalender: benutzerhandbuch/kalender.md
     - Kommunikation:
       - E-Mail: benutzerhandbuch/email.md
       - Postvorlagen: benutzerhandbuch/postvorlagen.md
