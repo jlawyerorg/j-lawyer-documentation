@@ -18,7 +18,7 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [Dokumentenmanagement](dokumentenmanagement/index.md)
 
-- [Kalender: Termine, Wiedervorlagen und Fristen](kalender.md)
+- [Kalender: Termine, Wiedervorlagen und Fristen](kalender/index.md)
 
 - [Rechnungen](finanzen.md)
 

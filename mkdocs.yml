@@ -102,7 +102,11 @@ nav:
       - Volltextsuche: benutzerhandbuch/dokumentenmanagement/volltextsuche.md
       - PDF-Funktionen: benutzerhandbuch/dokumentenmanagement/pdf.md
       - Verschlüsselung: benutzerhandbuch/dokumentenmanagement/verschluesselung.md
-    - Kalender: benutzerhandbuch/kalender.md
+    - Kalender:
+      - Übersicht: benutzerhandbuch/kalender/index.md
+      - Aktenbezogener Kalender: benutzerhandbuch/kalender/aktenbezogen.md
+      - Kalendersuche: benutzerhandbuch/kalender/suche.md
+      - Fehlende Einträge: benutzerhandbuch/kalender/fehlende-eintraege.md
     - Kommunikation:
       - E-Mail: benutzerhandbuch/email.md
       - beA: benutzerhandbuch/addon-bea.md
