@@ -1,69 +1,185 @@
-# Add-Ons: Nextcloud-Integration
+# Add-Ons: Nextcloud-Integration {#nextcloud}
 
 Nextcloud (<https://nextcloud.com>) ist eine Open Source Cloudlösung, die sich auch selbst installieren und betreiben lässt. Sie beinhaltet u.a. Dateispeicherung und -freigaben, Kalender, Kontakte, E-Mail, u.v.m.
 
-### Nextcloud-Installation für Dokumentfreigaben nutzen
+## Nextcloud-Installation für Dokumentfreigaben nutzen {#konfiguration}
 
+Die Verbindungs- und Zugangsinformationen werden über die Nutzerverwaltung an den gewünschten Nutzerkonten hinterlegt.
 
+### Erforderliche Angaben
 
-Die Verbindungs- und Zugangsinformationen werden über die Nutzerverwaltung an den gewünschten Nutzerkonten hinterlegt. Es werden folgende Angaben benötigt:
-- Servername: Name des Servers ohne Prokoll (ohne http / https), bspw. www.advobox.com
+| Feld | Beschreibung |
+|------|--------------|
+| **Servername** | Name des Servers ohne Protokoll (ohne http / https), z.B. `www.advobox.com` |
+| **Port** | 443 wenn der Server HTTPS unterstützt, ansonsten in der Regel 80 oder 8080 |
+| **Pfad** | Unterverzeichnis, in welchem die Nextcloud installiert ist |
+| **SSL** | Aktivieren, wenn der Server HTTPS unterstützt, ansonsten inaktiv setzen |
+| **Nutzername** | Benutzername für diese Nextcloud |
+| **Passwort** | Passwort des Nutzers |
 
-- Port: 443 wenn der Server https unterstützt, ansonsten in der Regel 80 oder 8080
+!!! info "Hinweise zur Pfad-Angabe"
+    - Ist die Nextcloud direkt unter einer Domain abrufbar (z.B. `https://cloud.musterkanzlei-12345.de`), bleibt die Pfadangabe **leer**.
+    - Wird die Nextcloud über ein Unterverzeichnis abgerufen (z.B. `https://www.musterkanzlei-12345.de/meinecloud`), ist der Wert `meinecloud` (ohne Anführungszeichen) als Pfad anzugeben.
 
-- Pfad: Unterverzeichnis, in welchem die Nextcloud installiert ist.
+### Flexible Nutzerkonfiguration
 
-- SSL: aktivieren, wenn der Server https unterstützt, ansonsten inaktiv setzen
+Die Verknüpfung mit dem Nutzer der Kanzleisoftware bietet größtmögliche Flexibilität:
 
-- Nutzername, Passwort: die Zugangsdaten des Nutzers dieser Nextcloud
+- Gemeinsame Nutzung eines Nextcloud-Zugangs für alle Mitarbeiter der Kanzlei
+- Nutzung separater Nextcloud-Zugänge je Kanzleisoftwarenutzer (unterschiedliche Berechtigungen / Inhalte)
+- Nutzung völlig unterschiedlicher Nextcloud-Installationen (z.B. in Bürogemeinschaften)
 
-Hinweise zur „Pfad“-Angabe: Ist die Nextcloud direkt unter einer Domain abrufbar, bspw. <https://cloud.musterkanzlei-12345.de> so bleibt die Pfadangabe leer. Wird die Nextcloud jedoch über  <https://www.musterkanzlei-12345.de/meinecloud> abgerufen, so ist der Werte „meinecloud“ (ohne Anführungszeichen) als Pfad anzugeben.
+## Freigeben von Dokumenten {#dokumente-freigeben}
 
-Die Verknüpfung mit dem Nutzer der Kanzleisoftware gibt die größtmögliche Flexibilität, bspw. die gemeinsame Nutzung eines Nextcloud-Zugangs für alle Mitarbeiter der Kanzlei, oder die Nutzung separater Nextcloud-Zugänge je Kanzleisoftwarenutzer zwecks Nutzung unterschiedlicher Berechtigungen / Inhalte oder auch die Nutzung völlig unterschiedlicher Nextcloud-Installationen, bspw. in Bürogemeinschaften.
+Nach erfolgreicher Verknüpfung eines Nextcloud-Zugangs können aus der Akte heraus Dokumente freigegeben werden.
 
-### Freigeben von Dokumenten {#dokumente-freigeben}
+### Dokumente zur Freigabe auswählen
 
+1. Öffnen Sie die gewünschte Akte
+2. Wählen Sie im Dokumentenbereich ein oder mehrere Dokumente aus
+3. Klicken Sie auf das Aktionsmenü und wählen Sie **Freigabe senden**
 
+### Der Freigabe-Dialog
 
-Nach erfolgreicher Verknüpfung eines Nextcloud-Zugangs können aus der Akte heraus ein oder mehrere Dokumente selektiert und per Aktionsdropdown freigegeben werden (“Freigabe senden”). Anschließend kann in einem Dialog entweder eine vorhandene Freigabe genutzt und die Dokumente dorthin hochgeladen oder eine neue Freigabe erstellt werden.
+Im Freigabe-Dialog haben Sie zwei Möglichkeiten:
+
+- **Vorhandene Freigabe nutzen**: Wählen Sie eine bereits existierende Freigabe aus der Liste und laden Sie die Dokumente dorthin hoch
+- **Neue Freigabe erstellen**: Erstellen Sie eine neue Freigabe mit individuellen Einstellungen
 
 ![Abbildung 57](../images/j-lawyer-org-UserGuide-de-063.png)
 
+#### Bestehende Freigaben durchsuchen
 
-Der Empfänger der Freigabe als auch das Aktenzeichen können automatisch als Ordner verwendet werden, auch in Kombination.
+Die Liste zeigt alle vorhandenen Ordner-Freigaben an. Mit dem Suchfeld können Sie die Liste filtern, um schnell die gewünschte Freigabe zu finden.
 
-Die Berechtigungen können so definiert werden, dass der Beteiligte auch Dokumente editieren oder neue hinzuladen darf.
+### Neue Freigabe erstellen
 
-Optional kann die Freigabe mit einem Passwortschutz versehen werden. Die Freigabelinks in Nextcloud sind jedoch willkürliche Ziffer-Buchstaben-Kombinationen die nicht zu “erraten” sind, insofern ist auch eine Freigabe ohne Passwort akzeptabel, wenn der Freigabelink auf sicherem Weg übertragen wird (bspw. per verschlüsselter E-Mail oder Messengern wie Signal oder WhatsApp).
+Beim Erstellen einer neuen Freigabe stehen folgende Optionen zur Verfügung:
 
-Nach Erstellen der Freigabe lässt sich der Freigabelink wahlweise in die Zwischenablage kopieren oder es öffnet sich ein E-Mail-Versandfenster, in welchem der Link voreingetragen ist. Soll für den Versand per E-Mail eine E-Mail-Vorlage verwendet werden, so ist der Freigabelink als Platzhalter {{CLOUD_LINK}} einbindbar.
+#### Empfänger auswählen
 
-Die voreingestellte Gültigkeitsdauer für Freigaben beträgt 30 Tage.
+Wählen Sie einen der Beteiligten der Akte als Empfänger der Freigabe aus. Der Empfänger wird für die automatische Ordnerstruktur verwendet.
 
-### Synchronisieren des Adressbuchs (Nextcloud, mobile Geräte) {#adressbuch-sync}
+#### Ordnerstruktur
 
+Die Ordnerstruktur kann automatisch basierend auf Aktenzeichen und/oder Empfänger generiert werden:
 
+| Option | Beispiel-Struktur |
+|--------|-------------------|
+| **Akte** | `j-lawyer/12345-2024/` |
+| **Beteiligte** | `j-lawyer/Müller, Max/` |
+| **Akte-Beteiligte** | `j-lawyer/12345-2024/Müller, Max/` |
+| **Beteiligte-Akte** | `j-lawyer/Müller, Max/12345-2024/` |
 
-Adressen einer j-lawyer.org Installation können in eine Nextcloud synchronisiert werden. Dabei werden all jene Adressbucheinträge synchronisiert, die in mindestens einer Akte als Beteiligte geführt sind.
+Alternativ können Sie auch einen bestehenden Ordner aus der Dropdown-Liste auswählen oder einen eigenen Pfad eingeben.
 
-Vorbereitend sollte in der Oberfläche der Nextcloud ein separates Adressbuch angelegt werden, welches ausschließlich in Verbindung mit j-lawyer.org verwendet wird. So kann das Adressbuch bei Bedarf vollständig neu synchronisiert oder neu aufgebaut werden, ohne andere Adressdaten zu beeinflussen.
+!!! warning "Bereits freigegebene Ordner"
+    Wenn ein Ordner bereits freigegeben ist, wird dies durch einen roten Hinweis angezeigt. In diesem Fall sollten Sie die bestehende Freigabe verwenden.
 
-Anschließend wird über das Menü „Einstellungen“ – „Adressen“ – „Synchronisation konfigurieren“ die Verbindung zur Nextcloud-Installation hergestellt. An dieser Stelle sollte das gewünschte Zieladressbuch ausgewählt werden. Optional lässt sich das Synchronisieren von Geburtsdaten deaktiveren, sodass bspw. an mobilen Geräten keine überflüssigen Geburtstagsbenachrichtigungen ausgelöst werden. Über das Menü „Einstellungen“ – „Adressen“ – „Synchronisation ausführen“ wird eine Erstsynchronisation durchgeführt. Alle weiteren Datenänderungen werden ab sofort automatisch im Hintergrund in die Nextcloud übertragen.
+#### Berechtigungen
 
-Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: <https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html>
+| Option | Beschreibung |
+|--------|--------------|
+| **Schreibgeschützt** | Der Empfänger kann nur lesen und herunterladen (Standard) |
+| **Hochladen** | Der Empfänger kann zusätzlich neue Dateien hochladen |
+| **Hochladen und Bearbeiten** | Der Empfänger kann hochladen und vorhandene Dateien bearbeiten |
 
-## Synchronisieren der Kalender (Nextcloud, mobile Geräte) {#kalender-sync}
+#### Passwortschutz
 
+Optional kann die Freigabe mit einem Passwort geschützt werden:
 
+- Lassen Sie das Feld leer für eine Freigabe ohne Passwort
+- Klicken Sie auf **Generieren**, um ein zufälliges, sicheres Passwort zu erstellen
+- Oder geben Sie ein eigenes Passwort ein
 
-Termine, Wiedervorlagen und Fristen einer j-lawyer.org Installation können in eine Nextcloud synchronisiert werden. Dabei werden alle offenen / nocht nicht erledigten Einträge synchronisiert, erledigte Einträge werden aus Nextcloud entfernt.
+!!! info "Automatische Passwortübernahme"
+    Wurde für den ausgewählten Beteiligten bereits ein individuelles Passwort hinterlegt (über das Schloss-Symbol im Kopfbereich eines Adressbucheintrages, siehe [Dokumente verschlüsselt versenden](dokumentenmanagement/verschluesselung.md)), wird dieses Passwort automatisch in das Passwortfeld übernommen. So können für einen Mandanten sowohl verschlüsselte PDFs als auch Cloud-Freigaben mit demselben Passwort geschützt werden.
 
-Vorbereitend sollten in der Oberfläche der Nextcloud separate Kalender angelegt werden, welche ausschließlich in Verbindung mit j-lawyer.org verwendet wird. So können diese Kalender bei Bedarf vollständig neu synchronisiert oder neu aufgebaut werden, ohne andere Kalenderdaten zu beeinflussen.
+!!! tip "Empfehlung: Passwort bei Mandatsaufnahme vergeben"
+    Es kann sinnvoll sein, die Vergabe eines individuellen Passworts zum Standardprozedere bei der Aufnahme neuer Mandantinnen und Mandanten zu machen. So steht das Passwort später für verschlüsselte Dokumente und Cloud-Freigaben sofort zur Verfügung.
 
-Es ist möglich, für jeden Kalender der Kanzleisoftware einen Nextcloud-Kalender anzubinden, ebenso können mehrere Kanzleisoftwarekalender in den selben Nextcloud-Kalender synchronisiert werden.
+!!! note "Sicherheitshinweis"
+    Die Freigabelinks in Nextcloud sind willkürliche Ziffer-Buchstaben-Kombinationen, die nicht zu erraten sind. Eine Freigabe ohne Passwort ist daher akzeptabel, wenn der Freigabelink auf sicherem Weg übertragen wird (z.B. per verschlüsselter E-Mail oder Messenger wie Signal oder WhatsApp).
 
-Über das Menü „Einstellungen“ – „Kalender“ – „Kalender und Synchronisation konfigurieren“ verknüpft man nun die gewünschten Kalender. Über das Menü „Einstellungen“ – „Kalender“ – „Synchronisation ausführen“ wird eine Erstsynchronisation durchgeführt. Alle weiteren Datenänderungen werden ab sofort automatisch im Hintergrund in die Nextcloud übertragen.
+### Freigabelink versenden
 
-Das „erledigt“-Setzen von Kalendereinträgen führt zum Löschen des dazugehörigen Eintrages im Nextcloud-Kalender. Ist dieses Verhalten nicht erwünscht, so kann in den Einstellungen des Kalenders die Option „erledigte Termine aus Nextcloud löschen“ deaktiviert werden.
+Nach dem Erstellen der Freigabe gibt es zwei Möglichkeiten, den Link zu übermitteln:
 
-Bzgl. des Anbindens mobiler Geräte und Mailprogrammen, um die Adressdaten auch dort im Zugriff zu haben, bitte die Nextcloud-Dokumentation konsultieren: <https://docs.nextcloud.com/server/19/benutzerhandbuch/contents.html>
+| Option | Beschreibung |
+|--------|--------------|
+| **Freigeben (Zwischenablage)** | Der Freigabelink wird in die Zwischenablage kopiert |
+| **Freigeben (E-Mail)** | Es öffnet sich ein E-Mail-Versandfenster mit voreingetragenem Link |
+
+!!! info "Platzhalter in E-Mail-Vorlagen"
+    Soll für den Versand per E-Mail eine Vorlage verwendet werden, kann der Freigabelink als Platzhalter `{{CLOUD_LINK}}` eingebunden werden.
+
+### Gültigkeitsdauer
+
+Die voreingestellte Gültigkeitsdauer für Freigaben beträgt **30 Tage**.
+
+### Benachrichtigungen bei Downloads
+
+Nextcloud kann E-Mail-Benachrichtigungen versenden, wenn ein Empfänger Daten aus einer Freigabe herunterlädt. So können Sie nachvollziehen, ob und wann ein Mandant die freigegebenen Dokumente abgerufen hat.
+
+!!! info "Konfiguration in Nextcloud"
+    Die Benachrichtigungen werden nicht in j-lawyer.org, sondern direkt in der Nextcloud-Oberfläche konfiguriert. Melden Sie sich in Ihrer Nextcloud an und öffnen Sie die **Einstellungen** → **Benachrichtigungen**. Dort können Sie festlegen, für welche Ereignisse Sie per E-Mail benachrichtigt werden möchten. Die relevanteste Benachrichtigung ist "Öffentlich oder per E-Mail geteilte Datei oder geteilter Ordner wurde heruntergeladen" - dort sollte die Benachrichtigung per E-Mail aktiviert werden.
+
+## Synchronisieren des Adressbuchs {#adressbuch-sync}
+
+Adressen einer j-lawyer.org Installation können in eine Nextcloud synchronisiert werden. Dabei werden alle Adressbucheinträge synchronisiert, die in mindestens einer Akte als Beteiligte geführt sind.
+
+### Vorbereitung
+
+Legen Sie in der Oberfläche der Nextcloud ein separates Adressbuch an, welches ausschließlich in Verbindung mit j-lawyer.org verwendet wird. So kann das Adressbuch bei Bedarf vollständig neu synchronisiert oder neu aufgebaut werden, ohne andere Adressdaten zu beeinflussen.
+
+### Konfiguration
+
+1. Öffnen Sie **Einstellungen** → **Adressen** → **Synchronisation konfigurieren**
+2. Stellen Sie die Verbindung zur Nextcloud-Installation her
+3. Wählen Sie das gewünschte Zieladressbuch aus
+4. Optional: Deaktivieren Sie das Synchronisieren von Geburtsdaten (um überflüssige Geburtstagsbenachrichtigungen an mobilen Geräten zu vermeiden)
+
+### Synchronisation durchführen
+
+- **Erstsynchronisation**: Menü **Einstellungen** → **Adressen** → **Synchronisation ausführen**
+- **Laufende Synchronisation**: Alle weiteren Datenänderungen werden automatisch im Hintergrund in die Nextcloud übertragen
+
+### Mobile Geräte anbinden
+
+Bzgl. des Anbindens mobiler Geräte und Mailprogramme, um die Adressdaten auch dort im Zugriff zu haben, konsultieren Sie bitte die Nextcloud-Dokumentation: <https://docs.nextcloud.com/server/latest/user_manual/de/groupware/contacts.html>
+
+## Synchronisieren der Kalender {#kalender-sync}
+
+Termine, Wiedervorlagen und Fristen einer j-lawyer.org Installation können in eine Nextcloud synchronisiert werden. Dabei werden alle offenen / noch nicht erledigten Einträge synchronisiert; erledigte Einträge werden aus Nextcloud entfernt.
+
+### Vorbereitung
+
+Legen Sie in der Oberfläche der Nextcloud separate Kalender an, welche ausschließlich in Verbindung mit j-lawyer.org verwendet werden. So können diese Kalender bei Bedarf vollständig neu synchronisiert oder neu aufgebaut werden, ohne andere Kalenderdaten zu beeinflussen.
+
+### Konfiguration
+
+Es ist möglich:
+
+- Für jeden Kalender der Kanzleisoftware einen eigenen Nextcloud-Kalender anzubinden
+- Mehrere Kanzleisoftwarekalender in denselben Nextcloud-Kalender zu synchronisieren
+
+**Einrichtung:**
+
+1. Öffnen Sie **Einstellungen** → **Kalender** → **Kalender und Synchronisation konfigurieren**
+2. Verknüpfen Sie die gewünschten Kalender
+
+### Synchronisation durchführen
+
+- **Erstsynchronisation**: Menü **Einstellungen** → **Kalender** → **Synchronisation ausführen**
+- **Laufende Synchronisation**: Alle weiteren Datenänderungen werden automatisch im Hintergrund in die Nextcloud übertragen
+
+### Verhalten bei erledigten Einträgen
+
+Das "erledigt"-Setzen von Kalendereinträgen führt standardmäßig zum Löschen des dazugehörigen Eintrages im Nextcloud-Kalender.
+
+!!! tip "Option deaktivieren"
+    Ist dieses Verhalten nicht erwünscht, kann in den Einstellungen des Kalenders die Option **"erledigte Termine aus Nextcloud löschen"** deaktiviert werden.
+
+### Mobile Geräte anbinden
+
+Bzgl. des Anbindens mobiler Geräte und Mailprogramme konsultieren Sie bitte die Nextcloud-Dokumentation: <https://docs.nextcloud.com/server/latest/user_manual/de/groupware/calendar.html>
