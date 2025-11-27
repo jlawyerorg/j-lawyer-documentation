@@ -32,11 +32,9 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [Instant Messaging / Nachrichtencenter](messaging.md)
 
-- [Add-Ons: besonderes elektronisches Anwaltspostfach beA](addon-bea.md)
+- [beA (Anwaltspostfach)](addon-bea.md)
 
 - [Add-Ons: E-POST (Hybridmail)](addon-epost.md)
-
-- [Add-Ons: Drebis](addon-drebis.md)
 
 - [Add-Ons: Sipgate](addon-sipgate.md)
 

@@ -105,6 +105,7 @@ nav:
     - Kalender: benutzerhandbuch/kalender.md
     - Kommunikation:
       - E-Mail: benutzerhandbuch/email.md
+      - beA: benutzerhandbuch/addon-bea.md
       - Postvorlagen: benutzerhandbuch/postvorlagen.md
       - Instant Messaging: benutzerhandbuch/messaging.md
     - Finanzen & Auswertungen:
@@ -116,7 +117,6 @@ nav:
       - Auswertungen: benutzerhandbuch/auswertungen.md
     - KI-Assistent: benutzerhandbuch/ki-assistent.md
     - Add-Ons:
-      - beA: benutzerhandbuch/addon-bea.md
       - E-POST: benutzerhandbuch/addon-epost.md
       - Sipgate: benutzerhandbuch/addon-sipgate.md
       - Softphone: benutzerhandbuch/addon-softphone.md
