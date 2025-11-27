@@ -104,6 +104,7 @@ nav:
       - Zeiterfassung: benutzerhandbuch/zeiterfassung.md
       - Forderungskonto: benutzerhandbuch/forderungskonto.md
       - Ausgehende Zahlungen: benutzerhandbuch/zahlungen.md
+      - Kontoauszugimport: benutzerhandbuch/kontoauszugimport.md
       - Auswertungen: benutzerhandbuch/auswertungen.md
     - KI-Assistent: benutzerhandbuch/ki-assistent.md
     - Add-Ons:

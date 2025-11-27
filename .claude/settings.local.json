@@ -12,7 +12,8 @@
       "Bash(pip3 --version:*)",
       "Bash(.venv/bin/pip install:*)",
       "Bash(.venv/bin/mkdocs build:*)",
-      "Bash(.venv/bin/mkdocs serve:*)"
+      "Bash(.venv/bin/mkdocs serve:*)",
+      "Bash(mkdocs serve:*)"
     ],
     "deny": [],
     "ask": []

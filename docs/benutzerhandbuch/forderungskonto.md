@@ -2,20 +2,72 @@
 
 Das Forderungskonto ermöglicht eine strukturierte Verwaltung von Forderungen innerhalb einer Akte. Es bietet die Möglichkeit, Hauptforderungen, Kosten und Zinsen übersichtlich zu erfassen, Zahlungseingänge zu buchen und den aktuellen Forderungsstand jederzeit einzusehen.
 
+## Grundlegender Ablauf {#grundlegender-ablauf}
+
+Die Arbeit mit dem Forderungskonto erfolgt in zwei aufeinander aufbauenden Schritten:
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  1. STRUKTUR ANLEGEN                                                │
+│     ┌──────────────────┐    ┌──────────────────┐                    │
+│     │ Forderungskonto  │───▶│    Positionen    │                    │
+│     │    erstellen     │    │    hinzufügen    │                    │
+│     └──────────────────┘    └──────────────────┘                    │
+│                                      │                              │
+│                                      ▼                              │
+│                             ┌──────────────────┐                    │
+│                             │   Zinsregeln     │                    │
+│                             │   konfigurieren  │                    │
+│                             └──────────────────┘                    │
+├─────────────────────────────────────────────────────────────────────┤
+│  2. BUCHUNGEN ERFASSEN                                              │
+│     ┌──────────────────┐    ┌──────────────────┐                    │
+│     │  Hauptforderung  │    │     Kosten       │                    │
+│     │     buchen       │    │     buchen       │                    │
+│     └──────────────────┘    └──────────────────┘                    │
+│                                      │                              │
+│                                      ▼                              │
+│     ┌──────────────────┐    ┌──────────────────┐                    │
+│     │    Zahlungen     │    │     Zinsen       │                    │
+│     │     buchen       │    │   berechnen      │                    │
+│     └──────────────────┘    └──────────────────┘                    │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Schritt 1: Struktur anlegen**
+
+Bevor Buchungen erfasst werden können, muss zunächst die Grundstruktur des Forderungskontos aufgebaut werden:
+
+1. **Forderungskonto erstellen** - Ein neues Forderungskonto innerhalb der Akte anlegen
+2. **Positionen definieren** - Die einzelnen Forderungsteile (Hauptforderung, Kosten) als Positionen anlegen
+3. **Zinsregeln festlegen** - Für verzinsliche Positionen die Zinskonditionen konfigurieren
+
+**Schritt 2: Buchungen erfassen**
+
+Erst nachdem Positionen vorhanden sind, können Buchungen vorgenommen werden:
+
+1. **Forderungsbeträge buchen** - Die eigentlichen Forderungssummen den Positionen zuordnen
+2. **Kosten erfassen** - Zusätzlich anfallende Kosten buchen
+3. **Zahlungseingänge verbuchen** - Eingehende Zahlungen des Schuldners erfassen
+4. **Zinsen berechnen** - Aufgelaufene Zinsen berechnen und buchen
+
+!!! info "Wichtig"
+    Buchungen können nur auf bestehende Positionen gebucht werden. Daher müssen immer zuerst die Positionen angelegt werden, bevor Buchungen erfasst werden können.
+
 ## Übersicht {#uebersicht}
 
 Ein Forderungskonto besteht aus mehreren Bausteinen:
 
 | Baustein | Beschreibung |
 |----------|--------------|
-| Forderungskonto | Container für alle Forderungskomponenten einer Akte |
-| Forderungskomponente | Einzelne Forderungsteile (Hauptforderung, Kosten) |
+| Forderungskonto | Container für alle Forderungspositionen einer Akte |
+| Position | Einzelne Forderungsteile (Hauptforderung, Kosten) |
 | Buchung | Einzelne Transaktionen (Forderungen, Zahlungen, Zinsen, Korrekturen) |
 | Zinsregel | Definition der Verzinsung im Zeitverlauf |
 
-### Forderungskomponenten {#komponenten}
+### Positionen {#positionen}
 
-Jedes Forderungskonto kann mehrere Komponenten enthalten. Folgende Typen sind verfügbar:
+Jedes Forderungskonto kann mehrere Positionen enthalten. Folgende Typen sind verfügbar:
 
 | Typ | Beschreibung |
 |-----|--------------|
@@ -23,7 +75,7 @@ Jedes Forderungskonto kann mehrere Komponenten enthalten. Folgende Typen sind ve
 | Kosten (verzinslich) | Nebenkosten, die verzinst werden |
 | Kosten (unverzinslich) | Nebenkosten ohne Verzinsung |
 
-Eine Komponente ist verzinslich, wenn mindestens eine Zinsregel für sie definiert ist.
+Eine Position ist verzinslich, wenn mindestens eine Zinsregel für sie definiert ist.
 
 ### Buchungsarten {#buchungsarten}
 
@@ -47,13 +99,13 @@ Jede Buchung enthält:
 
 - Optionaler Kommentar
 
-- Zuordnung zu einer Forderungskomponente (optional)
+- Zuordnung zu einer Position (optional)
 
 ## Zinsverwaltung {#zinsverwaltung}
 
 ### Zinsregeln {#zinsregeln}
 
-Für jede Forderungskomponente können Zinsregeln definiert werden, die festlegen, wie die Verzinsung berechnet wird. Zinsregeln sind zeitlich gestaffelt und können sich im Laufe der Zeit ändern.
+Für jede Position können Zinsregeln definiert werden, die festlegen, wie die Verzinsung berechnet wird. Zinsregeln sind zeitlich gestaffelt und können sich im Laufe der Zeit ändern.
 
 Zwei Zinsarten werden unterstützt:
 
@@ -89,9 +141,9 @@ Das Forderungskonto berechnet automatisch folgende Summen:
 | Gesamte Zahlungen | Summe aller eingegangenen Zahlungen |
 | Offene Forderung | Verbleibender Forderungsbetrag nach Abzug der Zahlungen |
 
-### Komponentensalden {#komponentensalden}
+### Positionssalden {#positionssalden}
 
-Für jede Forderungskomponente werden einzeln berechnet:
+Für jede Position werden einzeln berechnet:
 
 - Ursprünglicher Betrag (Hauptsumme)
 
@@ -109,7 +161,7 @@ Für jede Forderungskomponente werden einzeln berechnet:
 
 ## Zahlungsverteilung {#zahlungsverteilung}
 
-Bei Eingang einer Zahlung wird geprüft, wie diese auf die verschiedenen Forderungskomponenten und deren Zinsen verteilt wird. Die Software unterstützt dabei die Berechnung von Verteilungsvorschlägen gemäß gesetzlicher Verrechnungsregeln.
+Bei Eingang einer Zahlung wird geprüft, wie diese auf die verschiedenen Positionen und deren Zinsen verteilt wird. Die Software unterstützt dabei die Berechnung von Verteilungsvorschlägen gemäß gesetzlicher Verrechnungsregeln.
 
 ## Anwendung in der Praxis {#praxis}
 
@@ -117,9 +169,9 @@ Bei Eingang einer Zahlung wird geprüft, wie diese auf die verschiedenen Forderu
 
 Ein Forderungskonto wird innerhalb einer Akte angelegt und erhält einen Namen sowie eine optionale Beschreibung.
 
-### Komponenten hinzufügen {#komponenten-hinzufuegen}
+### Positionen hinzufügen {#positionen-hinzufuegen}
 
-Nach Anlage des Kontos werden die einzelnen Forderungskomponenten definiert:
+Nach Anlage des Kontos werden die einzelnen Positionen definiert:
 
 1. Hauptforderung mit dem ursprünglichen Forderungsbetrag
 
@@ -129,7 +181,7 @@ Nach Anlage des Kontos werden die einzelnen Forderungskomponenten definiert:
 
 ### Zinsregeln konfigurieren {#zinsregeln-konfigurieren}
 
-Für verzinsliche Komponenten werden Zinsregeln angelegt:
+Für verzinsliche Positionen werden Zinsregeln angelegt:
 
 1. Gültig-ab-Datum festlegen (z.B. Verzugseintritt)
 
@@ -157,6 +209,6 @@ Jederzeit kann der aktuelle Forderungsstand abgerufen werden mit:
 
 - Gesamtübersicht aller Salden
 
-- Aufschlüsselung nach Komponenten
+- Aufschlüsselung nach Positionen
 
 - Historische Entwicklung der Buchungen
