@@ -190,9 +190,9 @@ App-Passwort erstellen
 
 
 
-Unter Windows gibt es verschiedene Hersteller von „Sicherheitssoftware“, deren Produkte verschlüsselte Verbindungen aufbrechen um darin nach Viren etc. zu suchen. Der j-lawyer.org Client vertraut den dabei untergeschobenen SSL-Zertifikaten nicht und verwehrt eine Verbindung.
+Unter Windows gibt es verschiedene Hersteller von „Sicherheitssoftware", deren Produkte verschlüsselte Verbindungen aufbrechen um darin nach Viren etc. zu suchen. Der j-lawyer.org Client vertraut den dabei untergeschobenen SSL-Zertifikaten nicht und verwehrt eine Verbindung.
 
-Ist man sich sicher, dass eine Verbindung zu einem Mailserver vertrauenswürdig ist, kann man über eine Konfiguration den jeweiligen Server whitelisten: Menü „Administration“ – „Administrator-Konsole“. Dort folgenden Befehl eingeben:
+Ist man sich sicher, dass eine Verbindung zu einem Mailserver vertrauenswürdig ist, kann man über eine Konfiguration den jeweiligen Server whitelisten: Menü „Administration" – „Administrator-Konsole". Dort folgenden Befehl eingeben:
 
 setsetting mail.imaps.ssl.trust NAMEDESMAILSERVERS
 
@@ -201,3 +201,56 @@ NAMEDESMAILSERVERS durch den Namen des SMTP / IMAP-Servers ersetzen, bspw.
 setsetting mail.imaps.ssl.trust mail.your-server.de
 
 Es können – durch Komma getrennt – mehrere Server angegeben werden.
+
+### Automatische Veraktung {#automatische-veraktung}
+
+j-lawyer.org kann E-Mails automatisch zur passenden Akte speichern. Der Server prüft regelmäßig die konfigurierten Postfächer und ordnet eingehende E-Mails anhand verschiedener Kriterien der richtigen Akte zu.
+
+#### Einstellungen in der Postfachkonfiguration
+
+Die automatische Veraktung wird pro Postfach im Menü **Einstellungen** → **E-Mail – Postfächer** konfiguriert. Wählen Sie ein Postfach aus und wechseln Sie zum Tab **Automation**.
+
+| Einstellung | Beschreibung |
+|-------------|--------------|
+| Posteingang scannen | Aktiviert die automatische Veraktung für dieses Postfach |
+| Zeitraum (Tage) | Nur E-Mails der letzten X Tage werden geprüft (Standard: 2 Tage) |
+| Dokumenten-Etiketten | Etiketten, die automatisch gespeicherten Dokumenten zugewiesen werden |
+| Blacklist Dateitypen | Anhang-Dateitypen, die nicht gespeichert werden sollen (z.B. exe, bat) |
+| Ausschlussliste | E-Mail-Adressen, die vom Scan ausgeschlossen werden (Absender oder Empfänger) |
+| Mindestgröße Anhänge | Anhänge unterhalb dieser Größe werden ignoriert |
+| Inline-Anhänge ignorieren | Eingebettete Bilder in der E-Mail nicht als separate Dokumente speichern |
+| Standard-Akte | Fallback-Akte für E-Mails, die keiner Akte zugeordnet werden können |
+
+#### Wie die Aktenzuordnung funktioniert
+
+Der Server versucht, eingehende E-Mails automatisch einer Akte zuzuordnen. Dabei werden folgende Kriterien in dieser Reihenfolge geprüft:
+
+1. **Aktenzeichen im Betreff**: Enthält der Betreff ein bekanntes Aktenzeichen, wird die E-Mail dieser Akte zugeordnet.
+
+2. **Aktenzeichen im Text**: Enthält der E-Mail-Text ein bekanntes Aktenzeichen, wird die E-Mail dieser Akte zugeordnet.
+
+3. **Absender (FROM)**: Ist die Absender-Adresse eindeutig einem Kontakt zugeordnet, der nur in einer aktiven Akte beteiligt ist, wird die E-Mail dieser Akte zugeordnet.
+
+4. **CC-Empfänger**: Ist eine CC-Adresse eindeutig einem Kontakt zugeordnet, der nur in einer aktiven Akte beteiligt ist, wird die E-Mail dieser Akte zugeordnet.
+
+5. **TO-Empfänger**: Ist eine Empfänger-Adresse eindeutig einem Kontakt zugeordnet, der nur in einer aktiven Akte beteiligt ist, wird die E-Mail dieser Akte zugeordnet.
+
+6. **Standard-Akte**: Kann keine Zuordnung gefunden werden und ist eine Standard-Akte konfiguriert, wird die E-Mail dort gespeichert.
+
+Archivierte Akten werden bei der Zuordnung nicht berücksichtigt.
+
+#### Verarbeitung und Ablage
+
+Nach erfolgreicher Zuordnung wird die E-Mail:
+
+- Als .eml-Datei in der Akte gespeichert
+- Mit den konfigurierten Dokumenten-Etiketten versehen
+- Anhänge werden als separate Dokumente gespeichert (sofern nicht auf der Blacklist oder zu klein)
+- Im Postfach in den Unterordner **in Akte importiert** verschoben
+
+#### Tipps für die Praxis
+
+- Bitten Sie Mandanten und Gegner, das Aktenzeichen im Betreff anzugeben – dies ermöglicht die zuverlässigste Zuordnung
+- Nutzen Sie die Ausschlussliste für Newsletter oder Systembenachrichtigungen
+- Konfigurieren Sie passende Dokumenten-Etiketten wie „E-Mail" oder „Eingang", um importierte E-Mails schnell zu erkennen
+- Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
