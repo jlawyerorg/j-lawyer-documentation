@@ -92,7 +92,16 @@ nav:
       - Erste Schritte: benutzerhandbuch/erste-schritte.md
     - Aktenverwaltung: benutzerhandbuch/aktenverwaltung.md
     - Kontakte / Adressen: benutzerhandbuch/adressen.md
-    - Dokumentenmanagement: benutzerhandbuch/dokumentenmanagement.md
+    - Dokumentenmanagement:
+      - Übersicht: benutzerhandbuch/dokumentenmanagement/index.md
+      - Textverarbeitung: benutzerhandbuch/dokumentenmanagement/textverarbeitung.md
+      - Briefköpfe: benutzerhandbuch/dokumentenmanagement/briefkoepfe.md
+      - Dokumentvorlagen: benutzerhandbuch/dokumentenmanagement/vorlagen.md
+      - Dokumente erstellen: benutzerhandbuch/dokumentenmanagement/dokumente-erstellen.md
+      - Scanner-Integration: benutzerhandbuch/dokumentenmanagement/scanner.md
+      - Volltextsuche: benutzerhandbuch/dokumentenmanagement/volltextsuche.md
+      - PDF-Funktionen: benutzerhandbuch/dokumentenmanagement/pdf.md
+      - Verschlüsselung: benutzerhandbuch/dokumentenmanagement/verschluesselung.md
     - Kalender: benutzerhandbuch/kalender.md
     - Kommunikation:
       - E-Mail: benutzerhandbuch/email.md
