@@ -90,7 +90,16 @@ nav:
       - Installation: benutzerhandbuch/installation.md
       - Programmoberfläche: benutzerhandbuch/oberflaeche.md
       - Erste Schritte: benutzerhandbuch/erste-schritte.md
-    - Aktenverwaltung: benutzerhandbuch/aktenverwaltung.md
+    - Aktenverwaltung:
+      - Übersicht: benutzerhandbuch/aktenverwaltung/index.md
+      - Allgemeine Daten: benutzerhandbuch/aktenverwaltung/allgemeine-daten.md
+      - Beteiligte: benutzerhandbuch/aktenverwaltung/beteiligte.md
+      - Dokumente: benutzerhandbuch/aktenverwaltung/dokumente.md
+      - Kalender: benutzerhandbuch/aktenverwaltung/kalender-akte.md
+      - Zeiten: benutzerhandbuch/aktenverwaltung/zeiten.md
+      - Eigene Felder: benutzerhandbuch/aktenverwaltung/eigene-felder.md
+      - Falldaten: benutzerhandbuch/aktenverwaltung/falldaten.md
+      - Historie: benutzerhandbuch/aktenverwaltung/historie.md
     - Kontakte / Adressen: benutzerhandbuch/adressen.md
     - Dokumentenmanagement:
       - Übersicht: benutzerhandbuch/dokumentenmanagement/index.md
