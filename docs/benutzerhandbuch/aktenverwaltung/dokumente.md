@@ -2,22 +2,6 @@
 
 Der Tab "Dokumente" zeigt alle Dateien, die zur Akte gehören.
 
-## Dokumente in Ordnern organisieren {#ordner}
-
-Grundsätzlich werden alle Dateien einer Akte in einem "Dokumente"-Ordner gespeichert. Soll eine detailliertere Strukturierung genutzt werden, so können:
-
-- Ordner direkt in der Akte hinzugefügt, umbenannt und gelöscht werden
-- Vorgefertigte Ordnerstrukturen zu einer Akte hinzugefügt werden
-
-### Ordnervorlagen
-
-Die sogenannten Ordnervorlagen können unter **Einstellungen** → **Modul 'Akten'** → **Dokumentordner** hinterlegt werden.
-
-Innerhalb einer Akte ist das Anwenden der Ordnervorlagen über das Zahnradsymbol direkt über der Ordneranzeige möglich. Dabei werden niemals vorhandene Ordner entfernt, es werden stets nur Ordner hinzugefügt, welche in der Ordnervorlage enthalten, in der Akte jedoch noch nicht vorhanden sind.
-
-!!! tip "Mehrere Ordnervorlagen kombinieren"
-    Es ist leicht möglich, mehrere Ordnervorlagen nacheinander auf eine Akte anzuwenden: bspw. einmal eine Vorlage "Finanzen" mit den Ordnern "Rechnungen" und "Angebote", gefolgt von der Übernahme sachgebietsspezifischer Ordnervorlagen.
-
 ## Dokumentvorschau {#vorschau}
 
 Innerhalb der Akte wird durch einen einfachen Klick auf das Dokument eine Vorschau angezeigt.
@@ -66,6 +50,74 @@ Wählen Sie mehrere Dokumente aus und setzen Sie über das Kontextmenü die Etik
 ## Volltextsuche innerhalb der Akte
 
 Über das Suchfeld oberhalb der Dokumentenliste kann innerhalb aller Dokumente der Akte gesucht werden. Treffer werden hervorgehoben und die Dokumentenliste wird entsprechend gefiltert.
+
+## Umfangreiche Akten organisieren {#organisation}
+
+Bei Akten mit vielen Dokumenten bietet j-lawyer.org verschiedene Funktionen, um den Überblick zu behalten.
+
+### Farbmarkierungen {#farbmarkierungen}
+
+Dokumente können mit zwei verschiedenen Farben markiert werden, um wichtige Dokumente hervorzuheben:
+
+- Per Rechtsklick → **farblich hervorheben** → **erste Farbe** oder **zweite Farbe**
+- Die Farbmarkierungen erscheinen als farbige Balken in der Dokumentenliste
+- Die Farben können in den Einstellungen angepasst werden
+
+!!! tip "Verwendungsbeispiele"
+    - **Erste Farbe**: Wichtige Schriftsätze oder Urteile
+    - **Zweite Farbe**: Dokumente, die noch bearbeitet werden müssen
+
+### Favoritendokumente {#favoriten}
+
+Häufig benötigte Dokumente können als Favoriten markiert werden und sind so jederzeit über das Sternsymbol im Kopf der Akte zugreifbar:
+
+- Per Rechtsklick → **Favoritendokument an/aus**
+- Favoriten werden mit einem Stern-Symbol gekennzeichnet
+- Die Dokumentenliste kann nach Favoriten sortiert werden, sodass diese immer oben erscheinen
+
+### Ordner und Unterordner {#ordnerstruktur}
+
+Dokumente können in einer Ordnerstruktur organisiert werden:
+
+- **Ordner erstellen**: Über das Drei-Punkte-Menü eines Ordners → **Unterordner erstellen**
+- **Ordner umbenennen**: Über das Drei-Punkte-Menü → **Ordner umbenennen**
+- **Ordner löschen**: Über das Drei-Punkte-Menü → **Ordner löschen** (löscht auch alle enthaltenen Dokumente!)
+- **Dokumente verschieben**: Über den Button "in Ordner verschieben" oberhalb der Dokumentenliste oder per Kontextmenü
+
+#### Ordnervorlagen anwenden
+
+Über das Zahnradsymbol oberhalb der Ordnerliste können vordefinierte Ordnervorlagen auf die Akte angewendet werden:
+
+- Wählen Sie die gewünschte Vorlage aus der Liste
+- Es werden nur fehlende Ordner hinzugefügt, vorhandene bleiben erhalten
+- Mehrere Vorlagen können nacheinander kombiniert werden
+
+Die Ordnervorlagen werden unter **Einstellungen** → **Modul 'Akten'** → **Dokumentordner** verwaltet.
+
+#### Ordneransicht filtern
+
+Durch Klick auf einen Ordner in der Ordnerliste werden nur die Dokumente dieses Ordners angezeigt. Mehrere Ordner können gleichzeitig ausgewählt werden, um deren Inhalte gemeinsam anzuzeigen.
+
+Über das Drei-Punkte-Menü eines Ordners kann **nur diesen Ordner auswählen** genutzt werden, um schnell alle anderen Ordner abzuwählen.
+
+### Sortiermöglichkeiten {#sortierung}
+
+Die Dokumentenliste kann nach verschiedenen Kriterien sortiert werden. Die Sortierbuttons befinden sich oberhalb der Dokumentenliste:
+
+| Sortierung | Beschreibung |
+|------------|--------------|
+| **Änderungsdatum** | Nach dem letzten Änderungsdatum des Dokuments |
+| **Erstellungsdatum** | Nach dem Erstellungsdatum des Dokuments |
+| **Name** | Alphabetisch nach Dateiname |
+| **Favorit** | Favoriten zuerst oder zuletzt |
+| **Größe** | Nach Dateigröße |
+| **Ordner** | Alphabetisch nach Ordnername |
+| **Dateityp** | Nach Dateiendung gruppiert |
+
+Jeder Sortierbutton kann durch erneutes Klicken zwischen aufsteigender und absteigender Sortierung umgeschaltet werden. Die gewählte Sortierung wird pro Akte gespeichert.
+
+!!! tip "Kombinierte Sortierung"
+    Standardmäßig ist die Sortierung nach Änderungsdatum (absteigend) aktiv, sodass die neuesten Dokumente oben erscheinen. Für eine bessere Übersicht bei vielen Dokumenten empfiehlt sich die Sortierung nach Ordner oder Dateityp.
 
 ## PDF-Stapelexport {#stapelexport}
 
