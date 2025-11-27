@@ -105,6 +105,7 @@ nav:
     - Kalender:
       - Übersicht: benutzerhandbuch/kalender/index.md
       - Aktenbezogener Kalender: benutzerhandbuch/kalender/aktenbezogen.md
+      - Aktenübergreifende Ansicht: benutzerhandbuch/kalender/chronologisch.md
       - Kalendersuche: benutzerhandbuch/kalender/suche.md
       - Fehlende Einträge: benutzerhandbuch/kalender/fehlende-eintraege.md
     - Kommunikation:
