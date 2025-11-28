@@ -194,11 +194,15 @@ Unter Windows gibt es verschiedene Hersteller von „Sicherheitssoftware", deren
 
 Ist man sich sicher, dass eine Verbindung zu einem Mailserver vertrauenswürdig ist, kann man über eine Konfiguration den jeweiligen Server whitelisten: Menü „Administration" – „Administrator-Konsole". Dort folgenden Befehl eingeben:
 
+```bash
 setsetting mail.imaps.ssl.trust NAMEDESMAILSERVERS
+```
 
 NAMEDESMAILSERVERS durch den Namen des SMTP / IMAP-Servers ersetzen, bspw.
 
+```bash
 setsetting mail.imaps.ssl.trust mail.your-server.de
+```
 
 Es können – durch Komma getrennt – mehrere Server angegeben werden.
 
