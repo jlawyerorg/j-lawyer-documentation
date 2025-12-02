@@ -127,7 +127,7 @@ Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. F
 | `{{MANDANT_GEBORT}}` | Geburtsort des Mandanten |
 | `{{MANDANT_GEST}}` | Sterbedatum des Mandanten |
 | `{{MANDANT_AKTE_KONTAKT}}` | Ansprechpartner des Mandanten innerhalb einer Akte |
-| `{{MANDANT_AKTE_ZEICHEN}}` | AZ1/Referenz des Mandanten innerhalb einer Akte |
+| `{{MANDANT_AKTE_ZEICHEN}}` | Aktenzeichen / Referenz des Mandanten innerhalb einer Akte |
 | `{{MANDANT_AKTE_EIGENE1}}` | Eigenes Feld 1 des Mandanten innerhalb einer Akte |
 | `{{MANDANT_AKTE_EIGENE2}}` | Eigenes Feld 2 des Mandanten innerhalb einer Akte |
 | `{{MANDANT_AKTE_EIGENE3}}` | Eigenes Feld 3 des Mandanten innerhalb einer Akte |
