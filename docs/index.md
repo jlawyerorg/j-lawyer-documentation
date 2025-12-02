@@ -13,7 +13,7 @@ Willkommen zur Dokumentation von **j-lawyer.org** - der freien Kanzleisoftware.
 
 ## Über j-lawyer.org
 
-j-lawyer.org ist eine freie, quelloffene Kanzleisoftware für Rechtsanwälte und Kanzleien. Die Software steht unter der GNU Affero General Public License (AGPL v3).
+j-lawyer.org ist eine freie, quelloffene Kanzleisoftware für Kanzleien und Rechtsabteilungen. Die Software steht unter der GNU Affero General Public License (AGPL v3) zur Verfügung.
 
 ## Mitwirken
 
