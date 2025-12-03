@@ -13,6 +13,14 @@ Ein Briefkopf wird als **ganzseitiges Hintergrundbild** auf der ersten Seite des
 !!! info "Unterstützte Formate"
     Briefköpfe können als PNG- oder JPG-Dateien hinterlegt werden. Die Grafik sollte die Abmessungen einer DIN-A4-Seite haben (oder entsprechend der verwendeten Papiergröße), um ein optimales Ergebnis zu erzielen.
 
+## Briefkopf erstellen {#briefkoepfe-erstellen}
+
+Es empfiehlt sich das folgende Vorgehen:
+
+- Briefkopf als normales Dokument in LibreOffice Writer oder Microsoft Word erstellen und für eventuelle spätere Anpassungen speichern
+- Briefkopf als Grafikdatei exportieren: in LibreOffice via "Datei" - "Exportieren..." als PNG-Datei exportieren; in Microsoft Office gibt es keine Möglichkeit, ein Dokument als Grafik zu exportieren - hier kann man ggf. auf Online-Konverter zurückgreifen (Suche nach DOCX zu PNG o.ä.)
+- Grafikdatei in der Hauptnavigation links, ganz unten unter **Vorlagen** → **Akten: Briefköpfe** per Drag and Drop hinterlegen
+
 ## Briefköpfe verwalten {#briefkoepfe-verwalten}
 
 Die Verwaltung der Briefköpfe erfolgt über die Hauptnavigation links, ganz unten unter **Vorlagen** → **Akten: Briefköpfe**.
