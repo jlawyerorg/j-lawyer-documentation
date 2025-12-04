@@ -91,3 +91,4 @@ Live site: https://jlawyerorg.github.io/j-lawyer-documentation/
 GNU Affero General Public License (AGPL-3.0)
 - starte mkdocs serve niemals auf port 8080 oder 8081
 - Wenn eine Suche / ein Abgleich mit Code erforderlich ist, suche in /home/jens/dev/j-lawyer-org.
+- Wenn .md - Dateien entfernt werden, prüfe ob darin referenzierte Bilddateien noch anderswo verwendet werden. Wenn nicht, entferne auch die Bilddateien.
