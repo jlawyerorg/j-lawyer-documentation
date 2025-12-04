@@ -92,3 +92,86 @@ Hier werden die Adressdaten für Empfänger und Absender eingegeben bzw. aus der
 Das Dokument wird an die E-POST-Schnittstelle übertragen. Der Versandstatus wird im Assistenten angezeigt.
 
 Nach Versand ist der Status der Sendung jederzeit im Modul **Brief / Fax** in der Hauptnavigation nachzuvollziehen.
+
+### E-POST - Sendungsstatus {#sendungsstatus}
+
+Der Sendungsstatus aller E-POST-Sendungen kann im Modul **Brief / Fax** in der Hauptnavigation eingesehen werden. Das Modul zeigt sowohl E-POST- als auch Fax-Sendungen in einer gemeinsamen Übersicht.
+
+#### Übersichtstabelle {#sendungsstatus-tabelle}
+
+Die Tabelle zeigt alle Sendungen mit folgenden Informationen:
+
+| Spalte | Beschreibung |
+|--------|--------------|
+| Gesendet | Datum und Uhrzeit des Versands |
+| von | Nutzer, der die Sendung veranlasst hat |
+| an | Empfängeradresse |
+| Datei | Name des versendeten Dokuments |
+| aktueller Status | Aktueller Bearbeitungsstand |
+| Akte | Verknüpfte Akte (Aktenzeichen und Name) |
+
+Die Liste wird automatisch alle 30 Sekunden aktualisiert.
+
+#### Detailbereich {#sendungsstatus-details}
+
+Bei Auswahl einer Sendung werden im Detailbereich weitere Informationen angezeigt:
+
+- **Status**: Aktueller Status mit Ampel-Anzeige
+  - Grün: Erfolgreich zugestellt
+  - Gelb: In Bearbeitung
+  - Rot: Fehler aufgetreten
+- **Statusdetails**: Detaillierte Beschreibung des aktuellen Status
+- **Sendungs-ID**: Eindeutige Kennung der Sendung
+- **Sendedatum**: Datum, Uhrzeit und Absender
+- **Empfänger**: Vollständige Empfängeradresse
+- **Akte**: Verknüpfte Akte
+
+#### Verfügbare Aktionen {#sendungsstatus-aktionen}
+
+| Aktion | Beschreibung |
+|--------|--------------|
+| Aktualisieren | Liste manuell neu laden |
+| Alle auswählen | Alle Einträge in der Liste selektieren |
+| Bestätigen | Statuseintrag aus der Liste entfernen (nach Bestätigungsdialog) |
+| Bericht speichern | E-POST-Bericht als Dokument in der verknüpften Akte speichern |
+| Zur Akte | Direkt zur verknüpften Akte navigieren |
+| Bericht anzeigen | Detaillierten E-POST-Sendungsstatus in einem Dialog anzeigen |
+
+#### Dialog "Bericht anzeigen" {#sendungsstatus-bericht}
+
+Der Button **Bericht anzeigen** ist nur für E-POST-Sendungen verfügbar und öffnet einen Dialog mit detaillierten Sendungsinformationen:
+
+**Allgemeine Informationen:**
+
+| Feld | Beschreibung |
+|------|--------------|
+| Dateiname | Name des versendeten Dokuments |
+| letzter Status | Aktueller Bearbeitungsstatus der Sendung |
+| Anzahl Seiten | Seitenzahl des versendeten Dokuments |
+| Sendungsnummer | Eindeutige ID der E-POST-Sendung |
+| Sendungsart | Art der Sendung (Standardbrief, Einschreiben etc.) |
+| Empfänger | Vollständige Empfängeradresse |
+| Gesendet von Nutzer | Nutzer, der den Versand veranlasst hat |
+| Akte | Verknüpftes Aktenzeichen |
+
+**Zeitstempel:**
+
+| Feld | Beschreibung |
+|------|--------------|
+| erstellt | Zeitpunkt der Erstellung in j-lawyer.org |
+| Verarbeitungs-Zeitpunkt | Zeitpunkt der Verarbeitung durch E-POST |
+| Einlieferungs-Zeitpunkt in das Druckzentrum | Zeitpunkt der Übergabe an das Druckzentrum |
+| Verarbeitungs-Rückmeldung des Druckzentrums | Zeitpunkt der Bestätigung durch das Druckzentrum |
+
+**Details zum Einschreiben** (nur bei Einschreiben-Sendungen):
+
+Bei Einschreiben werden zusätzlich angezeigt:
+
+- **Sendungsnummer**: Die offizielle Sendungsnummer der Deutschen Post
+- **letzter Status**: Aktueller Zustellstatus mit Datum, z.B.:
+  - "Die Sendung wurde eingeliefert."
+  - "Die Sendung befindet sich in der Zustellung."
+  - "Die Sendung wurde zugestellt."
+  - "Der Empfänger konnte nicht angetroffen werden und wurde vom Zusteller benachrichtigt."
+  - "Die Sendung geht an den Absender zurück."
+- **Sendungsverfolgung**: Link zur Sendungsverfolgung auf deutschepost.de
