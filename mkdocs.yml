@@ -138,6 +138,7 @@ nav:
       - Nextcloud: benutzerhandbuch/addon-nextcloud.md
       - Gravity Forms: benutzerhandbuch/addon-gravityforms.md
     - Verwaltung:
+      - Nutzerverwaltung: benutzerhandbuch/nutzerverwaltung.md
       - Administration: benutzerhandbuch/administration.md
       - Schnittstellen: benutzerhandbuch/schnittstellen.md
       - Deinstallation: benutzerhandbuch/deinstallation.md
