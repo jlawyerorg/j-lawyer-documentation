@@ -2,14 +2,46 @@
 
 ### Adressen suchen {#suchen}
 
-Im Navigationsbaum am linken Bildschirmrand unter “bearbeiten” bzw. “einsehen” können Sie Adressen über eine Schnellsuche finden. Durchsucht werden
+Im Navigationsbaum am linken Bildschirmrand unter "bearbeiten" bzw. "einsehen" können Sie Adressen über eine Schnellsuche finden.
+
+#### Durchsuchte Felder {#suchen-felder}
+
+Folgende Felder werden bei der Suche berücksichtigt:
 
 - Name
 - Vorname
-- Firma
-- eigene Felder (alle)
+- Geburtsname
+- Unternehmen / Firma
+- Abteilung
+- E-Mail
+- Telefon
+- Mobilnummer
+- Ort / Stadt
+- Postleitzahl
+- beA-SafeId
+- Eigene Felder 1-3
 
-Zusätzlich ist eine Einschränkung über Tags möglich.
+#### Suche mit mehreren Begriffen {#suchen-mehrere-begriffe}
+
+Mehrere Suchbegriffe können durch **Leerzeichen** oder **Kommas** getrennt eingegeben werden. Alle Begriffe müssen zutreffen (UND-Verknüpfung).
+
+**Beispiele:**
+
+| Sucheingabe | Findet |
+|-------------|--------|
+| `Müller` | Alle Adressen mit "Müller" in einem der Suchfelder |
+| `Müller Berlin` | Adressen mit "Müller" UND "Berlin" |
+| `Schmidt, 10115` | Adressen mit "Schmidt" UND Postleitzahl "10115" |
+
+#### Suchverhalten {#suchen-verhalten}
+
+- **Teilbegriffe:** Es werden auch Teilübereinstimmungen gefunden. Die Suche nach `Mül` findet auch "Müller".
+- **Groß-/Kleinschreibung:** Wird ignoriert. `müller` findet auch "MÜLLER" oder "Müller".
+- **Umlaute:** Deutsche Umlaute (ä, ö, ü, ß) werden korrekt verarbeitet.
+
+#### Kombination mit Tags {#suchen-tags}
+
+Zusätzlich zur Textsuche ist eine Einschränkung über Tags möglich. Beide Filter werden kombiniert - es werden nur Adressen angezeigt, die sowohl den Suchbegriffen als auch den gewählten Tags entsprechen.
 
 ### Adresse importieren {#import}
 
