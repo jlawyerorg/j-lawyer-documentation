@@ -49,6 +49,8 @@ Briefköpfe können - im Gegensatz zu Dokumentvorlagen - nicht in einer Ordnerst
 
 Die Auswahl eines Briefkopfs erfolgt im Rahmen der Dokumenterstellung. Siehe [Dokument aus einer Vorlage erstellen](dokumente-erstellen.md#dokument-erstellen) für Details.
 
+j-lawyer.org merkt sich die Briefkopf-Zuordnung pro Vorlage. Wenn Sie für eine bestimmte Vorlage einen Briefkopf auswählen, wird dieser bei der nächsten Verwendung derselben Vorlage automatisch vorausgewählt. Um eine gespeicherte Zuordnung zu entfernen, wählen Sie den leeren Eintrag (erste Option) in der Briefkopf-Dropdown-Liste.
+
 ## Anwendungsbeispiele {#anwendungsbeispiele}
 
 ### Unterschiedliche Briefköpfe für verschiedene Anwälte

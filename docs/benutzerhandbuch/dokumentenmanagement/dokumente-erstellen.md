@@ -20,7 +20,30 @@ Im linken Bereich des Fensters werden (1.) der Vorlagenordner und (2.) die Vorla
 
 Nach Auswahl einer Vorlage und der Beteiligten erscheint auf der rechten Seite im Bereich Platzhalter eine Vorschau der Daten, die übernommen werden. Fehlen Daten in Akte oder Beteiligten, die von der Vorlage erwartet werden, so erscheint ein Hinweis in Form eines blauen Dreiecks (11.). Die in dem Tab "Platzhalter" dargestellte Tabelle kann bearbeitet werden. Fehlt ein Platzhalter, oder ist eine Anpassung notwendig, so kann dies direkt in der dargestellten Tabelle durch Doppelklick durchgeführt werden.
 
-Zum Schluss wird auf "Erstellen" geklickt.
+### PDF automatisch erstellen
+
+Mit der Option "Als PDF speichern" kann zusätzlich zum erstellten Dokument automatisch eine PDF-Version generiert werden. Diese Einstellung wird pro Vorlage gespeichert und beim nächsten Mal vorausgewählt.
+
+### Wiedervorlage oder Frist setzen
+
+Im unteren Bereich des Dialogs kann eine Wiedervorlage oder Frist erstellt werden:
+
+- **Keine**: Standardeinstellung, es wird keine Wiedervorlage/Frist erstellt
+- **Wiedervorlage**: Erstellt eine Wiedervorlage zum angegebenen Datum
+- **Frist**: Erstellt eine Frist zum angegebenen Datum
+
+Für die Wiedervorlage/Frist können folgende Angaben gemacht werden:
+
+- **Verantwortlicher**: Die Person, die für die Wiedervorlage/Frist zuständig ist (standardmäßig der Sachbearbeiter der Akte)
+- **Grund**: Auswählbar aus vordefinierten Gründen oder frei eingebbar
+- **Datum**: Kann manuell eingegeben, über den Kalender-Dialog oder über die Schnellauswahl-Buttons gewählt werden
+
+### Dokument erstellen
+
+Zum Abschluss stehen zwei Optionen zur Verfügung:
+
+- **Erstellen**: Das Dokument wird erstellt und in der Akte gespeichert
+- **Erstellen und öffnen**: Das Dokument wird erstellt und direkt zur Bearbeitung geöffnet
 
 Das Dokument ist nun im Reiter "Dokumente" vorhanden und kann durch Doppelklick geöffnet und editiert werden. Ein Rechtsklick auf den Namen des Dokuments bietet folgende Optionen:
 
@@ -29,23 +52,3 @@ Das Dokument ist nun im Reiter "Dokumente" vorhanden und kann durch Doppelklick 
 ## Vorhandene Dokumente zu einer Akte hinzufügen
 
 Mit einem Klick auf "Hinzufügen" werden vorhandene Dateien einer Akte hinzugefügt. Es öffnet sich ein Dialogfenster, wo man die Datei(en) auswählt und mit einem Klick auf „öffnen" in die Akte übernimmt. Alternativ können die Dateien per Drag&Drop in den Bereich der Tabelle (Datum, Name, Diktatzeichen, Größe) gezogen werden.
-
-## Dokumente aus dem Papierkorb wiederherstellen
-
-Werden Dokumente aus einer Akte gelöscht, so werden Sie zunächst im Papierkorb abgelegt. Dabei:
-
-- bleibt der Aktenbezug erhalten
-- wird die Zugehörigkeit zu einem bestimmten Ordner der Akte zurückgesetzt
-- bleibt der Dateiname des Dokuments für die betroffene Akte "reserviert" und kann erst durch endgültige Löschen aus dem Papierkorb wiederverwendet werden.
-
-Über das Menü "Datei" – "Papierkorb" kann der Papierkorb verwaltet werden. Selektierte Dokumente lassen sich endgültig löschen oder wiederherstellen. Bei einer Wiederherstellung werden die Dokumente in den obersten Ordner der Akte einsortiert.
-
-Die Vorhaltezeit des Papierkorbs lässt sich in verschiedenen Stufen zwischen drei und 30 Tagen einstellen.
-
-## Dokumente sperren
-
-Dokumente können automatisch gesperrt werden, um zeitgleiche Bearbeitung durch mehrere Nutzer zu verhindern. Die Funktionalität kann nutzerspezifisch aktiviert oder deaktiviert werden:
-
-Menü "Administration" – "Nutzer" – Nutzer selektieren – Option auf dem ersten Tab ganz unten "Dokumente bei Bearbeitung automatisch sperren" aktivieren oder deaktivieren.
-
-Im Falle einer aktiven Sperrung wird die Anwendung eine Warnung ausgeben. Es obliegt dem Nutzer, ob nach Anzeige der Warnung trotzdem fortgefahren werden soll.

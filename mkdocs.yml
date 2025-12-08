@@ -108,6 +108,8 @@ nav:
       - Dokumentvorlagen: benutzerhandbuch/dokumentenmanagement/vorlagen.md
       - Dateinamen konfigurieren: benutzerhandbuch/dokumentenmanagement/dateinamen.md
       - Dokumente erstellen: benutzerhandbuch/dokumentenmanagement/dokumente-erstellen.md
+      - Dokumente sperren: benutzerhandbuch/dokumentenmanagement/sperren.md
+      - Papierkorb: benutzerhandbuch/dokumentenmanagement/papierkorb.md
       - Scanner-Integration: benutzerhandbuch/dokumentenmanagement/scanner.md
       - Volltextsuche: benutzerhandbuch/dokumentenmanagement/volltextsuche.md
       - PDF-Funktionen: benutzerhandbuch/dokumentenmanagement/pdf.md

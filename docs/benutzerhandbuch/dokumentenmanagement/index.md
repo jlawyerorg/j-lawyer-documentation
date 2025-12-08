@@ -10,7 +10,9 @@ Das Dokumentenmanagement in j-lawyer.org ermöglicht die zentrale Verwaltung all
 | [Briefköpfe](briefkoepfe.md) | Grafikdateien als Hintergrund der ersten Dokumentseite |
 | [Dokumentvorlagen](vorlagen.md) | Platzhalter, Skriptfunktionen und Tabelleneinstellungen |
 | [Dateinamen konfigurieren](dateinamen.md) | Dateinamenskonventionen und Platzhalter für automatische Benennung |
-| [Dokumente erstellen](dokumente-erstellen.md) | Aus Vorlagen erstellen, hinzufügen, wiederherstellen |
+| [Dokumente erstellen](dokumente-erstellen.md) | Aus Vorlagen erstellen, hinzufügen |
+| [Dokumente sperren](sperren.md) | Zeitgleiche Bearbeitung durch mehrere Nutzer verhindern |
+| [Papierkorb](papierkorb.md) | Gelöschte Dokumente verwalten und wiederherstellen |
 | [Scanner-Integration](scanner.md) | Zentraler/lokaler Scanordner, OCR-Texterkennung |
 | [Volltextsuche](volltextsuche.md) | Dokumente durchsuchen |
 | [PDF-Funktionen](pdf.md) | Konvertierung, Export, Schwärzen, externe Programme |
