@@ -2,7 +2,9 @@
 
 ![j-lawyer.org Logo](images/logo.png){ width="200" }
 
-Willkommen zur Dokumentation von **j-lawyer.org** - der freien Kanzleisoftware.
+Willkommen zur Dokumentation von **j-lawyer.org**.
+
+j-lawyer.org ist eine freie, quelloffene Kanzleisoftware für Kanzleien und Rechtsabteilungen. Die Software steht unter der GNU Affero General Public License (AGPL v3) zur Verfügung.
 
 ## Schnellstart
 
@@ -11,9 +13,9 @@ Willkommen zur Dokumentation von **j-lawyer.org** - der freien Kanzleisoftware.
 - **[Release Notes](releasenotes/index.md)** - Aktuelle Änderungen und neue Funktionen
 - **[PDF-Download](j-lawyer-dokumentation.pdf)** - Gesamte Dokumentation als PDF
 
-## Über j-lawyer.org
+## j-lawyer.CLOUD: j-lawyer.org im Rechenzentrum betreiben lassen
 
-j-lawyer.org ist eine freie, quelloffene Kanzleisoftware für Kanzleien und Rechtsabteilungen. Die Software steht unter der GNU Affero General Public License (AGPL v3) zur Verfügung.
+Sie möchten j-lawyer.org nutzen, ohne sich um Installation, Wartung und Backups kümmern zu müssen? Mit **[j-lawyer.CLOUD](https://j-lawyer.cloud/)** erhalten Sie j-lawyer.org als gehostete Lösung - betrieben in einem deutschen Rechenzentrum, DSGVO-konform und mit professionellem Support. Konzentrieren Sie sich auf Ihre Mandate, wir kümmern uns um die Technik.
 
 ## Mitwirken
 
