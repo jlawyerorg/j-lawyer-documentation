@@ -1,82 +1,24 @@
 # Dokumente erstellen und hinzufügen {#dokument-erstellen}
 
-## Dateinamen-Automatik {#dateinamen}
-
-Im Menüpunkt „Einstellungen" – „Dokumente" – „Dateinamen" lassen sich ein oder mehrere Dateinamenskonventionen konfigurieren.
-
-![Abbildung 9](../../images/j-lawyer-org-UserGuide-de-015.png)
-
-Mit den Voreinstellungen wird j-lawyer.org Dateinamen in dieser Form nutzen:
-
-```
-2024-10-30_Schriftsatz.odt
-```
-
-Im Einstellungsdialog lassen sich sowohl das Standardschema anpassen, als auch weitere Bildungsvorschriften für Dateinamen definieren. Dateinamen können dabei aus Platzhaltern generiert werden:
-
-- Platzhalter für Zeitangaben – in eckigen Klammern
-    - y = Jahr
-    - m = Monat
-    - d = Tag
-    - M = Minute
-    - H = Stunde
-- Platzhalter für ursprünglichen Dateinamen
-    - DATEINAME
-- Weitere Platzhalter analog Vorlagensystem
-    - bspw. {{MANDANT_NAME}}
-    - Für Dokumente, die aus einem Beleg heraus erstellt werden, kann die Belegnummer (sowie weiter BEL-Platzhalter) in den Dateinamen übernommen werden, bspw. die Belegnummer per {{BEL_NR}}
-
-Es sollte auf Groß- und Kleinschreibung geachtet werden.
-
-### Beispiele
-
-**Beispielschema für erstellte Vollmachten:**
-
-```
-[yyyy][mm][dd]_Vollmacht_{{MANDANT_NAME}}
-```
-
-Wird zu:
-
-```
-20241030_Vollmacht_Müller.odt
-```
-
-**Beispiel für erhaltene E-Mail im Verkehrsrecht:**
-
-```
-[yyyy][mm][dd]_DATEINAME_{{AKTE_ZEICHEN}}_{{MANDANT_NAME}}-vs-{{GEGNER_NAME}}_{{VRKHR_KENNZEICHEN}}
-```
-
-wird zu:
-
-```
-20241030_Anfrage Schadenregulierung_003-24_Müller-vs-Meier_HH-XY 1234.eml
-```
-
-Nur exakt ein Schema kann das „Standardschema" sein (Option „als Standard verwenden" ist aktiv).
-
-Im Dialog zur Zuordnung von Dokumenten kann das Dateinamensschema für alle Dokumente oder einzelne Dokumente angepasst werden:
-
-![Abbildung 10](../../images/j-lawyer-org-UserGuide-de-016.png)
-
-Eine entsprechende Einstellmöglichkeit gibt es im Rahmen der Erstellung von Dokumenten aus einer Vorlage.
-
 ## Dokument aus einer Vorlage erstellen
 
-Über den Knopf "Erstellen" im Reiter "Dokumente" eine Akte können neue Dateien erstellt werden. Es erscheint folgendes Fenster:
+Über den Knopf "Erstellen" im Reiter "Dokumente" einer Akte können neue Dateien erstellt werden. Es erscheint folgendes Fenster:
 
-![Abbildung 11](../../images/j-lawyer-org-UserGuide-de-017.png)
+![c220942ede621d4f888bb872de20551c.png](../../images/c220942ede621d4f888bb872de20551c.png)
 
-Im linken Bereich des Fensters wird die Vorlage ausgewählt. Es kann auch nach einer Vorlage gesucht werden (in dem Feld neben „Filter").
+Im linken Bereich des Fensters werden (1.) der Vorlagenordner und (2.) die Vorlage ausgewählt. Es kann auch nach einer Vorlage gesucht werden (3.).
 
-Der Dateiname und das Diktatzeichen können eingegeben bzw. ausgewählt werden.
+**Optional:** Bei Nutzung der [Briefkopffunktion](briefkoepfe.md#briefkoepfe-erstellen) wird im obersten Dropdown (4.) der gewünschte Briefkopf selektiert.
 
-Daten der Beteiligten können übernommen werden. Dazu wird der Beteiligte / die Beteiligten ausgewählt. Wenn mehr als ein Beteiligter in einer Rolle (Mandant, Gegner, Dritte) vorhanden ist, kann durch Umsetzen des Hakens der zu verwendende Beteiligte ausgewählt werden.
+**Optional:** Der Dateiname (5.) und das Diktatzeichen (6.) können angepasst bzw. ausgewählt werden. Dazu können auch [Dateinamensvorschriften](dateinamen.md) angewandt werden (7.).
 
-Im unteren Bereich des Fensters kann optional eine Wiedervorlage / Frist gesetzt werden.
+**Optional:** Soll das neue Dokument direkt in einem bestimmten Ordner der Akte gelegt werden, so kann unter (8.) eine Ordnerauswahl getroffen werden.
 
-Nach Auswahl einer Vorlage und der Beteiligten erscheint auf der rechten Seite im Bereich Platzhalter / Wert eine Vorschau der Daten, die übernommen werden. Diese Tabelle mit Platzhalter und ihren Werten kann bearbeitet werden. Fehlt ein Platzhalter, oder ist eine Anpassung notwendig, so kann dies direkt in der dargestellten Tabelle durch Doppelklick durchgeführt werden.
+**Optional:** Daten der Beteiligten können übernommen werden. Dazu wird der Beteiligte / werden die Beteiligten ausgewählt (9.). Wenn mehr als ein Beteiligter in einer Rolle (Mandant, Gegner, Dritte) vorhanden ist, kann durch Umsetzen des Hakens der für diese Dokumenterstellung zu verwendende Beteiligte ausgewählt werden.
+
+**Optional:** Im unteren Bereich des Fensters kann (10.) eine Wiedervorlage / Frist gesetzt werden.
+
+Nach Auswahl einer Vorlage und der Beteiligten erscheint auf der rechten Seite im Bereich Platzhalter eine Vorschau der Daten, die übernommen werden. Fehlen Daten in Akte oder Beteiligten, die von der Vorlage erwartet werden, so erscheint ein Hinweis in Form eines blauen Dreiecks (11.). Die in dem Tab "Platzhalter" dargestellte Tabelle kann bearbeitet werden. Fehlt ein Platzhalter, oder ist eine Anpassung notwendig, so kann dies direkt in der dargestellten Tabelle durch Doppelklick durchgeführt werden.
 
 Zum Schluss wird auf "Erstellen" geklickt.
 

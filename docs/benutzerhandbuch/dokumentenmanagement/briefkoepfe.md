@@ -47,18 +47,7 @@ Briefköpfe können - im Gegensatz zu Dokumentvorlagen - nicht in einer Ordnerst
 
 ## Briefkopf bei Dokumenterstellung verwenden {#briefkopf-verwenden}
 
-Bei der Erstellung eines Dokuments aus einer Vorlage kann ein Briefkopf ausgewählt werden:
-
-1. Öffnen Sie den Dialog **Dokument erstellen** (über den "Erstellen"-Button im Dokumente-Tab)
-2. Im oberen Bereich finden Sie das Feld **Briefkopf**
-3. Wählen Sie den gewünschten Briefkopf aus der Dropdown-Liste
-4. Fahren Sie mit der Vorlagenauswahl und Dokumenterstellung fort
-
-### Briefkopf-Zuordnung merken
-
-j-lawyer.org merkt sich die Briefkopf-Zuordnung pro Vorlage. Wenn Sie für eine bestimmte Vorlage einen Briefkopf auswählen, wird dieser bei der nächsten Verwendung derselben Vorlage automatisch vorausgewählt.
-
-Um eine gespeicherte Zuordnung zu entfernen, wählen Sie einfach den leeren Eintrag (erste Option) in der Briefkopf-Dropdown-Liste.
+Die Auswahl eines Briefkopfs erfolgt im Rahmen der Dokumenterstellung. Siehe [Dokument aus einer Vorlage erstellen](dokumente-erstellen.md#dokument-erstellen) für Details.
 
 ## Anwendungsbeispiele {#anwendungsbeispiele}
 
