@@ -20,16 +20,11 @@ j-lawyer.org ermöglicht eine grundsätzliche Arbeit mit einem oder mehreren beA
 
 Aktuell ist für den Zugang zum beA ein Softwarezertifikat notwendig. Es ersetzt in der Nutzung weitgehend die beA Smartcards, und ist im Allgemeinen komfortabler anzuwenden. Bei der Nutzung in j-lawyer.org werden die Zertifikate nutzerspezifisch hinterlegt und weder Zertifikat noch Passwort gelangen in den Besitz der Nutzer der Kanzleisoftware.
 
-Ein Zugang per Smartcard ist für Version 1.11 geplant.
-
 Weitere Voraussetzungen im Überblick:
 
 - **Vollständig in Betrieb genommenes beA-Postfach** (hier nicht weiter ausgeführt, da bereits eine passive Nutzungspflicht besteht ("Empfangsbereitschaft")).
-- **beA Softwarezertifikat**: Das Softwarezertifikat ist nicht zum Signieren von Schriftsätzen gedacht, es ersetzt vielmehr das Hantieren mit Smartcard und Kartenleser zwecks Anmeldung am beA. Es kann zu einem Jahrespreis von 4,90 EUR unter der Bezeichnung "beA-Softwarezertifikat" bei der Bundesnotarkammer bezogen werden: <https://bea.bnotk.de/bestellung/#/products/18393998> Der Erstellprozess ist hier detailliert beschrieben: <https://bea.bnotk.de/documents/Anleitung_Erstellung-Softwarezertifikate.pdf> Bitte unbedingt das beim Generieren des Zertifikats verwendete Passwort notieren.
+- **beA Softwarezertifikat**: Das Softwarezertifikat ist nicht zum Signieren von Schriftsätzen gedacht, es ersetzt vielmehr das Hantieren mit Smartcard und Kartenleser zwecks Anmeldung am beA. Es kann zu einem Jahrespreis von 4,90 EUR unter der Bezeichnung "beA-Softwarezertifikat" bei der Bundesnotarkammer bezogen werden: <https://zertifizierungsstelle.bnotk.de/bestellen/beaprodukte/bea-produkte-softwarezertifikat> Der Erstellprozess ist hier detailliert beschrieben: <https://onlinehilfe.bnotk.de/einrichtungen/zertifizierungsstelle/bea/bea-softwarezertifikate-tauschprozess/erstellen-herunterladen-eines-bea-softwarezertifikates.html> Bitte unbedingt das beim Generieren des Zertifikats verwendete Passwort notieren.
 - **Einrichtung des Softwarezertifikats** als zusätzlicher Sicherheitstoken für ein Postfach: <https://www.brak.de/zur-rechtspolitik/newsletter/bea-newsletter/2016/ausgabe-2-2016-v-14122016.news.html#hl75740>
-
-!!! tip "Tipp bei Passwortproblemen"
-    Wiederholt konnte beobachtet werden, dass die beA Clientsecurity das bei der Bundesnotarkammer genutzte Zertifikatspasswort nicht akzeptierte und so ein Import des Softwarezertifikates nicht möglich war. In diesem Fall gibt es eine "Notlösung", das Zertifikatspasswort mit Hilfe von Mozilla Firefox zu ändern. Der Prozess wurde durch die Bundesnotarkammer hier dokumentiert: <https://bea.bnotk.de/documents/Softwarezertifikate_PIN_aendern_190730.pdf>
 
 Sind alle Voraussetzungen erfüllt, so kann mit der Inbetriebnahme im j-lawyer.org Client fortgefahren werden.
 
