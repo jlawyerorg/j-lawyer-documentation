@@ -17,6 +17,9 @@ Im ersten Tab einer Akte lassen sich Nachrichten mit Aktenbezug verfassen (über
 
 Nachrichten mit Akten- oder Dokumentenbezug ermöglichen eine Navigation zum verlinkten Element.
 
+!!! tip "mehrzeilige Nachrichten"
+    Die Enter-Taste führt zum Versand einer Nachricht. Sollen mehrzeilige Nachrichten verschickt werden, so kann ein Zeilenumbruch per Strg+Enter generiert werden.
+
 ### Erwähnungen
 
 Beim Verfassen einer Nachricht öffnet sich bei Eingabe von “@” eine Auswahl von Nutzern und Nutzerinnen, nach Auswahl kann mittels Leertaste bestätigt und weiterer Text eingegeben werden. Daraufhin wird eine – zu bestätigende – Erwähnung für den Nutzer oder die Nutzerin erstellt und im zentralen Nachrichteneingang angezeigt. Erwähnungen des eigenen Nutzers können durch Klick auf den roten Indikator vor der Nachricht bestätigt werden. Erwähnungen an andere Nutzer sind per Farbindikator und Tooltip hinsichtlich ihrer Abarbeitung nachvollziehbar.
