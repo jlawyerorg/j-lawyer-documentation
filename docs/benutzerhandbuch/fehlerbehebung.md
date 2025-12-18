@@ -21,13 +21,16 @@ Dann mit OK betätigen und LibreOffice (Writer und Calc) sollten die Dokumente n
 Wird der j-lawyer.org Client geschlossen und ein aus einer Akte geöffnetes Dokument danach weiter bearbeitet, werden Änderungen nicht in die Akte zurückgespeichert. Selbiges tritt auf, wenn der Client zwar geöffnet bleibt aber keine Netzwerkverbindung (mehr) zum Server hat. In diesen Fällen kann wie folgt verfahren werden (hier dargestellt am Beispiel eines Windowssystems):
 
 - Explorer öffnen (alternativ bspw. Finder auf dem Mac)
-- Verzeichnis C:\Benutzer\<NUTZERNAME>\j-lawyer-settings\tmp-documents öffnen
+- Verzeichnis C:\Benutzer\NUTZERNAME\j-lawyer-settings\tmp-documents öffnen
 - Im Explorer rechts oben nach dem Dokumentnamen suchen
 - Es werden eine oder mehrere Dateien angezeigt - die Anzeigeeinstellungen ggf. anpassen um die neueste Dokumentversion finden zu können (die Datei mit dem höchsten Änderungsdatum/-zeitpunkt)
 - Dokument rechtsklicken und in Zwischenablage kopieren
 - Dokument in anderen Ordner der Festplatte einfügen
 - Von dort per Drag & Drop zurück in die Akte ziehen
 - aus der Akte heraus öffnen und weiterbearbeiten
+
+!!! warning "Hinweis"
+    Die maximale Aufbewahrungszeit im Zwischenspeicher beträgt 7 Tage. Nach Ablauf dieses Zeitraumes ist die Wiederherstellung nicht mehr möglich.
 
 
 ### j-lawyer.BOX: Login Administrationsoberfläche schlägt fehl {#box-login}
