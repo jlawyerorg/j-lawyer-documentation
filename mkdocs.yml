@@ -147,6 +147,14 @@ nav:
       - Deinstallation: benutzerhandbuch/deinstallation.md
       - Fehlerbehebung: benutzerhandbuch/fehlerbehebung.md
       - j-lawyer.BOX: benutzerhandbuch/jlawyer-box.md
+    - Mobile App:
+      - Übersicht: benutzerhandbuch/mobile-app/index.md
+      - Installation: benutzerhandbuch/mobile-app/installation.md
+      - App koppeln: benutzerhandbuch/mobile-app/app-koppeln.md
+      - Dashboard: benutzerhandbuch/mobile-app/dashboard.md
+      - Akten: benutzerhandbuch/mobile-app/akten.md
+      - Messaging: benutzerhandbuch/mobile-app/messaging.md
+      - Einstellungen: benutzerhandbuch/mobile-app/einstellungen.md
   - Release Notes:
     - Übersicht: releasenotes/index.md
     - Version 3.4: releasenotes/v3-4.md
