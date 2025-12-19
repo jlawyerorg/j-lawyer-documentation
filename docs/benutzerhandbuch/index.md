@@ -20,7 +20,9 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [Kalender: Termine, Wiedervorlagen und Fristen](kalender/index.md)
 
-- [Rechnungen](finanzen.md)
+- [Finanzen: Einstellungen](finanzen-einstellungen.md)
+
+- [Finanzen: Rechnungen erstellen](finanzen-rechnungen.md)
 
 - [E-Mail-Integration](email.md)
 

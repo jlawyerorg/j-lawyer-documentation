@@ -15,7 +15,8 @@
       "Bash(.venv/bin/mkdocs serve:*)",
       "Bash(mkdocs serve:*)",
       "Bash(find:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(/home/jens/dev/j-lawyer-documentation/.venv/bin/mkdocs serve:*)"
     ],
     "deny": [],
     "ask": []

@@ -126,7 +126,8 @@ nav:
       - Postvorlagen: benutzerhandbuch/postvorlagen.md
       - Instant Messaging: benutzerhandbuch/messaging.md
     - Finanzen & Auswertungen:
-      - Finanzen: benutzerhandbuch/finanzen.md
+      - Einstellungen: benutzerhandbuch/finanzen-einstellungen.md
+      - Rechnungen erstellen: benutzerhandbuch/finanzen-rechnungen.md
       - Zeiterfassung: benutzerhandbuch/zeiterfassung.md
       - Forderungskonto: benutzerhandbuch/forderungskonto.md
       - Ausgehende Zahlungen: benutzerhandbuch/zahlungen.md
