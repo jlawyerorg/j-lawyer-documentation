@@ -21,6 +21,11 @@ Es empfiehlt sich das folgende Vorgehen:
 - Briefkopf als Grafikdatei exportieren: in LibreOffice via "Datei" - "Exportieren..." als PNG-Datei exportieren; in Microsoft Office gibt es keine Möglichkeit, ein Dokument als Grafik zu exportieren - hier kann man ggf. auf Online-Konverter zurückgreifen (Suche nach [DOCX zu PNG](https://www.google.com/search?q=docx+to+png) o.ä.)
 - Grafikdatei in der Hauptnavigation links, ganz unten unter **Vorlagen** → **Akten: Briefköpfe** per Drag and Drop hinterlegen
 
+!!! info "Von Textverarbeitung zu PDF zu Grafikdatei"
+    - Wenn der direkte Export vom Format der Textverarbeitung zur PNG-Datei zu verlustbehaftet ist, kann ein "Umweg" über PDF genutzt werden
+    - Aus Microsoft Word oder LibreOffice Writer möglichst verlustfrei in PDF konvertieren, danach das PDF in eine PNG-Datei umwandeln (bspw. mittels [PDF24](https://tools.pdf24.org/de/von-pdf-umwandeln) o.ä.)
+
+
 ## Briefköpfe verwalten {#briefkoepfe-verwalten}
 
 Die Verwaltung der Briefköpfe erfolgt über die Hauptnavigation links, ganz unten unter **Vorlagen** → **Akten: Briefköpfe**.
