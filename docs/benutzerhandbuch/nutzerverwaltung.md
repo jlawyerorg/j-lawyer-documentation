@@ -147,3 +147,15 @@ Gruppen werden verwendet, um Berechtigungen auf Aktenebene zu steuern und den Zu
 ## Belege {#belege}
 
 Im Tab **Belege** wird der Zugriff auf Rechnungs-Nummernkreise konfiguriert. Der Nutzer kann nur Belege aus den ihm zugewiesenen Nummernkreisen erstellen.
+
+## Passwort ändern {#passwort-aendern}
+
+Um das Passwort eines Nutzers zu ändern:
+
+1. Öffnen Sie die Nutzerverwaltung über **Administration** → **Nutzer**
+2. Selektieren Sie den gewünschten Nutzer in der Liste
+3. Klicken Sie mit der rechten Maustaste und wählen Sie im Kontextmenü **Passwort ändern**
+4. Geben Sie im erscheinenden Dialog das neue Passwort ein
+5. Bestätigen Sie die Eingabe
+
+Das neue Passwort ist sofort aktiv. Der Nutzer muss sich bei der nächsten Anmeldung mit dem neuen Passwort authentifizieren.
