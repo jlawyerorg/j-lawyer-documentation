@@ -159,3 +159,14 @@ Um das Passwort eines Nutzers zu ändern:
 5. Bestätigen Sie die Eingabe
 
 Das neue Passwort ist sofort aktiv. Der Nutzer muss sich bei der nächsten Anmeldung mit dem neuen Passwort authentifizieren.
+
+!!! note "Passwortrichtlinien"
+    Im Menü **Administration** → **Sicherheit** kann eingestellt werden, ob komplexe Passwörter erzwungen werden sollen. Komplexe Passwörter sind standardmäßig aktiviert und müssen folgende Anforderungen erfüllen:
+
+    - Mindestens 8 Zeichen
+    - Großbuchstaben
+    - Kleinbuchstaben
+    - Ziffern
+    - Mindestens ein Sonderzeichen: `-_@#$%^&+=`
+
+    Alternativ können beliebige Passwörter zugelassen werden.
