@@ -103,7 +103,7 @@ Administratoren können die Berechtigungen für mehrere Akten auf einmal ändern
 
 **Vorgehensweise:**
 
-1. Öffnen Sie die **Aktensuche** über das Suchfeld oder das Menü
+1. Öffnen Sie die **Aktensuche** über die Hauptnavigation (links)
 2. Führen Sie eine Suche durch, um die gewünschten Akten zu finden
 3. Markieren Sie die zu bearbeitenden Akten in der Ergebnisliste (mit Strg+Klick oder Umschalt+Klick für Mehrfachauswahl)
 4. Klicken Sie mit der rechten Maustaste auf die Auswahl und wählen Sie **Gruppen und Berechtigungen bearbeiten**
