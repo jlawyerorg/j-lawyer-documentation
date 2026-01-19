@@ -20,7 +20,8 @@
       "WebFetch(domain:www.j-lawyer.org)",
       "WebFetch(domain:j-lawyer.org)",
       "WebSearch",
-      "Bash(/home/jens/dev/j-lawyer-documentation/.venv/bin/mkdocs build:*)"
+      "Bash(/home/jens/dev/j-lawyer-documentation/.venv/bin/mkdocs build:*)",
+      "WebFetch(domain:services.addons.thunderbird.net)"
     ],
     "deny": [],
     "ask": []

@@ -258,3 +258,34 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Nutzen Sie die Ausschlussliste für Newsletter oder Systembenachrichtigungen
 - Konfigurieren Sie passende Dokumenten-Etiketten wie „E-Mail" oder „Eingang", um importierte E-Mails schnell zu erkennen
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
+
+## Thunderbird-Erweiterung {#thunderbird}
+
+Für den E-Mail-Client Thunderbird steht eine Erweiterung zur Verfügung, die eine direkte Integration mit j-lawyer.org ermöglicht. Mit dieser Erweiterung können E-Mails direkt aus Thunderbird an den j-lawyer.org Server gesendet und dort in Akten gespeichert werden.
+
+### Funktionen
+
+- **E-Mail-Veraktung**: Komplette Nachricht inkl. Anhänge, nur Nachricht oder nur Anhänge in eine Akte hochladen
+- **Mehrfachauswahl**: Mehrere markierte Nachrichten per Rechtsklick an eine Akte senden
+- **Bildverarbeitung**: Bilder zuschneiden, Reihenfolge festlegen, umbenennen und als ein PDF zusammenfassen
+- **Automatische Tags**: Gespeicherte Nachrichten werden automatisch mit dem Tag „veraktet" versehen
+- **Zielordner-Auswahl**: Dokumente können in bestimmte Ordner innerhalb der Aktenstruktur abgelegt werden
+- **Kalenderintegration** (ab j-lawyer.org 2.6): Termine, Fristen und Wiedervorlagen direkt aus Thunderbird erstellen
+- **Vorlagen im Verfassen-Modus**: Beim Schreiben von E-Mails Vorlagen mit Platzhaltern einfügen und Dokumente aus der Akte als Anhang hinzufügen
+- **Automatische Aktenzeichen-Erkennung**: Aktenzeichen in der Betreffzeile werden automatisch erkannt
+- **Datensynchronisation**: Automatischer täglicher Datenabgleich mit dem j-lawyer.org Server
+- **Optionales Aufräumen**: E-Mails nach dem Upload automatisch verschieben oder löschen
+
+### Installation
+
+Die Erweiterung ist im offiziellen Thunderbird Add-ons-Verzeichnis verfügbar:
+
+<https://services.addons.thunderbird.net/de/thunderbird/addon/j-lawyer-org-tb-extension/>
+
+**Systemvoraussetzungen:** Thunderbird 125.0 oder neuer
+
+### Quellcode
+
+Der Quellcode der Erweiterung ist öffentlich auf GitHub verfügbar:
+
+<https://github.com/jlawyerorg/j-lawyer-tbaddon>
