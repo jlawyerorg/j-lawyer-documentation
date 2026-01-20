@@ -25,11 +25,12 @@ Beim Upload großer Dokumente über die REST API kann es zu Fehlern kommen, wenn
 Um größere Dokumente zu ermöglichen, muss das `max-post-size`-Attribut an den HTTP-Listenern in der Wildfly-Konfiguration angepasst werden:
 
 1. Die Datei `standalone.xml` im Wildfly-Konfigurationsverzeichnis öffnen
-2. Die Einstellungen für `http-listener` und `https-listener` anpassen:
+2. Die Einstellungen für `http-listener` und `https-listener` anpassen (max-post-size - Attribut anpassen, ggf. hinzufügen):
 
 ```xml
-<http-listener name="default" socket-binding="http" max-post-size="524288000"/>
-<https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" max-post-size="524288000"/>
+<http-listener name="default" socket-binding="http" max-post-size="524288000" redirect-socket="https" enable-http2="true"/>
+<https-listener name="https" socket-binding="https" max-post-size="524288000" ssl-context="applicationSSC" enable-http2="true"/>
+
 ```
 
 Der Wert wird in Bytes angegeben. Im Beispiel oben sind 500 MB (524288000 Bytes) konfiguriert.
