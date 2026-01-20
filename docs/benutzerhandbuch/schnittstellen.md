@@ -18,6 +18,24 @@ Die Swagger UI liefert sowohl eine vollständige Dokumentation der Schnittstelle
 
 Eine Nutzung der Schnittstelle ist grundsätzlich über HTTP Basic-Authentifizierung möglich. Es müssen die Zugangsdaten eines Nutzers der Kanzleisoftware angegeben werden. So ist sichergestellt, dass auch bei Nutzung der Schnittstelle – insbesondere beim Ändern von Daten – die Berechtigungen berücksichtigt werden, und die automatisch geführte Aktenhistorie auch Schnittstellenzugriffe mit dem richtigen Nutzer dokumentieren kann.
 
+### REST API: Umgang mit großen Dokumenten {#rest-api-grosse-dokumente}
+
+Beim Upload großer Dokumente über die REST API kann es zu Fehlern kommen, wenn die Dateigröße das Standard-Limit von Wildfly überschreitet. Der Server lehnt dann die Anfrage ab.
+
+Um größere Dokumente zu ermöglichen, muss das `max-post-size`-Attribut an den HTTP-Listenern in der Wildfly-Konfiguration angepasst werden:
+
+1. Die Datei `standalone.xml` im Wildfly-Konfigurationsverzeichnis öffnen
+2. Die Einstellungen für `http-listener` und `https-listener` anpassen:
+
+```xml
+<http-listener name="default" socket-binding="http" max-post-size="524288000"/>
+<https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" max-post-size="524288000"/>
+```
+
+Der Wert wird in Bytes angegeben. Im Beispiel oben sind 500 MB (524288000 Bytes) konfiguriert.
+
+Nach der Änderung muss der Wildfly-Server neu gestartet werden.
+
 ### Web Hooks {#webhooks}
 
 

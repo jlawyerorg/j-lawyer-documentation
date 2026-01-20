@@ -21,7 +21,9 @@
       "WebFetch(domain:j-lawyer.org)",
       "WebSearch",
       "Bash(/home/jens/dev/j-lawyer-documentation/.venv/bin/mkdocs build:*)",
-      "WebFetch(domain:services.addons.thunderbird.net)"
+      "WebFetch(domain:services.addons.thunderbird.net)",
+      "Bash(curl:*)",
+      "Bash(pip3 list:*)"
     ],
     "deny": [],
     "ask": []
