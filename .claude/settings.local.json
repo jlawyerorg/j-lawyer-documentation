@@ -23,7 +23,8 @@
       "Bash(/home/jens/dev/j-lawyer-documentation/.venv/bin/mkdocs build:*)",
       "WebFetch(domain:services.addons.thunderbird.net)",
       "Bash(curl:*)",
-      "Bash(pip3 list:*)"
+      "Bash(pip3 list:*)",
+      "Bash(mkdocs build:*)"
     ],
     "deny": [],
     "ask": []
