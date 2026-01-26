@@ -52,6 +52,19 @@ Der Dokumente-Tab ermöglicht die Verwaltung aller Akten-Dokumente:
 - Tippen Sie auf ein Dokument, um es zu öffnen
 - Unterstützte Formate: PDF, Bilder, E-Mails (EML) und weitere
 
+!!! info "Office-Dokumente anzeigen"
+    Für die Anzeige von LibreOffice- und Microsoft-Office-Dokumenten (ODT, DOCX, etc.) können folgende kostenlose Apps installiert werden:
+
+    **Android:**
+
+    - [LibreOffice Viewer](https://play.google.com/store/apps/details?id=org.documentfoundation.libreoffice) - Open Source, unterstützt ODF und Microsoft-Formate
+    - [Collabora Office](https://play.google.com/store/apps/details?id=com.collabora.libreoffice) - basiert auf LibreOffice
+
+    **iOS:**
+
+    - [Collabora Office](https://apps.apple.com/app/collabora-office/id1440482071) - basiert auf LibreOffice
+    - Microsoft 365 (Word, Excel, PowerPoint) - kostenlos zum Anzeigen
+
 **Dokumente hinzufügen** (über SpeedDial-Button):
 
 | Aktion | Beschreibung |
