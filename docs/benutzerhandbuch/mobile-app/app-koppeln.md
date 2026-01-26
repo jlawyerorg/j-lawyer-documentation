@@ -31,10 +31,11 @@ Die einfachste Methode ist das Scannen eines QR-Codes, der alle Verbindungsdaten
 **So scannen Sie den QR-Code in der App:**
 
 1. Öffnen Sie die j-lawyer App
-2. Tippen Sie auf das **QR-Code-Symbol** in der Profil-Übersicht
-3. Scannen Sie den QR-Code vom Desktop-Bildschirm
-4. Die Verbindungsdaten werden automatisch übernommen
-5. Vergeben Sie einen Namen für das Profil und speichern Sie
+2. Initial verfügt die App über keinerlei Informationen, auf welche j-lawyer-Installation zugegriffen werden soll - klicken Sie daher das Zahnradsymbol, um zur Profil-Übersicht zu gelangen.
+3. Tippen Sie auf das **QR-Code-Symbol** oben rechts in der Profil-Übersicht
+4. Scannen Sie den QR-Code vom Desktop-Bildschirm
+5. Die Verbindungsdaten werden automatisch übernommen
+6. Vergeben Sie einen Namen für das Profil und speichern Sie
 
 ### Variante 2: Manuelle Eingabe
 
