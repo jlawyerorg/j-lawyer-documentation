@@ -54,7 +54,7 @@ In bestimmten Szenarien kann es notwendig oder sinnvoll sein, den gesamten Vollt
 
 ### Vorgehen
 
-Die Funktion ist über das Menü **Dokumente** > **Volltextsuche** erreichbar. Dieses Menü steht nur Nutzern mit Administratorrechten zur Verfügung.
+Die Funktion ist über das Menü **Einstellungen** > **Dokumente** > **Volltextsuche** erreichbar. Dieses Menü steht nur Nutzern mit Administratorrechten zur Verfügung.
 
 Im Dialog „Einstellungen Dokumentensuche" werden die Anzahl der Dokumente insgesamt sowie die Anzahl der bereits indexierten Dokumente angezeigt. Über die Schaltfläche **Suchindex neu erfassen** wird die vollständige Neuindexierung gestartet.
 
