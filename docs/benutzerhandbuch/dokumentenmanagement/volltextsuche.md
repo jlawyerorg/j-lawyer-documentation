@@ -42,3 +42,21 @@ setsetting jlawyer.server.searchindex.skip false
 ```
 
 Die Einstellung beeinflusst ausschließlich neu hinzugefügte Dokumente. Dokumentänderungen oder -löschungen werden weiterhin abgearbeitet (d.h. dass in diesen Situationen weiterhin der Volltextindex aktualisiert wird).
+
+## Volltextindex neu erstellen {#volltextindex-neu-erstellen}
+
+In bestimmten Szenarien kann es notwendig oder sinnvoll sein, den gesamten Volltextindex neu zu erstellen:
+
+- Nach einer **Datenmigration**, bei der die Indexierung vorübergehend deaktiviert war (siehe oben)
+- Wenn der Index **beschädigt oder unvollständig** ist, z.B. nach einem Serverausfall
+- Wenn die Volltextsuche **keine oder fehlerhafte Ergebnisse** liefert
+- Nach einem **Update**, das Änderungen an der Suchindexierung beinhaltet
+
+### Vorgehen
+
+Die Funktion ist über das Menü **Dokumente** > **Volltextsuche** erreichbar. Dieses Menü steht nur Nutzern mit Administratorrechten zur Verfügung.
+
+Im Dialog „Einstellungen Dokumentensuche" werden die Anzahl der Dokumente insgesamt sowie die Anzahl der bereits indexierten Dokumente angezeigt. Über die Schaltfläche **Suchindex neu erfassen** wird die vollständige Neuindexierung gestartet.
+
+!!! warning "Hinweis"
+    Die Neuindexierung läuft im Hintergrund auf dem Server. Je nach Anzahl und Größe der Dokumente kann dieser Vorgang sehr lange dauern. Während der Neuindexierung kann normal weitergearbeitet werden – die Suchergebnisse sind jedoch erst nach Abschluss des Vorgangs wieder vollständig. Grundsätzlich ist eine erneute Indexerstellung in "arbeitsfreien" Zeiten am sinnvollsten (bspw. nachts).
