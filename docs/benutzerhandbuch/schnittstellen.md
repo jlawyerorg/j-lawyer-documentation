@@ -74,174 +74,137 @@ Für jeden Ereignistyp sind beliebig viele Hooks möglich. Daten zum Ereignis we
 
 Beispieldokumente:
 
+```json
 {
-
-"hookType": "ADDRESS_CREATED",
-
-"addressId": "21f3f7b07f0001012cdc167fafd982c3"
-
+  "hookType": "ADDRESS_CREATED",
+  "addressId": "21f3f7b07f0001012cdc167fafd982c3"
 }
+```
 
+```json
 {
-
-"hookType": "ADDRESS_UPDATED",
-
-"addressId": "21f3f7b07f0001012cdc167fafd982c3"
-
+  "hookType": "ADDRESS_UPDATED",
+  "addressId": "21f3f7b07f0001012cdc167fafd982c3"
 }
+```
 
+```json
 {
-
-"active": true,
-
-"tagName": "abweisen",
-
-"hookType": "ADDRESSTAG_CHANGED",
-
-"addressId": "21f3f7b07f0001012cdc167fafd982c3"
-
+  "active": true,
+  "tagName": "abweisen",
+  "hookType": "ADDRESSTAG_CHANGED",
+  "addressId": "21f3f7b07f0001012cdc167fafd982c3"
 }
+```
 
+```json
 {
-
-"active": false,
-
-"tagName": "abweisen",
-
-"hookType": "ADDRESSTAG_CHANGED",
-
-"addressId": "21f3f7b07f0001012cdc167fafd982c3"
-
+  "active": false,
+  "tagName": "abweisen",
+  "hookType": "ADDRESSTAG_CHANGED",
+  "addressId": "21f3f7b07f0001012cdc167fafd982c3"
 }
+```
 
+```json
 {
-
-"hookType": "ADDRESS_REMOVED",
-
-"addressId": "21f3f7b07f0001012cdc167fafd982c3"
-
+  "hookType": "ADDRESS_REMOVED",
+  "addressId": "21f3f7b07f0001012cdc167fafd982c3"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"hookType": "CASE_CREATED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "hookType": "CASE_CREATED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"hookType": "CASE_UPDATED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "hookType": "CASE_UPDATED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"documentId": "21f9f1b97f000101574dffb8d1fce05f",
-
-"documentName": "2022-01-03_Notiz.html",
-
-"hookType": "DOCUMENT_CREATED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "documentId": "21f9f1b97f000101574dffb8d1fce05f",
+  "documentName": "2022-01-03_Notiz.html",
+  "hookType": "DOCUMENT_CREATED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"active": true,
-
-"documentId": "21f9f1b97f000101574dffb8d1fce05f",
-
-"tagName": "Korrektur RA Müller",
-
-"hookType": "DOCUMENTTAG_CHANGED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "active": true,
+  "documentId": "21f9f1b97f000101574dffb8d1fce05f",
+  "tagName": "Korrektur RA Müller",
+  "hookType": "DOCUMENTTAG_CHANGED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"active": false,
-
-"documentId": "21f9f1b97f000101574dffb8d1fce05f",
-
-"tagName": "Korrektur RA Müller",
-
-"hookType": "DOCUMENTTAG_CHANGED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "active": false,
+  "documentId": "21f9f1b97f000101574dffb8d1fce05f",
+  "tagName": "Korrektur RA Müller",
+  "hookType": "DOCUMENTTAG_CHANGED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"documentId": "21f9f1b97f000101574dffb8d1fce05f",
-
-"documentName": "2022-01-03_Notiz.html",
-
-"hookType": "DOCUMENT_UPDATED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "documentId": "21f9f1b97f000101574dffb8d1fce05f",
+  "documentName": "2022-01-03_Notiz.html",
+  "hookType": "DOCUMENT_UPDATED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"documentId": "21f9f1b97f000101574dffb8d1fce05f",
-
-"documentName": "2022-01-03_Notiz.html",
-
-"hookType": "DOCUMENT_REMOVED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "documentId": "21f9f1b97f000101574dffb8d1fce05f",
+  "documentName": "2022-01-03_Notiz.html",
+  "hookType": "DOCUMENT_REMOVED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"active": true,
-
-"tagName": "bevorzugtes Mandat",
-
-"hookType": "CASETAG_CHANGED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "active": true,
+  "tagName": "bevorzugtes Mandat",
+  "hookType": "CASETAG_CHANGED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"active": false,
-
-"tagName": "bevorzugtes Mandat",
-
-"hookType": "CASETAG_CHANGED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "active": false,
+  "tagName": "bevorzugtes Mandat",
+  "hookType": "CASETAG_CHANGED"
 }
+```
 
+```json
 {
-
-"caseId": "21f8bd6c7f0001010d3542018c45d739",
-
-"hookType": "CASE_REMOVED"
-
+  "caseId": "21f8bd6c7f0001010d3542018c45d739",
+  "hookType": "CASE_REMOVED"
 }
+```
 
+```json
 {
-
-"formId": "369161647f00010160fa4bb8450ccbb3",
-
-"caseId": "6a7bd5367f000101364966678df1572d",
-
-"hookType": "CASE_FORM_UPDATED"
-
+  "formId": "369161647f00010160fa4bb8450ccbb3",
+  "caseId": "6a7bd5367f000101364966678df1572d",
+  "hookType": "CASE_FORM_UPDATED"
 }
+```
 
 Die Authentifizierung gegenüber der Drittapplikation kann optional per HTTP Basic Authentication stattfinden.
