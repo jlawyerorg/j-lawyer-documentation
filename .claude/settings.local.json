@@ -24,7 +24,8 @@
       "WebFetch(domain:services.addons.thunderbird.net)",
       "Bash(curl:*)",
       "Bash(pip3 list:*)",
-      "Bash(mkdocs build:*)"
+      "Bash(mkdocs build:*)",
+      "Bash(pip show:*)"
     ],
     "deny": [],
     "ask": []

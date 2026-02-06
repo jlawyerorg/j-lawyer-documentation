@@ -79,6 +79,9 @@ extra:
 extra_css:
   - overrides/stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/copy-placeholder.js
+
 copyright: Copyright &copy; j-lawyer.org - GNU AGPL v3
 
 nav:

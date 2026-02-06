@@ -88,3 +88,57 @@
 .md-typeset .tip > summary {
   background-color: rgba(151, 191, 13, 0.1);
 }
+
+/* Copy-to-clipboard buttons for placeholders in tables */
+.copy-placeholder-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.copy-placeholder-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.3em;
+  height: 1.3em;
+  padding: 0;
+  border: none;
+  border-radius: 0.15rem;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 150ms, background-color 150ms;
+  vertical-align: middle;
+  color: var(--md-default-fg-color--light);
+}
+
+tr:hover .copy-placeholder-btn {
+  opacity: 1;
+}
+
+.copy-placeholder-btn:hover {
+  background-color: var(--md-accent-fg-color--transparent, rgba(151, 191, 13, 0.1));
+}
+
+/* Copy icon (clipboard) - same SVG as Material theme */
+.copy-placeholder-icon {
+  display: block;
+  width: 0.9em;
+  height: 0.9em;
+  background-color: var(--md-default-fg-color--light);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 21H8V7h11m0-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m-3-4H4a2 2 0 0 0-2 2v14h2V3h12V1Z"/></svg>');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 21H8V7h11m0-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m-3-4H4a2 2 0 0 0-2 2v14h2V3h12V1Z"/></svg>');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* Checkmark icon after successful copy */
+.copy-placeholder-btn.copied .copy-placeholder-icon {
+  background-color: #97bf0d;
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg>');
+  -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg>');
+}
