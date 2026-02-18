@@ -4,7 +4,7 @@
 
 Sollen .doc / .docx – Dokumente mit Microsoft Office bearbeitet werden (anstelle von LibreOffice), so ist der vollständig Pfad zur "winword.exe" in die Umgebungsvariable PATH des Windowssystems aufzunehmen. Über eine Dateisuche findet man die winword.exe, der Pfad wird kopiert und dann im PATH hinzugefügt (da die Vorgehensweise hierbei zwischen verschiedenen Windows-Versionen variiert, wird auf Google verwiesen). Unter macOS sind keine besonderen Vorkehrungen zu treffen.
 
-Anschließend kann nach einem Neustart des j-lawyer.org Clients im Menü "Einstellungen" - Menüpunkte "Dokumente" und "Textverarbeitung" - der primär zu verwendende Editor ausgewählt werden.  Die Einstellung ist nutzer- und geräteabhängig. So kann ein Kanzleisoftwarenutzer "Otto" auf dem PC primär mit Microsoft Office arbeiten, auf seinem Linuxlaptop mit LibreOffice.
+Anschließend kann nach einem Neustart des j-lawyer.org Clients im Menü "Einstellungen" - "Dokumente" - "Office Suite" - der primär zu verwendende Editor ausgewählt werden.  Die Einstellung ist nutzer- und geräteabhängig. So kann ein Kanzleisoftwarenutzer "Otto" auf dem PC primär mit Microsoft Office arbeiten, auf seinem Linuxlaptop mit LibreOffice.
 
 In der Dokumentenansicht einer Akte wird mit Doppelklick dann die ausgewählte Textverarbeitung genutzt. Soll ein bestimmtes Dokument mit einer anderen Textverarbeitung geöffnet werden, so kann per Rechtsklick und "öffnen mit" der gewünschte Editor angefordert werden.
 
@@ -15,7 +15,7 @@ LibreOffice muss weiterhin installiert bleiben, da es im Hintergrund bspw. für 
 
 ## Allgemeine Hinweise zur Dokumentbearbeitung
 
-Mit Version 1.8.1 wurde eine vollständig überarbeitete Anwendungsanbindung für LibreOffice und andere externe Applikationen geliefert. Folgendes ist bei der Arbeit mit Dokumenten zu beachten:
+Folgendes ist bei der Arbeit mit Dokumenten zu beachten:
 
 - es können beliebig viele Dokumente gleichzeitig geöffnet werden
 - es können Dokumente verschiedener Akten gleichzeitig geöffnet werden
