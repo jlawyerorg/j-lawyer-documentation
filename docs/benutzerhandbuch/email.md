@@ -4,7 +4,85 @@
 
 E-Mail-Postfächer können im Menü „Einstellungen“ – „E-Mail – Postfächer“ konfiguriert werden. Die Zugangs- und Verbindungsdaten werden dort an zentraler Stelle hinterlegt.
 
-Über die Nutzerverwaltung („Einstellungen“ – „Nutzer“) kann einem oder mehreren Nutzern Zugriff auf eines oder mehrere zentral konfigurierte Postfächer gewährt werden.
+Über die Nutzerverwaltung („Einstellungen" – „Nutzer") kann einem oder mehreren Nutzern Zugriff auf eines oder mehrere zentral konfigurierte Postfächer gewährt werden.
+
+### Anbindung von IMAP-Postfächern {#imap-postfaecher}
+
+Für die Anbindung eines Standard-IMAP- oder POP3-Postfachs (z. B. bei IONOS, Strato, All-Inkl oder einem eigenen Mailserver) benötigen Sie lediglich die Zugangsdaten Ihres E-Mail-Anbieters. Die Einrichtung erfolgt im Menü **Einstellungen** → **E-Mail – Postfächer**.
+
+#### Übersicht des Dialogs
+
+Der Konfigurationsdialog ist zweigeteilt:
+
+- **Linke Seite**: Liste aller konfigurierten Postfächer mit den Schaltflächen **+** (neues Postfach anlegen), **Entfernen** und **Duplizieren**.
+- **Rechte Seite**: Tabs mit den Einstellungen des ausgewählten Postfachs.
+
+#### Schritt 1: Neues Postfach anlegen
+
+Klicken Sie auf **+**, um ein neues Postfach anzulegen. Wechseln Sie anschließend zum Tab **Postfach** und füllen Sie die folgenden Felder aus:
+
+| Feld | Beschreibung |
+|------|-------------|
+| Postfachname | Anzeigename des Postfachs in der Postfachliste |
+| E-Mail-Adresse | Die E-Mail-Adresse des Postfachs (Pflichtfeld) |
+| Absendername | Name, der beim Empfänger als Absender angezeigt wird |
+
+#### Schritt 2: Verbindungsdaten konfigurieren
+
+Wechseln Sie zum Tab **Verbindung**. Hier konfigurieren Sie die Server für den Posteingang und den Postausgang.
+
+**Posteingang**
+
+| Feld | Beschreibung |
+|------|-------------|
+| Eingangsserver | Hostname des IMAP- oder POP3-Servers (Pflichtfeld) |
+| Nutzername | Benutzername für die Anmeldung am Eingangsserver (Pflichtfeld) |
+| Kontentyp | Protokoll des Eingangsservers: `imap` oder `pop3`. IMAP ist die bevorzugte Variante. |
+| Passwort | Passwort für die Anmeldung am Eingangsserver (Pflichtfeld) |
+| SSL/TLS | Verschlüsselte Verbindung verwenden (Standard: aktiv) |
+
+**Postausgang**
+
+| Feld | Beschreibung |
+|------|-------------|
+| Ausgangsserver | Hostname des SMTP-Servers |
+| Nutzername | Benutzername für die Anmeldung am Ausgangsserver |
+| Port (optional) | SMTP-Port, falls vom Standard abweichend |
+| Passwort | Passwort für die Anmeldung am Ausgangsserver |
+| StartTLS | StartTLS-Verschlüsselung verwenden |
+| SSL/TLS | SSL/TLS-Verschlüsselung verwenden (Standard: aktiv) |
+
+!!! note "Office 365"
+    Für die Anbindung von Office 365-Postfächern nutzen Sie die Felder im Bereich „Office 365" desselben Tabs. Die ausführliche Anleitung finden Sie im Abschnitt [Anbindung von Postfächern mit Azure AD](#azure-ad).
+
+Über die Schaltfläche **Einstellungen testen** können Sie die eingegebenen Verbindungsdaten prüfen. j-lawyer.org versucht dabei, eine Verbindung zum Eingangs- und Ausgangsserver aufzubauen und meldet Erfolg oder Fehler.
+
+#### Schritt 3: Signaturen einrichten (optional)
+
+Im Tab **Signatur (HTML)** können Sie eine HTML-formatierte Signatur erstellen, die beim Verfassen neuer E-Mails automatisch angefügt wird. Der integrierte Editor bietet grundlegende Formatierungsmöglichkeiten.
+
+Alternativ oder ergänzend können Sie im Tab **Signatur (Text)** eine reine Textsignatur hinterlegen, die in reinen Textnachrichten verwendet wird.
+
+#### Schritt 4: Erweiterte Einstellungen (optional)
+
+Der Tab **Erweitert** bietet jeweils einen Bereich für **Posteingang** und **Postausgang**, in dem benutzerdefinierte Konfigurationsparameter im Java-Properties-Format hinterlegt werden können. Dies ist nur in Ausnahmefällen notwendig, z. B. bei ungewöhnlichen Serverkonfigurationen.
+
+#### Schritt 5: Speichern und Zugriff freigeben
+
+Klicken Sie auf **Übernehmen**, um die Einstellungen zu speichern. Damit andere Nutzer auf das Postfach zugreifen können, muss der Zugriff anschließend in der Nutzerverwaltung (**Einstellungen** → **Nutzer**) freigegeben werden.
+
+#### Typische Servereinstellungen
+
+Die folgende Tabelle listet die Serveradressen gängiger deutscher E-Mail-Anbieter auf:
+
+| Anbieter | Eingangsserver (IMAP) | Ausgangsserver (SMTP) |
+|----------|----------------------|----------------------|
+| IONOS (1&1) | imap.ionos.de | smtp.ionos.de |
+| Strato | imap.strato.de | smtp.strato.de |
+| All-Inkl | imap.all-inkl.com | smtp.all-inkl.com |
+| T-Online | secureimap.t-online.de | securesmtp.t-online.de |
+
+Bei allen Anbietern sollte **SSL/TLS** aktiviert sein. Benutzername und Passwort entsprechen in der Regel den Zugangsdaten, die Sie von Ihrem Anbieter erhalten haben.
 
 ### Anbindung von Postfächern mit Azure AD (Office 365) {#azure-ad}
 
