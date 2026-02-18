@@ -11,7 +11,7 @@ In der Dokumentenansicht einer Akte wird mit Doppelklick dann die ausgewählte T
 LibreOffice muss weiterhin installiert bleiben, da es im Hintergrund bspw. für Konvertierungsaufgaben verwendet wird (insbesondere PDF-Konvertierung).
 
 !!! warning "Hinweis"
-    Aktuell wird von der Verwendung von Textfeldern in .docx-Vorlagen abgeraten. Verwendung vieler Textfelder führt zu sehr langen Zeiten bei der Ermittlung der in der Vorlage verwendeten Platzhalter sowie deren Ersetzung.
+    Aktuell wird von der Verwendung von Textfeldern in .docx-Vorlagen abgeraten. Verwendung vieler Textfelder führt zu sehr langen Zeiten bei der Ermittlung der in der Vorlage verwendeten Platzhalter sowie deren Ersetzung. Als Alternative können rahmenlose 1x1-Tabellen verwendet werden.
 
 ## Allgemeine Hinweise zur Dokumentbearbeitung
 
