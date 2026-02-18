@@ -20,6 +20,9 @@ Im linken Bereich des Fensters werden (1.) der Vorlagenordner und (2.) die Vorla
 
 Nach Auswahl einer Vorlage und der Beteiligten erscheint auf der rechten Seite im Bereich Platzhalter eine Vorschau der Daten, die übernommen werden. Fehlen Daten in Akte oder Beteiligten, die von der Vorlage erwartet werden, so erscheint ein Hinweis in Form eines blauen Dreiecks (11.). Die in dem Tab "Platzhalter" dargestellte Tabelle kann bearbeitet werden. Fehlt ein Platzhalter, oder ist eine Anpassung notwendig, so kann dies direkt in der dargestellten Tabelle durch Doppelklick durchgeführt werden.
 
+!!! note "flexible Basisvorlagen nutzen"
+    Es ist möglich, eine oder mehrere flexibel einsetzbare Basisvorlagen zu nutzen, die für Schriftsätze an unterschiedliche Parteien / [Beteiligtentypen](../adressen.md#beteiligtentypen) verwendet werden können. Beispielhaft sei hier eine Vorlage genannt, die MANDANT-Platzhalter im Kopf (bspw. Anschrift etc.) und der persönlichen Anrede beinhaltet, aber keinen fachlichen Inhalt enthält. Für solche kann in der Beteiligtenauswahl (Schritt 9) einfach der Haken beim gewünschten Beteiligten gesetzt werden - also bspw. auch bei einem Gegner. Es ist NICHT notwendig, für jeden Beteiligtentypus eine eigene Vorlage zu pflegen. Mehr Informationen unter [Flexible Nutzung von Vorlagen für verschiedene Beteiligtentypen](vorlagen.md#flexible-nutzung-von-vorlagen-fur-verschiedene-beteiligtentypen).
+
 ### PDF automatisch erstellen
 
 Mit der Option "Als PDF speichern" kann zusätzlich zum erstellten Dokument automatisch eine PDF-Version generiert werden. Diese Einstellung wird pro Vorlage gespeichert und beim nächsten Mal vorausgewählt.
