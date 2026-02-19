@@ -25,7 +25,8 @@
       "Bash(curl:*)",
       "Bash(pip3 list:*)",
       "Bash(mkdocs build:*)",
-      "Bash(pip show:*)"
+      "Bash(pip show:*)",
+      "WebFetch(domain:127.0.0.1)"
     ],
     "deny": [],
     "ask": []

@@ -118,6 +118,7 @@ nav:
       - Scanner-Integration: benutzerhandbuch/dokumentenmanagement/scanner.md
       - Volltextsuche: benutzerhandbuch/dokumentenmanagement/volltextsuche.md
       - PDF-Funktionen: benutzerhandbuch/dokumentenmanagement/pdf.md
+      - Externe Programme: benutzerhandbuch/dokumentenmanagement/externe-programme.md
       - Verschlüsselung: benutzerhandbuch/dokumentenmanagement/verschluesselung.md
     - Kalender:
       - Übersicht: benutzerhandbuch/kalender/index.md

@@ -50,39 +50,13 @@ Das anonymisierte Dokument kann dann zur Akte gespeichert werden.
 !!! warning "Hinweis"
     Die Qualität der Anonymisierung ist bei OCR-erkannten Texten stark abhängig von der Qualität der Texterkennung. Bitte prüfen Sie das Resultat vor einer weiteren Verwendung sorgfältig!
 
-## Dokumente in externen Programmen öffnen
-
-j-lawyer geht wie folgt vor, um Dokumente zum Einsehen oder Bearbeiten zu öffnen:
-
-- wenn das Dateiformat von LibreOffice unterstützt wird, dann wird es mit LibreOffice geöffnet
-- alle anderen Dateiformate werden mit der im Betriebssystem definierten Standardapplikation geöffnet
-
-Es kann Situationen geben, wo von LibreOffice unterstützte Formate zwingend mit einer anderen Applikation geöffnet werden sollen. Dazu gibt es unter „Einstellungen" – „Dokumente" – „externe Programme" entsprechende Konfigurationen. Fügen Sie zuerst eine Anwendung per frei wählbarem Namen hinzu, bspw. „Adobe PDF Reader". Daraufhin können Sie eine ausführbare Datei auswählen und Parameter, die beim Öffnen zum Lesen bzw. zum Editieren an das ausgewählte Programm übergeben werden. Der (voreingestellte) Parameter DATEINAME wird dabei von j-lawyer automatisch ersetzt und sollte in jedem Fall erhalten bleiben und bei Bedarf lediglich um weitere Parameter ergänzt werden.
-
-### macOS
-
-Auf Mac OS gibt es einen "Universalstarter" namens "open", der zum Öffnen von Dateien mit vorhandenen Programmen verwendet werden kann. Zu finden ist er unter `/usr/bin/open`, er erwartet als Parameter unter anderem auch den Namen des auszuführenden Programmes. Um bspw. PNG-Dateien mit "Preview" bzgw. "Vorschau" zu öffnen, lauten die Einstellungen im j-lawyer.org Client wie folgt:
-
-![Abbildung 13](../../images/j-lawyer-org-UserGuide-de-019.png)
-
-### Windows
-
-Ein ähnliches "Universalstarter"-Verhalten kann unter Windows mit `cmd.exe` und dem `start`-Befehl erreicht werden. Dies ist insbesondere auch dann hilfreich, wenn bspw. Microsoft Word für .doc / .docx – Dokumente verwendet werden soll:
-
-![Abbildung 14](../../images/j-lawyer-org-UserGuide-de-020.png)
-
-!!! info "Hinweis"
-    Sollte es mit den Einstellungen oben Probleme beim Öffnen von Dateien mit Leerzeichen im Dateinamen geben, so sind die Parameter zu ändern von `/c start /wait DATEINAME` nach `/c DATEINAME`.
-
-### Mehrere Anwendungen pro Dateityp
-
-Ab Version 2.1.0 können für einen Dateityp mehrere verschiedene Anwendungen konfiguriert werden, bspw. für PDFs einen schnell öffnenden Reader und eine weitere Anwendung für die PDF-Bearbeitung. Für diese Fälle gibt es die Einstellung „Standardprogramm". Die als „Standardprogramm" markierte Anwendung wird bei Doppelklick auf ein passendes Dokument genutzt. Die Standardanwendung als auch alle weiteren Anwendungen für den Dateityp sind per Kontextmenü „Öffnen mit…" aufrufbar.
-
 ## PDFs bearbeiten mit Foxit Reader
 
 j-lawyer.org öffnet Dokumenttypen in LibreOffice, sofern unterstützt. Alle anderen Dokumenttypen werden mit dem auf dem System installierten "Standardprogramm" geöffnet. Dabei ist es dann vom Verhalten des externen Programmes abhängig, ob Änderugen am Dokument verlässlich in der Akte gespeichert werden.
 
 Am Beispiel von PDFs auf Windows wird hier beschrieben, wie mit der kostenlosen Anwendung "Foxit Reader" (<https://www.foxitsoftware.com/de/pdf-reader/>) in PDF eingefügte Lesezeichen und Kommentare direkt in der Akte gespeichert werden können.
+
+Weitere Informationen zum Konfigurieren externer Programme finden sich unter [Externe Programme](externe-programme.md).
 
 ### Einrichtung
 
