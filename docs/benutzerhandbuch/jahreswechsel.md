@@ -48,7 +48,7 @@ Der Jahreswechsel ist ein guter Zeitpunkt, um die Datensicherung zu überprüfen
 - **Synchronisation funktionsfähig?** Falls Sie eine Synchronisation auf externe Speicher eingerichtet haben, testen Sie die Erreichbarkeit des Zielsystems.
 - **Rücksicherung testen:** Idealerweise sollte mindestens einmal jährlich eine Rücksicherung auf einem Testsystem durchgeführt werden, um sicherzustellen, dass die Sicherungen im Ernstfall verwendbar sind.
 
-Weitere Informationen zur Datensicherung finden Sie im Abschnitt [Datensicherung und -synchronisation](administration.md#datensicherung).
+Weitere Informationen zur Datensicherung finden Sie im Abschnitt [Datensicherung und -synchronisation](backup.md#datensicherung).
 
 ## Checkliste Jahreswechsel {#checkliste}
 

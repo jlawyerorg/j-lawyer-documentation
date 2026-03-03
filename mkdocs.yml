@@ -150,6 +150,7 @@ nav:
     - Verwaltung:
       - Nutzerverwaltung: benutzerhandbuch/nutzerverwaltung.md
       - Administration: benutzerhandbuch/administration.md
+      - Backup / Wiederherstellung: benutzerhandbuch/backup.md
       - Schnittstellen: benutzerhandbuch/schnittstellen.md
       - Deinstallation: benutzerhandbuch/deinstallation.md
       - Fehlerbehebung: benutzerhandbuch/fehlerbehebung.md
