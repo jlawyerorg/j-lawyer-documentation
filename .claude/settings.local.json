@@ -26,7 +26,8 @@
       "Bash(pip3 list:*)",
       "Bash(mkdocs build:*)",
       "Bash(pip show:*)",
-      "WebFetch(domain:127.0.0.1)"
+      "WebFetch(domain:127.0.0.1)",
+      "Bash(gh issue:*)"
     ],
     "deny": [],
     "ask": []

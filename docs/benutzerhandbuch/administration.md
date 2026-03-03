@@ -263,6 +263,26 @@ docker compose restart
 
 Hinweis: Der Containername (`docker_server_1`) kann je nach Konfiguration abweichen. Prüfen Sie den korrekten Namen mit `docker ps`.
 
+### Encoding-Fehler bei Wiederherstellung (MySQL nach MariaDB) {#encoding-fehler-backup}
+
+Beim Einspielen eines MySQL-Backups in eine MariaDB-Instanz kann es zu einem Encoding-Fehler kommen. MySQL 8 verwendet standardmäßig die Kollation `utf8mb4_0900_ai_ci`, die in MariaDB nicht existiert. Der Import schlägt dadurch teilweise fehl.
+
+**Symptome:**
+
+- Der Backupmanager zeigt eine Warnung, meldet aber insgesamt Erfolg.
+- Es fehlt mindestens eine Tabelle (z.B. werden nur 38 von 39 Tabellen importiert).
+- Der Server meldet eine alte Version (oder "unknown"), obwohl eine höhere Version installiert ist.
+
+**Lösung:**
+
+Vor dem Einspielen des Backups muss die Kollation im SQL-Dump ersetzt werden:
+
+```
+sed -i 's/utf8mb4_0900_ai_ci/utf8mb4_general_ci/g' jlawyerdb-dump.sql
+```
+
+Danach kann der Dump wie gewohnt eingespielt werden.
+
 ### Automatischer HTML-Export
 
 
