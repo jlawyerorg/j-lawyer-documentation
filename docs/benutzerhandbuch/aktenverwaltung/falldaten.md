@@ -27,20 +27,25 @@ Die verfügbaren Falldatenblätter werden über Updates bereitgestellt. Folgende
 | **Arbeitsrecht** | Arbeitsrecht: Kündigungsschutz | Kündigungsschutzklage |
 | **Arbeitsrecht** | Arbeitsrecht: Elternzeit | Elternzeiten erfassen und darstellen |
 | **Arbeitsrecht** | Arbeitsrecht: Vertragsprüfung | Arbeitsvertrag prüfen |
+| **Arbeitsrecht** | Arbeitsrecht: Teilzeit in Elternzeit | Teilzeit in Elternzeit |
 | **Familienrecht** | Familienrecht | Allgemeine Familienrechtssachen |
 | **Erbrecht** | Erbrecht | Daten zu Beteiligten und Testament |
 | **Strafrecht** | Strafrecht | Erfassung von Strafrechtsverfahren |
 | **Betreuungsrecht** | Betreuung | Erfassung von Betreuten-Stammdaten |
+| **Betreuungsrecht** | Betreuung 2026+ | Betreuung, ab dem Jahr 2026 |
 | **Sozialrecht** | Untätigkeitsklage SGG | Untätigkeitsklagen-Generator |
 | **Inkasso** | Inkasso | Inkasso und Forderungsmanagement |
 | **Inkasso** | Inkasso: Forderung | Erfassungsbogen für offene Forderung |
 | **Wettbewerbsrecht** | UWG-Verfahren | Erfassung von UWG-Verfahren |
+| **Wettbewerbsrecht** | UWG-Auswertung | Auswertungen zu UWG-Verfahren |
 | **Verbraucherschutz** | UKlaG Beanstandung | Beanstandung nach UKlaG |
 | **Verbraucherschutz** | UKlaG Scorecard | Statistik-relevante Daten nach UKlaG |
 | **Verbraucherschutz** | UKlaG Dokumente | Dokumentenerfassung nach UKlaG |
 | **Notariat** | Notariat: Kaufvertrag | Notarielle Kaufverträge |
 | **Notariat** | Notariat: UVZ | Eintragungen im Urkundenverzeichnis |
 | **Rechtspsychologie** | psych. Gutachten | Bearbeitung rechtspsychologischer Gutachten |
+| **Gewerblicher Rechtsschutz** | gew. Schutzrecht | Gewerbliches Schutzrecht |
+| **Allgemein** | frei konfigurierbare Falldaten | Frei konfigurierbares Falldatenblatt mit verschiedenen Oberflächenelementen |
 | **Integration** | Gravity Forms | Übernahme von Eingaben aus WordPress Gravity Forms |
 | **Integration** | Justin Legal | Digitale Mandatsannahme via Justin Legal |
 
