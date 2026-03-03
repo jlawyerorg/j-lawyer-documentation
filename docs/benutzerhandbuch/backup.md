@@ -38,11 +38,15 @@ Die Synchronisation per SFTP / SSH eignet sich insbesondere für die Spiegelung 
 
 Soll mit dem Nutzer „anwalt" per SSH zum Gerät mit IP 192.168.178.10 verbunden werden und in dessen Ordner „/home/anwalt/datensicherung" synchronisiert werden, so kann der Zugang vorab wie folgt geprüft werden: im Terminal
 
+```bash
 ssh anwalt@192.168.178.10
+```
 
 (Passwort eingeben)
 
+```bash
 cd /home/anwalt/datensicherung
+```
 
 Sind die Verbindung und der Verzeichniswechsel ohne Fehlermeldung möglich, so werden die Daten wie wie folgt im j-lawyer.org Client eingetragen:
 
@@ -78,7 +82,7 @@ Eine Wiederherstellung Ihrer Daten aus einem Backup ist über die separate Anwen
 
 - Kopieren Sie die Datensicherung auf das Gerät, auf welchem der j-lawyer.org Server läuft
 
-- Starten Sie den Backupmanager über das Startmenü. Sollte die Installation nicht über eine grafische Oberfläche verfügen (bspw. Minimalinstallation eines Linuxservers), so öffnen Sie eine Konsole, wechseln Sie in das Verzeichnis Ihrer j-lawyer.org Serverinstallation, Unterverzeichnis "backupmgr", und starten dort "java -jar j-lawyer-backupmgr.jar -console"
+- Starten Sie den Backupmanager über das Startmenü. Sollte die Installation nicht über eine grafische Oberfläche verfügen (bspw. Minimalinstallation eines Linuxservers), so öffnen Sie eine Konsole, wechseln Sie in das Verzeichnis Ihrer j-lawyer.org Serverinstallation, Unterverzeichnis "backupmgr", und starten dort `java -jar j-lawyer-backupmgr.jar -console`
 
 - Geben Sie die Pfade zu den Verzeichnissen mit der einzuspielenden Datensicherung sowie dem aktuell genutzten Datenverzeichnis des j-lawyer.org Servers an, sowie das MySQL-root-Passwort und optional das Verschlüsselungspasswort, mit welchem die Datensicherung verschlüsselt wurde.
 
@@ -89,9 +93,10 @@ Abschließend starten Sie Ihren j-lawyer.org Server neu. Wurde der Backupmanager
 macOS: Auf macOS muss der Backupmanager als administrativer Nutzer (root-Rechte) gestartet werden. Nutzen Sie daher einen Nutzer mit administrativen Rechten zum Starten des Backupmanagers, oder starten Sie die Anwendung über "sudo":
 - Terminal öffnen
 
-- cd /Applications/j-lawyer-server/j-lawyer-backupmgr/j-lawyer-backupmgr.app/Contents/MacOS
-
-- sudo ./JavaApplicationStub
+```bash
+cd /Applications/j-lawyer-server/j-lawyer-backupmgr/j-lawyer-backupmgr.app/Contents/MacOS
+sudo ./JavaApplicationStub
+```
 
 Danach wählen Sie den Ordner in welchem die Datensicherung liegt, bspw. "/Users/anwalt123/Downloads/j-lawyer-backup", geben das Datenbankpasswort und optional das Passwort ein, welches zur Verschlüsselung der Datensicherung genutzt wurde. Das j-lawyer.org Datenverzeichnis lautet "/Applications/j-lawyer-server/j-lawyer-data". Über "Wiederherstellen" startet der Wiederherstellungsvorgang.
 
@@ -123,28 +128,29 @@ Eine Wiederherstellung Ihrer Daten aus einem Backup ist über folgende Schritte 
 
 Unter Linux nutzen Sie Ihr favorisiertes Packprogramm ihres Window Managers oder nutzen das Terminal:
 
+```bash
 unzip <Dateiname>
+```
 
 Unter Windows kann ich das kostenlose Programm 7zip empfehlen.
 - Datenbank einspielen
 
 Öffnen Sie eine Eingabeaufforderung / Terminal und wechseln Sie in das Verzeichnis, in welches Sie die ZIP-Datei entpackt haben. Von dort starten Sie den MySQL-Kommandozeilen-Client
 
+```bash
 mysql -u root -p
+```
 
 Geben Sie das Passwort des „root"-Nutzers Ihrer MySQL-Installation ein, wenn Sie danach gefragt werden. Anschließend wird über die folgenden Befehle zuerst eine evtl. bestehende j-lawyer – Datenbank entfernt und dann aus dem Backup wiederhergestellt:
 
+```sql
 drop database if exists jlawyerdb;
-
 create database jlawyerdb;
-
 use jlawyerdb;
-
 source jlawyerdb-dump.sql;
-
 commit;
-
 quit;
+```
 
 Abschließend kopieren Sie alle aus der ZIP-Datei entpackten Verzeichnisse in das „j-lawyer-data"-Verzeichnis Ihrer j-lawyer – Serverinstallation und starten Sie Ihren Server.
 
