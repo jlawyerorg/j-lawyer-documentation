@@ -46,8 +46,6 @@ Im Freigabe-Dialog haben Sie zwei Möglichkeiten:
 - **Vorhandene Freigabe nutzen**: Wählen Sie eine bereits existierende Freigabe aus der Liste und laden Sie die Dokumente dorthin hoch
 - **Neue Freigabe erstellen**: Erstellen Sie eine neue Freigabe mit individuellen Einstellungen
 
-![Abbildung 57](../images/j-lawyer-org-UserGuide-de-063.png)
-
 #### Bestehende Freigaben durchsuchen
 
 Die Liste zeigt alle vorhandenen Ordner-Freigaben an. Mit dem Suchfeld können Sie die Liste filtern, um schnell die gewünschte Freigabe zu finden.
@@ -70,6 +68,8 @@ Die Ordnerstruktur kann automatisch basierend auf Aktenzeichen und/oder Empfäng
 | **Beteiligte** | `j-lawyer/Müller, Max/` |
 | **Akte-Beteiligte** | `j-lawyer/12345-2024/Müller, Max/` |
 | **Beteiligte-Akte** | `j-lawyer/Müller, Max/12345-2024/` |
+
+![Abbildung 57](../images/j-lawyer-org-UserGuide-de-063.png)
 
 Alternativ können Sie auch einen bestehenden Ordner aus der Dropdown-Liste auswählen oder einen eigenen Pfad eingeben.
 
@@ -108,7 +108,7 @@ Nach dem Erstellen der Freigabe gibt es zwei Möglichkeiten, den Link zu übermi
 | Option | Beschreibung |
 |--------|--------------|
 | **Freigeben (Zwischenablage)** | Der Freigabelink wird in die Zwischenablage kopiert |
-| **Freigeben (E-Mail)** | Es öffnet sich ein E-Mail-Versandfenster mit voreingetragenem Link |
+| **Freigeben (E-Mail)** | Es öffnet sich ein E-Mail-Versandfenster mit voreingetragenem Link (Post-Vorlage mit Platzhalter `{{CLOUD_LINK}}` erforderlich) |
 
 !!! info "Platzhalter in E-Mail-Vorlagen"
     Soll für den Versand per E-Mail eine Vorlage verwendet werden, kann der Freigabelink als Platzhalter `{{CLOUD_LINK}}` eingebunden werden.
