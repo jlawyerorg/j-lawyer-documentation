@@ -76,12 +76,34 @@ Für die Transkription stehen verschiedene Varianten zur Verfügung:
 
 Über den Button „neues Dokument“ wird das Vorlagensystem genutzt, um den Text in einen Schriftsatz zu übernehmen. Der von Assistent Ingo generierte Text wird dabei an die Stelle des Platzhalters {{INGO_TEXT}} gesetzt.
 
-Diktatbausteine und nutzerdefinierte Ersetzungen
+### Transkription und Interpunktion {#transkription-interpunktion}
 
-Im Menü „Einstellungen“ – „Assistent Ingo“ – „automatische Ersetzungen“ lassen sich erkannte Textinhalte (einzelne Wörter oder Wortgruppen) definieren, bei deren Erkennung ein alternativer Wert (einzelne Wörter, Wortgruppen, komplette Absätze) erscheinen soll. Das ermöglicht bspw.
-- das Korrigieren von konsistent falsch erkannten Termen, bspw. Namen (den falsch erkannten „Stefan Laiendecker“ durch den korrekten Namen „Stephan Leijendekker“ ersetzen)
+Bei klassischen Diktierlösungen werden Satzzeichen üblicherweise mitgesprochen. Ein typisches Diktat klingt dann beispielsweise so:
 
-- das effizientere Diktieren häufig wiederkehrerender Passagen, bspw. „Vollmachthinweis“ ersetzen durch „Bitte bringen Sie zum Termin vollständige Unterlagen und die unterschriebene Vollmacht mit.“
+*„Sehr geehrte Damen und Herren Komma ich nehme Bezug auf Ihr Schreiben vom 5 Punkt März 2026 Punkt Absatz Mein Mandant weist die Forderung zurück Punkt”*
+
+KI-basierte Transkription – wie sie in j-lawyer.org zum Einsatz kommt – arbeitet grundlegend anders: Das Sprachmodell analysiert den gesprochenen Text im Kontext und setzt Satzzeichen automatisch. Das gleiche Diktat klingt daher natürlichsprachig:
+
+*„Sehr geehrte Damen und Herren, ich nehme Bezug auf Ihr Schreiben vom 5. März 2026. Mein Mandant weist die Forderung zurück.”*
+
+Man diktiert also so, wie man spricht – flüssig und ohne Unterbrechung für Satzzeichen. Die Vorteile dieses Ansatzes:
+
+- **Natürliches Sprechen**: Es wird frei und ohne Kommandos gesprochen, was den Diktierprozess deutlich angenehmer macht.
+- **Höhere Geschwindigkeit**: Das Weglassen gesprochener Satzzeichen spart spürbar Zeit.
+- **Bessere Erkennungsrate**: Da das Modell den gesamten Kontext berücksichtigt, werden Satzzeichen in der Regel korrekt gesetzt.
+- **Geringere Fehleranfälligkeit**: Gesprochene Satzzeichen wie „Komma” oder „Punkt” können bei klassischen Systemen selbst fehlerkannt werden – bei KI-basierter Transkription entfällt diese Fehlerquelle.
+
+**Hinweis:** Wer sich nicht umgewöhnen möchte und weiterhin Satzzeichen mitsprechen will, kann die Funktion [automatische Ersetzungen](#automatische-ersetzungen) nutzen. Da Assistent Ingo gesprochene Satzzeichen als Wörter transkribiert (z.B. wird das gesprochene Wort „Punkt” wörtlich als „Punkt” im Text erscheinen), können diese per Ersetzung entfernt werden. Beispiel: Eine Ersetzung von „Punkt” durch einen leeren Wert sorgt dafür, dass das gesprochene Wort „Punkt” aus dem transkribierten Text entfernt wird – die automatisch gesetzte Interpunktion bleibt davon unberührt. Ggf. sind zwei Ersetzungen zu konfigurieren, eine für "Punkt" und eine für "Punkt.".
+
+### Transkription: automatische Ersetzungen {#automatische-ersetzungen}
+
+Im Menü „Einstellungen” – „Assistent Ingo” – „automatische Ersetzungen” lassen sich erkannte Textinhalte (einzelne Wörter oder Wortgruppen) definieren, bei deren Erkennung ein alternativer Wert (einzelne Wörter, Wortgruppen, komplette Absätze) erscheinen soll. Für jeden Eintrag kann definiert werden, ob die Erkennung unabhängig von Groß-/Kleinschreibung erfolgen soll. Das ermöglicht bspw.
+
+- das Korrigieren von konsistent falsch erkannten Termen, bspw. Namen (den falsch erkannten „Stefan Laiendecker” durch den korrekten Namen „Stephan Leijendekker” ersetzen)
+
+- das effizientere Diktieren häufig wiederkehrender Passagen, bspw. „Vollmachthinweis” ersetzen durch „Bitte bringen Sie zum Termin vollständige Unterlagen und die unterschriebene Vollmacht mit.”
+
+- das Entfernen unerwünschter Wörter aus der Transkription, indem der Ersetzungswert leer gelassen wird
 
 ### Übersetzung {#uebersetzung}
 
