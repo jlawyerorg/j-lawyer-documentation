@@ -212,3 +212,30 @@ Jederzeit kann der aktuelle Forderungsstand abgerufen werden mit:
 - Aufschlüsselung nach Positionen
 
 - Historische Entwicklung der Buchungen
+
+## Externe Verwendung der Aufstellung {#externe-verwendung}
+
+Der Inhalt des Forderungskontos kann über den Tab **Aufstellung** für die Weiterverwendung außerhalb von j-lawyer exportiert werden. Dazu stehen zwei Wege zur Verfügung:
+
+### In die Zwischenablage kopieren {#zwischenablage}
+
+Über die Schaltfläche **In Zwischenablage kopieren** wird die gesamte Aufstellung als formatierte HTML-Tabelle in die Zwischenablage übernommen. Die Tabelle enthält folgende Spalten:
+
+| Spalte | Beschreibung |
+|--------|--------------|
+| Datum | Datum der Buchung |
+| Bezeichnung | Beschreibung der Buchung |
+| Zahlung | Eingegangene Zahlungen |
+| unverz. Kosten | Unverzinsliche Kosten |
+| verz. Kosten | Verzinsliche Kosten |
+| Zinsen | Berechnete Zinsen |
+| Forderung | Forderungsbetrag |
+
+Die so kopierte Tabelle kann direkt in Textverarbeitungsprogramme (z.B. LibreOffice Writer) oder Tabellenkalkulationen eingefügt werden. Schriftgröße und Rahmenfarbe der Tabelle richten sich nach den globalen Tabelleneinstellungen (Menü "Plugins" - "Tabelleneinstellungen").
+
+### CSV-Export {#csv-export}
+
+Über die Schaltfläche **CSV-Export** wird die Aufstellung als CSV-Datei (`aktenkonto-aufstellung.csv`) exportiert und direkt mit der dafür konfigurierten Anwendung geöffnet. Dies eignet sich insbesondere für die Weiterverarbeitung in Tabellenkalkulationsprogrammen.
+
+!!! info "Hinweis"
+    Es gibt aktuell noch keinen Platzhalter im Vorlagensystem, um die Aufstellung des Forderungskontos automatisch in Dokumente einzufügen. Die Übernahme erfolgt daher manuell über die Zwischenablage oder den CSV-Export.
