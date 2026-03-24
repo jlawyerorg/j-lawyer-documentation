@@ -68,7 +68,7 @@ Manuelles SSH-Login auf der j-lawyer.BOX:
     - Putty herunterladen – Quelle: <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>
     - Nach dem Start von putty.exe bitte folgende Einstellungen vornehmen (in der Regel ist nur der Wert unter “Hostname (or IP address)” zu ändern):
 
-![Abbildung 66](../images/j-lawyer-org-UserGuide-de-073.png)
+    ![Abbildung 66](../images/j-lawyer-org-UserGuide-de-073.png)
 
     - Es wird ein Passwort abgefragt. Es handelt sich um das Passwort des Betriebssystemnutzers “root” - Sie finden das Passwort auf der mit der j-lawyer.BOX ausgelieferten “Identity Card” (der Teil nach dem Schrägstrich).
     - Nach erfolgreichem Login folgendes Kommando ausführen: `sudo service j-lawyer-server restart` (und ENTER)
