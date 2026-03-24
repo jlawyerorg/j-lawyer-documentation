@@ -91,8 +91,10 @@ Das Problem lässt sich durch Installation der folgenden Pakete beheben:
 - libxi6
 - libxtst6
 - libxrender1
-- libongoft2-1.0.0
+- libpangoft2-1.0.0
 
-Anschließend muss die Datei sudo vim /etc/java-8-openjdk/accessibility.properties bearbeitet und die folgende Zeile auskommentiert werden:
+Anschließend muss die Datei /etc/java-11-openjdk/accessibility.properties bearbeitet und die folgende Zeile auskommentiert werden:
 
-assistive_technologies=org.GNOME.Accessibility.AtkWrapper
+`assistive_technologies=org.GNOME.Accessibility.AtkWrapper`
+
+(Pfad zu dieser Datei kann von Linux-Distribution zu Linux-Distribution abweichen)
