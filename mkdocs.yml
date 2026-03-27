@@ -166,10 +166,11 @@ nav:
       - Einstellungen: benutzerhandbuch/mobile-app/einstellungen.md
   - Release Notes:
     - Übersicht: releasenotes/index.md
+    - Version 3.5: releasenotes/v3-5.md
     - Version 3.4: releasenotes/v3-4.md
     - Version 3.3: releasenotes/v3-3.md
-    - Version 3.2: releasenotes/v3-2.md
     - Archiv:
+      - Version 3.2: releasenotes/v3-2.md
       - Version 3.1: releasenotes/v3-1.md
       - Version 3.0: releasenotes/v3-0.md
       - Version 2.6.1: releasenotes/v2-6-1.md

@@ -4,6 +4,7 @@
 
 ## Aktuelle Versionen
 
+- [Version 3.5](v3-5.md)
 - [Version 3.4](v3-4.md)
 - [Version 3.3](v3-3.md)
 - [Version 3.2](v3-2.md)

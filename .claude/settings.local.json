@@ -27,7 +27,10 @@
       "Bash(mkdocs build:*)",
       "Bash(pip show:*)",
       "WebFetch(domain:127.0.0.1)",
-      "Bash(gh issue:*)"
+      "Bash(gh issue:*)",
+      "Bash(gh project:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh api:*)"
     ],
     "deny": [],
     "ask": []
