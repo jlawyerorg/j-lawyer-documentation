@@ -337,6 +337,16 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Konfigurieren Sie passende Dokumenten-Etiketten wie „E-Mail" oder „Eingang", um importierte E-Mails schnell zu erkennen
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
 
+## Termineinladungen aus E-Mails übernehmen {#termineinladungen}
+
+Enthält eine E-Mail eine Termineinladung (ICS-Datei als Anhang), wird diese automatisch erkannt und oberhalb des E-Mail-Inhalts als Hinweisleiste angezeigt. Die Leiste zeigt:
+
+- **Zusammenfassung** des Termins
+- **Datum und Uhrzeit** (Beginn und Ende)
+- **Ort** (sofern angegeben)
+
+Per Klick auf „als Kalendereintrag übernehmen" wird der Termin als neuer Kalendereintrag angelegt. Dabei werden Zusammenfassung, Beschreibung, Ort sowie Beginn und Ende aus der Einladung übernommen. Wurde die E-Mail bereits einer Akte zugeordnet, wird der Termin direkt in dieser Akte erstellt. Andernfalls öffnet sich ein Suchedialog zur Auswahl der Zielakte.
+
 ## Thunderbird-Erweiterung {#thunderbird}
 
 Für den E-Mail-Client Thunderbird steht eine Erweiterung zur Verfügung, die eine direkte Integration mit j-lawyer.org ermöglicht. Mit dieser Erweiterung können E-Mails direkt aus Thunderbird an den j-lawyer.org Server gesendet und dort in Akten gespeichert werden.

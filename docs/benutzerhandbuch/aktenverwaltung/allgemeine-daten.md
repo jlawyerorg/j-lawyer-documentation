@@ -97,6 +97,20 @@ Im Tab "Berechtigte" werden alle Gruppen aktiviert, welche Zugriff auf die Akte 
 
 ![Abbildung 6](../../images/j-lawyer-org-UserGuide-de-012.png)
 
+### Standardberechtigungen für neue Akten {#standardberechtigungen}
+
+Damit beim Anlegen neuer Akten nicht jedes Mal Eigentümergruppe und berechtigte Gruppen manuell gesetzt werden müssen, lassen sich Standardwerte im eigenen Benutzerprofil hinterlegen.
+
+Die Konfiguration erfolgt unter **Benutzerprofil** (Klick auf den eigenen Benutzernamen oben rechts) → Tab **„Neue Akten"**:
+
+- **Standard-Eigentümergruppe**: Legt fest, welche Gruppe automatisch als Eigentümergruppe neuer Akten eingetragen wird. Zur Auswahl stehen die Gruppen, in denen der angemeldete Nutzer Mitglied ist.
+- **Berechtigte Gruppen**: Legt fest, welche Gruppen automatisch als berechtigte Gruppen neuer Akten eingetragen werden. Alle verfügbaren Gruppen werden angezeigt und können per Klick aktiviert oder deaktiviert werden.
+
+Die Einstellungen werden pro Nutzer gespeichert. Beim Anlegen einer neuen Akte werden die gespeicherten Standardwerte automatisch übernommen. Sie können in der jeweiligen Akte weiterhin individuell angepasst werden.
+
+!!! info "Hinweis"
+    Wird keine Standard-Eigentümergruppe gewählt, wird wie bisher keine Zugriffsbeschränkung auf neue Akten angewendet.
+
 ### Berechtigungen für mehrere Akten gleichzeitig setzen {#massenberechtigungen}
 
 Administratoren können die Berechtigungen für mehrere Akten auf einmal ändern. Dies ist besonders nützlich, wenn viele Akten gleichzeitig einer neuen Gruppe zugeordnet werden sollen oder wenn ein Anwalt die Kanzlei verlässt und seine Akten übertragen werden müssen.

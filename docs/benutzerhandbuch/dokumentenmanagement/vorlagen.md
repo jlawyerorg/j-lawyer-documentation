@@ -188,7 +188,7 @@ Die Spalten der Belegtabelle lassen sich derzeit nicht über die Tabelleneinstel
 |  | {{BEL_TABELLE}} |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
 
-Darüber hinaus ist es möglich, die Tabelle um weitere Zeilen (mit und ohne Inhalte) zu ergänzen. So lassen sich Bezeichnungen ergänzen, damit beim Bearbeiten direkt sichtbar ist, welche Breite welcher Spalte hier gerade geändert wird. Eventuell eingefügter Text wird im Anschluss durch den Text überschrieben, der in das jeweilige Feld gehört. Ein Umbenennen / Umsortieren / Weglassen von Spalten folgt in einer der nächsten Versionen.
+Darüber hinaus ist es möglich, die Tabelle um weitere Zeilen (mit und ohne Inhalte) zu ergänzen. So lassen sich Bezeichnungen ergänzen, damit beim Bearbeiten direkt sichtbar ist, welche Breite welcher Spalte hier gerade geändert wird. Eventuell eingefügter Text wird im Anschluss durch den Text überschrieben, der in das jeweilige Feld gehört. Für mehr Kontrolle über Spaltenauswahl, -reihenfolge und Formatierung steht alternativ die [flexible Belegtabelle](#flexible-belegtabelle) zur Verfügung.
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -201,6 +201,48 @@ Oder:
 |  | {{BEL_TABELLE}} |  |  |  |  |
 
 Sollte aus einer Vorlage ein Dokument erstellt werden, bleiben die Spaltenbreiten erhalten.
+
+#### Flexible Belegtabelle (Positionsplatzhalter) {#flexible-belegtabelle}
+
+Alternativ zu `{{BEL_TABELLE}}` kann die Tabellenstruktur direkt in der Vorlage gestaltet werden. Der Vorlagendesigner bestimmt selbst Spaltenanzahl, -reihenfolge und Formatierung. Die Vorlage enthält eine Vorlagenzeile mit `{{BELP_*}}`-Platzhaltern, die pro Belegposition automatisch dupliziert wird.
+
+**Platzhalter für Positionen:**
+
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{BELP_NR}}` | Laufende Positionsnummer (1, 2, 3, …) |
+| `{{BELP_NAME}}` | Name der Position |
+| `{{BELP_BESCHR}}` | Beschreibung der Position |
+| `{{BELP_MENGE}}` | Menge |
+| `{{BELP_EINZEL}}` | Einzelpreis |
+| `{{BELP_UST}}` | Umsatzsteuersatz (z.B. „19%") |
+| `{{BELP_NETTO}}` | Nettobetrag der Position |
+
+**Platzhalter für Summen und Steuern:**
+
+| Platzhalter | Beschreibung |
+|-------------|--------------|
+| `{{BEL_SUM_NETTO}}` | Nettosumme aller Positionen |
+| `{{BEL_UST_SATZ}}` | Steuersatz – die Zeile wird pro Steuersatz automatisch dupliziert |
+| `{{BEL_UST_BETRAG}}` | Steuerbetrag für den jeweiligen Satz |
+
+Die bestehenden Platzhalter `{{BEL_TOTAL}}` und `{{BEL_WHRG}}` können in festen Zeilen (z.B. Kopf- oder Fußzeile der Tabelle) weiterhin verwendet werden.
+
+**Beispiel – Vorlage:**
+
+![Beispiel einer Vorlage mit flexiblen Belegplatzhaltern](../../images/flexible-belegtabelle-vorlage.png)
+
+**Ergebnis:**
+
+![Ergebnis der flexiblen Belegtabelle](../../images/flexible-belegtabelle-ergebnis.png)
+
+!!! info "Hinweise"
+    - Mehrere `{{BELP_*}}`-Platzhalter können in einer Zelle kombiniert werden (z.B. `{{BELP_NAME}}`: `{{BELP_BESCHR}}`)
+    - Die Kopfzeile der Tabelle ist frei gestaltbar – hier werden keine Platzhalter benötigt
+    - Formatierung (Schriftart, Rahmen, Farben) wird aus der Vorlage übernommen, nicht aus den Tabelleneinstellungen
+    - Spaltenbreiten werden nach der Ersetzung automatisch angepasst
+    - Funktioniert in LibreOffice- und Microsoft-Word-Vorlagen
+    - `{{BEL_TABELLE}}` bleibt unverändert als einfache Variante nutzbar
 
 ### Platzhalter für Zeiterfassung
 

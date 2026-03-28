@@ -27,6 +27,18 @@ Die Zeiterfassung erfolgt projektbasiert. Ein Projekt definiert einen Rahmen fü
 
 Per Doppelklick oder Rechtsklick → **Bearbeiten** können die Projekteinstellungen angepasst werden.
 
+### Stundensatz nachträglich ändern
+
+In der Projektübersicht können Stundensätze nachträglich für eine bestimmte Person geändert werden:
+
+1. Öffnen Sie das Projekt per Doppelklick
+2. Klicken Sie auf den Button **Stundensatz für Person ändern** (Timer-Icon)
+3. Wählen Sie die gewünschte **Person** aus der Liste
+4. Geben Sie den neuen **Stundensatz** ein
+5. Alle Positionen dieser Person werden aktualisiert und die Gesamtbeträge neu berechnet
+
+Bereits abgerechnete Positionen bleiben unverändert.
+
 ### Projekt abschließen
 
 Abgeschlossene Projekte können nicht mehr bearbeitet werden. Der Status kann über das Kontextmenü geändert werden.
@@ -43,6 +55,15 @@ Der Dialog ist zweigeteilt:
 
 - **Linke Seite**: Liste der offenen Projekte (mit Suchfeld zum Filtern)
 - **Rechte Seite**: Aktive Zeitbuchungen
+
+Jede Zeitbuchung zeigt ihren aktuellen Status durch einen farbigen Rand auf der linken Seite an:
+
+| Farbe | Bedeutung |
+|-------|-----------|
+| **Grau** | Neu angelegt, noch nicht gestartet |
+| **Rot** | Stoppuhr läuft |
+| **Grün** | Gestoppt und gespeichert |
+| **Blau** | Wird bearbeitet (ungespeicherte Änderungen) |
 
 #### Neue Zeitbuchung erstellen
 
@@ -77,7 +98,11 @@ Die manuelle Eingabe unterstützt folgende Formate:
 
 #### Zeitraum nachträglich anpassen
 
-Nach dem Stoppen einer Zeiterfassung können Start- und Endzeit manuell angepasst werden (Format: TT.MM.JJ HH:MM). Speichern nicht vergessen!
+Nach dem Stoppen und Speichern einer Zeiterfassung sind alle Felder zunächst gesperrt. Um Start- und Endzeit nachträglich anzupassen:
+
+1. Klicken Sie auf den **Bearbeiten-Button** (Stift-Icon) – die Felder werden freigeschaltet
+2. Passen Sie Start- und/oder Endzeit an (Format: TT.MM.JJ HH:MM)
+3. Klicken Sie auf **Speichern**
 
 #### Dialog-Buttons
 

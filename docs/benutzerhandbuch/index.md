@@ -26,7 +26,7 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [E-Mail-Integration](email.md)
 
-- [KI-Assistent](ki-assistent.md)
+- [KI-Assistent](ki-assistent/index.md)
 
 - [Auswertungen](auswertungen.md)
 

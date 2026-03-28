@@ -49,7 +49,16 @@ Wählen Sie mehrere Dokumente aus und setzen Sie über das Kontextmenü die Etik
 
 ## Volltextsuche innerhalb der Akte
 
-Über das Suchfeld oberhalb der Dokumentenliste kann innerhalb aller Dokumente der Akte gesucht werden. Treffer werden hervorgehoben und die Dokumentenliste wird entsprechend gefiltert.
+Über das Suchfeld oberhalb der Dokumentenliste kann innerhalb der Akte gesucht werden. Die Dokumentenliste wird entsprechend gefiltert.
+
+Neben dem Suchfeld befindet sich ein Toggle-Button (Lupen-Icon), mit dem zwischen zwei Suchmodi umgeschaltet werden kann:
+
+| Modus | Icon | Beschreibung |
+|-------|------|-------------|
+| **Dateinamensuche** | Lupe durchgestrichen | Sucht nur in Dateinamen (Standard) |
+| **Volltextsuche** | Lupe | Durchsucht zusätzlich den Inhalt aller Dokumente der Akte |
+
+Die gewählte Einstellung wird pro Nutzer gespeichert und bleibt beim nächsten Anmelden erhalten.
 
 ## Umfangreiche Akten organisieren {#organisation}
 
@@ -247,7 +256,7 @@ Das Untermenü **PDF und Konvertierung** enthält Funktionen zur PDF-Bearbeitung
 | **Assistent Ingo** | Öffnet den KI-Assistenten zur Analyse des Dokuments |
 
 !!! info "Hinweis"
-    Weitere Details zum KI-Assistenten finden Sie unter [KI-Assistent](../ki-assistent.md).
+    Weitere Details zum KI-Assistenten finden Sie unter [KI-Assistent](../ki-assistent/index.md).
 
 ### Vorlagen
 

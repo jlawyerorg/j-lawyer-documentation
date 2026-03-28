@@ -22,7 +22,7 @@ Nachrichten mit Akten- oder Dokumentenbezug ermöglichen eine Navigation zum ver
 
 ### Erwähnungen
 
-Beim Verfassen einer Nachricht öffnet sich bei Eingabe von “@” eine Auswahl von Nutzern und Nutzerinnen, nach Auswahl kann mittels Leertaste bestätigt und weiterer Text eingegeben werden. Daraufhin wird eine – zu bestätigende – Erwähnung für den Nutzer oder die Nutzerin erstellt und im zentralen Nachrichteneingang angezeigt. Erwähnungen des eigenen Nutzers können durch Klick auf den roten Indikator vor der Nachricht bestätigt werden. Erwähnungen an andere Nutzer sind per Farbindikator und Tooltip hinsichtlich ihrer Abarbeitung nachvollziehbar.
+Beim Verfassen einer Nachricht öffnet sich bei Eingabe von “@” eine Auswahl von Nutzern und Nutzerinnen. In dieser Auswahl kann direkt weitergetippt werden, um die Liste nach Accountnamen zu filtern. Nach Auswahl kann mittels Leertaste bestätigt und weiterer Text eingegeben werden. Daraufhin wird eine – zu bestätigende – Erwähnung für den Nutzer oder die Nutzerin erstellt und im zentralen Nachrichteneingang angezeigt. Erwähnungen des eigenen Nutzers können durch Klick auf den roten Indikator vor der Nachricht bestätigt werden. Erwähnungen an andere Nutzer sind per Farbindikator und Tooltip hinsichtlich ihrer Abarbeitung nachvollziehbar.
 
 Mittels „@alle …“ können alle aktiven Accounts erwähnt werden.
 

@@ -2,7 +2,15 @@
 
 ## Zentraler Scanordner
 
-j-lawyer bietet eine einfache Möglichkeit, gescannte oder andere bereits vorhandene Dokumente halbautomatisch zu Akten zuzuordnen. Dazu überwacht die Anwendung einen Ordner auf dem Server und zeigt an den Arbeitsplätzen die Dokumente in diesem Ordner an, sowie eine Liste möglicher Aktionen: Dokument löschen, Dokument einer der zuletzt geänderten Akten zuordnen, Dokument einer Akte zuordnen, deren Aktennummer oder Kurzrubrum Ähnlichkeit mit dem Dokumentnamen hat, oder Suchen einer Akte mit anschließender Zuordnung. Heißt das Dokument bspw. „387.pdf", so wird bspw. das Zuordnen zu einer Akte 00387/12 vorgeschlagen; heißt das Dokument „meier.pdf", würde bspw. die Akte „Schulze ./. Meier" vorgeschlagen werden.
+j-lawyer bietet eine einfache Möglichkeit, gescannte oder andere bereits vorhandene Dokumente halbautomatisch zu Akten zuzuordnen. Dazu überwacht die Anwendung einen Ordner auf dem Server und zeigt an den Arbeitsplätzen die Dokumente in diesem Ordner an, sowie eine Liste möglicher Aktionen: Dokument löschen, Dokument einer Akte zuordnen oder Suchen einer Akte mit anschließender Zuordnung.
+
+### Aktenvorschläge {#aktenvorschlaege}
+
+Beim Auswählen eines Dokuments im Scaneingang werden automatisch passende Akten vorgeschlagen. Die Vorschläge werden in folgender Reihenfolge ermittelt:
+
+1. **Textbasierte Suche im Dokumentinhalt**: Der Inhalt des gescannten Dokuments wird per Texterkennung analysiert. Der erkannte Text wird nach eigenen Aktenzeichen und nach Fremdaktenzeichen (Aktenzeichen von Beteiligten) durchsucht. Werden Treffer gefunden, werden die zugehörigen Akten vorgeschlagen.
+2. **Dateinamenbasierte Suche**: Der Dateiname wird mit Aktenzeichen und Kurzrubren abgeglichen. Heißt das Dokument bspw. „387.pdf", so wird das Zuordnen zu einer Akte 00387/12 vorgeschlagen; heißt das Dokument „meier.pdf", würde bspw. die Akte „Schulze ./. Meier" vorgeschlagen.
+3. **Zuletzt geänderte Akten**: Werden keine textbasierten oder dateinamenbasierten Treffer gefunden, werden die zuletzt geänderten Akten als Vorschläge angeboten.
 
 Konfigurieren Sie Ihren Scanner so, daß alle Scans automatisch in diesem Ordner abgelegt werden, haben Sie so eine komfortable Möglichkeit, direkt im j-lawyer auf die Dokumente zuzugreifen.
 
@@ -60,3 +68,72 @@ Der Texterkennungsstatus wird im Scaneingang in der Spalte „OCR" angezeigt:
 | rot | OCR nicht möglich, fehlgeschlagen, oder nicht konfiguriert |
 
 Ist der Status rot, so kann per Klick im Aktionsmenü erneut eine Texterkennung für das Dokument angefordert werden (bspw. weil zum Zeitpunkt der Texterkennung eine fehlende Konfiguration bestand).
+
+## Dropscan-Integration {#dropscan}
+
+[Dropscan](https://www.dropscan.de) ist ein digitaler Briefkasten-Dienst: Physische Post wird an eine Dropscan-Adresse gesendet, dort empfangen und auf Anforderung digitalisiert. j-lawyer.org integriert sich mit Dropscan, sodass eingehende Post direkt aus dem Scaneingang heraus digitalisiert und Akten zugeordnet werden kann.
+
+### Einrichtung
+
+Die Dropscan-Integration wird pro Nutzer in der Nutzerverwaltung konfiguriert:
+
+1. Öffnen Sie die Nutzerverwaltung und wählen Sie den gewünschten Nutzer aus
+2. Wechseln Sie zum Tab „Sipgate / E-POST / Dropscan"
+3. Geben Sie den persönlichen Dropscan-API-Token in das Token-Feld ein
+4. Klicken Sie auf „Verbindung testen"
+5. Bei erfolgreicher Verbindung werden die verfügbaren Scanboxen mit Nummer und ID angezeigt
+
+!!! info "Hinweis"
+    Jeder Nutzer konfiguriert seinen eigenen API-Token. Der Token wird verschlüsselt in der Datenbank gespeichert.
+
+### Scaneingang: Dropscan-Bereich
+
+Im Scaneingang steht ein eigener Bereich für Dropscan-Sendungen zur Verfügung. Dieser ist in drei Bereiche gegliedert:
+
+**Filter und Aktualisierung**
+
+- **Scanbox-Filter:** Auswahl zwischen „Alle" und einzelnen Scanboxen
+- **Status-Filter:** Einschränkung auf einen bestimmten Status (Alle, Empfangen, Gescannt, Scan angefordert, Vernichtet, Weitergeleitet)
+- **Aktualisieren:** Manuelle Aktualisierung der Sendungsliste
+- **Nach Zuordnung vernichten:** Ist diese Option aktiviert, wird die physische Sendung bei Dropscan automatisch nach dem Import in eine Akte zur Vernichtung freigegeben
+
+**Sendungsliste und Vorschau**
+
+Die Sendungsliste zeigt alle Sendungen in einer Tabelle mit folgenden Spalten:
+
+| Spalte | Inhalt |
+|--------|--------|
+| Scanbox | Nummer der Scanbox |
+| Datum | Eingangsdatum |
+| Status | Aktueller Bearbeitungsstatus |
+| Zustellweg | Art des Eingangs (Briefeingang, Weiterleitung oder Upload) |
+
+Unterhalb der Tabelle wird eine Vorschau angezeigt: Bei noch nicht gescannten Sendungen ein Bild des Umschlags, bei bereits gescannten Sendungen das PDF-Dokument. Über die Aktionsbuttons „Scannen" und „Vernichten" können Aktionen für die ausgewählte Sendung ausgelöst werden.
+
+**Aktenzuordnung**
+
+Im rechten Bereich werden Vorschläge für passende Akten angezeigt. Die Vorschläge basieren auf dem per OCR erkannten Text der gescannten Dokumente – dabei werden Aktenzeichen und Kurzrubren abgeglichen. Zusätzlich werden die zuletzt geänderten Akten als Vorschläge angeboten. Per Klick auf einen Vorschlag werden die Dokumente der Sendung in die gewählte Akte importiert.
+
+### Typischer Arbeitsablauf
+
+1. Post geht bei Dropscan ein – die Sendung erscheint im Scaneingang mit Status „Empfangen"
+2. Wählen Sie die Sendung aus und klicken Sie auf „Scannen", um die Digitalisierung anzufordern – Status wechselt auf „Scan angefordert"
+3. Dropscan digitalisiert die Sendung – Status wechselt auf „Gescannt"
+4. Wählen Sie die gescannte Sendung aus: In der Vorschau wird das PDF angezeigt, rechts erscheinen Vorschläge für passende Akten
+5. Klicken Sie auf den passenden Aktenvorschlag – die Dokumente werden heruntergeladen und über den Import-Dialog in die Akte übernommen
+6. Ist die Option „nach Zuordnung vernichten" aktiviert, wird die physische Sendung bei Dropscan automatisch zur Vernichtung freigegeben
+
+!!! warning "Achtung"
+    Die Vernichtung einer Sendung bei Dropscan ist unwiderruflich. Stellen Sie sicher, dass die Dokumente korrekt importiert wurden, bevor Sie eine Sendung vernichten.
+
+### Status-Übersicht
+
+| Status | Bedeutung |
+|--------|-----------|
+| Empfangen | Sendung ist bei Dropscan eingegangen |
+| Scan angefordert | Digitalisierung wurde angefordert und wird verarbeitet |
+| Gescannt | Dokument wurde digitalisiert und steht als PDF bereit |
+| Vernichtung angefordert | Vernichtung der physischen Sendung wurde angefordert |
+| Vernichtet | Sendung wurde physisch vernichtet |
+| Weiterleitung angefordert | Physische Weiterleitung der Sendung wurde angefordert |
+| Weitergeleitet | Sendung wurde physisch weitergeleitet |

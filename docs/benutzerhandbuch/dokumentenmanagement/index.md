@@ -13,7 +13,7 @@ Das Dokumentenmanagement in j-lawyer.org ermöglicht die zentrale Verwaltung all
 | [Dokumente erstellen](dokumente-erstellen.md) | Aus Vorlagen erstellen, hinzufügen |
 | [Dokumente sperren](sperren.md) | Zeitgleiche Bearbeitung durch mehrere Nutzer verhindern |
 | [Papierkorb](papierkorb.md) | Gelöschte Dokumente verwalten und wiederherstellen |
-| [Scanner-Integration](scanner.md) | Zentraler/lokaler Scanordner, OCR-Texterkennung |
+| [Scanner-Integration](scanner.md) | Zentraler/lokaler Scanordner, OCR-Texterkennung, Dropscan |
 | [Volltextsuche](volltextsuche.md) | Dokumente durchsuchen |
 | [PDF-Funktionen](pdf.md) | Konvertierung, Export, Schwärzen, externe Programme |
 | [Verschlüsselung](verschluesselung.md) | Dokumente verschlüsselt versenden |

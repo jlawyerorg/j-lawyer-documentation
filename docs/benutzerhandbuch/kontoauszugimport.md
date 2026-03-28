@@ -36,25 +36,33 @@ Für jede Transaktion werden folgende Informationen angezeigt:
 
 ### Automatische Zuordnung {#automatische-zuordnung}
 
-Das System versucht automatisch, jede Transaktion einer Akte und einem Beleg zuzuordnen. Die Zuordnung erfolgt nach folgender Logik:
+Das System versucht automatisch, jede Transaktion einer Akte und einem Beleg zuzuordnen. Die Zuordnung erfolgt in folgender Reihenfolge – sobald ein Treffer gefunden wird, werden die nachfolgenden Schritte übersprungen:
 
-#### 1. Suche nach Belegnummer im Verwendungszweck
+#### 1. Suche nach Rechnungsnummer im Verwendungszweck
 
-Das System durchsucht den Verwendungszweck der Transaktion nach bekannten Rechnungs- oder Zahlungsnummern offener Belege. Dabei werden zwei Methoden angewandt:
+Das System durchsucht den Verwendungszweck nach Rechnungsnummern offener Belege (Status: offen, Mahnstufen 1-3, neu). Dabei werden zwei Methoden angewandt:
 
-- **Exakte Übereinstimmung**: Die Belegnummer ist vollständig im Verwendungszweck enthalten
-- **Ähnlichkeitssuche (Jaro-Winkler)**: Bei geringfügigen Abweichungen (z.B. Tippfehler) wird eine Ähnlichkeitsanalyse durchgeführt. Eine Übereinstimmung von über 90% führt zur Zuordnung.
+- **Exakte Übereinstimmung**: Die Rechnungsnummer ist vollständig im Verwendungszweck enthalten
+- **Ähnlichkeitssuche (Jaro-Winkler)**: Wird keine exakte Übereinstimmung gefunden, wird eine Ähnlichkeitsanalyse durchgeführt. Eine Übereinstimmung von über 90% führt zur Zuordnung. Bei mehreren Treffern wird der mit der höchsten Ähnlichkeit gewählt.
 
-#### 2. Suche nach IBAN
+#### 2. Suche nach Zahlungsnummer im Verwendungszweck
 
-Falls keine Belegnummer gefunden wird, prüft das System die IBAN des Absenders:
+Analog zur Rechnungsnummer wird der Verwendungszweck nach Zahlungsnummern offener ausgehender Zahlungen durchsucht (Status: neu, genehmigt, initiiert). Auch hier wird zunächst exakt und dann per Ähnlichkeitssuche geprüft.
 
-- Die IBAN wird mit den in Kontakten hinterlegten IBANs abgeglichen
+#### 3. Suche nach Aktenzeichen im Verwendungszweck
+
+Falls weder eine Rechnungs- noch eine Zahlungsnummer gefunden wird, durchsucht das System den Verwendungszweck nach Aktenzeichen. Die Suche erfolgt ohne Berücksichtigung der Groß-/Kleinschreibung. Längere Aktenzeichen werden bevorzugt geprüft, um Fehlzuordnungen bei kurzen Nummern zu vermeiden.
+
+#### 4. Suche nach IBAN
+
+Falls keiner der vorherigen Schritte erfolgreich war, prüft das System die IBAN des Absenders:
+
+- Die IBAN wird normalisiert (Leerzeichen und Bindestriche entfernt) und ohne Berücksichtigung der Groß-/Kleinschreibung mit den in Kontakten hinterlegten IBANs abgeglichen
 - Ist der Kontakt **eindeutig einer aktiven Akte** zugeordnet, wird diese Akte vorgeschlagen
 - Bei mehreren aktiven Akten zum selben Kontakt erfolgt keine automatische Zuordnung
 
 !!! info "Hinweis"
-    Archivierte Akten werden bei der automatischen Zuordnung nicht berücksichtigt.
+    Archivierte Akten werden bei der automatischen Zuordnung nicht berücksichtigt – weder bei der Aktenzeichen-Suche noch bei der IBAN-Zuordnung. Rechnungen und Zahlungen archivierter Akten können jedoch über ihre Beleg- oder Zahlungsnummer zugeordnet werden.
 
 ### Verfügbare Aktionen {#verfuegbare-aktionen}
 
