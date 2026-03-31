@@ -83,7 +83,7 @@ Für einen erfolgreichen SEPA-Export müssen folgende Bedingungen erfüllt sein:
 
 - Die Zahlung hat den Status **freigegeben**
 - Beim Empfänger ist eine gültige IBAN hinterlegt
-- Beim Sender (Benutzer) sind IBAN und BIC hinterlegt
+- Beim Sender (Benutzer) sind Unternehmensname, IBAN und BIC hinterlegt (siehe [Nutzerverwaltung](nutzerverwaltung.md))
 - Die Zahlungsart ist **SEPA-Überweisung**
 
 ### Validierung
