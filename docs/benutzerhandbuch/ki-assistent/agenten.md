@@ -122,6 +122,14 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 |----------|-------------|--------|
 | `create_note` | Erstellt eine Aktennotiz als HTML-Dokument | Mittel |
 | `create_instant_message` | Erstellt eine Sofortnachricht mit Aktenbezug | Mittel |
+| `search_instant_messages` | Durchsucht Sofortnachrichten/Verfügungen (nach Akte oder Zeitraum) | Niedrig |
+
+### Falldatenblätter {#tools-falldatenblaetter}
+
+| Werkzeug | Beschreibung | Risiko |
+|----------|-------------|--------|
+| `list_form_types` | Listet alle verfügbaren Falldatenblätter (Formulare) auf | Niedrig |
+| `create_case_form` | Erstellt ein Falldatenblatt in einer Akte | Mittel |
 
 ### Webzugriff {#tools-web}
 

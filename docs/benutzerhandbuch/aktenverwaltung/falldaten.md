@@ -23,6 +23,7 @@ Die verfügbaren Falldatenblätter werden über Updates bereitgestellt. Folgende
 | Rechtsgebiet | Falldatenblatt | Beschreibung |
 |--------------|----------------|--------------|
 | **Verkehrsrecht** | Verkehrsunfalldaten | Erfassung von Verkehrsunfalldaten mit Schwerpunkt Sachschäden |
+| **Verkehrsrecht** | Verkehrsrecht Owi | Erfassung von Daten zu einer Ordnungswidrigkeit |
 | **Mietrecht** | Mietrechtssachen | Erfassung von Mieter-/Vermieterinformationen |
 | **Arbeitsrecht** | Arbeitsrecht: Kündigungsschutz | Kündigungsschutzklage |
 | **Arbeitsrecht** | Arbeitsrecht: Elternzeit | Elternzeiten erfassen und darstellen |
