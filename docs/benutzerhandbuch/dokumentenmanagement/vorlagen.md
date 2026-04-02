@@ -144,6 +144,7 @@ Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. F
 | `{{AKTE_SCHADENNR}}` | Schadennummer zur Akte |
 | `{{AKTE_GEGENSTANDSWERT}}` | Gegenstandswert |
 | `{{AKTE_WEGEN}}` | wegen |
+| `{{AKTE_SACHGEBIET}}` | Sachgebiet |
 | `{{AKTE_ANWALT}}` | Anwalt (Nutzername) |
 | `{{AKTE_ANWALT_AN}}` | Anwalt (Anzeigename) |
 | `{{AKTE_ANWALT_KRZ}}` | Kürzel des verantwortlichen Anwalts |
