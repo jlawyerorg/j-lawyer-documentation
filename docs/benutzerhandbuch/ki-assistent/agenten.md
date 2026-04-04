@@ -4,6 +4,9 @@ Ein KI-Agent ist ein KI-Modell, das nicht nur Text generiert, sondern selbststä
 
 Um einen Agenten zu nutzen, muss in den [eigenen Prompts](eigene-prompts.md) ein agentenfähiges Modell ausgewählt werden (erkennbar am Hinweis „agentenfähig" im Prompt-Dialog). Agenten stehen ausschließlich für die Funktion **chat** zur Verfügung.
 
+!!! note "Berechtigung erforderlich"
+    Für die Nutzung der agentischen KI-Funktionen ist die Berechtigung **KI-Agentenfunktionen** erforderlich. Diese kann in der [Nutzerverwaltung](../nutzerverwaltung.md#berechtigungen-integrationen) unter **Berechtigungen** → **Integrationen** aktiviert werden. Ohne diese Berechtigung stehen dem Agenten keine Werkzeuge zur Verfügung.
+
 ## Genehmigungsstufen {#genehmigung}
 
 Jedes Werkzeug hat eine Risikostufe, die bestimmt, ob vor der Ausführung eine Genehmigung erforderlich ist:

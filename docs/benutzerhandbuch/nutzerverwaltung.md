@@ -97,6 +97,12 @@ Im Tab **Berechtigungen** werden die Zugriffsrechte des Nutzers konfiguriert.
 | allgemeine | Zugriff auf allgemeine Auswertungen |
 | vertrauliche | Zugriff auf vertrauliche Auswertungen |
 
+### Integrationen {#berechtigungen-integrationen}
+
+| Berechtigung | Beschreibung |
+|--------------|--------------|
+| KI-Agentenfunktionen | Zugriff auf agentische KI-Werkzeuge (z.B. offene Posten, Aktenhistorien). Wird bei einem Update auf Version 3.5 automatisch für alle bestehenden Nutzer aktiviert. |
+
 ### Weitere Optionen {#berechtigungen-weitere}
 
 - **Dokumente bei Bearbeitung automatisch sperren**: Verhindert gleichzeitige Bearbeitung von Dokumenten durch mehrere Nutzer
