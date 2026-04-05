@@ -159,11 +159,13 @@ Dieser Prompt erstellt aus dem Inhalt einer E-Mail eine vollständige neue Akte:
 
 > Analysiere den folgenden Text einer E-Mail. Führe dann folgende Schritte aus:
 >
-> 1. Erstelle für jede im Text genannte Person oder Organisation einen Kontakt (nutze create_or_get_contact, um Duplikate zu vermeiden).
+> 1. Erstelle für jede im Text genannte Person oder Organisation einen Kontakt (vermeide dabei die Erstellung von Duplikaten).
 > 2. Lege eine neue Akte an. Verwende als Aktenname eine kurze Bezeichnung des Sachverhalts (z.B. „Müller ./. Schmidt") und als Grund eine knappe Zusammenfassung.
 > 3. Füge die erstellten Kontakte als Beteiligte zur Akte hinzu. Der Mandant erhält den Beteiligtentyp „Mandant", die Gegenseite „Gegner". Ermittle die Rollen aus dem Kontext der E-Mail.
-> 4. Ermittle das aktuelle Datum und erstelle eine Wiedervorlage in 7 Tagen mit dem Grund „Erstberatung vorbereiten".
+> 4. Ermittle das aktuelle Datum und erstelle eine Wiedervorlage in 7 Tagen mit dem Grund „Erstberatung vorbereiten" im Kalender "Wiedervorlagen. Verantwortlich ist der angemeldete Nutzer.
 > 5. Erstelle eine Aktennotiz mit einer strukturierten Zusammenfassung des Sachverhalts.
+> 6. Wende die Ordnervorlage "Standardordner" in der Akte an.
+> 7. Sofern aus der Anfrage Fristen hervorgehen, erstelle eine Sofortnachricht in der Akte, welche das Datum und den Grund der Frist nennt.
 >
 > Hier der Text der E-Mail:
 
@@ -181,23 +183,12 @@ Dieser Prompt erstellt eine Übersicht aller anstehenden Fristen und Wiedervorla
 >
 > Hebe überfällige Einträge besonders hervor.
 
-### Mandatsabschluss vorbereiten
-
-Dieser Prompt prüft, ob eine Akte abschlussreif ist:
-
-> Prüfe für die Akte {{AKTE_ZEICHEN}} folgende Punkte und erstelle einen Statusbericht:
->
-> 1. Gibt es offene Kalendereinträge (Fristen, Wiedervorlagen, Termine)? Liste sie auf.
-> 2. Gibt es offene Zeiterfassungsprojekte? Wenn ja, liste die nicht abgerechneten Zeiten auf.
-> 3. Gibt es offene Rechnungen? Liste deren Status und Beträge auf.
-> 4. Erstelle abschließend eine Empfehlung, ob die Akte archiviert werden kann oder welche Schritte noch ausstehen.
-
 ### Recherche mit Aktenbezug
 
 Dieser Prompt recherchiert im Web und speichert die Ergebnisse in der Akte:
 
-> Recherchiere per Websuche aktuelle Rechtsprechung zum Thema „{{AKTE_GRUND}}". Gehe dabei wie folgt vor:
+> Recherchiere per Websuche aktuelle Rechtsprechung zum Thema dieser Akte. Gehe dabei wie folgt vor:
 >
 > 1. Führe 2-3 Websuchen mit unterschiedlichen Suchbegriffen durch.
 > 2. Lade die vielversprechendsten Ergebnisse und extrahiere die relevanten Informationen.
-> 3. Erstelle in der Akte {{AKTE_ZEICHEN}} eine Aktennotiz mit einer strukturierten Zusammenfassung der Rechercheergebnisse, inklusive Quellenangaben (URLs).
+> 3. Erstelle in der Akte eine Aktennotiz mit einer strukturierten Zusammenfassung der Rechercheergebnisse, inklusive Quellenangaben (URLs).
