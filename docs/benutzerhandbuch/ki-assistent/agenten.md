@@ -54,6 +54,7 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `get_document_content` | Ruft den Dokumentinhalt als Base64-kodierten String ab | Niedrig |
 | `rename_document` | Benennt ein Dokument um | Mittel |
 | `delete_document` | Löscht ein Dokument in den Papierkorb (wiederherstellbar) | Hoch |
+| `move_document_to_case` | Verschiebt ein Dokument in eine andere Akte (inkl. Etiketten), optional mit Zielordner und neuem Dateinamen | Hoch |
 
 ### Ordner und Vorlagen {#tools-ordner}
 
