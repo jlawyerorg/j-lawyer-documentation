@@ -80,10 +80,39 @@ Diese Modelle werden über externe Anbieter bereitgestellt. Die Nutzung wird sep
 | **Google Gemini 2 Flash** | Google | Schnelles Modell mit großem Kontextfenster (1M Tokens). Ideal für lange Dokumente. Bei Präzision und Nuancen schwächer als Claude oder Mistral Large. | Ja |
 
 !!! tip "Empfehlung"
-    Für einfache Extraktionen und Klassifikationen sind die j-lawyer.CLOUD-Modelle wie **Ingo Occiglot** oder **Ingo Llama3.2** ausreichend. Für [agentische KI](agenten.md) sollte ein agentenfähiges Modell gewählt werden - bspw. **Ingo Qwen3.5**. Für beste Performance und ein gutes Preis-/Leistungsverhältnis ist **Mistral Small** ein sehr gutes Modell.
+    Für einfache Extraktionen und Klassifikationen sind die j-lawyer.CLOUD-Modelle wie **Ingo Occiglot** oder **Ingo Llama3.2** ausreichend. Für [agentische KI](agenten.md) sollte ein agentenfähiges Modell gewählt werden - bspw. **Ingo Qwen3.5**.
 
 !!! warning "Datenschutz bei externen Modellen"
-    Bei der Nutzung externer Modelle werden Daten an den jeweiligen Anbieter übertragen. Achten Sie darauf, dass dies mit den Datenschutzanforderungen Ihrer Kanzlei vereinbar ist. Die Modelle von **Mistral** können hier besonders interessant sein: Mistral schließt vertraglich aus, dass übermittelte Daten für das Training von Modellen verwendet werden, und bietet einen DSGVO-konformen Auftragsverarbeitungsvertrag (AVV) an.
+    Bei der Nutzung externer Modelle werden Daten an den jeweiligen Anbieter übertragen. Achten Sie darauf, dass dies mit den Datenschutzanforderungen Ihrer Kanzlei vereinbar ist.
+
+### Modellempfehlung: Mistral {#modellempfehlung-mistral}
+
+Für beste Performance und ein gutes Preis-/Leistungsverhältnis bei externen Modellen ist **Mistral Small** ein sehr gutes Modell. Mistral bietet starke europäische Sprachunterstützung und ist besonders für mehrsprachige juristische Texte geeignet.
+
+Aus Datenschutzsicht sind die Modelle von Mistral besonders interessant: Mistral schließt vertraglich aus, dass übermittelte Daten für das Training von Modellen verwendet werden, und bietet einen DSGVO-konformen Auftragsverarbeitungsvertrag (AVV) an.
+
+#### Mistral AI Studio aufladen
+
+Um die Mistral-Modelle in j-lawyer nutzen zu können, wird ein Guthaben im [Mistral AI Studio](https://admin.mistral.ai/subscriptions?subscription-tab=ai-studio) benötigt. Dieses kann mit wenigen Euro aufgeladen werden – es ist kein klassisches Abonnement, das Guthaben wird nach tatsächlichem Verbrauch abgerechnet.
+
+Zum Aufladen im AI Studio unter „Workspace" – „Billing" eine Zahlungsmethode hinterlegen und Guthaben aufladen.
+
+#### API Key bei Mistral erstellen
+
+1. Im [Mistral AI Studio](https://admin.mistral.ai/organization/api-keys) anmelden bzw. ein Konto erstellen.
+2. Im Menü links auf „API Keys" klicken.
+3. Auf „Create new key" klicken.
+4. Einen Namen für den Key vergeben (bspw. „j-lawyer") und bestätigen.
+5. Den angezeigten Key kopieren und sicher aufbewahren – er wird nur einmal angezeigt.
+
+#### API Key in j-lawyer hinterlegen
+
+1. Im j-lawyer Client unter „Einstellungen" – „Assistent Ingo" – „eigene Prompts" einen Prompt anlegen oder bearbeiten.
+2. Als Modell eines der Mistral-Modelle auswählen (bspw. **Mistral Small**).
+3. In den daraufhin angezeigten Konfigurationsfeldern den kopierten API Key im Feld `api-key` eintragen.
+4. Den Prompt speichern.
+
+Der API Key wird pro Prompt hinterlegt. Beim Teilen von Prompts per E-Mail wird der API Key automatisch entfernt.
 
 ## Verwendung von Platzhaltern in Prompts {#platzhalter-in-prompts}
 
