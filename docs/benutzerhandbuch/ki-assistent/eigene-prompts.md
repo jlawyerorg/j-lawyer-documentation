@@ -35,6 +35,24 @@ Ein Prompt kann beliebige Platzhalter enthalten, welche auch über das Vorlagens
 !!! info "Hinweis"
     Aktenbezogene Platzhalter (bspw. `{{AKTE_ZEICHEN}}`) werden nur dann ersetzt, wenn der Prompt aus einer Akte heraus verwendet wird.
 
+## Sichtbarkeit eigener Prompts
+
+Je nach gewählter Funktion wird ein eigener Prompt an unterschiedlichen Stellen in der Anwendung angeboten. Die folgende Übersicht zeigt, wo Prompts welcher Funktion zur Verfügung stehen:
+
+| Funktion | Verfügbar in |
+|----------|-------------|
+| **chat** | Aktenansicht (Kopfbereich und Dokumentenliste), E-Mail senden, E-Mail lesen, Desktop (eigenständiger Chat) |
+| **generate** | Aktenansicht (Kopfbereich und Dokumentenliste), E-Mail senden, E-Mail lesen |
+| **summarize** | Aktenansicht (Dokumentenliste), E-Mail senden, E-Mail lesen |
+| **explain** | E-Mail senden, E-Mail lesen |
+| **translate** | E-Mail senden, E-Mail lesen |
+| **extract** | Aktenansicht (Dokumentenliste), Formulare (automatisches Befüllen), Adresserfassung aus Zwischenablage oder E-Mail, PDF-Anonymisierung |
+| **vision** | Aktenansicht (Bildanalyse von Dokumenten) |
+| **transcribe** | Audioplayer (Transkription von Audiodateien) |
+
+!!! tip "Tipp"
+    Der Name des eigenen Prompts erscheint direkt in den jeweiligen Kontextmenüs. Wählen Sie daher kurze, aussagekräftige Namen, damit die Menüs übersichtlich bleiben.
+
 ## Prompts verwalten
 
 Neben dem Anlegen und Bearbeiten von Prompts stehen weitere Funktionen zur Verfügung:
