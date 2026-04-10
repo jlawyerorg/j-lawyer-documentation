@@ -92,10 +92,18 @@ Diese Modelle werden über externe Anbieter bereitgestellt. Die Nutzung wird sep
 | **Haiku 3.5** | Anthropic | Schnellstes und günstigstes Anthropic-Modell. Sehr schnelle Antwortzeiten. Gut für einfache Aufgaben, Klassifikation und Extraktion. | Ja |
 | **Opus 4** | Anthropic | Leistungsfähigstes Anthropic-Modell. Hohe Kosten. Bestes Reasoning, Analyse und Textgenerierung. Ideal für komplexeste juristische Analysen. Langsamer und deutlich teurer als Sonnet. | Ja |
 | **Deepseek** | DeepSeek | DeepSeek V3. Sehr günstig. Starkes Reasoning und gute Mehrsprachigkeit. Gutes Preis-Leistungs-Verhältnis. Gelegentlich weniger zuverlässig bei Instruktionsbefolgung. | Ja |
+| **GPT-4o** | OpenAI | Flaggschiff-Modell von OpenAI. Mittlere Kosten. Starkes Reasoning, multimodal, 128k Kontextfenster. Sehr gute Textqualität und Instruktionsbefolgung. Ideal für komplexe juristische Analysen und Textgenerierung. | Ja |
+| **GPT-4o mini** | OpenAI | Kompaktes und günstiges OpenAI-Modell. Niedrige Kosten. 128k Kontextfenster. Sehr schnell. Gutes Preis-Leistungs-Verhältnis für einfachere Aufgaben wie Zusammenfassungen und Extraktion. Schwächer als GPT-4o bei komplexem Reasoning. | Ja |
+| **o3-mini** | OpenAI | OpenAI Reasoning-Modell. Mittlere Kosten. Spezialisiert auf logisches Denken und komplexe Problemlösung. Sehr gut für juristische Analyse und strukturiertes Reasoning. Langsamere Antworten durch erweiterten Denkprozess. | Ja |
 | **Mistral Large** | Mistral | Größtes Mistral-Modell. Mittlere Kosten. Starkes Reasoning, sehr gute europäische Sprachunterstützung. Besonders gut für mehrsprachige juristische Texte. | Ja |
 | **Mistral Medium** | Mistral | Mittelgroßes Mistral-Modell. Günstiger als Large. Gute europäische Sprachunterstützung. Schneller als Large. Für Standardaufgaben ausreichend. | Ja |
 | **Mistral Small** | Mistral | Kleines Mistral-Modell. Günstiger als Medium. Gute europäische Sprachunterstützung. Sehr schnell. Sehr großes Kontextfenster von 256.000 Tokens. | Ja |
 | **Google Gemini 2 Flash** | Google | Schnelles Modell mit großem Kontextfenster (1M Tokens). Ideal für lange Dokumente. Bei Präzision und Nuancen schwächer als Claude oder Mistral Large. | Ja |
+| **LangDock: GPT-4o** | LangDock | GPT-4o via LangDock. DSGVO-konform, EU-gehostet. Starkes Reasoning, multimodal, 128k Kontextfenster. Sehr gute Textqualität und Instruktionsbefolgung. | Ja |
+| **LangDock: GPT-4o mini** | LangDock | GPT-4o mini via LangDock. DSGVO-konform, EU-gehostet. Kompakt und günstig. 128k Kontextfenster. Sehr schnell. Gutes Preis-Leistungs-Verhältnis für einfachere Aufgaben. | Ja |
+| **LangDock: o3-mini** | LangDock | OpenAI o3-mini via LangDock. DSGVO-konform, EU-gehostet. Reasoning-Modell, spezialisiert auf logisches Denken und komplexe Problemlösung. Langsamere Antworten durch erweiterten Denkprozess. | Ja |
+| **LangDock: Claude Opus 4.6** | LangDock | Anthropic Claude Opus 4.6 via LangDock. DSGVO-konform, EU-gehostet. Leistungsfähigstes Anthropic-Modell. Bestes Reasoning, Analyse und Textgenerierung. Ideal für komplexeste juristische Analysen. | Ja |
+| **LangDock: Claude Sonnet 4** | LangDock | Anthropic Claude Sonnet 4 via LangDock. DSGVO-konform, EU-gehostet. Leistungsstarkes Cloud-Modell. Exzellentes Reasoning und Textverständnis. Sehr gute Balance aus Qualität und Geschwindigkeit. | Ja |
 
 !!! tip "Empfehlung"
     Für einfache Extraktionen und Klassifikationen sind die j-lawyer.CLOUD-Modelle wie **Ingo Occiglot** oder **Ingo Llama3.2** ausreichend. Für [agentische KI](agenten.md) sollte ein agentenfähiges Modell gewählt werden - bspw. **Ingo Qwen3.5**.
@@ -131,6 +139,40 @@ Zum Aufladen im AI Studio unter „Workspace" – „Billing" eine Zahlungsmetho
 4. Den Prompt speichern.
 
 Der API Key wird pro Prompt hinterlegt. Beim Teilen von Prompts per E-Mail wird der API Key automatisch entfernt.
+
+### Modellempfehlung: LangDock {#modellempfehlung-langdock}
+
+[LangDock](https://www.langdock.com) ist eine deutsche KI-Plattform mit Sitz in Berlin, die Zugang zu führenden KI-Modellen verschiedener Anbieter über eine einheitliche, DSGVO-konforme Schnittstelle bietet. Alle Anfragen werden ausschließlich über Server in der EU verarbeitet.
+
+Über LangDock stehen in j-lawyer Modelle von OpenAI (GPT-4o, GPT-4o mini, o3-mini) und Anthropic (Claude Opus 4.6, Claude Sonnet 4) zur Verfügung – ohne dass ein separates Konto bei jedem Anbieter erforderlich ist. Ein einziger LangDock API Key genügt für alle Modelle.
+
+#### Vorteile in Sachen Datenschutz
+
+- **EU-Datenverarbeitung**: Alle Daten werden ausschließlich auf Servern innerhalb der EU verarbeitet und gespeichert – es findet keine Übertragung in Drittländer statt.
+- **DSGVO-Konformität**: LangDock bietet einen Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO an.
+- **Kein Training mit Nutzerdaten**: Übermittelte Daten werden nicht für das Training von KI-Modellen verwendet.
+- **Ein Anbieter, viele Modelle**: Anstatt separate Verträge und Konten bei OpenAI, Anthropic und weiteren Anbietern zu unterhalten, genügt eine einzige Vertragsbeziehung mit einem deutschen Unternehmen.
+
+Für Kanzleien, die Modelle wie GPT-4o oder Claude nutzen möchten und dabei Wert auf Datenschutz legen, ist LangDock eine empfehlenswerte Alternative zur direkten Nutzung der US-amerikanischen Anbieter.
+
+#### LangDock-Guthaben aufladen
+
+Um die LangDock-Modelle in j-lawyer nutzen zu können, wird ein Guthaben bei [LangDock](https://www.langdock.com) benötigt. Dieses wird nach tatsächlichem Verbrauch abgerechnet.
+
+#### API Key bei LangDock erstellen
+
+1. Bei [LangDock](https://www.langdock.com) anmelden bzw. ein Konto erstellen.
+2. Im Dashboard einen neuen API Key erstellen.
+3. Den angezeigten Key kopieren und sicher aufbewahren – er wird nur einmal angezeigt.
+
+#### API Key in j-lawyer hinterlegen
+
+1. Im j-lawyer Client unter „Einstellungen" – „Assistent Ingo" – „eigene Prompts" einen Prompt anlegen oder bearbeiten.
+2. Als Modell eines der LangDock-Modelle auswählen (bspw. **LangDock: Claude Sonnet 4**).
+3. In den daraufhin angezeigten Konfigurationsfeldern den kopierten API Key im Feld `api-key` eintragen.
+4. Den Prompt speichern.
+
+Der API Key ist für alle LangDock-Modelle identisch – er muss aber pro Prompt hinterlegt werden. Beim Teilen von Prompts per E-Mail wird der API Key automatisch entfernt.
 
 ## Verwendung von Platzhaltern in Prompts {#platzhalter-in-prompts}
 
