@@ -7,7 +7,7 @@ Der Desktop ist die zentrale Anlaufstelle nach dem Start von j-lawyer.org. Er ze
 Der Desktop gliedert sich in drei Hauptbereiche:
 
 - **Kopfzeile**: Nachrichten- und Statusindikatoren, Datum, Benutzerprofil und Schnellzugriff
-- **Hauptbereich**: Drei konfigurierbare Panels — „Zuletzt geändert", „Fällig" und „Nach Etikett"
+- **Hauptbereich**: Konfigurierbare Panels — „Zuletzt geändert", „Fällig", „Nach Etikett", „Nachrichten an mich" und „Nachrichten an andere"
 - **Fußzeile**: Systeminformationen und Statistiken
 
 ![Abbildung 4](../images/j-lawyer-org-UserGuide-de-008.png)
@@ -135,6 +135,23 @@ Am unteren Rand des Bereichs befinden sich Tabs:
     - der Anwalt der Akte in der Auswahl enthalten ist, ODER
     - der Sachbearbeiter der Akte in der Auswahl enthalten ist, ODER
     - die Akte weder Anwalt noch Sachbearbeiter zugewiesen hat (beide leer)
+
+### Bereich "Nachrichten an mich" {#nachrichten-an-mich}
+
+Dieser Bereich zeigt [Sofortnachrichten](messaging.md), in denen der angemeldete Nutzer erwähnt wurde und deren Erwähnung noch nicht als erledigt markiert ist. Die neuesten Nachrichten werden oben angezeigt.
+
+Wird eine Erwähnung als erledigt markiert, verschwindet die zugehörige Nachricht nach kurzer Verzögerung automatisch aus dem Bereich. Gelöschte Nachrichten verschwinden sofort.
+
+Es werden alle Nachrichten mit offenen Erwähnungen aus dem konfigurierten Zeitraum angezeigt (Standard: 30 Tage, einstellbar in den [Nachrichteneinstellungen](messaging.md)).
+
+### Bereich "Nachrichten an andere" {#nachrichten-an-andere}
+
+Dieser Bereich zeigt [Sofortnachrichten](messaging.md), die der angemeldete Nutzer selbst gesendet hat und in denen andere Nutzer noch offene (unbestätigte) Erwähnungen haben. So lässt sich nachverfolgen, welche eigenen Nachrichten noch nicht von den Empfängern bestätigt wurden.
+
+Auch hier werden die neuesten Nachrichten oben dargestellt. Gelöschte Nachrichten verschwinden sofort aus dem Bereich.
+
+!!! tip "Aktivierung"
+    Die Bereiche „Nachrichten an mich" und „Nachrichten an andere" sind standardmäßig nicht sichtbar. Um sie zu aktivieren, klicken Sie auf den Layout-Button und wählen „Layout anpassen…". In der Grid-Zuweisung stehen die neuen Bereiche zur Auswahl. Alternativ können sie über das Kontextmenü unter „Bereiche anzeigen" ein- und ausgeblendet werden.
 
 ### Layout anpassen {#layout-anpassen}
 

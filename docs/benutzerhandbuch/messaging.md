@@ -26,7 +26,7 @@ Beim Verfassen einer Nachricht öffnet sich bei Eingabe von “@” eine Auswahl
 
 Mittels „@alle …“ können alle aktiven Accounts erwähnt werden.
 
-Sowohl auf dem Desktop als auch links in der Hauptnavigation werden unbearbeitete Erwähnungen für den angemeldeten Nutzer / Nutzerin angezeigt.
+Sowohl auf dem Desktop als auch links in der Hauptnavigation werden unbearbeitete Erwähnungen für den angemeldeten Nutzer / Nutzerin angezeigt. Auf dem Desktop können zusätzlich die Bereiche [„Nachrichten an mich" und „Nachrichten an andere"](oberflaeche.md#nachrichten-an-mich) eingeblendet werden, um offene Erwähnungen direkt im Blick zu haben.
 
 ### Sichtbarkeit von Nachrichten, private Nachrichten
 
