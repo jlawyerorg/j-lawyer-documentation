@@ -24,6 +24,19 @@ Wird eine Genehmigung angefordert, stehen folgende Optionen zur Verfügung:
 - **Dauerhaft erlauben**: Alle zukünftigen Aufrufe dieses Werkzeugs werden automatisch genehmigt
 - **Ablehnen**: Der Aufruf wird nicht ausgeführt; der Agent erhält eine Ablehnungsmeldung und kann alternativ vorgehen
 
+## Genehmigungen verwalten {#genehmigungen-verwalten}
+
+Dauerhaft erteilte Genehmigungen lassen sich im [Nutzerprofil](../nutzerprofil.md#ki-werkzeuge) einsehen und widerrufen. Der Tab **KI-Werkzeuge** zeigt eine Übersicht aller Werkzeuge, für die eine dauerhafte Genehmigung erteilt wurde:
+
+| Spalte | Beschreibung |
+|--------|-------------|
+| **Erlaubt** | Checkbox – zeigt an, ob das Werkzeug dauerhaft genehmigt ist. Durch Entfernen des Häkchens wird die Genehmigung widerrufen. |
+| **Werkzeug** | Name des Werkzeugs |
+| **Risikostufe** | Risikoeinstufung (Niedrig, Mittel, Hoch) |
+| **Beschreibung** | Kurzbeschreibung der Funktion |
+
+Über die Schaltfläche **Alle widerrufen** können sämtliche dauerhaft erteilten Genehmigungen auf einmal zurückgenommen werden. Die betroffenen Werkzeuge erfordern dann bei der nächsten Verwendung erneut eine manuelle Genehmigung.
+
 ## Verfügbare Werkzeuge {#werkzeuge}
 
 Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funktionsbereich.

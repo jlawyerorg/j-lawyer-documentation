@@ -44,7 +44,7 @@ In der Fußzeile des Desktops werden allgemeine Systeminformationen angezeigt:
 
 Am oberen rechten Rand des Desktops befinden sich Benutzerprofil und Schnellzugriffe:
 
-- **Benutzername und -icon**: Zeigt den angemeldeten Nutzer. Klick öffnet den Profildialog, über den Sie z.B. Ihr Profilbild anpassen können.
+- **Benutzername und -icon**: Zeigt den angemeldeten Nutzer. Klick öffnet das [Nutzerprofil](nutzerprofil.md), über das Sie z.B. Ihr Profilbild, Benachrichtigungen und weitere persönliche Einstellungen anpassen können.
 - **Aktuelles Datum**: Das heutige Datum mit Wochentag wird in der Mitte der Kopfzeile angezeigt.
 - **Globale Suche**: Über die Lupe oder die Tastenkombination **Strg+K** (macOS: **Cmd+K**) öffnen Sie die globale Suche, mit der Sie aktenübergreifend nach Inhalten suchen können.
 - **Desktop anpassen**: Über den Layout-Button können Sie das Layout des Desktops nach Ihren Wünschen anpassen (siehe Abschnitt [Layout anpassen](#layout-anpassen)).

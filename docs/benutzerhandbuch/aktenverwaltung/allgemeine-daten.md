@@ -99,9 +99,9 @@ Im Tab "Berechtigte" werden alle Gruppen aktiviert, welche Zugriff auf die Akte 
 
 ### Standardberechtigungen für neue Akten {#standardberechtigungen}
 
-Damit beim Anlegen neuer Akten nicht jedes Mal Eigentümergruppe und berechtigte Gruppen manuell gesetzt werden müssen, lassen sich Standardwerte im eigenen Benutzerprofil hinterlegen.
+Damit beim Anlegen neuer Akten nicht jedes Mal Eigentümergruppe und berechtigte Gruppen manuell gesetzt werden müssen, lassen sich Standardwerte im eigenen [Nutzerprofil](../nutzerprofil.md#neue-akten) hinterlegen.
 
-Die Konfiguration erfolgt unter **Benutzerprofil** (Klick auf den eigenen Benutzernamen oben rechts) → Tab **„Neue Akten"**:
+Die Konfiguration erfolgt unter **Nutzerprofil** (Klick auf den eigenen Benutzernamen oben rechts) → Tab **„Neue Akten"**:
 
 - **Standard-Eigentümergruppe**: Legt fest, welche Gruppe automatisch als Eigentümergruppe neuer Akten eingetragen wird. Zur Auswahl stehen die Gruppen, in denen der angemeldete Nutzer Mitglied ist.
 - **Berechtigte Gruppen**: Legt fest, welche Gruppen automatisch als berechtigte Gruppen neuer Akten eingetragen werden. Alle verfügbaren Gruppen werden angezeigt und können per Klick aktiviert oder deaktiviert werden.
