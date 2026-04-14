@@ -25,18 +25,34 @@ Für die vollständige Funktionalität (inklusive zusätzlicher Schriftarten) wi
 ```bash
 docker run -d \
   --name stirling-pdf \
-  -p 6080:8080 \
-  -v /pfad/zu/daten:/usr/share/tessdata \
-  -v /pfad/zu/config:/configs \
-  stirlingtools/stirling-pdf:latest-fat
+  --restart unless-stopped \
+  -p 127.0.0.1:6080:8080 \
+  -v "$PWD/StirlingPDF/trainingData:/usr/share/tessdata" \
+  -v "$PWD/StirlingPDF/extraConfigs:/configs" \
+  -v "$PWD/StirlingPDF/customFiles:/customFiles/" \
+  -v "$PWD/StirlingPDF/logs:/logs/" \
+  -v "$PWD/StirlingPDF/pipeline:/pipeline/"
+  -e SECURITY_ENABLELOGIN=false
+  -e DISABLE_ADDITIONAL_FEATURES=false \
+  docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest-fat
 ```
+
+!!! warning "Nur für Betrieb auf demselben Host geeignet"
+    Der obige Befehl ist nur geeignet, wenn j-lawyer.org und Stirling PDF auf **demselben Server** betrieben werden. Stirling PDF ist mit diesen Parametern **ohne Login** nutzbar und über die Bindung an `127.0.0.1` **nicht von außen erreichbar**. Wenn Stirling PDF auf einem separaten Server betrieben oder von außen zugänglich gemacht werden soll, müssen die Parameter (insbesondere Port-Binding und `SECURITY_ENABLELOGIN`) entsprechend angepasst werden.
 
 | Parameter | Beschreibung |
 |-----------|--------------|
-| `-p 6080:8080` | Port-Mapping: Stirling PDF ist unter Port 6080 erreichbar |
-| `-v /pfad/zu/daten:/usr/share/tessdata` | Verzeichnis für OCR-Sprachdaten |
-| `-v /pfad/zu/config:/configs` | Verzeichnis für Konfigurationsdateien |
-| `latest-fat` | Variante mit zusätzlichen Schriftarten und Funktionen |
+| `--name stirling-pdf` | Name des Docker-Containers |
+| `--restart unless-stopped` | Container wird bei Neustart des Servers automatisch mitgestartet (außer bei manuellem Stop) |
+| `-p 127.0.0.1:6080:8080` | Port-Mapping: Stirling PDF ist unter Port 6080 erreichbar, nur auf localhost gebunden (nicht von außen zugänglich) |
+| `-v .../trainingData:/usr/share/tessdata` | Verzeichnis für OCR-Sprachdaten (Tessdata) |
+| `-v .../extraConfigs:/configs` | Verzeichnis für Konfigurationsdateien |
+| `-v .../customFiles:/customFiles/` | Verzeichnis für benutzerdefinierte Dateien |
+| `-v .../logs:/logs/` | Verzeichnis für Log-Dateien |
+| `-v .../pipeline:/pipeline/` | Verzeichnis für Pipeline-Konfigurationen |
+| `-e SECURITY_ENABLELOGIN=false` | Deaktiviert die Login-Seite von Stirling PDF |
+| `-e DISABLE_ADDITIONAL_FEATURES=false` | Zusätzliche Funktionen (z.B. OCR) bleiben aktiviert |
+| `latest-fat` | Image-Variante mit zusätzlichen Schriftarten und Funktionen |
 
 ### Systemanpassungen für Linux
 
