@@ -7,7 +7,7 @@ Der Desktop ist die zentrale Anlaufstelle nach dem Start von j-lawyer.org. Er ze
 Der Desktop gliedert sich in drei Hauptbereiche:
 
 - **Kopfzeile**: Nachrichten- und Statusindikatoren, Datum, Benutzerprofil und Schnellzugriff
-- **Hauptbereich**: Konfigurierbare Panels — „Zuletzt geändert", „Fällig", „Nach Etikett", „Nachrichten an mich" und „Nachrichten an andere"
+- **Hauptbereich**: Konfigurierbare Panels — „Zuletzt geändert", „Fällig", „Nach Etikett", „Nachrichten an mich", „Nachrichten an andere" und „Offene Rechnungen"
 - **Fußzeile**: Systeminformationen und Statistiken
 
 ![Abbildung 4](../images/j-lawyer-org-UserGuide-de-008.png)
@@ -152,6 +152,22 @@ Auch hier werden die neuesten Nachrichten oben dargestellt. Gelöschte Nachricht
 
 !!! tip "Aktivierung"
     Die Bereiche „Nachrichten an mich" und „Nachrichten an andere" sind standardmäßig nicht sichtbar. Um sie zu aktivieren, klicken Sie auf den Layout-Button und wählen „Layout anpassen…". In der Grid-Zuweisung stehen die neuen Bereiche zur Auswahl. Alternativ können sie über das Kontextmenü unter „Bereiche anzeigen" ein- und ausgeblendet werden.
+
+### Bereich "Offene Rechnungen" {#offene-rechnungen}
+
+Dieser Bereich gibt einen schnellen Überblick über offene [Rechnungen](finanzen-rechnungen.md). Angezeigt werden zwei Karten mit jeweils Anzahl und Bruttosumme:
+
+| Karte | Bedeutung |
+|-------|-----------|
+| **Noch nicht fällig** (grünes Badge) | Offene Rechnungen, deren Fälligkeitsdatum noch nicht erreicht ist |
+| **Fällig / Überfällig** (rotes Badge) | Offene Rechnungen, deren Fälligkeitsdatum heute oder in der Vergangenheit liegt |
+
+Unter jeder Karte wird die Bruttosumme der zugehörigen Rechnungen in Euro ausgewiesen.
+
+Über die Schaltfläche **Aktualisieren** in der Kopfleiste lässt sich die Anzeige jederzeit neu laden. Die Werte werden zusätzlich regelmäßig im Hintergrund aktualisiert.
+
+!!! tip "Aktivierung"
+    Der Bereich „Offene Rechnungen" ist standardmäßig nicht sichtbar. Zum Aktivieren auf den Layout-Button klicken und „Layout anpassen…" wählen — in der Grid-Zuweisung steht der Bereich zur Auswahl. Alternativ lässt er sich über das Kontextmenü unter „Bereiche anzeigen" ein- und ausblenden.
 
 ### Layout anpassen {#layout-anpassen}
 
