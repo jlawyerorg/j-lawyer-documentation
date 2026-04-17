@@ -249,13 +249,11 @@ Die bestehenden Platzhalter `{{BEL_TOTAL}}` und `{{BEL_WHRG}}` können in festen
 
 Zum Übernehmen gebuchter Zeiten eines Zeiterfassungsprojektes in Form einer Tabelle (=Leistungsnachweis, Spalten: Person, Datum, Dauer, Stundensatz, Total, Beschreibung) wird eine Tabelle mit exakt einer Zelle erstellt und ein Platzhalter wie folgt eingefügt:
 
-| {{ZE_TABELLE}} |
-| --- |
+<table><tr><td>{{ZE_TABELLE}}</td></tr></table>
 
 Wird eine pro Person aufsummierte Aufstellung der geleisteten Zeiten benötigt (Person, geleistete Zeit, Wert), so kann ein Tabellenplatzhalter wie folgt verwendet werden:
 
-| {{ZE_SUMMEN}} |
-| --- |
+<table><tr><td>{{ZE_SUMMEN}}</td></tr></table>
 
 Geldbeträge und Datumsangaben werden dabei entsprechend der Spracheinstellungen des Belegs formatiert.
 
