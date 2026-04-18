@@ -18,7 +18,7 @@ j-lawyer.org ermöglicht eine grundsätzliche Arbeit mit einem oder mehreren beA
 
 ## Voraussetzungen {#voraussetzungen}
 
-Aktuell ist für den Zugang zum beA ein Softwarezertifikat notwendig. Es ersetzt in der Nutzung weitgehend die beA Smartcards, und ist im Allgemeinen komfortabler anzuwenden. Bei der Nutzung in j-lawyer.org werden die Zertifikate nutzerspezifisch hinterlegt und weder Zertifikat noch Passwort gelangen in den Besitz der Nutzer der Kanzleisoftware.
+Für den Zugang zum beA wird ein Softwarezertifikat benötigt. Es ersetzt in der Nutzung weitgehend die beA Smartcards, und ist im Allgemeinen komfortabler anzuwenden. Bei der Nutzung in j-lawyer.org werden die Zertifikate nutzerspezifisch hinterlegt und weder Zertifikat noch Passwort gelangen in den Besitz der Nutzer der Kanzleisoftware.
 
 Weitere Voraussetzungen im Überblick:
 
