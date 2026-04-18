@@ -1,5 +1,7 @@
 # Installation
 
+## Installation Server/Client {#server-client}
+
 ### Installation auf Windows-Systemen {#windows}
 
 Die Installation auf Windowssystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=100>
@@ -11,6 +13,116 @@ Die Installation auf macOS-Systemen ist hier beschrieben: <http://www.j-lawyer.o
 ### Installation auf Linux-Systemen {#linux}
 
 Die Installation auf Windowssystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=93>
+
+## Installation beA-Anbindung {#bea}
+
+### Grundlagen {#bea-grundlagen}
+
+Die beA-Anbindung von j-lawyer.org läuft als eigenständiger Docker-Container (Image `jlawyerorg/beastie:latest`) und ist vom j-lawyer.org-Server entkoppelt. Die Kommunikation zwischen Kanzleisoftware und beA-Container erfolgt über HTTP auf Port 7080.
+
+Diese Trennung bringt mehrere wesentliche Vorteile:
+
+- **Separat aktualisierbar**: Ändert sich die beA-Schnittstelle – etwa durch Anpassungen auf Seiten der BRAK – muss lediglich der Container der beA-Anbindung aktualisiert werden. Ein Update des gesamten j-lawyer.org-Servers ist nicht erforderlich.
+- **Prozesstrennung**: Eine Störung des beA-Backends oder der Anbindung beeinträchtigt den laufenden Betrieb der Kanzleisoftware nicht. Die Kernfunktionen bleiben verfügbar, auch wenn die beA-Kommunikation vorübergehend nicht möglich ist.
+- **Entlastung der Arbeitsplatzrechner**: Die CPU-intensive Kryptographie (Ver- und Entschlüsselung, Signaturprüfung) findet nicht mehr auf den Arbeitsplatzrechnern statt, sondern zentral auf dem Server.
+- Zusätzlich können Ergebnisse gecacht werden, sodass wiederholte Zugriffe auf dieselben Nachrichten deutlich schneller erfolgen.
+
+Das Datenverzeichnis des Containers (Zertifikate, Nachrichten, Kommandos und Logs) wird per Volume-Mount auf dem Host-System persistiert und bleibt bei Updates oder Neuinstallationen des Containers erhalten.
+
+### Installation {#bea-installation}
+
+Die Einrichtung erfolgt in zwei Schritten: Zunächst wird die Docker-Runtime auf dem Host installiert, anschließend der beA-Container gestartet.
+
+#### Installation auf Windows-Systemen {#bea-windows}
+
+1. **Docker-Runtime installieren**: Download und Installation von *Docker Desktop for Windows* über <https://www.docker.com/products/docker-desktop/>. Setzt WSL 2 voraus, was der Installer bei Bedarf automatisch einrichtet. Nach der Installation Docker Desktop einmal starten und die Lizenzbedingungen akzeptieren.
+2. **Container starten** (PowerShell):
+
+```
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ${env:USERPROFILE}\beAstie:/opt/beastie/data jlawyerorg/beastie:latest
+```
+
+Unter Windows entfällt der `--user`-Parameter, da Docker Desktop die Dateiberechtigungen auf Host-Ebene transparent abbildet.
+
+#### Installation auf macOS-Systemen {#bea-macos}
+
+1. **Docker-Runtime installieren**: Download und Installation von *Docker Desktop for Mac* über <https://www.docker.com/products/docker-desktop/>. Es gibt separate Installationspakete für Intel- und Apple-Silicon-Prozessoren. Nach der Installation Docker Desktop einmal starten und die Lizenzbedingungen akzeptieren.
+2. **Container starten** (Terminal):
+
+```
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+```
+
+#### Installation auf Linux-Systemen {#bea-linux}
+
+1. **Docker-Runtime installieren**: Installation der Docker Engine je nach Distribution. Beispiel für Ubuntu/Debian:
+
+```
+sudo apt update
+sudo apt install docker.io
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
+
+Nach dem `usermod`-Aufruf ist eine Neuanmeldung des Nutzers erforderlich, damit die Gruppenmitgliedschaft wirksam wird. Alternativ kann Docker Desktop for Linux verwendet werden.
+
+2. **Container starten** (Terminal):
+
+```
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+```
+
+#### Gängige Aktionen {#bea-aktionen}
+
+Die folgenden Kommandos sind auf allen drei Betriebssystemen identisch und werden im Terminal bzw. in der PowerShell ausgeführt:
+
+| Aktion | Kommando |
+|---|---|
+| Status prüfen | `docker ps -a --filter name=beastie` |
+| Logs anzeigen | `docker logs beastie` (mit `-f` für Live-Verfolgung) |
+| Container stoppen | `docker stop beastie` |
+| Container starten | `docker start beastie` |
+| Container neu starten | `docker restart beastie` |
+| Container löschen | `docker rm -f beastie` |
+
+Beim Löschen des Containers bleibt das Datenverzeichnis im Volume erhalten; Zertifikate und Konfiguration gehen nicht verloren.
+
+### Update {#bea-update}
+
+Ein Update der beA-Anbindung besteht aus drei Schritten: das neueste Image herunterladen, den alten Container entfernen und mit dem ursprünglichen Startkommando neu starten. Das Datenverzeichnis im Volume (`~/beAstie` unter Linux/macOS bzw. `%USERPROFILE%\beAstie` unter Windows) bleibt dabei erhalten.
+
+#### Update unter Windows {#bea-update-windows}
+
+PowerShell:
+
+```
+docker pull jlawyerorg/beastie:latest
+docker stop beastie
+docker rm beastie
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ${env:USERPROFILE}\beAstie:/opt/beastie/data jlawyerorg/beastie:latest
+```
+
+#### Update unter macOS {#bea-update-macos}
+
+Terminal:
+
+```
+docker pull jlawyerorg/beastie:latest
+docker stop beastie
+docker rm beastie
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+```
+
+#### Update unter Linux {#bea-update-linux}
+
+Terminal:
+
+```
+docker pull jlawyerorg/beastie:latest
+docker stop beastie
+docker rm beastie
+docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+```
 
 ## Start der Anwendung {#start}
 
