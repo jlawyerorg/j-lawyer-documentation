@@ -90,6 +90,16 @@ Die folgenden Kommandos sind auf allen drei Betriebssystemen identisch und werde
 
 Beim Löschen des Containers bleibt das Datenverzeichnis im Volume erhalten; Zertifikate und Konfiguration gehen nicht verloren.
 
+### Konfiguration im j-lawyer.org Client {#bea-konfiguration}
+
+Damit der j-lawyer.org Client die laufende beA-Anbindung nutzt, ist die URL des Docker-Containers in den globalen Einstellungen zu hinterlegen. Hierzu im Menü **Einstellungen** → **beA (Anwaltspostfach)** die URL des beAstie-Containers eintragen. Läuft der Container auf demselben Server wie der j-lawyer.org-Server (empfohlen), lautet die URL in der Regel:
+
+```
+http://localhost:7080
+```
+
+Wird der Container auf einem anderen Host betrieben, ist `localhost` entsprechend durch dessen Namen oder IP-Adresse zu ersetzen.
+
 ### Update {#bea-update}
 
 Ein Update der beA-Anbindung besteht aus drei Schritten: das neueste Image herunterladen, den alten Container entfernen und mit dem ursprünglichen Startkommando neu starten. Das Datenverzeichnis im Volume (`~/beAstie` unter Linux/macOS bzw. `%USERPROFILE%\beAstie` unter Windows) bleibt dabei erhalten.
