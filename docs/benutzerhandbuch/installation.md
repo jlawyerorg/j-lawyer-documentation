@@ -29,6 +29,9 @@ Diese Trennung bringt mehrere wesentliche Vorteile:
 
 Das Datenverzeichnis des Containers (Zertifikate, Nachrichten, Kommandos und Logs) wird per Volume-Mount auf dem Host-System persistiert und bleibt bei Updates oder Neuinstallationen des Containers erhalten.
 
+!!! tip "Empfohlener Installationsort"
+    Der beAstie-Container sollte idealerweise auf demselben Server installiert werden, auf dem auch der j-lawyer.org-Server läuft. Das minimiert Netzwerklatenz zwischen beiden Komponenten und vereinfacht die Konfiguration.
+
 ### Installation {#bea-installation}
 
 Die Einrichtung erfolgt in zwei Schritten: Zunächst wird die Docker-Runtime auf dem Host installiert, anschließend der beA-Container gestartet.
