@@ -86,7 +86,7 @@ Per Rechtsklick auf den Reiter des Falldatenblatts → **Entfernen** kann ein Fa
 
 ## Platzhalter in Dokumentvorlagen
 
-Die in Falldatenblättern erfassten Daten können in Dokumentvorlagen als Platzhalter verwendet werden. Die Platzhalternamen sind im jeweiligen Falldatenblatt dokumentiert ("?"-Symbol oben rechts im Falldatenblatt).
+Die in Falldatenblättern erfassten Daten können in Dokumentvorlagen als Platzhalter verwendet werden. Die Platzhalternamen sind im jeweiligen Falldatenblatt dokumentiert ("?"-Symbol oben rechts im Falldatenblatt) und können direkt als Übersicht angezeigt, gefiltert und mit einem Klick in die Zwischenablage übernommen werden.
 
 ## Updates für Falldatenblätter
 
