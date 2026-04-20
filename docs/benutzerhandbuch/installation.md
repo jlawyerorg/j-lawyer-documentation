@@ -34,6 +34,9 @@ Das Datenverzeichnis des Containers (Zertifikate, Nachrichten, Kommandos und Log
 
 ### Installation {#bea-installation}
 
+!!! note "Hinweis für Nutzer einer j-lawyer.BOX"
+    Für Nutzer einer j-lawyer.BOX ist die Installation der beA-Integration [hier beschrieben](jlawyer-box.md#installation-bea-integration).
+
 Die Einrichtung erfolgt in zwei Schritten: Zunächst wird die Docker-Runtime auf dem Host installiert, anschließend der beA-Container gestartet.
 
 #### Installation auf Windows-Systemen {#bea-windows}

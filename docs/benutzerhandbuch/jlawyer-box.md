@@ -63,6 +63,62 @@ Die j-lawyer.BOX ist somit vollständig aktualisiert. In den Dateifreigaben der 
 
 Sollte nach Aktualisierung der Arbeitsplätze keine Verbindung zur j-lawyer.BOX möglich sein, so führen Sie einen Reboot / Neustart der Box aus. Dazu wird ein j-lawyer.org Client gestartet und im Reiter “j-lawyer.BOX” ein Neustart der Box initiiert. Dazu ist das root-Passwort (Betriebssystemnutzer) notwendig.
 
+### Installation beA-Integration {#installation-bea-integration}
+
+Die beA-Integration wird über den beAstie-Container bereitgestellt. Auf der j-lawyer.BOX erfolgt die gesamte Installation komfortabel über die Management Console – manuelle Eingriffe per SSH sind nicht erforderlich.
+
+Öffnen Sie die Management Console und rufen Sie im linken Menü den Eintrag **beAstie** auf.
+
+![beAstie-Menüeintrag](../images/beastie-menu.png)
+
+Die Einrichtung erfolgt in drei Schritten, die nacheinander ausgeführt werden: Docker installieren, Berechtigungen einrichten und den beAstie-Container installieren. Die j-lawyer.BOX startet während des Prozesses zweimal automatisch neu.
+
+#### Schritt 1: Docker installieren
+
+Beim ersten Aufruf der Seite ist die Docker-Laufzeitumgebung noch nicht installiert. Klicken Sie auf **Installieren**, um Docker auf der BOX einzurichten.
+
+![Docker installieren](../images/beastie-docker.png)
+
+Nach dem Klick erscheint eine Bestätigungsmeldung. Die Installation startet mit einer Verzögerung von bis zu einer Minute und dauert ca. 5 Minuten. Nach Abschluss wird die j-lawyer.BOX automatisch neu gestartet.
+
+![Bestätigung Docker-Installation](../images/beastie-docker-confirmation.png)
+
+#### Schritt 2: Docker-Berechtigung einrichten
+
+Nach dem Neustart ist Docker zwar installiert, der Dienstbenutzer verfügt jedoch noch nicht über die erforderlichen Zugriffsrechte. Klicken Sie auf **Berechtigung einrichten**, um den Benutzer zur Docker-Gruppe hinzuzufügen.
+
+![Docker-Berechtigung einrichten](../images/beastie-docker-permissions.png)
+
+Auch dieser Vorgang erfordert einen automatischen Neustart der BOX.
+
+#### Schritt 3: beAstie installieren
+
+Ist Docker eingerichtet und zugänglich, kann der beAstie-Container installiert werden. Klicken Sie auf **Installieren**, um folgende Schritte auszuführen:
+
+- Anlegen der Verzeichnisse für Zertifikate, Daten, Kommandos, Protokolle und Cache
+- Herunterladen des beAstie-Keystores
+- Herunterladen des aktuellen beAstie-Images (`jlawyerorg/beastie:latest`)
+- Starten des Containers mit automatischem Neustart und täglichem Reboot um Mitternacht
+- Automatische Konfiguration des beA-Endpunkts in j-lawyer.org auf `http://localhost:7080`
+
+![beAstie installieren](../images/beastie-docker-install.png)
+
+Die Installation dauert ebenfalls ca. 5 Minuten. Laden Sie die Seite danach neu.
+
+#### Statusübersicht
+
+Nach erfolgreicher Installation zeigt die Seite den aktuellen Zustand des Containers an: Status, CPU- und Speicherauslastung, Startzeitpunkt sowie das verwendete Image.
+
+![beAstie-Statusübersicht](../images/beastie-docker-status.png)
+
+#### Container verwalten
+
+Über die Aktionskacheln lässt sich der beAstie-Container starten, stoppen, neu starten und aktualisieren. Die Aktion **Aktualisieren** lädt das neueste Image herunter und erstellt den Container neu – vorhandene Daten, Zertifikate und Einstellungen bleiben dabei erhalten, da sie über ein Volume persistiert werden.
+
+![beAstie-Aktionen](../images/beastie-docker-start.png)
+
+Unterhalb der Aktionen wird das Container-Protokoll in Echtzeit angezeigt und kann bei Problemen zur Diagnose herangezogen werden.
+
 ### Synchronisation zweier j-lawyer.BOXen {#synchronisation}
 
 

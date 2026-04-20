@@ -34,7 +34,14 @@
       "Bash(for f:*)",
       "Bash(do echo:*)",
       "Read(//home/jens/dev/j-lawyer-documentation/**)",
-      "Bash(done)"
+      "Bash(done)",
+      "Read(//home/jens/dev/j-lawyer-private/j-lawyer-box/**)",
+      "Read(//home/jens/Downloads/beastie/**)",
+      "Bash(cp /home/jens/Downloads/beastie/01-beastie-menu.png /home/jens/dev/j-lawyer-documentation/docs/images/beastie-menu.png)",
+      "Bash(cp /home/jens/Downloads/beastie/02-beastie-docker.png /home/jens/dev/j-lawyer-documentation/docs/images/beastie-docker.png)",
+      "Bash(cp /home/jens/Downloads/beastie/03-beastie-docker-confirmation.png /home/jens/dev/j-lawyer-documentation/docs/images/beastie-docker-confirmation.png)",
+      "Bash(cp /home/jens/Downloads/beastie/04-beastie-docker-permissions.png /home/jens/dev/j-lawyer-documentation/docs/images/beastie-docker-permissions.png)",
+      "Bash(cp /home/jens/Downloads/beastie/05-beastie-docker-install.png /home/jens/dev/j-lawyer-documentation/docs/images/beastie-docker-install.png)"
     ],
     "deny": [],
     "ask": []
