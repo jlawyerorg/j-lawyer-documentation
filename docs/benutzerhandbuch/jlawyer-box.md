@@ -65,7 +65,7 @@ Sollte nach Aktualisierung der Arbeitsplätze keine Verbindung zur j-lawyer.BOX 
 
 ### Installation beA-Integration {#installation-bea-integration}
 
-Die beA-Integration wird über den beAstie-Container bereitgestellt. Auf der j-lawyer.BOX erfolgt die gesamte Installation komfortabel über die Management Console – manuelle Eingriffe per SSH sind nicht erforderlich.
+Die beA-Integration wird über einen Docker-Container ("beAstie") bereitgestellt. Auf der j-lawyer.BOX erfolgt die gesamte Installation komfortabel über die Management Console.
 
 Öffnen Sie die Management Console und rufen Sie im linken Menü den Eintrag **beAstie** auf.
 
