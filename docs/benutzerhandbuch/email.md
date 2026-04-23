@@ -166,13 +166,11 @@ Im Client unter **Einstellungen** → **E-Mail – Postfächer** wird über den 
 - **Client-Secret**: der geheime Clientschlüssel (Wert) aus Schritt 3
 - **Ablaufdatum**: das in Schritt 3 gewählte Ablaufdatum des Client Secrets
 
-Die Felder für IMAP-/SMTP-Server, Benutzername und Passwort werden bei aktiviertem Office 365 nicht benötigt.
-
 ![Postfachkonfiguration in j-lawyer.org mit aktiviertem Office 365](../images/jlawyer-postfach-office365.png)
 
 #### Schritt 6: Verbindung testen
 
-Nach dem Speichern der Konfiguration über die Schaltfläche **Einstellungen testen** die Verbindung prüfen. Bei Erfolg werden die Postfach-Ordner geladen.
+Nach dem Speichern der Konfiguration ("Übernehmen") und der ersten Authentifizierung (Button hinter der Client-ID) kann über die Schaltfläche **Einstellungen testen** die Verbindung geprüft werden.
 
 Anschließend kann das Postfach über die Nutzerverwaltung (**Einstellungen** → **Nutzer**) für die gewünschten j-lawyer.org-Nutzer freigegeben und nach Neustart des Clients genutzt werden.
 
