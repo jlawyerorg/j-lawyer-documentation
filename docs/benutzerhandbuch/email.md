@@ -86,159 +86,95 @@ Bei allen Anbietern sollte **SSL/TLS** aktiviert sein. Benutzername und Passwort
 
 ### Anbindung von Postfächern mit Azure AD (Office 365) {#azure-ad}
 
+j-lawyer.org bindet Office 365-Postfächer über die **Microsoft Graph API** mit dem **Client Credentials Flow** (OAuth 2.0) an. Die Anwendung greift dabei als App (nicht im Namen eines Benutzers) auf die Postfächer zu. Dafür muss in Azure eine App-Registrierung erstellt und konfiguriert werden.
 
+Eine separate Aktivierung von IMAP oder SMTP im Microsoft 365 Admin Center ist **nicht** erforderlich – der Zugriff erfolgt ausschließlich über die Graph API.
 
-Ab Version 3.1 unterstützt j-lawyer.org eine Anbindung von Office 365-Postfächern mit oder ohne Zweifaktor-Authentifizierung. Die Einrichtung erfordert folgende Schritte:
+!!! note "Update von j-lawyer.org Version 3.4 → 3.5"
+    Ist die App-Registrierung aus der Vorversion bereits vorhanden, muss sie nicht neu angelegt werden. Es genügt:
 
-1. IMAP und SMTP erlauben
+    1. In der bestehenden App-Registrierung in Azure unter **API-Berechtigungen** → **Berechtigung hinzufügen** → **Microsoft Graph** → **Anwendungsberechtigungen** die beiden Berechtigungen **Mail.ReadWrite** und **Mail.Send** hinzufügen und anschließend **Administratorzustimmung erteilen** (vgl. Schritt 2).
+    2. Im j-lawyer.org Client im Tab **Postfach** neben dem Feld **Client-ID** den Button **Authentifizierung zurücksetzen** klicken, damit das zwischengespeicherte Token aus der alten Anbindung verworfen und beim nächsten Zugriff per Client Credentials Flow neu geholt wird.
 
-Microsoft 365 Admin Center öffnen: <https://admin.microsoft.com/>
+    Tenant-ID, Client-ID und Client-Secret bleiben unverändert. Die in der Vorversion konfigurierten delegierten Berechtigungen (IMAP, SMTP.Send, openid …) können in der App-Registrierung verbleiben, werden aber nicht mehr verwendet.
 
-Links auf „Benutzer“, danach „Aktive Benutzer“.
+#### Schritt 1: App-Registrierung erstellen
 
-![Abbildung 27](../images/j-lawyer-org-UserGuide-de-033.png)
+1. Im [Azure Portal](https://portal.azure.com) anmelden
+2. Zu **Microsoft Entra ID** (ehemals Azure Active Directory) navigieren
+3. Im linken Menü **App-Registrierungen** auswählen
+4. **Neue Registrierung** klicken
+5. Konfiguration:
+    - **Name**: z. B. „j-lawyer Mailzugriff"
+    - **Unterstützte Kontotypen**: *Nur Konten in diesem Organisationsverzeichnis* (Single Tenant)
+    - **Umleitungs-URI**: kann leer bleiben (wird nicht benötigt)
+6. **Registrieren** klicken
 
+![App-Registrierung in Microsoft Entra ID](../images/azure-app-registrierung.png)
 
-Für jeden Nutzer wird in den Einstellungen (vgl. Screenshots) die Anmeldung mittels SMTP erlaubt. Dazu einmal auf den jeweiligen Account klicken und anschließend auf „E-Mail“, gefolgt von „E-Mail-Apps verwalten“:
+#### Schritt 2: API-Berechtigungen konfigurieren
 
-![Abbildung 28](../images/j-lawyer-org-UserGuide-de-034.png)
+1. In der erstellten App-Registrierung auf **API-Berechtigungen** klicken
+2. **Berechtigung hinzufügen** → **Microsoft Graph** → **Anwendungsberechtigungen** (nicht „Delegierte Berechtigungen"!)
+3. Folgende Berechtigungen hinzufügen:
+    - **Mail.ReadWrite** – Lesen, Verschieben, Löschen und Aktualisieren von E-Mails und Ordnern
+    - **Mail.Send** – Versenden von E-Mails
+4. **Administratorzustimmung erteilen** klicken (erfordert Global Admin oder Privileged Role Admin)
 
+!!! warning "Wichtig"
+    Es müssen **Anwendungsberechtigungen** (Application Permissions) sein, keine delegierten Berechtigungen. j-lawyer.org authentifiziert sich per Client Credentials, nicht im Namen eines Benutzers.
 
-Stellen Sie sicher, dass „IMAP“ und „Authentifiziertes SMTP“ aktiviert sind:
+![Auswahl Anwendungsberechtigungen](../images/azure-anwendungsberechtigungen.png)
 
-![Abbildung 29](../images/j-lawyer-org-UserGuide-de-035.png)
+![API-Berechtigungen mit Mail.ReadWrite und Mail.Send](../images/azure-api-berechtigungen.png)
 
+#### Schritt 3: Client Secret erstellen
 
-2. optional: Konten ohne Zweifaktor-Authentifizierung erlauben
+1. Im linken Menü **Zertifikate & Geheimnisse** auswählen
+2. **Neuer geheimer Clientschlüssel** klicken
+3. Beschreibung eingeben (z. B. „j-lawyer") und Ablaufdatum wählen
+4. **Hinzufügen** klicken
+5. Den **Wert** des Geheimnisses sofort kopieren – er wird nur einmal angezeigt! Relevant ist der „Wert", nicht die „Geheime ID".
+6. Das Ablaufdatum notieren – nach Ablauf muss ein neues Secret erstellt und in j-lawyer.org hinterlegt werden.
 
-Sollen Konten ohne Zweifaktor-Authentifizierung angebunden werden, so sind Einstellungen entsprechend der untenstehenden Screenshots vorzunehmen.
+!!! tip "Ablauf im Blick behalten"
+    Wer Aufwand sparen möchte, nutzt die maximal möglichen 24 Monate und trägt sich einen Kalendertermin einige Wochen vor Ablauf ein („Azure AD Client Secret erneuern"). j-lawyer.org warnt anhand des im Client hinterlegten Ablaufdatums rechtzeitig vor dem Auslaufen.
 
-Einstellungen öffnen: <https://entra.microsoft.com/#home>
+![Neuer Clientschlüssel mit Wert](../images/azure-client-secret.png)
 
-![Abbildung 30](../images/j-lawyer-org-UserGuide-de-036.png)
+#### Schritt 4: IDs ermitteln
 
+Auf der Übersicht der App-Registrierung finden sich die benötigten Werte:
 
-![Abbildung 31](../images/j-lawyer-org-UserGuide-de-037.png)
+| Azure-Portal | Feld in j-lawyer.org |
+|---|---|
+| Anwendungs-ID (Client-ID) | Client-ID |
+| Verzeichnis-ID (Mandanten-ID) | Mandanten-ID |
+| Geheimer Clientschlüssel (Wert aus Schritt 3) | Client-Secret |
+| Ablaufdatum des Secrets (aus Schritt 3) | Ablaufdatum |
 
+![Anwendungs-ID und Verzeichnis-ID in der App-Übersicht](../images/azure-ids.png)
 
-3. Moderne Authentifizierung konfigurieren
+#### Schritt 5: In j-lawyer.org eintragen
 
-Microsoft 365 Admin Center öffnen: <https://admin.microsoft.com/>
+Im Client unter **Einstellungen** → **E-Mail – Postfächer** wird über den **+**-Knopf ein neues Postfach angelegt. Im Tab **Postfach** folgende Felder ausfüllen:
 
-Links im Menü auf „Alle anzeigen“, dann auf „Einstellungen“ und „Einstellungen der Organisation“. Dort unter „Moderne Authentifizierung“ die Option „Authentifiziertes SMTP“ aktivieren:
+- **E-Mail-Adresse**: die vollständige Adresse des Office 365-Postfachs (z. B. `anwalt@kanzlei.de`)
+- Checkbox **Office 365** aktivieren
+- **Mandanten-ID**: Verzeichnis-ID (Mandanten-ID) aus Azure
+- **Client-ID**: Anwendungs-ID (Client-ID) aus Azure
+- **Client-Secret**: der geheime Clientschlüssel (Wert) aus Schritt 3
+- **Ablaufdatum**: das in Schritt 3 gewählte Ablaufdatum des Client Secrets
 
-![Abbildung 32](../images/j-lawyer-org-UserGuide-de-038.png)
+Die Felder für IMAP-/SMTP-Server, Benutzername und Passwort werden bei aktiviertem Office 365 nicht benötigt.
 
+![Postfachkonfiguration in j-lawyer.org mit aktiviertem Office 365](../images/jlawyer-postfach-office365.png)
 
-![Abbildung 33](../images/j-lawyer-org-UserGuide-de-039.png)
+#### Schritt 6: Verbindung testen
 
+Nach dem Speichern der Konfiguration über die Schaltfläche **Einstellungen testen** die Verbindung prüfen. Bei Erfolg werden die Postfach-Ordner geladen.
 
-4. App erstellen
-
-Anmeldung im Azure Portal
-
-<https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview>
-
-Nach erfolgreichem Login sollte man eine Übersichtsseite erhalten, welche Basisinformation wie bspw. die Mandanten-ID beinhaltet:
-
-![Abbildung 34](../images/j-lawyer-org-UserGuide-de-040.png)
-
-
-Die Mandanten-ID sollte kopiert werden – sie wird später für die Konfiguration im j-lawyer.org Client benötigt.
-
-Neue App registrieren
-
-Im linken Navigationsbereich auf „App-Berechtigungen“, anschließend auf „Neue Registrierung“.
-
-![Abbildung 35](../images/j-lawyer-org-UserGuide-de-041.png)
-
-
-Im ersten Schritt wird ein Name für die App angegeben, bspw. „j-lawyer.org IMAP“ oder „j-lawyer.org E-Mail“:
-
-![Abbildung 36](../images/j-lawyer-org-UserGuide-de-042.png)
-
-
-Anschließend per Klick auf „Registrieren“ eine leere App-Hülle erstellen.
-
-Berechtigungen vergeben
-
-Im Folgenden werden der App Berechtigungen gegeben und es wird ein App-spezifisches Passwort vergeben.
-
-Zunächst notiert / kopiert man sich die „Anwendungs-ID“ (auch Client-ID genannt) zur späteren Nutzung im j-lawyer.org Client:
-
-![Abbildung 37](../images/j-lawyer-org-UserGuide-de-043.png)
-
-
-Nach einem Klick auf „API-Berechtigungen“ sollte die App bereits über das Recht „User.Read“ verfügen:
-
-![Abbildung 38](../images/j-lawyer-org-UserGuide-de-044.png)
-
-
-Nach einem Klick auf „Berechtigung hinzufügen“ wählt man „Microsoft Graph“ aus:
-
-
-![Abbildung 39](../images/j-lawyer-org-UserGuide-de-045.png)
-
-
-Nach Auswahl von „Delegierte Berechtigungen“ werden in der Kategorie „OpenID-Berechtigungen“ die Werte
-- email
-
-- offline_access
-
-- openid
-
-ausgewählt.
-
-![Abbildung 40](../images/j-lawyer-org-UserGuide-de-046.png)
-
-
-Im selben Dialog wird in der Kategorie „IMAP“ die folgende Berechtigung gewählt:
-
-![Abbildung 41](../images/j-lawyer-org-UserGuide-de-047.png)
-
-
-Analog verfahren für „SMTP.Send“ in der Kategorie „SMTP“.
-
-Der Dialog wird mit einem Klick auf „Berechtigungen hinzufügen“ abgeschlossen.
-
-Passwort erstellen
-
-Im letzten Schritt wird für die App ein eigenes Passwort vergeben, das sogenannte „Client Secret“.
-
-Dazu zunächst im linken Navigationsbereich auf „Zertifikate und Geheimnisse“, anschließend auf „Neuer geheimer Clientschlüssel“:
-
-![Abbildung 42](../images/j-lawyer-org-UserGuide-de-048.png)
-
-
-Im daraufhin erscheinenden Detail-Dialog vergeben Sie eine Beschreibung, bspw. „Zugriff auf das Postfach über j-lawyer“ o.ä., sowie eine Gültigkeitsdauer. Wer Aufwand sparen möchte, nutzt die maximal möglichen 24 Monate. Es ist empfehlenswert, sich einen Termin ein paar Wochen vor Ablauf im Kalender zu vermerken: „Azure AD Client Secret erneuern“. Zu diesem Zeitpunkt muss Punkt (4) dieser Anleitung erneut ausgeführ und das neue Client Secret im j-lawyer.org Client hinterlegt werden.
-
-Nach Bestätigung erhält man das eigentliche Client Secret:
-
-![Abbildung 43](../images/j-lawyer-org-UserGuide-de-049.png)
-
-
-Relevant ist der „Wert“, nicht die „Geheime ID“. Den Wert daher für die spätere Nutzung kopieren. Anschließend wird die Einrichtung im j-lawyer.org Client abgeschlossen.
-
-Abschließend unter „Authentifizierung“ der App die Option „Öffentliche Clientflows zulassen“ aktivieren:
-
-![Abbildung 44](../images/j-lawyer-org-UserGuide-de-050.png)
-
-
-5. Einbinden des Postfaches im j-lawyer.org Client
-
-Im Client im Menü „Einstellungen“ – „E-Mail – Postfächer“ wird über den „+“-Knopf ein Postfach hinzugefügt und wie folgt konfiguriert:
-
-![Abbildung 45](../images/j-lawyer-org-UserGuide-de-051.png)
-
-
-Die Servernamen sind hier kopierbar aufgeführt:
-- Eingangsserver: outlook.office365.com
-
-- Ausgangsserver: smtp.office365.com
-
-Danach mittels des Buttons hinter „Client-ID“ das Postfach koppeln. Nach Anmeldung im Browser findet die Verknüpfung des Konto mit der App statt.
-
-Nach erfolgreichem Test kann das Postfach über die Nutzerverwaltung für die gewünschten j-lawyer.org-Nutzer freigegeben und nach Neustart des Clients genutzt werden.
+Anschließend kann das Postfach über die Nutzerverwaltung (**Einstellungen** → **Nutzer**) für die gewünschten j-lawyer.org-Nutzer freigegeben und nach Neustart des Clients genutzt werden.
 
 ### Anbindung von Google Mail-Postfächern {#google-mail}
 

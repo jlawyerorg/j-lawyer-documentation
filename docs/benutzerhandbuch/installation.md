@@ -41,7 +41,7 @@ Die Einrichtung erfolgt in zwei Schritten: Zunächst wird die Docker-Runtime auf
 
 #### Installation auf Windows-Systemen {#bea-windows}
 
-1. **Docker-Runtime installieren**: Download und Installation von *Docker Desktop for Windows* über <https://www.docker.com/products/docker-desktop/>. Setzt WSL 2 voraus, was der Installer bei Bedarf automatisch einrichtet. Nach der Installation Docker Desktop einmal starten und die Lizenzbedingungen akzeptieren.
+1. **Docker-Runtime installieren**: Download und Installation von *Docker Desktop for Windows* über <https://www.docker.com/products/docker-desktop/>. Nach dem Download am besten per Rechtsklick und "Als Administrator ausführen" starten. Setzt WSL 2 voraus, was der Installer bei Bedarf automatisch einrichtet. Nach der Installation Docker Desktop einmal starten und die Lizenzbedingungen akzeptieren.
 2. **Container starten** (PowerShell):
 
 ```
