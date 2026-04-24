@@ -56,7 +56,7 @@ Unter Windows entfällt der `--user`-Parameter, da Docker Desktop die Dateiberec
 2. **Container starten** (Terminal):
 
 ```
-docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+docker run -d --name beastie --platform linux/amd64 --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
 ```
 
 #### Installation auf Linux-Systemen {#bea-linux}
