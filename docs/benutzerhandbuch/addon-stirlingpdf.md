@@ -31,8 +31,8 @@ docker run -d \
   -v "$PWD/StirlingPDF/extraConfigs:/configs" \
   -v "$PWD/StirlingPDF/customFiles:/customFiles/" \
   -v "$PWD/StirlingPDF/logs:/logs/" \
-  -v "$PWD/StirlingPDF/pipeline:/pipeline/"
-  -e SECURITY_ENABLELOGIN=false
+  -v "$PWD/StirlingPDF/pipeline:/pipeline/" \
+  -e SECURITY_ENABLELOGIN=false \
   -e DISABLE_ADDITIONAL_FEATURES=false \
   docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest-fat
 ```
