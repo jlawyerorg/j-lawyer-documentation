@@ -12,7 +12,7 @@ Die Installation auf macOS-Systemen ist hier beschrieben: <http://www.j-lawyer.o
 
 ### Installation auf Linux-Systemen {#linux}
 
-Die Installation auf Windowssystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=93>
+Die Installation auf Linuxsystemen ist hier beschrieben: <http://www.j-lawyer.org/?page_id=93>
 
 ## Installation beA-Anbindung {#bea}
 
