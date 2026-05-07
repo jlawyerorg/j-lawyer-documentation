@@ -101,7 +101,7 @@ Damit der j-lawyer.org Client die laufende beA-Anbindung nutzt, ist die URL des 
 http://localhost:7080
 ```
 
-Wird der Container auf einem anderen Host betrieben, ist `localhost` entsprechend durch dessen Namen oder IP-Adresse zu ersetzen.
+Wird der Container auf einem anderen Host betrieben, ist `localhost` entsprechend durch dessen Namen oder IP-Adresse zu ersetzen. Die Kommunikation ist so gestaltet, dass der j-lawyer.org Client stets mit dem j-lawyer.org Server kommuniziert, und nur der j-lawyer.org Server mit beAstie kommuniziert. Der Docker-Container muss / sollte als nur für den Server erreichbar sein.
 
 ### Update {#bea-update}
 
