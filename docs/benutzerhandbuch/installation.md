@@ -48,7 +48,7 @@ Die Einrichtung erfolgt in zwei Schritten: Zunächst wird die Docker-Runtime auf
 docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ${env:USERPROFILE}\beAstie:/opt/beastie/data jlawyerorg/beastie:latest
 ```
 
-Unter Windows entfällt der `--user`-Parameter, da Docker Desktop die Dateiberechtigungen auf Host-Ebene transparent abbildet.
+(Unter Windows entfällt der `--user`-Parameter, da Docker Desktop die Dateiberechtigungen auf Host-Ebene transparent abbildet.)
 
 #### Installation auf macOS-Systemen {#bea-macos}
 
