@@ -96,3 +96,18 @@ Anschließend muss die Datei /etc/java-11-openjdk/accessibility.properties bearb
 `assistive_technologies=org.GNOME.Accessibility.AtkWrapper`
 
 (Pfad zu dieser Datei kann von Linux-Distribution zu Linux-Distribution abweichen)
+
+
+### “Unexpected Error” beim Exportieren von Tabellen in die Tabellenkalkulation
+
+
+
+Wird der j-lawyer.org Server auf einem Linuxsystem ohne grafische Oberfläche betrieben, so kann es beim Exportieren von Tabellen zu einem Fehler mit Ausgabe „Unexpected Error“ kommen.
+
+Das Problem lässt sich durch Installation der folgenden Pakete beheben:
+
+- fontconfig
+- fonts-dejavu
+- fonts-liberation
+
+Anschließend muss der j-lawyer-server-Dienst neu gestartet werden.
