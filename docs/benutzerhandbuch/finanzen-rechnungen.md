@@ -38,7 +38,7 @@ Bevor eine Rechnung erstellt wird, erstellt man zunächst ein Zeiterfassungsproj
 
 Die verfügbaren Platzhalter für Belegvorlagen sind unter [Platzhalter für Belege / Rechnungen](dokumentenmanagement/vorlagen.md#platzhalter-fur-belege-rechnungen) dokumentiert.
 
-- Im Reiter Dokumente klickt man auf „erstellen", „elektronische Rechnung" und wähle die gewünschte Rechnungsvorlage aus und gehe auf „erstellen und öffnen". Hinweis: Bei der Auswahl des E-Rechnungs-Formates sollte „Elektronische Rechnung (an Unternehmen)" ausgewählt werden, wenn die Rechnung an Unternehmen oder Verbraucher gestellt wird.
+- Im Reiter "Dokumente" eines Belegs klickt man auf „erstellen", wählt das gewünschte E-Rechnungs-Format und anschließend die gewünschte Rechnungsvorlage aus und geht auf „erstellen und öffnen". Hinweis: Bei der Auswahl des E-Rechnungs-Formates sollte „Elektronische Rechnung (an Unternehmen)" ausgewählt werden, wenn die Rechnung an Unternehmen oder Verbraucher gestellt wird.
 
 - Im nun geöffneten Rechnungsdokument kann jetzt das Layout angepasst werden. Inhaltliche Angaben, die auch im maschinenlesbaren Format enthalten sind (wie Rechnungssumme oder Rechnungsempfänger), sollten nicht mehr verändert werden.
 
