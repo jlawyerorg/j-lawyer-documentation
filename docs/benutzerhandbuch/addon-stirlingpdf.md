@@ -23,18 +23,18 @@ Stirling PDF wird als Docker-Container betrieben. Die Installation erfolgt auf d
 Für die vollständige Funktionalität (inklusive zusätzlicher Schriftarten) wird die `latest-fat`-Variante empfohlen:
 
 ```bash
-docker run -d \
-  --name stirling-pdf \
-  --restart unless-stopped \
-  -p 127.0.0.1:6080:8080 \
-  -v "$PWD/StirlingPDF/trainingData:/usr/share/tessdata" \
-  -v "$PWD/StirlingPDF/extraConfigs:/configs" \
-  -v "$PWD/StirlingPDF/customFiles:/customFiles/" \
-  -v "$PWD/StirlingPDF/logs:/logs/" \
-  -v "$PWD/StirlingPDF/pipeline:/pipeline/" \
-  -e SECURITY_ENABLELOGIN=false \
-  -e DISABLE_ADDITIONAL_FEATURES=false \
-  docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest-fat
+  docker run -d \
+    --name stirling-pdf \
+    --restart unless-stopped \
+    -p 127.0.0.1:6080:8080 \
+    -v "$PWD/StirlingPDF/trainingData:/usr/share/tessdata" \
+    -v "$PWD/StirlingPDF/extraConfigs:/configs" \
+    -v "$PWD/StirlingPDF/customFiles:/customFiles/" \
+    -v "$PWD/StirlingPDF/logs:/logs/" \
+    -v "$PWD/StirlingPDF/pipeline:/pipeline/" \
+    -e SECURITY_ENABLELOGIN=false \
+    -e SYSTEM_DEFAULTLOCALE=de-DE \
+    docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest-fat
 ```
 
 !!! warning "Nur für Betrieb auf demselben Host geeignet"
