@@ -17,17 +17,9 @@ Im oberen Bereich "Aktenkopf" werden die Stammdaten der Akte gepflegt:
 
 ## Etiketten
 
-Im mittleren Bereich können Etiketten aktiviert werden. Etiketten dienen der Kategorisierung und ermöglichen ein schnelles Filtern von Akten.
+Im mittleren Bereich „Akten-Etiketten" können Etiketten aktiviert werden. Ein Klick aktiviert ein Etikett (farbig hinterlegt), ein erneuter Klick deaktiviert es. In der Aktensuche kann nach Etiketten gefiltert werden.
 
-### Etiketten verwenden
-
-- Klicken Sie auf ein Etikett, um es zu aktivieren (farbig hinterlegt)
-- Klicken Sie erneut, um es zu deaktivieren
-- In der Aktensuche können Sie nach Etiketten filtern
-
-### Etiketten verwalten
-
-Neue Etiketten können über **Einstellungen** → **Modul 'Akten'** → **Etiketten** erstellt werden.
+Neue Akten-Etiketten werden über **Einstellungen** → **Akten** → **Akten-Etiketten** angelegt. Ausführliche Informationen zu Etiketten, Listenetiketten und zum Abonnieren von Etiketten finden Sie im Kapitel [Etiketten](../etiketten.md).
 
 ## Notizen
 

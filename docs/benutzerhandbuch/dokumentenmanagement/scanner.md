@@ -14,6 +14,8 @@ Beim Auswählen eines Dokuments im Scaneingang werden automatisch passende Akten
 
 Konfigurieren Sie Ihren Scanner so, daß alle Scans automatisch in diesem Ordner abgelegt werden, haben Sie so eine komfortable Möglichkeit, direkt im j-lawyer auf die Dokumente zuzugreifen.
 
+Beim Zuordnen eines Dokuments zu einer Akte greift die [Etiketten-Automatik](../etiketten.md#etiketten-automatik): Anhand des Dateinamens können Dokument-Etiketten automatisch vergeben werden, etwa um den unbearbeiteten Posteingang zu kennzeichnen.
+
 Um diese Funktionalität zu nutzen, bearbeiten Sie die Einstellung direkt im j-lawyer Client unter „Einstellungen" – „Modul ‚Dokumente'" – „Scannerintegration", bspw. für Linux:
 
 ```

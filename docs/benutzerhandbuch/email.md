@@ -230,7 +230,7 @@ Die automatische Veraktung wird pro Postfach im Menü **Einstellungen** → **E-
 |-------------|--------------|
 | Posteingang scannen | Aktiviert die automatische Veraktung für dieses Postfach |
 | Zeitraum (Tage) | Nur E-Mails der letzten X Tage werden geprüft (Standard: 2 Tage) |
-| Dokumenten-Etiketten | Etiketten, die automatisch gespeicherten Dokumenten zugewiesen werden |
+| Dokumenten-Etiketten | [Etiketten](etiketten.md), die automatisch gespeicherten Dokumenten zugewiesen werden |
 | Blacklist Dateitypen | Anhang-Dateitypen, die nicht gespeichert werden sollen (z.B. exe, bat) |
 | Ausschlussliste | E-Mail-Adressen, die vom Scan ausgeschlossen werden (Absender oder Empfänger) |
 | Mindestgröße Anhänge | Anhänge unterhalb dieser Größe werden ignoriert |
@@ -260,7 +260,7 @@ Archivierte Akten werden bei der Zuordnung nicht berücksichtigt.
 Nach erfolgreicher Zuordnung wird die E-Mail:
 
 - Als .eml-Datei in der Akte gespeichert
-- Mit den konfigurierten Dokumenten-Etiketten versehen
+- Mit den konfigurierten Dokumenten-Etiketten versehen. Zusätzlich greift die [Etiketten-Automatik](etiketten.md#etiketten-automatik), die anhand des Dateinamens weitere Etiketten vergeben kann
 - Anhänge werden als separate Dokumente gespeichert (sofern nicht auf der Blacklist oder zu klein)
 - Im Postfach in den Unterordner **in Akte importiert** verschoben
 

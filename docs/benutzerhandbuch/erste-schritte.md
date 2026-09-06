@@ -51,8 +51,6 @@ Ebenfalls über das Menü „Einstellungen“ können Sie wichtige Textbausteine
 
 ### Optional: Definieren von Etiketten
 
-Sofern die Etiketten-Funktionalität (eine Art digitale Haftnotiz) für Adressen, Akten oder Dokumente genutzt werden soll, kann man über das Einstellungs-Menü die gewünschten Etiketten vordefinieren, die dann in der Akte / Adresse durch einfachen Klick aktiviert werden können.
+Sofern die Etiketten-Funktionalität (eine Art digitale Haftnotiz) für Adressen, Akten oder Dokumente genutzt werden soll, kann man über das Einstellungs-Menü die gewünschten Etiketten vordefinieren, die dann in der Akte / Adresse durch einfachen Klick aktiviert werden können. Auf dem Desktop lassen sich Etiketten „abonnieren“, um Akten und Dokumente mit bestimmten Haftnotizen immer im Blick zu haben.
 
-Auf dem Desktop kann man dann Etiketten „abonnieren“ und so Akten und Dokumente immer im Blick haben, an denen ein oder mehrer bestimmte Haftnotizen hängen.
-
-Auch Arbeitsflüsse lassen sich so abbilden – ein Beispiel: bei Übernahme von Papierpost aus dem Scaneingang oder elektronischer Post (E-Mail, beA, Drebis, …) können Dokumente automatisch mit einem Etikett “unbearbeiteter Posteingang” versehen werden. Auf dem Desktop ist dieses Etikett abonniert, so findet man nach Abarbeitung des Posteingangs den nun bestehenden Arbeitsvorrat an zentraler Stelle wieder.
+Damit lassen sich auch ganze Arbeitsflüsse abbilden – etwa ein Etikett „unbearbeiteter Posteingang“, das per [Etiketten-Automatik](etiketten.md#etiketten-automatik) gesetzt und auf dem Desktop abonniert wird. Eine vollständige Beschreibung finden Sie im Kapitel [Etiketten](etiketten.md).

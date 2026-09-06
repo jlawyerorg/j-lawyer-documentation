@@ -126,6 +126,8 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 
 ### Etiketten {#tools-etiketten}
 
+Grundlagen zu Etiketten und ihrer Konfiguration finden Sie im Kapitel [Etiketten](../etiketten.md).
+
 | Werkzeug | Beschreibung | Risiko |
 |----------|-------------|--------|
 | `list_document_tags` | Listet alle verfügbaren Dokumentetiketten auf | Niedrig |

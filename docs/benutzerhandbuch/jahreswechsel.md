@@ -32,7 +32,7 @@ Eine Anpassung ist nur dann erforderlich, wenn Sie:
 
 ### Vorgehensweise
 
-1. Öffnen Sie das Menü **Einstellungen** - **Modul 'Akten'** - **Aktenzeichenschema**
+1. Öffnen Sie das Menü **Einstellungen** - **Akten** - **Aktenzeichen-Schema**
 2. Prüfen Sie, ob ein erhöhter Start-Index eingetragen ist
 3. Setzen Sie den Start auf `1`, damit die Nummerierung im neuen Jahr wieder bei 1 beginnt
 4. Speichern Sie die Änderungen

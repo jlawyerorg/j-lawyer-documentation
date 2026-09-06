@@ -41,11 +41,17 @@ Dokumente können auf verschiedene Wegen zur Akte hinzugefügt werden:
 
 ## Dokumentetiketten
 
-Dokumente können – ähnlich wie Akten – mit Etiketten versehen werden. Dies ermöglicht eine zusätzliche Kategorisierung und Filterung.
+Dokumente können – ähnlich wie Akten – mit Etiketten versehen werden. Dies ermöglicht eine zusätzliche Kategorisierung und Filterung. Die Dokument-Etiketten beziehen sich jeweils auf das in der Dokumentenliste ausgewählte Dokument.
 
 ### Etiketten für mehrere Dokumente setzen
 
 Wählen Sie mehrere Dokumente aus und setzen Sie über das Kontextmenü die Etiketten für alle ausgewählten Dokumente gleichzeitig.
+
+### Etiketten automatisch vergeben
+
+Dokument-Etiketten können anhand des Dateinamens automatisch vergeben werden – etwa um eingehende Post vorzusortieren. Siehe [Etiketten-Automatik](../etiketten.md#etiketten-automatik).
+
+Eine vollständige Beschreibung von Etiketten, Listenetiketten und ihrer Konfiguration finden Sie im Kapitel [Etiketten](../etiketten.md).
 
 ## Volltextsuche innerhalb der Akte
 
@@ -101,7 +107,7 @@ Dokumente können in einer Ordnerstruktur organisiert werden:
 - Es werden nur fehlende Ordner hinzugefügt, vorhandene bleiben erhalten
 - Mehrere Vorlagen können nacheinander kombiniert werden
 
-Die Ordnervorlagen werden unter **Einstellungen** → **Modul 'Akten'** → **Dokumentordner** verwaltet.
+Die Ordnervorlagen werden unter **Einstellungen** → **Akten** → **Dokumentordner** verwaltet.
 
 #### Ordneransicht filtern
 

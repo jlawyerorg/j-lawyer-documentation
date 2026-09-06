@@ -99,7 +99,7 @@ Die Buchung enthält automatisch:
 
 #### Aktenetiketten setzen
 
-Zusätzlich können direkt Aktenetiketten gesetzt oder entfernt werden, z.B. um den Zahlungsstatus der Akte zu dokumentieren.
+Zusätzlich können direkt [Aktenetiketten](etiketten.md) gesetzt oder entfernt werden, z.B. um den Zahlungsstatus der Akte zu dokumentieren.
 
 ### Manuelle Zuordnung {#manuelle-zuordnung}
 

@@ -672,7 +672,7 @@ Mein Mandant leitet eine Kapitalgesellschaft.
 
 ### Funktion WENNETIKETT
 
-Gibt einen Wert aus, sofern für die Akte ein bestimmtes Etikett gesetzt ist.
+Gibt einen Wert aus, sofern für die Akte ein bestimmtes [Etikett](../etiketten.md) gesetzt ist.
 
 | Signatur | WENNETIKETT(Etikett, WennVorhanden) WENNETIKETT(Etikett, WennVorhanden, Anderenfalls) |  |
 | --- | --- | --- |

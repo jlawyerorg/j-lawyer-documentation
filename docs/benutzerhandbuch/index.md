@@ -16,6 +16,8 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [Kontakte / Adressen](adressen.md)
 
+- [Etiketten](etiketten.md)
+
 - [Dokumentenmanagement](dokumentenmanagement/index.md)
 
 - [Kalender: Termine, Wiedervorlagen und Fristen](kalender/index.md)

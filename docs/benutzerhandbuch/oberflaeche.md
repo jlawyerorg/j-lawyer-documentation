@@ -118,6 +118,8 @@ Am unteren Rand des Bereichs befinden sich Tabs zur Filterung:
 
 Dieser Bereich zeigt Akten und Dokumente gefiltert nach Etiketten. So können Sie bestimmte Arbeitsvorgänge im Blick behalten, indem Sie die relevanten Etiketten abonnieren.
 
+Das Abonnement erfolgt über die Etiketten-Schaltflächen in der Kopfleiste und wird pro Nutzer gespeichert – siehe [Etiketten abonnieren](etiketten.md#etiketten-abonnieren).
+
 Am unteren Rand des Bereichs befinden sich Tabs:
 
 - **alle**: Zeigt alle Einträge unabhängig vom Etikett

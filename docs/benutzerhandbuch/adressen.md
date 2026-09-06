@@ -39,9 +39,9 @@ Mehrere Suchbegriffe können durch **Leerzeichen** oder **Kommas** getrennt eing
 - **Groß-/Kleinschreibung:** Wird ignoriert. `müller` findet auch "MÜLLER" oder "Müller".
 - **Umlaute:** Deutsche Umlaute (ä, ö, ü, ß) werden korrekt verarbeitet.
 
-#### Kombination mit Tags {#suchen-tags}
+#### Kombination mit Etiketten {#suchen-tags}
 
-Zusätzlich zur Textsuche ist eine Einschränkung über Tags möglich. Beide Filter werden kombiniert - es werden nur Adressen angezeigt, die sowohl den Suchbegriffen als auch den gewählten Tags entsprechen.
+Zusätzlich zur Textsuche ist eine Einschränkung über [Etiketten](etiketten.md) möglich. Beide Filter werden kombiniert - es werden nur Adressen angezeigt, die sowohl den Suchbegriffen als auch den gewählten Etiketten entsprechen.
 
 ### Adresse importieren {#import}
 

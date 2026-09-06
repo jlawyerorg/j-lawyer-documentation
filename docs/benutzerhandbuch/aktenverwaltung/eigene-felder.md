@@ -13,7 +13,7 @@ Eigene Felder dienen dazu, zusätzliche Informationen zu erfassen, die nicht in 
 
 ## Eigene Felder konfigurieren
 
-Die Konfiguration der eigenen Felder erfolgt über **Einstellungen** → **Modul 'Akten'** → **Eigene Felder**.
+Die Konfiguration der eigenen Felder erfolgt über **Einstellungen** → **Akten** → **Eigene Felder (Akte)**. Felder für Beteiligte werden unter **Eigene Felder (Beteiligte)** gepflegt.
 
 ## Eigene Felder nutzen
 
