@@ -124,10 +124,10 @@ docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ${env:USER
 Terminal:
 
 ```
-docker pull jlawyerorg/beastie:latest
+docker pull --platform linux/amd64 jlawyerorg/beastie:latest
 docker stop beastie
 docker rm beastie
-docker run -d --name beastie --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
+docker run -d --name beastie --platform linux/amd64 --restart unless-stopped -p 7080:7080 -v ~/beAstie:/opt/beastie/data --user $(id -u):$(id -g) jlawyerorg/beastie:latest
 ```
 
 #### Update unter Linux {#bea-update-linux}
