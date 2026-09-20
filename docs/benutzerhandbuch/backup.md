@@ -82,7 +82,7 @@ Eine Wiederherstellung Ihrer Daten aus einem Backup ist über die separate Anwen
 
 - Kopieren Sie die Datensicherung auf das Gerät, auf welchem der j-lawyer.org Server läuft
 
-- Starten Sie den Backupmanager über das Startmenü. Sollte die Installation nicht über eine grafische Oberfläche verfügen (bspw. Minimalinstallation eines Linuxservers), so öffnen Sie eine Konsole, wechseln Sie in das Verzeichnis Ihrer j-lawyer.org Serverinstallation, Unterverzeichnis "backupmgr", und starten dort `java -jar j-lawyer-backupmgr.jar -console`
+- Starten Sie den Backupmanager über das Startmenü. Sollte die Installation nicht über eine grafische Oberfläche verfügen (bspw. Minimalinstallation eines Linuxservers), so öffnen Sie eine Konsole, wechseln Sie in das Verzeichnis Ihrer j-lawyer.org Serverinstallation, Unterverzeichnis `j-lawyer-backupmgr`, und starten dort `java -jar j-lawyer-backupmgr-<VERSION>.jar -console`. Die JAR-Datei enthält die Versionsnummer (z.B. `j-lawyer-backupmgr-1.10.0.jar`). Alternativ können Sie den Launcher `./j-lawyer-backupmgr` verwenden.
 
 - Geben Sie die Pfade zu den Verzeichnissen mit der einzuspielenden Datensicherung sowie dem aktuell genutzten Datenverzeichnis des j-lawyer.org Servers an, sowie das MySQL-root-Passwort und optional das Verschlüsselungspasswort, mit welchem die Datensicherung verschlüsselt wurde.
 
