@@ -111,7 +111,7 @@ Nach erfolgreicher Installation zeigt die Seite den aktuellen Zustand des Contai
 
 ![beAstie-Statusübersicht](../images/beastie-docker-status.png)
 
-#### Container verwalten
+#### Container verwalten {#container-verwalten}
 
 Über die Aktionskacheln lässt sich der beAstie-Container starten, stoppen, neu starten und aktualisieren. Die Aktion **Aktualisieren** lädt das neueste Image herunter und erstellt den Container neu – vorhandene Daten, Zertifikate und Einstellungen bleiben dabei erhalten, da sie über ein Volume persistiert werden.
 

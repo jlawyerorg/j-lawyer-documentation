@@ -106,6 +106,9 @@ Wird der Container auf einem anderen Host betrieben, ist `localhost` entsprechen
 
 ### Update {#bea-update}
 
+!!! note "Hinweis für Nutzer einer j-lawyer.BOX"
+    Für Nutzer einer j-lawyer.BOX erfolgt das Update der beA-Integration über die Management Console, [hier beschrieben](jlawyer-box.md#container-verwalten).
+
 Ein Update der beA-Anbindung besteht aus drei Schritten: das neueste Image herunterladen, den alten Container entfernen und mit dem ursprünglichen Startkommando neu starten. Das Datenverzeichnis im Volume (`~/beAstie` unter Linux/macOS bzw. `%USERPROFILE%\beAstie` unter Windows) bleibt dabei erhalten.
 
 #### Update unter Windows {#bea-update-windows}
