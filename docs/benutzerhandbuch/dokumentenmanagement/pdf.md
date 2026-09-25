@@ -38,12 +38,47 @@ Das Gesamt-PDF ist mit Lesezeichen versehen, um schnell zwischen den ehemaligen 
 - Metadaten, bspw. Autor, Titel, Betreff, Schlüsselwörter, erstellende Anwendung, Erstellungsdatum und Änderungsdatum werden entfernt oder auf einen Standardwert gesetzt
 - Wörter werden im PDF geschwärzt und der ursprüngliche Inhalt entfernt. Eine Suche nach diesen Wörtern ist dann nicht mehr möglich.
 
-Zum Entfernen mehrerer Wörter können diese durch Komma separiert angegeben werden. Voreingestellt sind:
+Die zu schwärzenden Begriffe werden im Eingabefeld „Wörter ersetzen" durch Komma getrennt angegeben. Beim Klick auf „Anonymisieren" gilt:
+
+- Groß- und Kleinschreibung wird nicht unterschieden.
+- Ein Begriff wird auch innerhalb längerer Wörter gefunden. Ein Vorname „Max" wird bspw. auch in „Maximum" geschwärzt. Kurze Begriffe sollten daher vor dem Anonymisieren geprüft und ggf. entfernt werden.
+- Längere Begriffe werden vor kürzeren verarbeitet, sodass bspw. „Musterstraße" vollständig geschwärzt wird, auch wenn zusätzlich „Muster" in der Liste steht.
+
+### Automatisch vorgeschlagene Begriffe {#pdf-schwaerzen-vorschlaege}
+
+Beim Öffnen des Dialogs wird das Eingabefeld automatisch mit Begriffen aus der Akte vorbelegt:
+
+**Aus der Akte:**
 
 - Aktenzeichen
-- Beteiligtendaten: Bankverbindung, beA Safe-ID, Geburtsdatum und -name, Anschrift, Unternehmen und Abteilung, Sterbedatum, Kontaktdaten, Versicherungsinformationen, TIN und UstId
 
-Es gibt im Dialog die Möglichkeit, weitere anonymisierungswürdige Terme KI-gestützt extrahieren zu lassen.
+**Für jeden Beteiligten der Akte:**
+
+- Zeichen des Beteiligten (Feld „Zeichen" in der Beteiligtenliste)
+- Name, Vorname, zweiter Vorname und Geburtsname
+- Unternehmen und Abteilung, Handelsregisternummer
+- Straße, Postleitzahl, Ort und Ortsteil
+- Geburtsdatum und Sterbedatum
+- Telefon, Mobiltelefon, Fax, E-Mail-Adresse und Website
+- Bankverbindung (IBAN und BIC)
+- beA Safe-ID
+- Versicherungsscheinnummern aller im Reiter „Bank / Versicherung" hinterlegten Versicherungen
+- Steueridentifikationsnummer (TIN) und Umsatzsteuer-ID
+
+Leere Felder werden übersprungen. Die Hausnummer wird nicht vorgeschlagen und muss bei Bedarf manuell ergänzt werden. Ebenso wenig enthalten sind Daten, die nur im Dokument selbst stehen, bspw. Namen weiterer Personen, Kennzeichen oder Aktenzeichen von Gerichten und Gegnern. Für diese Begriffe bietet sich die KI-gestützte Extraktion an.
+
+Die Vorschlagsliste kann vor dem Anonymisieren beliebig ergänzt oder gekürzt werden.
+
+### Schwärzenswerte Begriffe mit Assistent Ingo extrahieren {#pdf-schwaerzen-ki}
+
+Rechts neben dem Eingabefeld befindet sich der Button von [Assistent Ingo](../ki-assistent/index.md). Ein Klick darauf öffnet ein Menü mit allen verfügbaren KI-Funktionen vom Typ **extract**, die Text als Eingabe verarbeiten. Neben den vom Assistenten bereitgestellten Funktionen erscheinen hier auch [eigene Prompts](../ki-assistent/eigene-prompts.md) vom Typ „extract".
+
+Als Eingabe erhält der Assistent den Text des PDFs, bei gescannten Dokumenten also das Ergebnis der Texterkennung. Der Assistent ermittelt daraus personenbezogene oder anderweitig vertrauliche Angaben, die nicht aus den Stammdaten der Akte stammen, bspw. Namen weiterer Personen, Adressen, Kennzeichen, Vertrags- oder Kundennummern. Das Ergebnis wird mit einem Komma an die bestehende Liste im Eingabefeld angehängt; die automatisch vorgeschlagenen Begriffe bleiben erhalten.
+
+!!! tip "Eigener Prompt für die Anonymisierung"
+    Wer einen eigenen Prompt vom Typ „extract" für diesen Zweck anlegt, sollte das Modell anweisen, ausschließlich die gefundenen Begriffe als **kommaseparierte Liste** ohne Erläuterungen auszugeben. Nur so werden die Begriffe einzeln erkannt und geschwärzt.
+
+Die von der KI gelieferten Begriffe sollten vor dem Klick auf „Anonymisieren" geprüft werden: Das Modell kann Begriffe übersehen oder unnötig vorschlagen.
 
 Das anonymisierte Dokument kann dann zur Akte gespeichert werden.
 
