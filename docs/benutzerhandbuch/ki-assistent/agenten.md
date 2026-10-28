@@ -128,7 +128,7 @@ Berücksichtigt werden nur Akten, für die der angemeldete Benutzer eine Leseber
 | `update_event` | Ändert einen bestehenden Kalendereintrag, bei Terminen auch die Erinnerung | Mittel |
 
 !!! info "Erinnerungen"
-    Bei Terminen kann Ingo eine [Erinnerung](../kalender/aktenbezogen.md#erinnerungen) setzen, ändern oder entfernen – bspw. „Lege einen Termin am 15.09. um 10 Uhr an und erinnere mich 30 Minuten vorher". Möglich sind Erinnerungen bei Beginn bis maximal einen Tag vorher. Die Erinnerung wird im Freigabedialog angezeigt und bei aktiver Kalendersynchronisierung mit übertragen. Für Wiedervorlagen und Fristen stehen keine Erinnerungen zur Verfügung.
+    Bei Terminen kann Ingo eine [Erinnerung](../aktenverwaltung/kalender-akte.md#erinnerungen) setzen, ändern oder entfernen – bspw. „Lege einen Termin am 15.09. um 10 Uhr an und erinnere mich 30 Minuten vorher". Möglich sind Erinnerungen bei Beginn bis maximal einen Tag vorher. Die Erinnerung wird im Freigabedialog angezeigt und bei aktiver Kalendersynchronisierung mit übertragen. Für Wiedervorlagen und Fristen stehen keine Erinnerungen zur Verfügung.
 
 ### Rechnungen {#tools-rechnungen}
 

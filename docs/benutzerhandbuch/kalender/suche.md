@@ -4,7 +4,7 @@ Die Kalendersuche ermöglicht es, Wiedervorlagen, Fristen und Termine aktenüber
 
 ## Zugriff auf die Ansicht
 
-Die Ansicht ist über die Hauptnavigation links unter **Kalender** → **Suchen** erreichbar.
+Die Suche ist als Reiter **suchen** in der [Übersicht](chronologisch.md) erreichbar (Hauptnavigation links unter **Kalender** → **Übersicht**). Wird aus den Suchergebnissen eine Akte geöffnet, führt **Zurück** wieder in die Übersicht.
 
 ## Suchkriterien
 
@@ -44,6 +44,7 @@ Im Feld **enthält** kann ein Suchbegriff eingegeben werden. Die Suche durchsuch
 - Kurzrubrum
 - Grund
 - Beschreibung
+- erstellt von
 
 Drücken Sie **Enter** (↵), um die Suche zu starten.
 
@@ -66,6 +67,7 @@ Die Ergebnistabelle zeigt folgende Spalten:
 | **erledigt** | Status des Eintrags (erledigt/offen) |
 | **Anwalt** | Zuständiger Sachbearbeiter der Akte |
 | **verantwortlich** | Verantwortlicher für den Kalendereintrag |
+| **erstellt von** | Nutzer, der den Kalendereintrag angelegt hat |
 | **Kalender** | Name des Kalenders |
 
 ## Bedienung

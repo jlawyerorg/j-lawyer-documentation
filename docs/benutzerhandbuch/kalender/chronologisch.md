@@ -1,22 +1,23 @@
-# Aktenübergreifende Ansicht {#chronologisch}
+# Übersicht {#chronologisch}
 
-Die aktenübergreifende Kalenderansicht zeigt alle offenen Kalendereinträge (Termine, Wiedervorlagen und Fristen) chronologisch sortiert an – unabhängig davon, zu welcher Akte sie gehören.
+Die Übersicht zeigt alle offenen Kalendereinträge (Termine, Wiedervorlagen und Fristen) chronologisch sortiert an – unabhängig davon, zu welcher Akte sie gehören.
 
 ## Zugriff auf die Ansicht
 
-Die Ansicht ist über die Hauptnavigation links unter **Kalender** → **Chronologisch** erreichbar.
+Die Ansicht ist über die Hauptnavigation links unter **Kalender** → **Übersicht** erreichbar.
 
 ## Darstellungsformen
 
-Die Ansicht bietet zwei verschiedene Darstellungsformen, die über Reiter umgeschaltet werden können:
+Die Ansicht bietet drei Reiter:
 
 | Reiter | Beschreibung |
 |--------|--------------|
 | **Liste** | Tabellarische Übersicht aller Kalendereinträge |
 | **Kalenderblatt** | Grafische Kalenderdarstellung mit Tages-, Wochen- und Monatsansicht |
+| **suchen** | Aktenübergreifende Suche nach offenen und erledigten Kalendereinträgen (siehe [Kalendersuche](suche.md)) |
 
 !!! tip "Standard-Ansicht merken"
-    j-lawyer.org merkt sich, welchen Reiter (Liste oder Kalenderblatt) Sie zuletzt verwendet haben, und öffnet diesen beim nächsten Aufruf automatisch.
+    j-lawyer.org merkt sich, welchen Reiter Sie zuletzt verwendet haben, und öffnet diesen beim nächsten Aufruf automatisch.
 
 ## Listenansicht {#listenansicht}
 
@@ -34,6 +35,7 @@ Die Listenansicht zeigt alle Kalendereinträge in einer tabellarischen Übersich
 | **Beschreibung** | Zusätzliche Beschreibung |
 | **Anwalt** | Zuständiger Sachbearbeiter der Akte |
 | **verantwortlich** | Verantwortlicher für den Kalendereintrag |
+| **erstellt von** | Nutzer, der den Kalendereintrag angelegt hat |
 | **Kalender** | Name des Kalenders |
 
 ### Bedienung der Listenansicht
@@ -50,6 +52,8 @@ Die Listenansicht zeigt alle Kalendereinträge in einer tabellarischen Übersich
 | Export | LibreOffice-Export | Exportiert die Liste als CSV-Datei |
 | Aktualisieren | Daten neu laden | Lädt die Kalendereinträge neu |
 
+Neben den Schaltflächen zeigt eine Statusanzeige den Stand der Daten. Kann die Liste nicht aktualisiert werden, weist die Anzeige darauf hin; j-lawyer.org versucht es dann automatisch weiter.
+
 ## Kalenderblatt {#kalenderblatt}
 
 Das Kalenderblatt bietet eine grafische Darstellung der Kalendereinträge in verschiedenen Ansichten.
@@ -64,7 +68,7 @@ Das Kalenderblatt unterstützt drei verschiedene Ansichten:
 | **Wochenansicht** | Übersicht über eine Woche mit allen Tagen nebeneinander |
 | **Monatsansicht** | Übersicht über einen Monat mit allen Tagen im Raster |
 
-Die Ansichten können über die Schaltflächen in der oberen Leiste des Kalenderblatts gewechselt werden.
+Die Ansichten können über die Schaltflächen in der oberen Leiste des Kalenderblatts gewechselt werden. Über die Schaltfläche **Kalenderblatt aktualisieren** werden die Einträge neu geladen.
 
 ### Navigation im Kalenderblatt
 

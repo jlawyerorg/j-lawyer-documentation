@@ -80,11 +80,11 @@ Bei mehreren konfigurierten Kalendern kann beim Erstellen eines Eintrags der Zie
 
 ## Erinnerungen {#erinnerungen}
 
-Für Termine (nicht für Wiedervorlagen oder Fristen) können Erinnerungen konfiguriert werden. Eine Erinnerung benachrichtigt den verantwortlichen Nutzer vor Beginn des Termins direkt in j-lawyer.org.
+Für Termine (nicht für Wiedervorlagen oder Fristen) können Erinnerungen konfiguriert werden. Eine Erinnerung benachrichtigt den verantwortlichen Nutzer vor Beginn des Termins direkt in j-lawyer.org. Ist kein Verantwortlicher eingetragen, wird jeder angemeldete Nutzer erinnert.
 
 ### Erinnerung konfigurieren
 
-Beim Erstellen oder Bearbeiten eines Termins steht ein Glocken-Button zur Verfügung:
+Beim Erstellen, Bearbeiten oder Duplizieren eines Termins steht ein Glocken-Button (Tooltip „Erinnerung") zur Verfügung:
 
 - **Blaue Glocke**: Keine Erinnerung aktiv
 - **Grüne Glocke**: Erinnerung aktiv
@@ -115,11 +115,15 @@ Wenn eine Erinnerung fällig wird, erscheint ein Benachrichtigungsfenster am unt
 - **Ort** (sofern angegeben)
 - **Aktenzeichen** als klickbarer Link – ein Klick öffnet die zugehörige Akte
 
-Über den Bestätigen-Button kann jede Erinnerung einzeln quittiert werden. Alternativ werden alle angezeigten Erinnerungen über „Alle bestätigen" auf einmal quittiert.
+Über den Bestätigen-Button kann jede Erinnerung einzeln quittiert werden. Alternativ werden alle angezeigten Erinnerungen über „Alle bestätigen" auf einmal quittiert. Ist ein Ort angegeben, kann dieser über „Ort kopieren" in die Zwischenablage übernommen werden.
+
+Das Quittieren einer Erinnerung markiert den Termin nicht als erledigt.
 
 !!! info "Hinweis"
-    Erinnerungen werden nur angezeigt, wenn der j-lawyer Client geöffnet ist. Quittierte Erinnerungen erscheinen in derselben Sitzung nicht erneut, können aber nach einem Neustart des Clients wieder angezeigt werden.
+    Erinnerungen werden nur angezeigt, wenn der j-lawyer Client geöffnet ist. Der Client prüft einmal pro Minute auf fällige Erinnerungen. Quittierte Erinnerungen erscheinen in derselben Sitzung nicht erneut, können aber nach einem Neustart des Clients wieder angezeigt werden.
 
 ### Erinnerungen und Nextcloud-Synchronisation
 
 Ist eine Nextcloud-Kalender-Synchronisation konfiguriert, werden Erinnerungen automatisch als Kalender-Alarme (VALARM) an Nextcloud übertragen. Dadurch können auch Nextcloud-kompatible Kalender-Apps (z.B. auf dem Smartphone) die Erinnerungen anzeigen.
+
+Erinnerungen können auch über [Assistent Ingo](../ki-assistent/agenten.md#tools-kalender) gesetzt, geändert oder entfernt werden.

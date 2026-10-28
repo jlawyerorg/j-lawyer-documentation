@@ -13,6 +13,7 @@ Die Aktenverwaltung ist das zentrale Modul in j-lawyer.org. Hier werden alle Inf
 | [Zeiten](zeiten.md) | Zeiterfassung und Projekte |
 | [Eigene Felder](eigene-felder.md) | Benutzerdefinierte Felder |
 | [Falldaten](falldaten.md) | Strukturierte Falldatenblätter |
+| [AI](../ki-assistent/chats.md) | Gespeicherte Chats mit Assistent Ingo zu dieser Akte |
 | [Historie](historie.md) | Änderungsprotokoll der Akte |
 
 ## Akten suchen {#suchen}

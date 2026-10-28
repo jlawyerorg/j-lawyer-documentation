@@ -124,7 +124,7 @@ nav:
     - Kalender:
       - Übersicht: benutzerhandbuch/kalender/index.md
       - Aktenbezogener Kalender: benutzerhandbuch/kalender/aktenbezogen.md
-      - Aktenübergreifende Ansicht: benutzerhandbuch/kalender/chronologisch.md
+      - Übersicht (aktenübergreifend): benutzerhandbuch/kalender/chronologisch.md
       - Kalendersuche: benutzerhandbuch/kalender/suche.md
       - Fehlende Einträge: benutzerhandbuch/kalender/fehlende-eintraege.md
     - Kommunikation:
@@ -147,6 +147,7 @@ nav:
       - Erläutern / Recherchieren: benutzerhandbuch/ki-assistent/erlaeutern.md
       - Zusammenfassen: benutzerhandbuch/ki-assistent/zusammenfassen.md
       - Dokument befragen (Chat): benutzerhandbuch/ki-assistent/chat.md
+      - Gespeicherte Chats: benutzerhandbuch/ki-assistent/chats.md
       - Kontaktdaten extrahieren: benutzerhandbuch/ki-assistent/kontaktdaten.md
       - Bildanalyse: benutzerhandbuch/ki-assistent/bildanalyse.md
       - Eigene Prompts: benutzerhandbuch/ki-assistent/eigene-prompts.md
