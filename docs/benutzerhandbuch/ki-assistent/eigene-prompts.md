@@ -10,6 +10,8 @@ Nach einem Klick auf „+" wird ein neuer Prompt angelegt. Folgende Felder stehe
 
 - **Name**: Der Name der Anfrage – dieser Wert erscheint bspw. in Kontextmenüs und sollte daher bewusst gewählt werden und nicht zu lang sein.
 
+- **Untermenü**: Optional. Ordnet den Prompt in den Kontextmenüs von Assistent Ingo einem Untermenü zu (siehe [Prompts in Untermenüs gruppieren](#untermenues)). Bleibt das Feld leer, erscheint der Prompt auf der obersten Ebene.
+
 - **Funktion**: Bestimmt, welche Art einer Anfrage mittels des eigenen Prompts ausgeführt werden soll. Mögliche Werte sind:
     - **chat**: für Prompts, die zur Befragung / für iterative Frage-Antwort-Szenarien verwendet werden können
     - **explain**: für Prompts, die zu Recherchezwecken verwendet werden können (bspw. Erläutern von Begriffen oder Sachverhalten in E-Mails)
@@ -53,12 +55,37 @@ Je nach gewählter Funktion wird ein eigener Prompt an unterschiedlichen Stellen
 !!! tip "Tipp"
     Der Name des eigenen Prompts erscheint direkt in den jeweiligen Kontextmenüs. Wählen Sie daher kurze, aussagekräftige Namen, damit die Menüs übersichtlich bleiben.
 
+## Prompts in Untermenüs gruppieren {#untermenues}
+
+Mit wachsender Zahl eigener Prompts werden die Kontextmenüs von Assistent Ingo schnell unübersichtlich. Über das Feld **Untermenü** lassen sich Prompts deshalb nach eigenen Kriterien gruppieren – bspw. nach Rechtsgebiet („Arbeitsrecht", „Mietrecht") oder nach Tätigkeit („Mahnwesen", „Schriftsätze").
+
+- **Bestehendes Untermenü wählen oder neues anlegen**: Die Auswahlliste schlägt alle bereits verwendeten Untermenüs vor. Für ein neues Untermenü wird einfach ein neuer Name eingetippt.
+- **Mehrere Untermenüs**: Soll ein Prompt in mehreren Untermenüs erscheinen, werden die Namen durch Semikolon getrennt, bspw. `Klage;Vorlagen`. Der Prompt muss dafür nicht dupliziert werden.
+- **Eine Ebene**: Untermenüs können nicht weiter verschachtelt werden.
+
+Im Menü erscheinen zuerst die Prompts ohne Untermenü, danach die Untermenüs in alphabetischer Reihenfolge. Ein Untermenü wird nur einmal angezeigt, auch wenn darin Prompts unterschiedlicher Funktionen (bspw. **chat** und **generate**) enthalten sind.
+
+Die Gruppierung wirkt überall, wo eigene Prompts angeboten werden – in den Kontextmenüs von Dokumenten und E-Mails ebenso wie in der Prompt-Auswahl der Chat- und Generieren-Dialoge.
+
+!!! example "Beispiel"
+    | Prompt | Untermenü |
+    |--------|-----------|
+    | Vertrag zusammenfassen | *(leer)* |
+    | Kündigung prüfen | Arbeitsrecht |
+    | Abmahnung entwerfen | Arbeitsrecht;Schriftsätze |
+    | Mieterhöhung prüfen | Mietrecht |
+
+    Im Kontextmenü erscheint „Vertrag zusammenfassen" direkt, darunter die Untermenüs „Arbeitsrecht", „Mietrecht" und „Schriftsätze". „Abmahnung entwerfen" ist sowohl unter „Arbeitsrecht" als auch unter „Schriftsätze" zu finden.
+
+!!! note "Hinweis"
+    Das Untermenü kann derzeit nur im Desktop-Client gepflegt werden.
+
 ## Prompts verwalten
 
 Neben dem Anlegen und Bearbeiten von Prompts stehen weitere Funktionen zur Verfügung:
 
 - **Duplizieren**: Erstellt eine Kopie des ausgewählten Prompts (mit dem Suffix „(Kopie)")
-- **Per E-Mail teilen**: Exportiert den Prompt als JSON-Datei und öffnet eine neue E-Mail zum Versand. Enthaltene API-Schlüssel werden dabei automatisch entfernt.
+- **Per E-Mail teilen**: Exportiert den Prompt als JSON-Datei und öffnet eine neue E-Mail zum Versand. Enthaltene API-Schlüssel werden dabei automatisch entfernt. Das Untermenü wird mit exportiert.
 - **JSON importieren**: Importiert einen Prompt aus einer JSON-Datei, bspw. einen von einem Kollegen erhaltenen Prompt.
 
 ## Verfügbare Modelle {#modelle}
