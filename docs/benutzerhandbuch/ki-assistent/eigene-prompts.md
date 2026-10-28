@@ -41,7 +41,7 @@ Je nach gewählter Funktion wird ein eigener Prompt an unterschiedlichen Stellen
 
 | Funktion | Verfügbar in |
 |----------|-------------|
-| **chat** | Aktenansicht (Kopfbereich und Dokumentenliste), E-Mail senden, E-Mail lesen, Desktop (eigenständiger Chat) |
+| **chat** | Aktenansicht (Kopfbereich und Dokumentenliste), Falldatenblätter (nur agentenfähige Modelle), E-Mail senden, E-Mail lesen, Desktop (eigenständiger Chat) |
 | **generate** | Aktenansicht (Kopfbereich und Dokumentenliste), E-Mail senden, E-Mail lesen |
 | **summarize** | Aktenansicht (Dokumentenliste), E-Mail senden, E-Mail lesen |
 | **explain** | E-Mail senden, E-Mail lesen |

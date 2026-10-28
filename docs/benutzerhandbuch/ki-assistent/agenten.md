@@ -4,6 +4,8 @@ Ein KI-Agent ist ein KI-Modell, das nicht nur Text generiert, sondern selbststä
 
 Um einen Agenten zu nutzen, muss in den [eigenen Prompts](eigene-prompts.md) ein agentenfähiges Modell ausgewählt werden (erkennbar am Hinweis „agentenfähig" im Prompt-Dialog). Agenten stehen ausschließlich für die Funktion **chat** zur Verfügung.
 
+Agenten können u.a. aus der Akte, aus E-Mails, vom Desktop sowie direkt aus einem [Falldatenblatt](../aktenverwaltung/falldaten.md#falldaten-ingo-chat) gestartet werden. In letzterem Fall erhält der Agent die Werte des Falldatenblatts sowie Akten-ID und Aktenzeichen als Kontext.
+
 !!! note "Berechtigung erforderlich"
     Für die Nutzung der agentischen KI-Funktionen ist die Berechtigung **KI-Agentenfunktionen** erforderlich. Diese kann in der [Nutzerverwaltung](../nutzerverwaltung.md#berechtigungen-integrationen) unter **Berechtigungen** → **Integrationen** aktiviert werden. Ohne diese Berechtigung stehen dem Agenten keine Werkzeuge zur Verfügung.
 
