@@ -271,6 +271,41 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Konfigurieren Sie passende Dokumenten-Etiketten wie „E-Mail" oder „Eingang", um importierte E-Mails schnell zu erkennen
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
 
+## Lese- und Übermittlungsbestätigung {#bestaetigungen}
+
+Beim Versand einer E-Mail können im Dialog **E-Mail senden** über zwei Checkboxen Bestätigungen angefordert werden. Beide Optionen lassen sich einzeln oder gemeinsam nutzen und stehen auch beim verschlüsselten Versand zur Verfügung.
+
+| Option | Wer bestätigt? | Was wird bestätigt? |
+|--------|----------------|---------------------|
+| **Lesebestätigung** | Das E-Mail-Programm des Empfängers | Der Empfänger hat die Nachricht geöffnet |
+| **Übermittlungsbestätigung** | Der Mailserver | Die Nachricht wurde dem Postfach des Empfängers zugestellt, konnte nicht zugestellt werden oder verzögert sich |
+
+Die Bestätigungen gehen als E-Mail im Postfach des Absenders ein.
+
+### Lesebestätigung {#lesebestaetigung}
+
+Die Lesebestätigung ist eine Bitte an den Empfänger. Ob sie verschickt wird, entscheidet der Empfänger bzw. dessen E-Mail-Programm. Viele Empfänger lehnen Lesebestätigungen ab oder haben sie generell deaktiviert. Eine ausbleibende Lesebestätigung bedeutet daher nicht, dass die Nachricht nicht gelesen wurde.
+
+Erhält man in j-lawyer.org selbst eine E-Mail mit der Bitte um Lesebestätigung, fragt j-lawyer.org beim ersten Öffnen der ungelesenen Nachricht nach, ob die Lesebestätigung jetzt gesendet werden soll.
+
+### Übermittlungsbestätigung {#uebermittlungsbestaetigung}
+
+Die Übermittlungsbestätigung (Delivery Status Notification, DSN) wird nicht vom Empfänger, sondern von den beteiligten Mailservern erzeugt. Sie gibt Auskunft darüber, ob die Nachricht dem Empfängerpostfach zugestellt wurde. Benachrichtigt wird bei
+
+- erfolgreicher Zustellung,
+- fehlgeschlagener Zustellung und
+- verzögerter Zustellung.
+
+Die Bestätigung enthält nur die Kopfdaten der ursprünglichen Nachricht, nicht deren Inhalt oder Anhänge.
+
+!!! warning "Unterstützung durch den Mailserver erforderlich"
+    Bei IMAP/SMTP-Postfächern wird die Übermittlungsbestätigung nur angefordert, wenn der SMTP-Server des Absenders diese Funktion (DSN) unterstützt. Ist das nicht der Fall, wird die E-Mail **ohne Hinweis** normal versendet – es kommt dann schlicht keine Bestätigung. Auch Mailserver auf Empfängerseite unterstützen DSN nicht durchgängig. Eine fehlende Übermittlungsbestätigung ist daher kein Beleg dafür, dass die Nachricht nicht zugestellt wurde.
+
+Bei [Office-365-Postfächern](#azure-ad) wird die Übermittlungsbestätigung über Microsoft 365 angefordert und funktioniert ohne weitere Konfiguration.
+
+!!! info "Kein Zugangsnachweis"
+    Eine Übermittlungsbestätigung belegt die technische Zustellung in das Empfängerpostfach. Sie ersetzt keinen rechtssicheren Zugangsnachweis, wie ihn bspw. das [beA](addon-bea.md) bietet.
+
 ## Termineinladungen aus E-Mails übernehmen {#termineinladungen}
 
 Enthält eine E-Mail eine Termineinladung (ICS-Datei als Anhang), wird diese automatisch erkannt und oberhalb des E-Mail-Inhalts als Hinweisleiste angezeigt. Die Leiste zeigt:
