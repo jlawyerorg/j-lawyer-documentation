@@ -1,29 +1,51 @@
 # Volltextsuche {#volltextsuche}
 
-j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Dabei stehen folgende durchsuchbare Felder zur Verfügung:
+j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierten Dokumente durchsuchen können. Die Suche ist im Navigationsbereich unter **Dokumente** → **Suche** zu finden.
 
-| Feld | Beschreibung |
-|------|--------------|
-| `text` | Text des Dokumentes (Standardfeld) |
-| `dateiname` | Dateiname des Dokumentes |
-| `autor` | Nutzername des Autors des Dokumentes |
-| `akte` | Rubrum der Akte, die das Dokument enthält |
-| `az` | Aktenzeichen der Akte, die das Dokument enthält |
+## Inhaltssuche {#inhaltssuche}
 
-## Suchsyntax
+Bei einfacher Eingabe eines Suchbegriffs werden der Text der Dokumente sowie deren Bezeichnung und Schlagworte durchsucht. Mehrere Wörter werden ODER-verknüpft – es werden also Dokumente gefunden, die mindestens eines der Wörter enthalten. Die Treffer sind nach Relevanz sortiert; die Prozentangabe zeigt die Relevanz im Verhältnis zum besten Treffer.
 
-Bei einfacher Eingabe eines Suchbegriffs wird immer der Text der Dokumente durchsucht (Standardfeld). Suche in anderen Feldern ist durch Voranstellen des Feldnamens möglich. Bspw. sucht `autor:anwalt1` nach allen Dokumenten, die von einem Nutzer mit dem Nutzernamen „anwalt1" erstellt wurden.
+!!! info "Einschränkungen der Inhaltssuche"
+    Wortgruppen in Anführungszeichen, die Operatoren `AND`/`OR`/`NOT`, Ausschlüsse mit vorangestelltem Minus sowie Platzhalter (`*`, `?`) werden in der Inhaltssuche nicht unterstützt. Diese Zeichen werden als normaler Text behandelt.
 
-Suchen nach Wortgruppen sind über Hochkommata möglich, bspw. `"Klage gegen Müller"`. Suchen in mehreren Feldern sind durch Nutzung der Operatoren `AND` und `OR` möglich, bspw. `text:klage AND autor:anwalt1` oder einfach `klage AND autor:anwalt1`.
+## Feldsuche {#feldsuche}
 
-## Wildcards
+Soll nicht im Inhalt, sondern gezielt in einem bestimmten Feld gesucht werden, wird das Feld über das Auswahlfeld neben dem Suchfeld gewählt. Alternativ kann der Feldname dem Suchbegriff direkt vorangestellt werden:
 
-Es werden Wildcards unterstützt:
+| Auswahl | Präfix | Durchsucht |
+|---------|--------|------------|
+| Inhalt | `text:` (optional) | Text des Dokuments (Standard) |
+| Dateiname | `dateiname:` | Dateiname des Dokuments |
+| Aktenname | `akte:` | Kurzrubrum der Akte, die das Dokument enthält |
+| Aktenzeichen | `az:` | Aktenzeichen der Akte, die das Dokument enthält |
+| Bezeichnung | `bezeichnung:` | Bezeichnung des Dokuments |
+| Schlagwort | `schlagwort:` | Schlagworte des Dokuments – jedes Schlagwort wird einzeln geprüft |
+| Von/An | `von:` | Absender bzw. Empfänger des Dokuments |
 
-- `?` als Wildcard für EIN Zeichen
-- `*` als Wildcard für beliebig viele Zeichen
+Ein selbst eingetipptes Präfix hat Vorrang vor der Auswahl im Auswahlfeld. Es kann jeweils nur **ein** Feld durchsucht werden; eine Kombination mehrerer Felder ist nicht möglich.
 
-Suche nach `te?t` sucht bspw. nach "text" und "test", `test*` sucht nach allen Wörtern die mit „test" beginnen.
+### Teiltreffer, Platzhalter und exakte Suche
+
+Feldsuchen ignorieren Groß- und Kleinschreibung. Der gesamte Text nach dem Doppelpunkt ist der Suchwert. Für alle Felder außer `text:` gilt:
+
+| Eingabe | Ergebnis |
+|---------|----------|
+| `dateiname:kostennote` | jeder Dateiname, der „kostennote" enthält |
+| `dateiname:"Kostennote.pdf"` | nur Dokumente mit exakt diesem Dateinamen |
+| `dateiname:*2026-08-??_Quittung*` | Platzhalter: `*` steht für beliebig viele Zeichen, `?` für genau ein Zeichen |
+| `dateiname:"*2026-08-??_Quittung*"` | identisch – Platzhalter wirken auch innerhalb von Anführungszeichen |
+| `az:035-2022` | alle Dokumente in Akten, deren Aktenzeichen „035-2022" enthält |
+| `schlagwort:"Kündigung"` | alle Dokumente mit dem Schlagwort „Kündigung" (exakt) |
+| `von:müller` | alle Dokumente, deren Von/An „müller" enthält |
+
+Da Feldsuchen keine Relevanz berechnen, wird bei ihren Treffern keine Prozentangabe angezeigt.
+
+!!! tip "Hilfe im Programm"
+    Ein Klick auf das Fragezeichen-Symbol neben dem Suchfeld öffnet eine Übersicht der Suchsyntax.
+
+!!! warning "Neuaufbau des Suchindex nach dem Update auf Version 3.6"
+    Die Feldsuche nutzt zusätzliche Felder im Suchindex. Sie findet daher nur Dokumente, die mit Version 3.6 oder später indexiert wurden. Nach dem Update ist einmalig ein [Neuaufbau des Volltextindex](#volltextindex-neu-erstellen) erforderlich.
 
 ## Volltextsuche deaktivieren / aktivieren
 
@@ -51,6 +73,7 @@ In bestimmten Szenarien kann es notwendig oder sinnvoll sein, den gesamten Vollt
 - Wenn der Index **beschädigt oder unvollständig** ist, z.B. nach einem Serverausfall
 - Wenn die Volltextsuche **keine oder fehlerhafte Ergebnisse** liefert
 - Nach einem **Update**, das Änderungen an der Suchindexierung beinhaltet
+- Nach dem Update auf **Version 3.6**, damit die [Feldsuche](#feldsuche) für alle Dokumente funktioniert
 
 ### Vorgehen
 
