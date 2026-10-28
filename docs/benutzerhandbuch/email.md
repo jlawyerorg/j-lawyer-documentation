@@ -270,6 +270,7 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Nutzen Sie die Ausschlussliste für Newsletter oder Systembenachrichtigungen
 - Konfigurieren Sie passende Dokumenten-Etiketten wie „E-Mail" oder „Eingang", um importierte E-Mails schnell zu erkennen
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
+- Einzelne E-Mails, die nicht automatisch zugeordnet wurden, lassen sich auch per [Assistent Ingo](ki-assistent/agenten.md#tools-email) in eine Akte speichern
 
 ## Lese- und Übermittlungsbestätigung {#bestaetigungen}
 

@@ -65,8 +65,11 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `list_case_documents` | Listet Dokumente einer Akte auf (paginiert, 20 pro Seite) | Niedrig |
 | `list_case_documents_by_date` | Listet Dokumente innerhalb eines Zeitraums auf | Niedrig |
 | `search_case_documents` | Durchsucht Dokumente nach Dateiname | Niedrig |
-| `get_document_text` | Extrahiert den Textinhalt eines PDF- oder Textdokuments | Niedrig |
+| `get_document_text` | Extrahiert den Textinhalt eines PDF- oder Textdokuments (max. 30.000 Zeichen; optional nur der Dokumentanfang, z. B. für die Datenextraktion von Seite 1) | Niedrig |
 | `get_document_content` | Ruft den Dokumentinhalt als Base64-kodierten String ab | Niedrig |
+| `get_document_details` | Ruft alle Metadaten eines Dokuments ab (Bezeichnung, Schlagworte, Eingang, Von/An, Etiketten, Eltern-Dokument, Anlagen, verknüpfte Sofortnachrichten) | Niedrig |
+| `update_document_metadata` | Ändert Bezeichnung, Schlagworte, Eingangsdatum und Von/An eines oder mehrerer Dokumente | Mittel |
+| `set_document_parent` | Ordnet ein Dokument als Anlage einem anderen Dokument derselben Akte zu (z. B. Anhang einer E-Mail) oder hebt die Zuordnung auf | Mittel |
 | `rename_document` | Benennt ein Dokument um | Mittel |
 | `delete_document` | Löscht ein Dokument in den Papierkorb (wiederherstellbar) | Hoch |
 | `move_document_to_case` | Verschiebt ein Dokument in eine andere Akte (inkl. Etiketten), optional mit Zielordner und neuem Dateinamen | Hoch |
@@ -80,6 +83,7 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `apply_folder_template` | Wendet eine Ordnervorlage auf eine Akte an | Mittel |
 | `list_folder_templates` | Listet verfügbare Ordnervorlagen auf | Niedrig |
 | `search_templates` | Durchsucht Dokumentvorlagen nach Name | Niedrig |
+| `list_letter_heads` | Listet alle verfügbaren Briefköpfe auf | Niedrig |
 | `create_document_from_template` | Erstellt ein Dokument aus einer Vorlage mit automatischer Platzhalterersetzung | Mittel |
 | `move_document_to_folder` | Verschiebt ein Dokument in einen Ordner innerhalb derselben Akte | Mittel |
 
@@ -93,6 +97,23 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `update_contact` | Ändert einen bestehenden Kontakt (nur angegebene Felder werden geändert) | Mittel |
 | `add_party_to_case` | Fügt einen Kontakt als Beteiligten zu einer Akte hinzu | Mittel |
 
+### Beziehungen und Netzwerk {#tools-netzwerk}
+
+| Werkzeug | Beschreibung | Risiko |
+|----------|-------------|--------|
+| `get_case_links` | Ruft die Aktenverknüpfungen einer Akte ab (z. B. Gegenakte, Folgeakte) | Niedrig |
+| `get_case_network` | Ermittelt alle Akten, die über Aktenverknüpfungen – auch über mehrere Stufen – mit einer Akte zusammenhängen | Niedrig |
+| `get_contact_relations` | Ruft die Kontaktbeziehungen eines Kontakts ab (z. B. Mutter/Kind, Geschäftsführer/Gesellschaft) | Niedrig |
+| `get_contact_network` | Ermittelt das Beziehungsumfeld eines Kontakts über Kontaktbeziehungen – auch über mehrere Stufen | Niedrig |
+| `get_cases_for_contact` | Ruft alle Akten ab, in denen ein Kontakt beteiligt ist, jeweils mit Beteiligtentyp | Niedrig |
+| `find_party_connections` | Prüft die Beteiligten einer Akte auf Verbindungen zu anderen Akten – über dieselben Kontakte oder über deren Kontaktbeziehungen | Niedrig |
+| `find_connection` | Sucht den kürzesten Zusammenhang zwischen zwei Kontakten über Kontaktbeziehungen, Beteiligungen und Aktenverknüpfungen | Niedrig |
+
+Berücksichtigt werden nur Akten, für die der angemeldete Benutzer eine Leseberechtigung hat.
+
+!!! warning "Keine abschließende Kollisionsprüfung"
+    `find_party_connections` liefert Hinweise für eine Kollisionsprüfung, ersetzt sie aber nicht. Ausgewertet werden nur erfasste Beteiligungen und Kontaktbeziehungen in Akten, die der Benutzer sehen darf. Bei sehr umfangreichen Verflechtungen wird das Ergebnis gekürzt.
+
 ### Kalender {#tools-kalender}
 
 | Werkzeug | Beschreibung | Risiko |
@@ -103,8 +124,11 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `get_all_open_events` | Ruft alle offenen Kalendereinträge ab (optional nach Typ filterbar) | Niedrig |
 | `get_all_open_events_between_dates` | Ruft offene Kalendereinträge in einem Zeitraum ab | Niedrig |
 | `find_free_slots` | Findet freie Zeitfenster im Kalender | Niedrig |
-| `create_event` | Erstellt einen Kalendereintrag (Wiedervorlage, Frist oder Termin) | Mittel |
-| `update_event` | Ändert einen bestehenden Kalendereintrag | Mittel |
+| `create_event` | Erstellt einen Kalendereintrag (Wiedervorlage, Frist oder Termin), bei Terminen optional mit Erinnerung | Mittel |
+| `update_event` | Ändert einen bestehenden Kalendereintrag, bei Terminen auch die Erinnerung | Mittel |
+
+!!! info "Erinnerungen"
+    Bei Terminen kann Ingo eine [Erinnerung](../kalender/aktenbezogen.md#erinnerungen) setzen, ändern oder entfernen – bspw. „Lege einen Termin am 15.09. um 10 Uhr an und erinnere mich 30 Minuten vorher". Möglich sind Erinnerungen bei Beginn bis maximal einen Tag vorher. Die Erinnerung wird im Freigabedialog angezeigt und bei aktiver Kalendersynchronisierung mit übertragen. Für Wiedervorlagen und Fristen stehen keine Erinnerungen zur Verfügung.
 
 ### Rechnungen {#tools-rechnungen}
 
@@ -136,6 +160,8 @@ Grundlagen zu Etiketten und ihrer Konfiguration finden Sie im Kapitel [Etiketten
 | `list_case_tags` | Listet alle verfügbaren Aktenetiketten auf | Niedrig |
 | `set_document_tag` | Setzt oder entfernt ein Etikett an einem Dokument | Mittel |
 | `set_case_tag` | Setzt oder entfernt ein Etikett an einer Akte | Mittel |
+| `list_contact_tags` | Listet alle verfügbaren Kontaktetiketten auf | Niedrig |
+| `set_contact_tag` | Setzt oder entfernt ein Etikett an einem Kontakt | Mittel |
 
 ### Notizen und Nachrichten {#tools-notizen}
 
@@ -144,6 +170,27 @@ Grundlagen zu Etiketten und ihrer Konfiguration finden Sie im Kapitel [Etiketten
 | `create_note` | Erstellt eine Aktennotiz als HTML-Dokument | Mittel |
 | `create_instant_message` | Erstellt eine Sofortnachricht mit Aktenbezug | Mittel |
 | `search_instant_messages` | Durchsucht Sofortnachrichten/Verfügungen (nach Akte oder Zeitraum) | Niedrig |
+
+### E-Mail {#tools-email}
+
+| Werkzeug | Beschreibung | Risiko |
+|----------|-------------|--------|
+| `list_mailboxes` | Listet alle E-Mail-Postfächer auf, auf die der angemeldete Benutzer Zugriff hat | Niedrig |
+| `search_emails` | Durchsucht E-Mail-Postfächer nach Betreff, Absender, Empfänger und Nachrichtentext (optional eingeschränkt auf Ordner, Zeitraum oder ungelesene Nachrichten) oder listet die neuesten E-Mails auf | Niedrig |
+| `get_email` | Lädt eine E-Mail mit Nachrichtentext und Liste der Anhänge | Niedrig |
+| `save_email_to_case` | Speichert eine E-Mail als .eml-Datei in einer Akte, optional in einen Ordner, mit Etiketten, Schlagworten und mit den Anhängen als zugeordnete Anlagen | Mittel |
+
+Ingo greift nur auf Postfächer zu, für die der angemeldete Benutzer in der [Nutzerverwaltung](../nutzerverwaltung.md) freigeschaltet ist.
+
+Beim Speichern einer E-Mail in eine Akte verhält sich `save_email_to_case` wie die manuelle Ablage:
+
+- Der Dateiname wird aus dem Betreff nach der konfigurierten Dateinamensvorschrift gebildet. Existiert der Name bereits, wird automatisch eine Nummer angehängt („(2)", „(3)" …).
+- Das Dokument erhält den Betreff als Bezeichnung, das Datum der E-Mail als Eingangsdatum sowie Absender und Empfänger als Von/An – soweit möglich einem Kontakt zugeordnet.
+- Anhänge bleiben in der .eml-Datei enthalten. Auf Wunsch werden sie zusätzlich als eigene Dokumente abgelegt, die der E-Mail als Anlagen zugeordnet sind.
+- In archivierte Akten kann nicht gespeichert werden.
+
+!!! tip "Chat aus einer geöffneten E-Mail"
+    Wird der Chat aus einer geöffneten E-Mail gestartet, kennt Ingo neben dem Nachrichtentext auch Absender, Empfänger, Datum, Betreff und die Namen der Anhänge. Bei Postfächern, die in j-lawyer.org eingerichtet sind, kann Ingo die Nachricht zudem direkt adressieren – etwa mit „Speichere diese E-Mail in die Akte 25/0042 in den Ordner Korrespondenz".
 
 ### Falldatenblätter {#tools-falldatenblaetter}
 
@@ -186,6 +233,10 @@ Dieser Prompt erstellt aus dem Inhalt einer E-Mail eine vollständige neue Akte:
 > 7. Sofern aus der Anfrage Fristen hervorgehen, erstelle eine Sofortnachricht in der Akte, welche das Datum und den Grund der Frist nennt.
 >
 > Hier der Text der E-Mail:
+
+### E-Mails einer Akte zuordnen
+
+> Suche im Posteingang alle ungelesenen E-Mails der letzten 7 Tage. Ermittle für jede E-Mail anhand von Absender, Betreff und Inhalt die passende Akte. Liste mir die Zuordnungen zur Bestätigung auf und speichere die E-Mails nach meiner Freigabe jeweils inklusive Anhängen in die Akte.
 
 ### Fristenkontrolle für die nächste Woche
 
