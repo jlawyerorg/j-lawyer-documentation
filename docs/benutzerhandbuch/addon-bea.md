@@ -8,7 +8,7 @@ j-lawyer.org ermöglicht eine grundsätzliche Arbeit mit einem oder mehreren beA
 - Empfangen von Nachrichten
 - Export von Nachrichten in eine Akte
 - Senden von Nachrichten
-- Anfordern, Abgeben oder Zurückweisen von elektronischen Empfangsbekenntnissen (eEB)
+- Anfordern, [Abgeben oder Zurückweisen](#eeb) von elektronischen Empfangsbekenntnissen (eEB)
 - Zugriff auf das beA-Adressverzeichnis
 - Import von Gerichtsadressen
 - Übernahme von Safe-IDs in vorhandene Adressen
@@ -103,6 +103,28 @@ Nachrichten im Papierkorb können über das Kontextmenü (Rechtsklick → **Wied
 ### Nachrichtenanzeige beschränken
 
 Über die Dropdown-Liste oben rechts kann die Anzahl der angezeigten Nachrichten beschränkt werden. Dies ist nützlich bei Ordnern mit vielen Nachrichten, um die Ladezeit zu verkürzen.
+
+## Elektronisches Empfangsbekenntnis abgeben {#eeb}
+
+Wurde für eine eingegangene beA-Nachricht ein elektronisches Empfangsbekenntnis (eEB) angefordert, erscheint im Kopfbereich der Nachricht – unter Betreff, Absender und Empfänger – der Hinweis „Es wurde ein elektronisches Empfangsbekenntnis angefordert." mit folgenden Schaltflächen:
+
+| Schaltfläche | Funktion |
+|--------------|----------|
+| **eEB abgeben** | Gibt das Empfangsbekenntnis ab. Im folgenden Kalender wird das Abgabedatum gewählt (frühestens zwei Monate zurück, spätestens heute). |
+| **eEB zurückweisen** | Weist die eEB-Anforderung zurück. Im Dialog „eEB-Anforderung ablehnen" wird ein Grund ausgewählt und optional eine Erläuterung eingegeben. |
+| **anzeigen** | Zeigt den XJustiz-Strukturdatensatz der Nachricht an |
+
+Das eEB kann überall abgegeben werden, wo die Nachricht angezeigt wird:
+
+- im beA-Posteingang
+- in der Akte, in der Vorschau eines gespeicherten beA-Dokuments (`.bea`)
+- in der Vollansicht eines gespeicherten beA-Dokuments (Doppelklick)
+
+Ein Wechsel in den Posteingang – etwa in den Ordner „importiert" – ist damit nicht mehr nötig. Die eEB-Antwort wird automatisch in derselben Akte und im selben Ordner wie die ursprüngliche Nachricht abgelegt.
+
+!!! info "Voraussetzungen"
+    - Der Nutzer muss am beA angemeldet sein und Zugriff auf das Postfach haben, an das die Nachricht ging. Andernfalls sind die Schaltflächen deaktiviert; der Tooltip nennt den Grund. Beim Öffnen der Nachricht wird der Zugriff im Hintergrund geprüft („Zugang zum Empfängerpostfach wird geprüft...").
+    - Die Nachricht muss im beA-Postfach noch vorhanden sein. Wurde sie dort bereits gelöscht, kann das eEB nicht mehr über j-lawyer.org abgegeben werden – die in der Akte gespeicherte Kopie genügt dafür nicht.
 
 ## Versand von beA-Nachrichten {#versand}
 
