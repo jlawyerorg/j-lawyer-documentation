@@ -32,7 +32,7 @@ Dies ist das Benutzerhandbuch für j-lawyer.org - der freien Kanzleisoftware.
 
 - [Auswertungen](auswertungen.md)
 
-- [Postvorlagen (E-Mail, beA)](postvorlagen.md)
+- [Postvorlagen und Bausteine (E-Mail, beA)](postvorlagen.md)
 
 - [Instant Messaging / Nachrichtencenter](messaging.md)
 
