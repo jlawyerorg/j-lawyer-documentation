@@ -79,6 +79,38 @@ Beim Versand von E-Mails und beA-Nachrichten aus einer Akte stehen die Dokumente
     - Dokumente an Kontakten werden als einfache Liste geführt – Ordner, Etiketten, Favoriten und Farbmarkierungen stehen hier nicht zur Verfügung.
     - Wird ein Kontakt gelöscht, werden auch seine Dokumente gelöscht.
 
+### Beziehungen zwischen Kontakten {#beziehungen}
+
+Kontakte können miteinander in Beziehung gesetzt werden – bspw. Mutter und Kind, Geschäftsführer und Gesellschaft, Betreuer und Betreuter oder Vermieter und Mieter. Eine Beziehung wird nur einmal erfasst und ist bei beiden Kontakten sichtbar, jeweils mit der passenden Bezeichnung: Ist Erika Mustermann „ist Mutter von“ Max Mustermann, so steht bei Max „ist Kind von“ Erika Mustermann.
+
+Die Beziehungen eines Kontakts zeigt der Reiter **Beziehungen** im Kontakt. Jede Zeile nennt die Bezeichnung, den verknüpften Kontakt und eine optionale Bemerkung; ein Klick auf den Namen öffnet den verknüpften Kontakt. Über die Knöpfe an der Zeile lassen sich die Bemerkung bearbeiten und die Beziehung entfernen.
+
+#### Beziehung hinzufügen {#beziehung-hinzufuegen}
+
+1. Den Kontakt öffnen (er muss bereits gespeichert sein) und im Reiter **Beziehungen** auf **Beziehung hinzufügen** klicken.
+2. Unter **Beziehung** die Bezeichnung wählen, bspw. „ist Geschäftsführer von“. Die Auswahl lässt sich über die Kategorie (Familie, Vertretung, Unternehmen, Vertrag, Sonstige) eingrenzen. Jeder [Beziehungstyp](#beziehungstypen) erscheint mit beiden Richtungen, also „ist Geschäftsführer von“ und dessen Umkehrung.
+3. Über **Suche** den anderen Kontakt suchen und in der Trefferliste auswählen.
+4. Optional eine **Bemerkung** erfassen und mit **Übernehmen** speichern.
+
+Ein Kontakt kann nicht mit sich selbst verknüpft werden, und eine bereits bestehende Beziehung desselben Typs zwischen denselben Kontakten wird abgewiesen. Bezeichnung und Kontakt einer Beziehung lassen sich nachträglich nicht ändern – dazu die Beziehung entfernen und neu anlegen.
+
+In einer Akte lassen sich verknüpfte Kontakte eines Beteiligten direkt als weitere Beteiligte übernehmen, siehe [Aktionen am Beteiligten](aktenverwaltung/beteiligte.md#aktionen).
+
+#### Beziehungsnetz {#beziehungsnetz}
+
+**Netz anzeigen** im Reiter **Beziehungen** stellt den Kontakt und seine Beziehungen grafisch als Netz dar:
+
+- **Tiefe** legt fest, wie viele „Ringe“ um den Ausgangskontakt geladen werden (1 bis 3, Standard 2).
+- Das **+** an einem Knoten bzw. **Beziehungen laden** im Kontextmenü lädt die Beziehungen dieses Kontakts nach.
+- Ein Doppelklick auf einen Knoten öffnet den Kontakt.
+- Knoten lassen sich mit der Maus verschieben, Ziehen auf freier Fläche verschiebt die Ansicht, das Mausrad zoomt. **neu anordnen** ordnet die Knoten neu an, **einpassen** passt die gesamte Darstellung in das Fenster ein.
+
+Die Darstellung ist auf 150 Knoten begrenzt; wird diese Grenze erreicht, weist das Netz darauf hin. Ein erweitertes Netz mit Akten bietet das [Beziehungsnetz zur Akte](aktenverwaltung/beteiligte.md#beziehungsnetz).
+
+#### Kontakte mit Beziehungen löschen {#beziehungen-loeschen}
+
+Beziehungen verhindern das Löschen eines Kontakts nicht. Der Löschdialog nennt jedoch vorab die Kontakte, die noch Beziehungen haben, samt deren Anzahl. Die Beziehungen werden beim Löschen mit entfernt.
+
 ### Adresse importieren {#import}
 
 Adressen im vCard-Format können importiert werden. Dabei werden in der Datenbank existierende Kontakte weder geändert noch gelöscht, es werden ausschließlich neue Adressen angelegt. Nach Auswahl einer Importdatei bekommen Sie eine Übersicht der darin enhaltenen Kontakte und können über ein Auswahlfeld exakt bestimmen welche Adressen sie importieren / nicht importieren wollen.
@@ -100,3 +132,22 @@ Da keine Beziehungen zwischen Beteiligtentypen konfiguriert werden, ist eine Pr�
 Um einen neuen Beteiligtentypus hinzuzufügen, wird der "+"-Knopf genutzt und eine Bezeichnung eingegeben und bestätigt. Anschließend den neuen Eintrag in der Liste selektieren und Platzhalter und Farbe definieren, danach "Übernehmen".
 Zum Bearbeiten eines bestehenden Eintrages wird dieser in der Liste selektiert, wie gewünscht verändert und per "Übernehmen" gespeichert.
 
+### Beziehungstypen konfigurieren {#beziehungstypen}
+
+Unter **Einstellungen** → **Modul 'Adressen'** → **Beziehungstypen** werden die verfügbaren [Beziehungen](#beziehungen) verwaltet (nur für Administratoren). Mitgeliefert werden rund 65 gängige Typen, gruppiert nach Familie, Vertretung, Unternehmen, Vertrag und Sonstige.
+
+Jeder Typ verfügt über
+
+- **Name**: bspw. „Mutter – Kind“
+- **Bezeichnung (Richtung 1)** und **Gegenbezeichnung (Richtung 2)**: bspw. „ist Mutter von“ und „ist Kind von“
+- **symmetrisch**: für Beziehungen, die in beide Richtungen gleich lauten, bspw. „ist Ehepartner von“
+- **Kategorie**: für die Gruppierung in der Auswahl
+- **Farbe**: für die Darstellung im Beziehungsnetz
+- **aktiv**: nur aktive Typen stehen für neue Beziehungen zur Auswahl
+
+Neue Typen werden über **+** angelegt, Änderungen mit **Übernehmen** gespeichert. Über die Pfeile lässt sich die Reihenfolge innerhalb einer Kategorie ändern. Ein Typ, der noch von Beziehungen verwendet wird, kann nicht gelöscht, aber deaktiviert werden – bestehende Beziehungen bleiben dann erhalten.
+
+!!! warning "Nachträglich auf symmetrisch umstellen"
+    Wird ein bereits verwendeter Typ auf „symmetrisch“ umgestellt, behalten bestehende Beziehungen ihre Richtung. Dadurch können gespiegelte Doppeleinträge (A zu B und B zu A) entstehen.
+
+Mitgelieferte Typen können frei angepasst werden; eigene Änderungen bleiben bei Updates erhalten.

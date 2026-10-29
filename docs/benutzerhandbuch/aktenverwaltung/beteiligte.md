@@ -28,7 +28,7 @@ Nach dem Hinzufügen eines Beteiligten können folgende Angaben gemacht werden:
 
 Zusätzliche Rollen (Beteiligtentypen) können über **Einstellungen** → **Modul 'Adressen'** → **Beteiligtentypen** erstellt werden.
 
-## Aktionen am Beteiligten
+## Aktionen am Beteiligten {#aktionen}
 
 Über den Aktionsknopf am Beteiligten stehen verschiedene Funktionen zur Verfügung:
 
@@ -36,6 +36,11 @@ Zusätzliche Rollen (Beteiligtentypen) können über **Einstellungen** → **Mod
 - **Anruf initiieren**: Startet einen Anruf (bei konfigurierter Telefonie-Integration)
 - **Adresse bearbeiten**: Öffnet den Kontakt in der Adressverwaltung
 - **Aus Akte entfernen**: Entfernt den Beteiligten aus der Akte (der Kontakt bleibt in der Adressverwaltung erhalten)
+- **verknüpften Kontakt als Beteiligten hinzufügen**: Listet die [Beziehungen](../adressen.md#beziehungen) des Beteiligten auf, bspw. „ist Geschäftsführer von – Muster GmbH“. Nach Auswahl und Angabe des Beteiligtentyps wird der verknüpfte Kontakt der Akte hinzugefügt. Bereits beteiligte Kontakte sind ausgegraut.
+
+## Beziehungsnetz zur Akte {#beziehungsnetz}
+
+Der Knopf neben der Beteiligtensuche stellt die Beteiligten der Akte, deren [Beziehungen](../adressen.md#beziehungen) untereinander sowie die weiteren Akten, in denen sie mit ihrer jeweiligen Rolle vorkommen, als Netz dar. Ein Doppelklick öffnet den Kontakt bzw. die Akte; die Bedienung entspricht dem [Beziehungsnetz am Kontakt](../adressen.md#beziehungsnetz).
 
 ## Mehrere Beteiligte
 
