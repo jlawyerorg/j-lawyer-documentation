@@ -9,7 +9,7 @@ Es gibt drei voneinander unabhängige Etikettenarten. Jede hat einen eigenen Vor
 | Etikettenart | Wird gesetzt in | Wird konfiguriert unter |
 |--------------|-----------------|-------------------------|
 | **Akten-Etiketten** | Akte, Tab „Allgemeine Daten", Bereich „Akten-Etiketten" | **Einstellungen** → **Akten** → **Akten-Etiketten** |
-| **Dokument-Etiketten** | Akte, Tab „Dokumente", Bereich „Dokument-Etiketten" | **Einstellungen** → **Dokumente** → **Etiketten konfigurieren** |
+| **Dokument-Etiketten** | Akte, Tab „Dokumente", Reiter „Details" bzw. Kontextmenü → „Eigenschaften..." | **Einstellungen** → **Dokumente** → **Etiketten konfigurieren** |
 | **Adress-Etiketten** | Adresse, Bereich „Etiketten" | **Einstellungen** → **Adressen** → **Adress-Etiketten** |
 
 Unabhängig von der Etikettenart gibt es zwei Bauformen:
@@ -34,9 +34,9 @@ Die Akten-Etiketten befinden sich im Tab „Allgemeine Daten" im Bereich **Akten
 
 ### An einem Dokument {#etiketten-dokument}
 
-Die Dokument-Etiketten befinden sich im Tab „Dokumente" im Bereich **Dokument-Etiketten** und beziehen sich auf das in der Dokumentenliste ausgewählte Dokument.
+Die Dokument-Etiketten werden im Tab „Dokumente" im Reiter **Details** des ausgewählten Dokuments bearbeitet, alternativ über Kontextmenü → **Eigenschaften...** (siehe [Dokumente](aktenverwaltung/dokumente.md#dokumentetiketten)). Gesetzte Etiketten erscheinen direkt am Dokument in der Liste bzw. in der Tabellenspalte „Etiketten".
 
-Es können auch **mehrere Dokumente gleichzeitig** ausgewählt und gemeinsam etikettiert werden. Die Etikettenknöpfe zeigen dann drei Zustände:
+Es können auch **mehrere Dokumente gleichzeitig** ausgewählt und über **Eigenschaften...** gemeinsam etikettiert werden. Die Etikettenknöpfe zeigen dann drei Zustände:
 
 | Darstellung | Bedeutung |
 |-------------|-----------|

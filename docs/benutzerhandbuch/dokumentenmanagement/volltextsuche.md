@@ -4,7 +4,7 @@ j-lawyer beinhaltet eine integrierte Suchmaschine, mit der Sie alle textbasierte
 
 ## Inhaltssuche {#inhaltssuche}
 
-Bei einfacher Eingabe eines Suchbegriffs werden der Text der Dokumente sowie deren Bezeichnung und Schlagworte durchsucht. Mehrere Wörter werden ODER-verknüpft – es werden also Dokumente gefunden, die mindestens eines der Wörter enthalten. Die Treffer sind nach Relevanz sortiert; die Prozentangabe zeigt die Relevanz im Verhältnis zum besten Treffer.
+Bei einfacher Eingabe eines Suchbegriffs werden der Text der Dokumente sowie deren [Bezeichnung und Schlagworte](../aktenverwaltung/dokumente.md#metadaten) durchsucht. Mehrere Wörter werden ODER-verknüpft – es werden also Dokumente gefunden, die mindestens eines der Wörter enthalten. Die Treffer sind nach Relevanz sortiert; die Prozentangabe zeigt die Relevanz im Verhältnis zum besten Treffer.
 
 !!! info "Einschränkungen der Inhaltssuche"
     Wortgruppen in Anführungszeichen, die Operatoren `AND`/`OR`/`NOT`, Ausschlüsse mit vorangestelltem Minus sowie Platzhalter (`*`, `?`) werden in der Inhaltssuche nicht unterstützt. Diese Zeichen werden als normaler Text behandelt.

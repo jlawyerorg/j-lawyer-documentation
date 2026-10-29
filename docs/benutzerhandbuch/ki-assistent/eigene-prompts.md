@@ -43,12 +43,12 @@ Je nach gewählter Funktion wird ein eigener Prompt an unterschiedlichen Stellen
 
 | Funktion | Verfügbar in |
 |----------|-------------|
-| **chat** | Aktenansicht (Kopfbereich und Dokumentenliste), Falldatenblätter (nur agentenfähige Modelle), E-Mail senden, E-Mail lesen, Desktop (eigenständiger Chat) |
+| **chat** | Aktenansicht (Kopfbereich und Dokumentenliste), Falldatenblätter (nur agentenfähige Modelle), Vorschläge für Bezeichnung und Schlagworte von Dokumenten, E-Mail senden, E-Mail lesen, Desktop (eigenständiger Chat) |
 | **generate** | Aktenansicht (Kopfbereich und Dokumentenliste), E-Mail senden, E-Mail lesen |
 | **summarize** | Aktenansicht (Dokumentenliste), E-Mail senden, E-Mail lesen |
 | **explain** | E-Mail senden, E-Mail lesen |
 | **translate** | E-Mail senden, E-Mail lesen |
-| **extract** | Aktenansicht (Dokumentenliste), Formulare (automatisches Befüllen), Adresserfassung aus Zwischenablage oder E-Mail, PDF-Anonymisierung |
+| **extract** | Aktenansicht (Dokumentenliste), Vorschläge für Bezeichnung und Schlagworte von Dokumenten, Formulare (automatisches Befüllen), Adresserfassung aus Zwischenablage oder E-Mail, PDF-Anonymisierung |
 | **vision** | Aktenansicht (Bildanalyse von Dokumenten) |
 | **transcribe** | Audioplayer (Transkription von Audiodateien) |
 
