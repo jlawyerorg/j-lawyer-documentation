@@ -687,6 +687,49 @@ Gibt einen Wert aus, sofern für die Akte ein bestimmtes [Etikett](../etiketten.
 [[SCRIPT:WENNETIKETT("bevorzugtes Mandat", "Gern biete ich Ihnen einen kurzfristigen Termin an.", "Einen Termin können wir gern für die übernächste Woche vereinbaren.");]]
 ```
 
+### Funktion WENNLETIKETT
+
+Gibt einen Wert aus, sofern für die Akte ein bestimmtes [Listenetikett](../etiketten.md) mit einem bestimmten Wert gesetzt ist.
+
+| Signatur | WENNLETIKETT(Etikett, Wert, WennGleich) WENNLETIKETT(Etikett, Wert, WennGleich, Anderenfalls) |  |
+| --- | --- | --- |
+| Parameter: Etikett | Name des Listenetiketts | "Sachstand" |
+| Parameter: Wert | Wert, den das Listenetikett haben muss | "Klage eingereicht" |
+| Parameter: WennGleich | Text, welcher ausgegeben wird, wenn das Etikett mit diesem Wert gesetzt ist |  |
+| Parameter: Anderenfalls | Optional. Text, welcher ausgegeben wird, wenn das Etikett nicht oder mit einem anderen Wert gesetzt ist |  |
+| Rückgabewert: | Der Wert von WennGleich oder Anderenfalls als Text. Ist kein Anderenfalls angegeben, wird ein leerer Text zurückgegeben. |  |
+
+Name und Wert werden ohne Berücksichtigung der Groß-/Kleinschreibung verglichen. Ein leerer Wert (`""`) trifft nur auf ein Ja/Nein-Etikett ohne Wert zu – er steht **nicht** für „beliebiger Wert". Soll nur geprüft werden, ob ein Etikett gesetzt ist, wird [WENNETIKETT](#funktion-wennetikett) verwendet.
+
+**Beispiel:**
+```
+[[SCRIPT:WENNLETIKETT("Sachstand", "Klage eingereicht", "Die Klage wurde eingereicht.", "Es wurde noch keine Klage eingereicht.");]]
+```
+
+### Funktion LETIKETTWERT
+
+Gibt den Wert eines [Listenetiketts](../etiketten.md) der Akte aus.
+
+| Signatur | LETIKETTWERT(Etikett) |  |
+| --- | --- | --- |
+| Parameter: Etikett | Name des Listenetiketts | "Sachstand" |
+| Rückgabewert: | Der gesetzte Wert des Listenetiketts als Text, bzw. ein leerer Text, wenn das Etikett nicht gesetzt ist. |  |
+
+**Beispiel:**
+```
+Sachstand: [[SCRIPT:LETIKETTWERT("Sachstand");]]
+```
+
+Der Wert lässt sich mit anderen Funktionen kombinieren (siehe [Funktionen schachteln](#funktionen-schachteln)):
+
+```
+[[SCRIPT:WENNLEER(LETIKETTWERT("Sachstand"), "kein Sachstand hinterlegt", "");]]
+[[SCRIPT:ZUORDNEN("Sachstandstexte", LETIKETTWERT("Sachstand"));]]
+```
+
+!!! info "Nur Akten-Etiketten"
+    WENNETIKETT, WENNLETIKETT und LETIKETTWERT werten die Etiketten der Akte aus. Etiketten an Dokumenten und Kontakten sind in Dokumentvorlagen nicht abfragbar.
+
 ### Funktionen schachteln
 
 Funktionen können ineinander geschachtelt werden, bspw. MWDJU innerhalb von WENNGLEICH, um bei Gleichheit zweier Werte einen geschlechterspezifischen Ausgabetext zu erhalten. Zu diesem Zweck können Parameter einer übergeordneten Funktion durch die Angabe einer inneren Funktion definiert werden.

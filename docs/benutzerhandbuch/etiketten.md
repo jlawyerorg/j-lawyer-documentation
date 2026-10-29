@@ -241,5 +241,5 @@ Die Etiketten-Automatik ist nicht die einzige Stelle, an der Etiketten ohne manu
 | [beA](addon-bea.md) | Beim Speichern einer beA-Nachricht zur Akte kann optional ein Dokument-Etikett vergeben werden |
 | [Kontoauszugimport](kontoauszugimport.md) | Setzt Akten-Etiketten anhand des Zahlungsabgleichs |
 | [KI-Agenten](ki-assistent/agenten.md#tools-etiketten) | Können Akten- und Dokument-Etiketten lesen und setzen |
-| [Dokumentvorlagen](dokumentenmanagement/vorlagen.md) | Die Funktion `WENNETIKETT` wertet Etiketten beim Erzeugen von Dokumenten aus |
+| [Dokumentvorlagen](dokumentenmanagement/vorlagen.md) | Die Funktionen `WENNETIKETT`, `WENNLETIKETT` und `LETIKETTWERT` werten Akten-Etiketten beim Erzeugen von Dokumenten aus |
 | [Schnittstellen](schnittstellen.md) | Die Webhooks `CASETAG_CHANGED`, `DOCUMENTTAG_CHANGED` und `ADDRESSTAG_CHANGED` melden Etikettenänderungen an externe Systeme |
