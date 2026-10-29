@@ -20,18 +20,23 @@ Der Tab "Kalender" zeigt alle Termine, Wiedervorlagen und Fristen, die zu dieser
 
 ### Schnellauswahlen für Datum
 
-Bei der Datumseingabe stehen Schnellauswahlen zur Verfügung:
+Neben dem Datumsfeld stehen Schnellauswahlen zur Verfügung, die eine Anzahl von Tagen, Wochen, Monaten oder Jahren addieren:
 
-- **1T**: In einem Tag
-- **2T**: In zwei Tagen
-- **1W**: In einer Woche
-- **2W**: In zwei Wochen
-- **3W**: In drei Wochen
-- **4W**: In vier Wochen
-- **1M**: In einem Monat
-- **3M**: In drei Monaten
-- **6M**: In sechs Monaten
-- **1J**: In einem Jahr
+| Gruppe | Schaltflächen |
+|--------|---------------|
+| **T:** Tage | +1, +2 |
+| **W:** Wochen | +1, +2, +3, +4 |
+| **M:** Monate | +1, +3, +6 |
+| **J:** Jahre | +1 |
+
+Gerechnet wird ab dem Datum, das im Datumsfeld steht. Ist das Feld leer, wird ab dem heutigen Tag gerechnet.
+
+!!! example "Beispiel: Frist ab Zugang"
+    Ein Schreiben mit der Frist „binnen 4 Wochen ab Zugang" ist am 01.11. eingegangen, bearbeitet wird es am 03.11. Tragen Sie zunächst den 01.11. in das Datumsfeld ein und klicken Sie dann unter **W:** auf **+4** – das Datum wird auf den 29.11. gesetzt.
+
+!!! info "Hinweise"
+    - Jeder Klick rechnet vom Datum, das gerade im Feld steht – auch von einem Ergebnis einer vorherigen Schnellauswahl. Soll von einem anderen Ausgangsdatum gerechnet werden, tragen Sie dieses vorher erneut ein.
+    - Ein zweiter Klick auf die gerade aktive Schaltfläche leert das Datumsfeld.
 
 ### Automatische Verschiebung bei Feiertagen
 
