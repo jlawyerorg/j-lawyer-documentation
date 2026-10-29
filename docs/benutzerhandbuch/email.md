@@ -63,6 +63,8 @@ Im Tab **Signatur (HTML)** können Sie eine HTML-formatierte Signatur erstellen,
 
 Alternativ oder ergänzend können Sie im Tab **Signatur (Text)** eine reine Textsignatur hinterlegen, die in reinen Textnachrichten verwendet wird.
 
+Beim Verfassen einer E-Mail kann die Signatur des gewählten Absender-Postfachs zusätzlich jederzeit an der Cursor-Position eingefügt werden – über den Button **Signatur an Cursor-Position einfügen** (letzter Button der oberen Werkzeugleiste im Dialog „E-Mail senden"). Das ist bspw. hilfreich, wenn beim Antworten oberhalb des zitierten Textes geschrieben oder der Absender nachträglich gewechselt wird. Im HTML-Modus wird die HTML-Signatur, im Textmodus die Text-Signatur eingefügt; ist für den aktuellen Modus keine Signatur hinterlegt, ist der Button deaktiviert.
+
 #### Schritt 4: Erweiterte Einstellungen (optional)
 
 Der Tab **Erweitert** bietet jeweils einen Bereich für **Posteingang** und **Postausgang**, in dem benutzerdefinierte Konfigurationsparameter im Java-Properties-Format hinterlegt werden können. Dies ist nur in Ausnahmefällen notwendig, z. B. bei ungewöhnlichen Serverkonfigurationen.
