@@ -8,7 +8,13 @@ Die Konfiguration und das Buchen von Zeiten sind als Videotutorial in der j-lawy
 
 
 
-Alle relevanten Stundensätze lassen sich im Menü unter „Einstellungen" – „Zeiterfassung" – „Zeiterfassungspositionen" verwalten. Die dort hinterlegten Positionen oder Stundensätze lassen sich dann bei Buchung einer Zeit auswählen.
+Alle relevanten Stundensätze lassen sich im Menü unter „Einstellungen" – „Zeiterfassung" – „Stundensätze" verwalten. Die dort hinterlegten Positionen oder Stundensätze lassen sich dann bei Buchung einer Zeit auswählen.
+
+### Tätigkeiten verwalten {#taetigkeiten-verwalten}
+
+Unter „Einstellungen" – „Zeiterfassung" – „Tätigkeiten" pflegen Administratoren eine Liste vordefinierter Tätigkeiten, die beim Erfassen einer Zeit [in die Beschreibung eingefügt](aktenverwaltung/zeiten.md#taetigkeiten) werden können. Die Liste wird alphabetisch sortiert angezeigt.
+
+Mit dem Update auf Version 3.6 werden 20 typische Tätigkeiten angelegt, bspw. „Aktenstudium", „Besprechung mit Mandant", „Telefonat mit Gericht", „Schriftsatz erstellt", „Recherche Rechtsprechung/Literatur" oder „Fahrtzeit". Sie können beliebig geändert, ergänzt oder gelöscht werden.
 
 In manchen Fällen kann es sinnvoll sein, die Menge der auswählbaren Positionen für ein Projekt zu beschränken – bspw. weil man ausschließen möchte, versehentlich einen Stundensatz zu wählen, der mit dem Auftraggeber nicht vereinbart wurde. Dazu kann direkt im Zeiterfassungsprojekt (Akte öffnen, Tab „Finanzen", Sub-Tab „Zeiterfassung", dort ein vorhandenes Projekt öffnen) eine entsprechende Beschränkung konfiguriert werden:
 
@@ -39,9 +45,11 @@ Wird ein Limit erreicht oder überschritten, so wird der „Finanzen"-Tab der Ak
 
 Eine detaillierte Beschreibung des Dialogs zur Zeiterfassung finden Sie unter [Zeiten erfassen](aktenverwaltung/zeiten.md#zeiten-erfassen).
 
-Zeiten können erfasst werden, indem in der Akte oben rechts auf die Stoppuhr oder – unabhängig von der aktuellen Ansicht – in der Fußzeile der Anwendung auf das Stoppuhrsymbol geklickt wird. Danach im Popup links das zu verwendende Zeiterfassungsprojekt durch Klick auf das Playzeichen in die rechte Spalte zur Bearbeitung hinzufügen. Dort kann etwa durch Klick auf das große grüne Playzeichen die Zeit gestartet, später gestoppt und auch noch verändert werden durch Klick in das Datums- und Uhrzeitenfeld, um ordnungsgemäße Korrekturen vorzunehmen. Der korrekte Stundensatz kann ausgewählt werden und darunter eine Beschreibung hinzugefügt werden, die in das Rechnungsdokument übernommen werden kann (der Mandant also ggf. sieht). Mit einem Klick auf die Diskette rechts vom Eintrag speichert man diesen.
+Zeiten können erfasst werden, indem in der Akte oben rechts auf die Stoppuhr oder – unabhängig von der aktuellen Ansicht – in der Fußzeile der Anwendung auf das Stoppuhrsymbol geklickt wird. Danach im Popup links das zu verwendende Zeiterfassungsprojekt durch Klick auf das Playzeichen in die rechte Spalte zur Bearbeitung hinzufügen. Dort kann etwa durch Klick auf das große grüne Playzeichen die Zeit gestartet, später gestoppt und anschließend über Beginn und Ende korrigiert werden (siehe [Beginn und Ende bearbeiten](aktenverwaltung/zeiten.md#beginn-ende-bearbeiten)). Der korrekte Stundensatz kann ausgewählt werden und darunter eine Beschreibung hinzugefügt werden – frei oder aus der Liste der [Tätigkeiten](aktenverwaltung/zeiten.md#taetigkeiten) –, die in das Rechnungsdokument übernommen werden kann (der Mandant also ggf. sieht). Mit einem Klick auf die Diskette rechts vom Eintrag speichert man diesen.
 
 Soll keine Erfassung durch Stoppuhr genutzt, sondern die Zeit manuell angegeben werden, so gibt es die Möglichkeit, oberhalb der Beschreibung einer zu erfassenden Zeit eine Eingabe in der Form 2h45m (Beispiel für 2 Stunden und 45 Minuten) zu tätigen und mit Enter zu bestätigen.
+
+Als dritte Möglichkeit kann eine Zeit über die Schaltfläche **Zeit manuell mit Beginn und Ende erfassen** (rechts neben dem Eingabefeld für die Dauer) direkt mit Beginn und Ende erfasst werden, siehe [Beginn und Ende manuell erfassen](aktenverwaltung/zeiten.md#beginn-ende-manuell).
 
 ### Eingabeformat für manuelle Zeiterfassung
 
