@@ -4,12 +4,13 @@
 
 ## Aktuelle Versionen
 
+- [Version 3.6](v3-6.md)
 - [Version 3.5](v3-5.md)
 - [Version 3.4](v3-4.md)
-- [Version 3.3](v3-3.md)
 
 ## Archiv
 
+- [Version 3.3](archiv.md#j-lawyerorg-33)
 - [Version 3.2](archiv.md#j-lawyerorg-32)
 - [Version 3.1](archiv.md#j-lawyerorg-31)
 - [Version 3.0](archiv.md#j-lawyerorg-30)
