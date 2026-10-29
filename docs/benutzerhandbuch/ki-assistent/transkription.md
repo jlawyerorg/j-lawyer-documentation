@@ -27,6 +27,9 @@ Bereits seit längerem können sogenannte Sprachmemos innerhalb einer Akte aufge
 
 Der Text wird dabei auch direkt am Sprachmemo gespeichert, sodass die Erstellung eines Schriftsatzes auch zu späterem Zeitpunkt erfolgen kann.
 
+!!! tip "MP3- und OGG-Dateien transkribieren"
+    Audiodateien im Format MP3 oder OGG (bspw. Sprachnachrichten oder Aufnahmen vom Smartphone) können in der Dokumentvorschau abgespielt, aber nicht direkt transkribiert werden. Über den Button **In WAV konvertieren** im Player wird eine WAV-Kopie als neues Dokument in derselben Akte angelegt – das Original bleibt erhalten. Die WAV-Datei kann anschließend wie ein Sprachmemo transkribiert werden.
+
 ![Abbildung 48](../../images/j-lawyer-org-UserGuide-de-054.png)
 
 

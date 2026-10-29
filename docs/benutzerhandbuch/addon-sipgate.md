@@ -19,6 +19,8 @@ Zur Nutzung der Sipgate-Dienste über die Kanzleisoftware ist ein sogenannter �
 
 Änderungen der Zugangsdaten erfordern eine Neustart des j-lawyer.org Clients.
 
+Unterstützt werden sowohl sipgate-classic- als auch sipgate-neo-Konten; der Kontotyp wird automatisch erkannt. Bei neo-Konten stehen für ausgehende Anrufe die Telefonie-Geräte des Nutzers mit den ihnen zugeordneten Rufnummern zur Verfügung.
+
 ### Unterstützte Landeskennzahlen
 
 
