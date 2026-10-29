@@ -412,6 +412,7 @@ Per Rechtsklick auf ein oder mehrere Dokumente öffnet sich das Kontextmenü mit
 | **duplizieren** | Erstellt eine Kopie des Dokuments in der gleichen Akte |
 | **in andere Akte kopieren** | Kopiert das Dokument in eine andere Akte |
 | **in andere Akte verschieben** | Verschiebt das Dokument in eine andere Akte |
+| **kopieren oder verschieben** | Kopiert oder verschiebt das Dokument zu einem Beteiligten der Akte („zu *Name* kopieren" / „zu *Name* verschieben"), siehe [Dokumente an Kontakten](../adressen.md#dokumente) |
 
 Beim Kopieren und Verschieben in eine andere Akte werden Metadaten, Etiketten, Favoritenstatus und Farbmarkierungen übernommen.
 

@@ -60,6 +60,25 @@ Die Adressen werden wie folgt genutzt:
 - **Dokumentvorlagen**: Der Platzhalter `{{…_EMAIL}}` (bspw. `{{MANDANT_EMAIL}}`) enthält die erste vorhandene Adresse in der Reihenfolge primär, privat, sonstige.
 - **Nextcloud**: Beim [Abgleich des Adressbuchs](addon-nextcloud.md#adressbuch-sync) werden alle Adressen übertragen; die primäre Adresse wird als bevorzugte markiert.
 
+### Dokumente an Kontakten {#dokumente}
+
+Manche Dokumente gehören nicht zu einer einzelnen Akte, sondern zu einem Kontakt – bspw. eine Vollmacht für mehrere Mandate, eine Ausweiskopie, eine Einwilligungserklärung oder eine Honorarvereinbarung. Solche Dokumente werden im Tab **Dokumente** der Adresse abgelegt.
+
+Die Dokumente werden in einer Liste mit Name, Datum und Größe angezeigt; ein Doppelklick öffnet ein Dokument. Neue Dokumente kommen wie folgt hinzu:
+
+- **Hinzufügen**: Dateien vom Arbeitsplatz auswählen
+- **Erstellen**: ein Dokument aus einer [Dokumentvorlage](dokumentenmanagement/vorlagen.md) erzeugen
+- **Drag & Drop**: Dateien in die Liste ziehen
+- aus einer Akte heraus über **kopieren oder verschieben** (siehe [Dokumente – Kontextmenü](aktenverwaltung/dokumente.md#kopieren-und-verschieben))
+
+Per Rechtsklick auf ein Dokument stehen **als PDF zum Kontakt speichern**, **umbenennen** und **Löschen** zur Verfügung. Gelöschte Dokumente landen im [Papierkorb](dokumentenmanagement/papierkorb.md).
+
+Beim Versand von E-Mails und beA-Nachrichten aus einer Akte stehen die Dokumente der Beteiligten bei der Auswahl von Anhängen in einem eigenen Reiter je Beteiligtem zur Verfügung.
+
+!!! info "Hinweise"
+    - Dokumente an Kontakten werden als einfache Liste geführt – Ordner, Etiketten, Favoriten und Farbmarkierungen stehen hier nicht zur Verfügung.
+    - Wird ein Kontakt gelöscht, werden auch seine Dokumente gelöscht.
+
 ### Adresse importieren {#import}
 
 Adressen im vCard-Format können importiert werden. Dabei werden in der Datenbank existierende Kontakte weder geändert noch gelöscht, es werden ausschließlich neue Adressen angelegt. Nach Auswahl einer Importdatei bekommen Sie eine Übersicht der darin enhaltenen Kontakte und können über ein Auswahlfeld exakt bestimmen welche Adressen sie importieren / nicht importieren wollen.
