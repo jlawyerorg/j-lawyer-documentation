@@ -104,8 +104,21 @@ Am unteren Rand des Bereichs befinden sich Tabs zur Filterung:
 - **Aktualisieren**: Manuelles Neuladen der Anzeige
 - **Suchfeld**: Echtzeit-Filterung der Einträge (mindestens 2 Zeichen eingeben). Durchsucht werden Aktenzeichen, Aktenname, Grund und verantwortliche Person.
 - **Kompaktansicht**: Blendet Etiketten und den Aktengrund in den Gruppenüberschriften ein oder aus, um eine platzsparendere Darstellung zu ermöglichen.
-- **Zeitraumfilter**: Über das Kalender-Symbol legen Sie fest, wie viele Tage in die Vergangenheit und in die Zukunft angezeigt werden sollen.
+- **Zeitraumfilter**: Über das Kalender-Symbol legen Sie fest, wie viele Tage in die Vergangenheit und in die Zukunft angezeigt werden – getrennt für Termine, Fristen und Wiedervorlagen (siehe [Zeitraum je Eintragstyp](#faellig-zeitraum)).
 - **Benutzerfilter**: Filtert die Anzeige nach verantwortlichen Nutzern.
+
+#### Zeitraum je Eintragstyp {#faellig-zeitraum}
+
+Fristen möchte man meist weit im Voraus sehen, Wiedervorlagen dagegen eher tagesaktuell. Der angezeigte Zeitraum kann daher für jeden Eintragstyp getrennt eingestellt werden. Das Menü am Kalender-Symbol enthält dazu die Untermenüs **Termine**, **Fristen** und **Wiedervorlagen** mit jeweils folgender Auswahl:
+
+| Gruppe | Auswahl |
+|--------|---------|
+| **Tage in die Vergangenheit** | 1, 3, 7, 14, 31, 180, 365 |
+| **Tage in die Zukunft** | 0, 1, 3, 7, 14, 31 |
+
+Neben dem Symbol wird der eingestellte Zeitraum angezeigt, bspw. `-7 .. +14`. Weichen die Einstellungen der Eintragstypen voneinander ab, wird der Gesamtzeitraum mit einem nachgestellten `*` angezeigt; der Tooltip nennt dann die Werte je Eintragstyp.
+
+Die Einstellung wird pro Nutzer gespeichert. Wurde der Zeitraum vor Version 3.6 eingestellt, gilt dieser Wert für alle Eintragstypen, bis für einen Typ ein eigener Wert gewählt wird.
 
 #### Aktionen auf Einträgen {#faellig-aktionen}
 
