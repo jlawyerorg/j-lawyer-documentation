@@ -28,6 +28,7 @@ In einem nächsten Schritt ist der Beleg mit Positionen zu befüllen. Es gibt fo
 
 Bevor eine Rechnung erstellt wird, erstellt man zunächst ein Zeiterfassungsprojekt und erfasst Zeiten (siehe Kapitel „Zeiterfassung").
 - Im Reiter „Positionen" fügt man eine Rechnungsposition hinzu, indem man über das den Stoppuhr-Buton die zu übernehmenden Zeiten auswählt und auf „in Rechnung übernehmen" klickt. Pro Stundensatz werden Zeiten zu einer gemeinsamen Rechnungsposition zusammengefasst. Im Leistungsnachweis (der automatisch in das Rechnungsdokument aufgenommen werden kann) wird trotzdem ein detaillierter Nachweis der einzelnen Zeiten ersichtlich.
+- Nach der Übernahme fragt j-lawyer.org, ob der **Leistungszeitraum** des Belegs (Felder „Zeitraum") automatisch auf den frühesten und den spätesten Zeiterfassungseintrag gesetzt werden soll – bspw. „Soll der Leistungszeitraum auf 03.06.2026 - 20.06.2026 (frühester und spätester Zeiterfassungseintrag) gesetzt werden?". Berücksichtigt werden dabei alle mit dem Beleg verknüpften Zeiten, auch aus früheren Übernahmen. Bei Bestätigung werden vorhandene Werte überschrieben; übernommen wird der Zeitraum mit dem Speichern des Belegs. Stimmt der eingetragene Zeitraum bereits, entfällt die Abfrage.
 
 #### Position hinzufügen: aus Gebührenrechner / Plugin
 - Im Reiter „Positionen" oben auf das Symbol für „Positionen aus Rechnungsplugin übernehmen" klicken und einen Berechner auswählen, bspw. „Rechnung RVG Wertgebühren".
