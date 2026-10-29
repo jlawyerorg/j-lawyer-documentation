@@ -243,6 +243,13 @@ Dokumente können auf verschiedene Wegen zur Akte hinzugefügt werden:
 - **Scannen**: Über die Scanner-Integration
 - **E-Mail-Anhänge**: Beim Speichern von E-Mails zur Akte
 
+## Dokumente aus der Akte herausziehen {#drag-out}
+
+Markierte Dokumente können per Drag & Drop aus der Dokumentenliste in andere Programme gezogen werden – bspw. auf den Desktop, in den Dateimanager, in ein E-Mail-Programm oder in den Upload-Bereich einer Webseite. Dabei wird eine Kopie der Datei übergeben; das Dokument bleibt in der Akte. Es können auch mehrere Dokumente gleichzeitig gezogen werden.
+
+!!! info "Linux mit Wayland"
+    Unter Linux-Desktops mit Wayland ist das Herausziehen technisch bedingt nicht möglich. Alternativ können die Dokumente über das Kontextmenü **in Zwischenablage kopieren** oder **lokal speichern** übertragen werden.
+
 ## Dokumentetiketten
 
 Dokumente können – ähnlich wie Akten – mit Etiketten versehen werden. Dies ermöglicht eine zusätzliche Kategorisierung und Filterung. Gesetzte Etiketten werden in der Liste als grüne Kacheln am Dokument bzw. in der Tabelle in der Spalte „Etiketten" angezeigt.
@@ -303,7 +310,7 @@ Dokumente können in einer Ordnerstruktur organisiert werden:
 - **Ordner erstellen**: Über das Drei-Punkte-Menü eines Ordners → **Unterordner erstellen**
 - **Ordner umbenennen**: Über das Drei-Punkte-Menü → **Ordner umbenennen**
 - **Ordner löschen**: Über das Drei-Punkte-Menü → **Ordner löschen** (löscht auch alle enthaltenen Dokumente!)
-- **Dokumente verschieben**: Über den Button "in Ordner verschieben" oberhalb der Dokumentenliste oder per Kontextmenü
+- **Dokumente verschieben**: Über den Button "in Ordner verschieben" oberhalb der Dokumentenliste, per Kontextmenü oder per Drag & Drop auf den gewünschten Ordner in der Ordnerliste
 
 #### Ordnervorlagen anwenden
 
