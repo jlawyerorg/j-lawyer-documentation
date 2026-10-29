@@ -4,6 +4,8 @@
 
 Rechnungen (oder Belege im Allgemeinen) können im Tab „Finanzen" einer Akte erstellt werden („+"-Button im Sub-Tab „Belege"). Nach einer Bestätigung der Belegart und des Nummernkreises (Button hinter „Typ") sind auch alle weiteren Kopfinformationen für eine Bearbeitung freigegeben.
 
+Ein bestehender Beleg lässt sich auch ohne Kenntnis der Akte über die [globale Suche](oberflaeche.md#globale-suche) (**Strg+K**) anhand seiner Belegnummer finden.
+
 In einem nächsten Schritt ist der Beleg mit Positionen zu befüllen. Es gibt folgende Möglichkeiten, um Positionen hinzuzufügen:
 
 #### Beleg vorbereiten

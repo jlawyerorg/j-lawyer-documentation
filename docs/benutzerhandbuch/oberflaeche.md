@@ -189,7 +189,7 @@ Zusätzlich können Sie unter „Bereiche anzeigen" die Sichtbarkeit der einzeln
 
 ### Globale Suche {#globale-suche}
 
-Die globale Suche ermöglicht eine schnelle, aktenübergreifende Suche nach Akten, Adressen und Kalendereinträgen. Sie wird über die Lupe in der Kopfzeile des Desktops oder die Tastenkombination **Strg+K** (macOS: **Cmd+K**) geöffnet und steht von überall in der Anwendung zur Verfügung.
+Die globale Suche ermöglicht eine schnelle, aktenübergreifende Suche nach Akten, Adressen, Kalendereinträgen und Belegen. Sie wird über die Lupe in der Kopfzeile des Desktops oder die Tastenkombination **Strg+K** (macOS: **Cmd+K**) geöffnet und steht von überall in der Anwendung zur Verfügung.
 
 #### Suchbare Bereiche
 
@@ -199,13 +199,17 @@ Die globale Suche ermöglicht eine schnelle, aktenübergreifende Suche nach Akte
 | **Kalender** | Offene Kalendereinträge – durchsucht Zusammenfassung, Beschreibung und zugehörige Akte | Nach Beginndatum (neueste zuerst) |
 | **Adressen** | Adressbucheinträge – zeigt Name, Firma und Ort | Alphabetisch nach Name |
 | **Archiviert** | Archivierte Akten – zeigt Aktenzeichen, Name und Grund | Nach Änderungsdatum (neueste zuerst) |
+| **Belege** | Belege in allen Status (Entwurf, offen, Mahnstufen, bezahlt, storniert …) – durchsucht Belegnummer und Belegbezeichnung. Zeigt Belegnummer und Belegart, darunter Aktenzeichen, Rubrum, Status und Bruttobetrag | Nach Erstellungsdatum (neueste zuerst), max. 100 Treffer |
+
+!!! info "Belege einblenden"
+    Der Bereich **Belege** ist standardmäßig ausgeblendet und muss einmalig über den Filterbutton **Belege** aktiviert werden. Angezeigt werden nur Belege aus Akten, auf die der Nutzer Zugriff hat.
 
 #### Bedienung
 
 1. Suchbegriff eingeben und mit **Enter** bestätigen
 2. Die Ergebnisse werden nach Bereichen gruppiert angezeigt
 3. Über die Filterbuttons am oberen Rand können einzelne Bereiche ein- oder ausgeblendet werden – die Filtereinstellungen werden pro Nutzer gespeichert
-4. Doppelklick oder **Enter** auf einem Ergebnis öffnet die zugehörige Akte bzw. Adresse
+4. Doppelklick oder **Enter** auf einem Ergebnis öffnet die zugehörige Akte bzw. Adresse – bei Belegen direkt im Tab „Finanzen" → „Belege"
 5. Mit den **Pfeiltasten** lässt sich in der Ergebnisliste navigieren
 6. **Esc** schließt die Suche
 
