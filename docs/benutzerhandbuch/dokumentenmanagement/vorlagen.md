@@ -40,6 +40,7 @@ Folgende Platzhalterinhalte einer Dokumentvorlage werden beim Erstellen eines ne
 
 | Platzhalter | Beschreibung |
 |-------------|--------------|
+| `{{USER_LOGIN}}` | Anmeldename (Benutzername) – vor allem für Prompts der [agentischen KI](../ki-assistent/agenten.md#platzhalter) |
 | `{{USER_AN}}` | Anzeigename |
 | `{{USER_KRZ}}` | Kürzel |
 | `{{USER_VORNAME}}` | Vorname |

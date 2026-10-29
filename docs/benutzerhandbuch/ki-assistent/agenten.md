@@ -214,6 +214,12 @@ Beim Speichern einer E-Mail in eine Akte verhält sich `save_email_to_case` wie 
 | `list_users` | Listet alle Systembenutzer auf (Name, Anzeigename, E-Mail) | Niedrig |
 | `get_my_groups` | Gibt die Gruppen des angemeldeten Nutzers zurück | Niedrig |
 
+## Platzhalter in Agenten-Prompts {#platzhalter}
+
+Wie alle [eigenen Prompts](eigene-prompts.md#platzhalter-in-prompts) können auch Agenten-Prompts Platzhalter enthalten. Besonders nützlich ist `{{USER_LOGIN}}`: Er enthält den Anmeldenamen des angemeldeten Nutzers. Werkzeuge, die einen Nutzer erwarten – bspw. den Verantwortlichen eines Kalendereintrags bei `create_event` –, benötigen genau diesen Anmeldenamen und nicht den Anzeigenamen.
+
+> Lege für alle Fristen der nächsten zwei Wochen, die mir ({{USER_LOGIN}}) zugeordnet sind, eine Vorfrist drei Werktage vorher an. Verantwortlich für die Vorfrist bin ich ({{USER_LOGIN}}).
+
 ## Beispiel-Prompts {#beispiele}
 
 Die folgenden Beispiele zeigen, wie agentische Prompts für typische Kanzleiaufgaben formuliert werden können. Um sie zu nutzen, legen Sie einen [eigenen Prompt](eigene-prompts.md) mit der Funktion **chat** und einem agentenfähigen Modell an.
