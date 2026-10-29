@@ -459,12 +459,28 @@ Das Untermenü **PDF und Konvertierung** enthält Funktionen zur PDF-Bearbeitung
 | Aktion | Beschreibung |
 |--------|--------------|
 | **als Fax senden** | Sendet das Dokument als Fax (erfordert Sipgate-Integration) |
-| **drucken (Standarddrucker)** | Druckt das Dokument direkt auf dem Standarddrucker |
+| **drucken (Standarddrucker)** bzw. **Drucken** | Druckt das Dokument direkt auf dem Standarddrucker. Sind [Druckerfavoriten](#druckerfavoriten) eingerichtet, erscheint stattdessen das Untermenü **Drucken** mit dem Standarddrucker und den Favoriten |
 | **per E-POST versenden** | Sendet das Dokument als Hybridbrief über E-POST |
 | **Freigabe senden** | Teilt das Dokument über Nextcloud mit externen Empfängern |
 
 !!! info "Hinweis"
     Für E-POST siehe [Add-On: E-POST](../addon-epost.md), für Nextcloud siehe [Add-On: Nextcloud](../addon-nextcloud.md).
+
+#### Druckerfavoriten {#druckerfavoriten}
+
+Standardmäßig druckt der Direktdruck auf den Standarddrucker des Betriebssystems. Sollen Dokumente auch direkt auf andere Drucker gedruckt werden können – bspw. auf einen Faxdrucker oder einen PDF-Drucker –, werden diese als Druckerfavoriten hinterlegt:
+
+1. **Einstellungen** → **Dokumente** → **Druckerfavoriten** öffnen
+2. Die gewünschten Drucker in der Spalte **Favorit** anhaken
+3. Optional einen **Anzeigenamen** vergeben (Drucker markieren, dann in der Spalte „Anzeigename" doppelt klicken)
+4. Mit **Übernehmen** speichern
+
+Sobald mindestens ein Favorit verfügbar ist, enthält das Kontextmenü der Dokumente das Untermenü **Drucken** mit dem **Standarddrucker** an erster Stelle und den Favoriten darunter.
+
+!!! info "Hinweise"
+    - Druckerfavoriten werden pro Arbeitsplatz gespeichert, da die verfügbaren Drucker je Rechner unterschiedlich sind.
+    - Im Menü erscheinen nur Favoriten, die aktuell verfügbar sind. Nicht verfügbare Favoriten bleiben in den Einstellungen erhalten.
+    - Ist ein gewählter Drucker beim Drucken nicht mehr erreichbar, erscheint eine Fehlermeldung – es wird nicht stattdessen auf dem Standarddrucker gedruckt.
 
 ### KI-Assistent
 
