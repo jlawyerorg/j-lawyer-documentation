@@ -100,6 +100,15 @@ Für jeden Kalender (z.B. "Fristen Anwalt Müller", "Termine Kanzlei") wird auto
 
 Die Farbe des Buttons entspricht der konfigurierten Kalenderfarbe.
 
+#### Erledigte Einträge einblenden {#erledigte-einblenden}
+
+Standardmäßig zeigt das Kalenderblatt nur offene Einträge. Über die Umschaltfläche mit dem Häkchen-Symbol in der Werkzeugleiste können zusätzlich die erledigten Einträge des sichtbaren Zeitraums eingeblendet werden – bspw. um nachzuvollziehen, welche Termine in der vergangenen Woche stattgefunden haben.
+
+Erledigte Einträge werden abgeschwächt und mit einem Häkchen (✓) dargestellt. Beim Blättern in einen anderen Zeitraum werden die erledigten Einträge dieses Zeitraums nachgeladen. Ein erneuter Klick auf die Umschaltfläche blendet sie wieder aus.
+
+!!! info "Hinweis"
+    Die Einstellung wird nicht gespeichert – beim nächsten Öffnen zeigt das Kalenderblatt wieder nur offene Einträge.
+
 ### Kalendereinträge bearbeiten {#eintraege-bearbeiten}
 
 Im Kalenderblatt können Kalendereinträge direkt bearbeitet werden, ohne die zugehörige Akte öffnen zu müssen.
@@ -116,7 +125,7 @@ Per Rechtsklick auf einen Kalendereintrag öffnet sich ein Kontextmenü mit folg
 
 #### Eintrag als erledigt markieren
 
-Beim Markieren als "erledigt" erscheint eine Sicherheitsabfrage. Nach Bestätigung wird der Eintrag aus dem Kalenderblatt entfernt und im System als erledigt gekennzeichnet.
+Beim Markieren als "erledigt" erscheint eine Sicherheitsabfrage. Nach Bestätigung wird der Eintrag im System als erledigt gekennzeichnet und aus dem Kalenderblatt entfernt – bzw. bei [eingeblendeten erledigten Einträgen](#erledigte-einblenden) sofort als erledigt dargestellt.
 
 ### Neue Einträge erstellen {#neue-eintraege}
 
