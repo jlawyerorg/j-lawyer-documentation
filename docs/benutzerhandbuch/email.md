@@ -272,6 +272,18 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
 - Einzelne E-Mails, die nicht automatisch zugeordnet wurden, lassen sich auch per [Assistent Ingo](ki-assistent/agenten.md#tools-email) in eine Akte speichern
 
+## Reihenfolge der Postfächer {#postfach-reihenfolge}
+
+Standardmäßig werden die Postfächer alphabetisch nach E-Mail-Adresse aufgelistet. Jeder Nutzer kann die Reihenfolge seiner Postfächer selbst festlegen, bspw. um das täglich genutzte Postfach nach oben zu holen:
+
+1. Im E-Mail-Posteingang per Rechtsklick in die Postfachliste **Postfächer sortieren...** wählen
+2. Im Dialog die Postfächer mit **nach oben** und **nach unten** anordnen – **alphabetisch** stellt die alphabetische Sortierung wieder her
+3. Mit **OK** übernehmen
+
+Die Reihenfolge wird pro Nutzer gespeichert und gilt an jedem Arbeitsplatz sowie in der Web-Oberfläche (dort per Drag & Drop an den Postfach-Kopfzeilen änderbar). Sie wirkt überall, wo Postfächer aufgelistet werden – auch in der Absender-Auswahl beim E-Mail-Versand. Neu hinzukommende Postfächer werden am Ende angefügt.
+
+Die Reihenfolge der [beA-Postfächer](addon-bea.md#ordnerverwaltung) wird auf dieselbe Weise festgelegt.
+
 ## Lese- und Übermittlungsbestätigung {#bestaetigungen}
 
 Beim Versand einer E-Mail können im Dialog **E-Mail senden** über zwei Checkboxen Bestätigungen angefordert werden. Beide Optionen lassen sich einzeln oder gemeinsam nutzen und stehen auch beim verschlüsselten Versand zur Verfügung.

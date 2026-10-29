@@ -72,6 +72,7 @@ Per Rechtsklick auf einen Ordner stehen folgende Funktionen zur Verfügung:
 - **Neuer Ordner**: Erstellt einen Unterordner im ausgewählten Ordner
 - **Ordner löschen**: Löscht benutzerdefinierte Ordner (Systemordner wie Posteingang, Gesendet und Papierkorb können nicht gelöscht werden)
 - **Papierkorb leeren**: Leert den Papierkorb (nur bei Papierkorb verfügbar)
+- **Postfächer sortieren...**: Legt die Reihenfolge der beA-Postfächer fest – mit **nach oben**, **nach unten** und **alphabetisch**. Die Reihenfolge wird pro Nutzer gespeichert, gilt auch in der Web-Oberfläche und in der Absender-Auswahl beim beA-Versand. Neu hinzukommende Postfächer werden am Ende angefügt.
 
 ### Nachrichten verwalten {#nachrichten-verwalten}
 
