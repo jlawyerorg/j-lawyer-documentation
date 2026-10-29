@@ -290,7 +290,7 @@ Um solche Konstellationen zu vermeiden, kann das Leerzeichen zwischen Platzhalte
 {{MANDANT_ANREDE}}{{MANDANT_AGRAD1}}{{MANDANT_NAME}},
 ```
 
-Die Anwendung hat für diese Fälle eine „Intelligenz" und fügt automatisch Leerzeichen an benötigten Stellen ein, bspw. zwischen den Platzhaltern, aber keines vor einem Komma.
+Die Anwendung hat für diese Fälle eine „Intelligenz" und fügt automatisch Leerzeichen an benötigten Stellen ein, bspw. zwischen den Platzhaltern. Kein Leerzeichen wird eingefügt, wenn auf den Platzhalter eines der Zeichen `. , ; : ! ? ' " / ) ] -` folgt – so ergibt bspw. `{{AKTE_ZEICHEN}}/{{BEL_NR}}` den Wert „2562/24/24235".
 
 ## PDF-Formulare als Vorlagen verwenden
 

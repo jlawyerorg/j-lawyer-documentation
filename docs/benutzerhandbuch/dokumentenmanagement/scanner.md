@@ -34,6 +34,10 @@ Oder für Windows:
 
 Im „Scans"-Dialog im j-lawyer Client klicken Sie dann auf das gewünschte Dokument (Doppelklick öffnet es), und klicken Sie doppelt auf einen Aktionsvorschlag um ihn auszuführen.
 
+### Neue Akte aus einem Scan anlegen {#akte-anlegen}
+
+Gehört ein gescanntes Dokument zu einem neuen Mandat, kann über die Aktion **neue Akte erstellen** (Tooltip „neue Akte aus diesem Scan anlegen") direkt eine Akte angelegt werden. Es startet derselbe Assistent wie im [E-Mail-Posteingang](../email.md#akte-anlegen): Kopfdaten der Akte, Beteiligte mit Rolle und Zeichen – aus dem Adressbuch oder per Assistent Ingo aus dem erkannten Text des Dokuments extrahiert (**Weitere Beteiligte aus Dokument extrahieren**) – und optional eine Wiedervorlage. Das Feld „wegen" wird mit dem Dateinamen des Scans vorbelegt.
+
 ## Lokaler Scanordner
 
 Zusätzlich zu einem zentralen Scanordner lässt sich an jedem Arbeitsplatz ein Verzeichnis überwachen. Die Einstellung ist direkt im Scaneingang zu aktivieren. Die Einstellung wird für den Arbeitsplatz gespeichert. Wechselt der Nutzer an ein anderes Gerät, ist dort die Konfiguration eines anderen Ordners auf diesem Gerät möglich.

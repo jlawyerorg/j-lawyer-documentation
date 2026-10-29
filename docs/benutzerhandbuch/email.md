@@ -274,6 +274,32 @@ Nach erfolgreicher Zuordnung wird die E-Mail:
 - Prüfen Sie regelmäßig den Ordner „in Akte importiert" im Postfach, um die korrekte Zuordnung zu kontrollieren
 - Einzelne E-Mails, die nicht automatisch zugeordnet wurden, lassen sich auch per [Assistent Ingo](ki-assistent/agenten.md#tools-email) in eine Akte speichern
 
+## Neue Akte aus einer E-Mail anlegen {#akte-anlegen}
+
+Kommt ein neues Mandat per E-Mail herein, kann direkt aus der Nachricht eine Akte angelegt werden – inklusive aller Beteiligten. In der Seitenleiste des E-Mail-Posteingangs steht dazu bei jeder Nachricht die Aktion **neue Akte erstellen** zur Verfügung. Sie startet einen Assistenten mit folgenden Schritten:
+
+| Schritt | Inhalt |
+|---------|--------|
+| **neue Akte erstellen** | Kopfdaten der Akte: Rubrum (vorbelegt mit dem Namen des Absenders), wegen (vorbelegt mit dem Betreff), Anwalt, Sachbearbeiter, Sachgebiet und Gruppe |
+| **Adressdaten extrahieren** | Optional: Assistent Ingo analysiert eine Textpassage – bspw. die Signatur – und schlägt daraus Kontaktdaten vor (**Text analysieren**) |
+| **Beteiligte vervollständigen** | Die vorgeschlagenen Kontaktdaten prüfen und ergänzen (Anrede, Name, Firma, Anschrift, Telefon, E-Mail usw.) |
+| **Beteiligte auswählen** | Die Beteiligten der neuen Akte festlegen – jeweils mit Rolle (bspw. Mandant, Gegner) und Zeichen |
+| **Kalendereintrag erstellen** | Optional: eine Wiedervorlage für die neue Akte vormerken |
+| **Erstellen** | Akte, neue Adressen, Beteiligte und Kalendereintrag werden angelegt; der Status wird angezeigt |
+
+### Beteiligte festlegen {#akte-anlegen-beteiligte}
+
+Im Schritt **Beteiligte auswählen** können beliebig viele Beteiligte zusammengestellt werden:
+
+- **Beteiligten übernehmen**: übernimmt einen der angebotenen Kontakte – bspw. den Absender, sofern er bereits im Adressbuch erfasst ist, oder die im vorherigen Schritt extrahierte Adresse – mit der unter **als:** gewählten Rolle
+- **Bestehende Adresse hinzufügen**: sucht einen beliebigen Kontakt im Adressbuch und fügt ihn hinzu – bspw. das zuständige Gericht oder den Gegneranwalt
+- **Weitere Beteiligte aus Signatur extrahieren**: kehrt zum Schritt **Adressdaten extrahieren** zurück, um einen weiteren Kontakt aus dem Text der Nachricht zu gewinnen
+
+Die bereits erfassten Beteiligten werden unter **Ausgewählte Beteiligte** aufgelistet; dort lassen sich Rolle und Zeichen anpassen oder Einträge wieder entfernen. Ein Kontakt kann nur einmal als Beteiligter erfasst werden.
+
+!!! tip "Auch aus dem Scaneingang"
+    Derselbe Assistent steht auch im [Scaneingang](dokumentenmanagement/scanner.md#akte-anlegen) zur Verfügung. Dort werden die Kontaktdaten aus dem erkannten Text des Dokuments extrahiert.
+
 ## Reihenfolge der Postfächer {#postfach-reihenfolge}
 
 Standardmäßig werden die Postfächer alphabetisch nach E-Mail-Adresse aufgelistet. Jeder Nutzer kann die Reihenfolge seiner Postfächer selbst festlegen, bspw. um das täglich genutzte Postfach nach oben zu holen:

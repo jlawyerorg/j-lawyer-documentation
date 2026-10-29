@@ -33,6 +33,8 @@ Voreingestellt ist eine Suche ohne archivierte Akten – soll das Archiv mit dur
 
 Eine Aktenanlage ist im linken Navigationsbereich unter **Akten** → **neu** möglich. Es ist sinnvoll, vorab zu prüfen ob alle Beteiligten in der Adressverwaltung existieren. Innerhalb der Akte unter dem Reiter "Beteiligte" ist ggf. auch eine Schnellerfassung noch nicht vorhandener Kontakte möglich. In diesem Fall sollten die Adressdaten nach Schnellerfassung weiter verfeinert werden, der Arbeitsfluss wird so jedoch nicht unterbrochen.
 
+Kommt ein neues Mandat per E-Mail oder als Scan herein, kann die Akte samt Beteiligten auch direkt aus dem [E-Mail-Posteingang](../email.md#akte-anlegen) bzw. dem [Scaneingang](../dokumentenmanagement/scanner.md#akte-anlegen) heraus angelegt werden.
+
 ## Aktenzeichen {#aktenzeichen}
 
 j-lawyer vergibt automatisch Aktenzeichen im Format „fünfstellige lfd. Nummer + / + zweistellige Jahreszahl", also bspw. 00123/12. Für Umsteiger kann es hilfreich sein, das „Start-Aktenzeichen" einstellen zu können.
