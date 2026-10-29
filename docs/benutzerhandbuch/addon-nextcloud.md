@@ -128,6 +128,8 @@ Nextcloud kann E-Mail-Benachrichtigungen versenden, wenn ein Empfänger Daten au
 
 Adressen einer j-lawyer.org Installation können in eine Nextcloud synchronisiert werden. Dabei werden alle Adressbucheinträge synchronisiert, die in mindestens einer Akte als Beteiligte geführt sind.
 
+Hat ein Kontakt mehrere [E-Mail-Adressen](adressen.md#email-adressen), werden alle übertragen; die primäre Adresse wird als bevorzugte markiert.
+
 ### Vorbereitung
 
 Legen Sie in der Oberfläche der Nextcloud ein separates Adressbuch an, welches ausschließlich in Verbindung mit j-lawyer.org verwendet wird. So kann das Adressbuch bei Bedarf vollständig neu synchronisiert oder neu aufgebaut werden, ohne andere Adressdaten zu beeinflussen.

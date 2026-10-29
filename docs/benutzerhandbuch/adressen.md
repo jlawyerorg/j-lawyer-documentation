@@ -13,7 +13,7 @@ Folgende Felder werden bei der Suche berücksichtigt:
 - Geburtsname
 - Unternehmen / Firma
 - Abteilung
-- E-Mail
+- E-Mail (alle drei Adressen: primär, privat, sonstige)
 - Telefon
 - Mobilnummer
 - Ort / Stadt
@@ -43,9 +43,28 @@ Mehrere Suchbegriffe können durch **Leerzeichen** oder **Kommas** getrennt eing
 
 Zusätzlich zur Textsuche ist eine Einschränkung über [Etiketten](etiketten.md) möglich. Beide Filter werden kombiniert - es werden nur Adressen angezeigt, die sowohl den Suchbegriffen als auch den gewählten Etiketten entsprechen.
 
+### E-Mail-Adressen {#email-adressen}
+
+Für jeden Kontakt können bis zu drei E-Mail-Adressen hinterlegt werden:
+
+| Feld | Verwendung |
+|------|------------|
+| **E-Mail (primär)** | Hauptadresse des Kontakts – wird bevorzugt verwendet |
+| **E-Mail (privat)** | optionale private Adresse |
+| **E-Mail (sonstige)** | optionale weitere Adresse |
+
+Die Adressen werden wie folgt genutzt:
+
+- **Suche**: Ein Kontakt wird über jede seiner E-Mail-Adressen gefunden.
+- **E-Mail-Versand**: In der Empfängerauswahl steht jede hinterlegte Adresse eines Beteiligten als eigener Eintrag für An, CC und BCC zur Verfügung. Ist keine primäre Adresse hinterlegt, wird beim Versand an einen Kontakt automatisch die erste vorhandene weitere Adresse verwendet.
+- **Dokumentvorlagen**: Der Platzhalter `{{…_EMAIL}}` (bspw. `{{MANDANT_EMAIL}}`) enthält die erste vorhandene Adresse in der Reihenfolge primär, privat, sonstige.
+- **Nextcloud**: Beim [Abgleich des Adressbuchs](addon-nextcloud.md#adressbuch-sync) werden alle Adressen übertragen; die primäre Adresse wird als bevorzugte markiert.
+
 ### Adresse importieren {#import}
 
 Adressen im vCard-Format können importiert werden. Dabei werden in der Datenbank existierende Kontakte weder geändert noch gelöscht, es werden ausschließlich neue Adressen angelegt. Nach Auswahl einer Importdatei bekommen Sie eine Übersicht der darin enhaltenen Kontakte und können über ein Auswahlfeld exakt bestimmen welche Adressen sie importieren / nicht importieren wollen.
+
+Enthält ein Kontakt in der vCard mehrere E-Mail-Adressen, werden bis zu drei davon übernommen und auf die Felder [E-Mail (primär), (privat) und (sonstige)](#email-adressen) verteilt – die bevorzugte bzw. geschäftliche Adresse wird zur primären.
 
 ### Beteiligtentypen konfigurieren {#beteiligtentypen}
 

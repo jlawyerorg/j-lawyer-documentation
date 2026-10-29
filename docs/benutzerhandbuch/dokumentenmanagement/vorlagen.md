@@ -111,7 +111,7 @@ Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. F
 | `{{MANDANT_TEL}}` | Telefonnummer des Mandanten |
 | `{{MANDANT_MOBIL}}` | Mobilnummer des Mandanten |
 | `{{MANDANT_FAX}}` | Faxnummer des Mandanten |
-| `{{MANDANT_EMAIL}}` | Emailadresse des Mandanten |
+| `{{MANDANT_EMAIL}}` | E-Mail-Adresse des Mandanten – die erste vorhandene in der Reihenfolge primär, privat, sonstige |
 | `{{MANDANT_WWW}}` | Homepage des Mandanten |
 | `{{MANDANT_BANK}}` | Bank des Mandanten |
 | `{{MANDANT_BLZ}}` | Bankleitzahl der Bank des Mandanten |
