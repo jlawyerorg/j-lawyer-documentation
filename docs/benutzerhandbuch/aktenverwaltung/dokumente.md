@@ -238,7 +238,7 @@ Werden ein Dokument und seine Anlagen gemeinsam in eine andere Akte kopiert oder
 
 Dokumente können auf verschiedene Wegen zur Akte hinzugefügt werden:
 
-- **Drag & Drop**: Dateien vom Desktop oder aus dem Dateimanager in die Dokumentenliste ziehen
+- **Drag & Drop**: Dateien vom Desktop, aus dem Dateimanager oder E-Mails aus dem klassischen Outlook in die Dokumentenliste ziehen – oder ohne die Akte zu öffnen auf einen Akteneintrag auf dem [Desktop](../oberflaeche.md#drag-drop)
 - **Aus Vorlage erstellen**: Über den "Erstellen"-Button ein Dokument aus einer Vorlage generieren
 - **Scannen**: Über die Scanner-Integration
 - **E-Mail-Anhänge**: Beim Speichern von E-Mails zur Akte

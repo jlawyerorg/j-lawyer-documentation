@@ -171,6 +171,27 @@ Unter jeder Karte wird die Bruttosumme der zugehörigen Rechnungen in Euro ausge
 !!! tip "Aktivierung"
     Der Bereich „Offene Rechnungen" ist standardmäßig nicht sichtbar. Zum Aktivieren auf den Layout-Button klicken und „Layout anpassen…" wählen — in der Grid-Zuweisung steht der Bereich zur Auswahl. Alternativ lässt er sich über das Kontextmenü unter „Bereiche anzeigen" ein- und ausblenden.
 
+### Dateien per Drag & Drop zu einer Akte hinzufügen {#drag-drop}
+
+Dateien können direkt auf dem Desktop einer Akte hinzugefügt werden, ohne die Akte zu öffnen. Dazu werden sie aus dem Dateimanager oder aus dem klassischen Outlook auf einen Eintrag mit Aktenbezug gezogen:
+
+| Bereich | Mögliche Ziele |
+|---------|----------------|
+| [Zuletzt geändert](#zuletzt-geaendert) | jeder Akteneintrag |
+| [Fällig](#faellig) | einzelne Kalendereinträge und die Kopfzeilen der Akten |
+| [Nach Etikett](#nach-etikett) | Akten sowie Dokumente – bei Dokumenten werden die Dateien der Akte des Dokuments hinzugefügt |
+| [Nachrichten an mich](#nachrichten-an-mich) / [an andere](#nachrichten-an-andere) | Nachrichten mit Aktenbezug |
+
+Das gilt auch in den Tabs nach Etikett bzw. Eintragstyp. Während die Dateien über einen Eintrag gezogen werden, wird dieser hervorgehoben und hinter seinem Symbol erscheint ein „+".
+
+Beim Loslassen werden die Dateien sofort in den **Wurzelordner** der Akte hochgeladen. Ein Fortschrittsdialog zeigt den Upload an und erlaubt den Abbruch; bei gleichnamigen Dateien erscheint wie gewohnt der Dialog zum Umbenennen. Ordner werden als Unterordner übernommen. Abschließend bestätigt ein Hinweis, wie viele Dokumente der Akte hinzugefügt wurden. Ist die Akte parallel geöffnet, erscheinen die neuen Dokumente dort ohne Neuladen.
+
+!!! info "Einschränkungen"
+    - Dokumente können nur mit Schreibrecht für Akten hinzugefügt werden.
+    - Archivierten Akten können keine Dokumente hinzugefügt werden.
+    - E-Mails aus dem „neuen Outlook", aus Outlook im Browser (OWA) oder über eine Remotedesktop-Verbindung können nicht direkt abgelegt werden – es erscheint ein Hinweis mit einer Alternative.
+    - Im Nachrichtencenter, in separaten Messenger-Fenstern und im Nachrichten-Reiter der Akte ist das Ablegen auf Nachrichten nicht möglich.
+
 ### Layout anpassen {#layout-anpassen}
 
 Über den Layout-Button in der Kopfzeile des Desktops können Sie das Erscheinungsbild des Hauptbereichs anpassen. Es stehen vier Layout-Vorlagen zur Auswahl:
