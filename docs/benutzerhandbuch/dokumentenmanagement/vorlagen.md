@@ -133,7 +133,7 @@ Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. F
 | `{{MANDANT_AKTE_EIGENE2}}` | Eigenes Feld 2 des Mandanten innerhalb einer Akte |
 | `{{MANDANT_AKTE_EIGENE3}}` | Eigenes Feld 3 des Mandanten innerhalb einer Akte |
 
-### Platzhalter für die Akte
+### Platzhalter für die Akte {#platzhalter-akte}
 
 | Platzhalter | Beschreibung |
 |-------------|--------------|
@@ -149,9 +149,11 @@ Die hier dargestellten Platzhalter sind für alle Beteiligtentypen verfügbar. F
 | `{{AKTE_ANWALT}}` | Anwalt (Nutzername) |
 | `{{AKTE_ANWALT_AN}}` | Anwalt (Anzeigename) |
 | `{{AKTE_ANWALT_KRZ}}` | Kürzel des verantwortlichen Anwalts |
+| `{{AKTE_ANWALT_FKT}}` | Funktion des verantwortlichen Anwalts (aus den [Stammdaten des Nutzers](../nutzerverwaltung.md#stammdaten)) |
 | `{{AKTE_SACHBEARBEITER}}` | Bearbeiter (Nutzername) |
 | `{{AKTE_SACHBEARBEITER_AN}}` | Bearbeiter (Anzeigename) |
 | `{{AKTE_SACHBEARBEITER_KRZ}}` | Kürzel des verantwortlichen Sachbearbeiters |
+| `{{AKTE_SACHBEARBEITER_FKT}}` | Funktion des verantwortlichen Sachbearbeiters (aus den [Stammdaten des Nutzers](../nutzerverwaltung.md#stammdaten)) |
 | `{{AKTE_EIGENE1}}` | Eigenes Feld 1 |
 | `{{AKTE_EIGENE2}}` | Eigenes Feld 2 |
 | `{{AKTE_EIGENE3}}` | Eigenes Feld 3 |
