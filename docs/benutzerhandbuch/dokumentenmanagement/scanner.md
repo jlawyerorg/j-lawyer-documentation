@@ -82,11 +82,22 @@ Die Dropscan-Integration wird pro Nutzer in der Nutzerverwaltung konfiguriert:
 1. Öffnen Sie die Nutzerverwaltung und wählen Sie den gewünschten Nutzer aus
 2. Wechseln Sie zum Tab „Sipgate / E-POST / Dropscan"
 3. Geben Sie den persönlichen Dropscan-API-Token in das Token-Feld ein
-4. Klicken Sie auf „Verbindung testen"
-5. Bei erfolgreicher Verbindung werden die verfügbaren Scanboxen mit Nummer und ID angezeigt
+4. Klicken Sie auf „Test / Scanboxen ermitteln"
+5. Bei erfolgreicher Verbindung werden die verfügbaren Scanboxen mit Nummer und ID angezeigt. Die IDs aller Scanboxen werden zugleich in das Feld „Scanboxen (komma-separiert)" eingetragen.
+6. Speichern Sie die Einstellungen. Änderungen in diesem Tab werden erst nach einem Neustart des Clients wirksam.
 
 !!! info "Hinweis"
     Jeder Nutzer konfiguriert seinen eigenen API-Token. Der Token wird verschlüsselt in der Datenbank gespeichert.
+
+#### Zugriff auf einzelne Scanboxen beschränken {#dropscan-scanboxen}
+
+Sind über einen Dropscan-Zugang mehrere Scanboxen erreichbar – bspw. für verschiedene Standorte oder Anwälte –, kann je Nutzer festgelegt werden, welche davon er sieht. Dazu werden im Feld **Scanboxen (komma-separiert)** die IDs der freigegebenen Scanboxen eingetragen, bspw. `12345,12346`.
+
+- **Feld leer**: Der Nutzer sieht alle Scanboxen seines Dropscan-Zugangs.
+- **IDs eingetragen**: Der Nutzer sieht im Scaneingang nur Sendungen dieser Scanboxen. Andere Scanboxen erscheinen weder im Scanbox-Filter noch in der Sendungsliste.
+
+!!! warning "Test überschreibt die Auswahl"
+    „Test / Scanboxen ermitteln" trägt stets **alle** Scanboxen in das Feld ein und überschreibt eine bestehende Einschränkung. Nach einem Test die nicht freizugebenden IDs wieder entfernen, bevor gespeichert wird.
 
 ### Scaneingang: Dropscan-Bereich
 
