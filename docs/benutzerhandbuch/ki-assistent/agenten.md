@@ -61,6 +61,13 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 | `get_history_for_case` | Ruft die Änderungshistorie einer Akte ab | Niedrig |
 | `get_parties_for_case` | Ruft alle Beteiligten einer Akte mit vollständigen Kontaktdaten ab | Niedrig |
 
+Beim Anlegen einer Akte mit `create_case` übernimmt Ingo im j-lawyer.org-Client die [Standardberechtigungen](../aktenverwaltung/allgemeine-daten.md#standardberechtigungen) aus dem eigenen Nutzerprofil – wie bei der Neuanlage einer Akte von Hand:
+
+- Wird keine Gruppe genannt, wird die **Standard-Eigentümergruppe** eingetragen, sofern der angemeldete Nutzer Mitglied dieser Gruppe ist.
+- Die **berechtigten Gruppen** werden nach dem Anlegen gesetzt. Gelingt das nicht, wird die Akte trotzdem angelegt und Ingo weist darauf hin.
+
+Werden [erweiterte Aktenzeichen](../aktenverwaltung/index.md#erweiterte-aktenzeichen) mit Anwalts- oder Gruppenkürzel verwendet, prüft Ingo vor dem Anlegen, ob Anwalt und Eigentümergruppe angegeben sind und ein Kürzel haben. Fehlt eine Angabe, fragt Ingo nach und nennt die Nutzer bzw. Gruppen, die ein Kürzel haben. Fehlt einem genannten Anwalt oder einer Gruppe das Kürzel, kann ein anderer Eintrag gewählt oder das Kürzel in der Nutzer- bzw. Gruppenverwaltung ergänzt werden – ein ergänztes Kürzel wird beim nächsten Versuch im selben Chat berücksichtigt. Der Anwalt wird dabei nicht automatisch gesetzt.
+
 ### Dokumente {#tools-dokumente}
 
 | Werkzeug | Beschreibung | Risiko |

@@ -62,7 +62,7 @@ Es sind folgende Werte nutzbar:
 !!! info "Eindeutigkeit"
     In jedem Fall wird j-lawyer.org die Eindeutigkeit des Aktenzeichens forcieren.
 
-### Erweiterte Aktenzeichen
+### Erweiterte Aktenzeichen {#erweiterte-aktenzeichen}
 
 Über das Menü **Einstellungen** → **Akten** → **Aktenzeichen-Schema** lassen sich auch erweiterte Aktenzeichen aktivieren. Die Aktenzeichenerweiterung wird grundsätzlich als Suffix ans Ende des Aktenzeichens angefügt.
 
