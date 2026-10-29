@@ -85,6 +85,35 @@ Das anonymisierte Dokument kann dann zur Akte gespeichert werden.
 !!! warning "Hinweis"
     Die Qualität der Anonymisierung ist bei OCR-erkannten Texten stark abhängig von der Qualität der Texterkennung. Bitte prüfen Sie das Resultat vor einer weiteren Verwendung sorgfältig!
 
+## PDFs stempeln {#pdf-stempeln}
+
+Über das Kontextmenü auf ein PDF („PDF und Konvertierung" – „PDF stempeln") kann ein Textstempel wie „KOPIE", „ENTWURF" oder „VERTRAULICH" auf alle Seiten des Dokuments aufgebracht werden. Der Stempel wird halbtransparent dargestellt, sodass der darunterliegende Inhalt lesbar bleibt.
+
+Im Dialog „PDF stempeln" stehen folgende Einstellungen zur Verfügung:
+
+| Feld | Beschreibung |
+|------|--------------|
+| **Stempel** | Auswahl eines [hinterlegten Stempels](#pdf-stempel-konfigurieren) oder freie Eingabe eines Stempeltexts |
+| **Schriftgröße** | 6 bis 80 Punkt |
+| **Position** | oben links, oben Mitte, oben rechts, Mitte, unten links, unten Mitte, unten rechts |
+| **Drehung (°)** | -90° bis 90° – 0° ist waagerecht |
+| **Farbe** | Farbe des Stempeltexts, Auswahl per Klick auf das Farbfeld |
+
+Wird ein hinterlegter Stempel ausgewählt, werden Schriftgröße, Position, Drehung und Farbe automatisch mit dessen Werten vorbelegt; sie können für den einzelnen Stempelvorgang angepasst werden. Für frei eingegebenen Text gelten die Standardwerte (Schriftgröße 50, rot, oben rechts, 0°).
+
+Ein Klick auf **Stempeln** erzeugt das gestempelte PDF und zeigt eine Vorschau. Mit **zur Akte speichern** wird es in der Akte abgelegt.
+
+### Stempel verwalten {#pdf-stempel-konfigurieren}
+
+Die zur Auswahl stehenden Stempel werden unter **Einstellungen** → **Dokumente** → **PDF-Stempel** gepflegt (nur für Administratoren). Für jeden Stempel werden Text, Schriftgröße, Farbe, Position und Drehung festgelegt; diese Werte werden beim Stempeln automatisch vorausgewählt. Über **Hinzufügen** und **Entfernen** wird die Liste bearbeitet, **Speichern** übernimmt die Änderungen.
+
+!!! tip "Schriftgröße passend zur Textlänge"
+    Lange Stempeltexte benötigen eine kleinere Schriftgröße als kurze. Wird die passende Größe einmal am Stempel hinterlegt, muss sie beim Stempeln nicht jedes Mal neu eingestellt werden.
+
+!!! info "Hinweise"
+    - Der Stempeltext darf das Zeichen `|` nicht enthalten.
+    - Bis Version 3.5 wurden alle Stempel um -20° gedreht. Seit Version 3.6 ist die Standarddrehung 0° (waagerecht); bestehende Stempel erscheinen daher waagerecht, bis eine Drehung hinterlegt wird.
+
 ## PDFs bearbeiten mit Foxit Reader
 
 j-lawyer.org öffnet Dokumenttypen in LibreOffice, sofern unterstützt. Alle anderen Dokumenttypen werden mit dem auf dem System installierten "Standardprogramm" geöffnet. Dabei ist es dann vom Verhalten des externen Programmes abhängig, ob Änderugen am Dokument verlässlich in der Akte gespeichert werden.

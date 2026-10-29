@@ -431,7 +431,7 @@ Das Untermenü **PDF und Konvertierung** enthält Funktionen zur PDF-Bearbeitung
 | **verschlüsseltes PDF exportieren** | Exportiert das Dokument als passwortgeschütztes PDF |
 | **ablegen als ...** | Speichert das Dokument in einem anderen Format zur Akte |
 | **PDF schwärzen** | Schwärzt vertrauliche Inhalte in einem PDF |
-| **PDF stempeln** | Fügt einen Stempel (z.B. "Kopie", Datum) zum PDF hinzu |
+| **PDF stempeln** | Fügt einen Textstempel (z.B. „KOPIE") zum PDF hinzu – siehe [PDFs stempeln](../dokumentenmanagement/pdf.md#pdf-stempeln) |
 
 !!! info "Hinweis"
     Weitere Details zu PDF-Funktionen finden Sie unter [PDF-Funktionen](../dokumentenmanagement/pdf.md).
