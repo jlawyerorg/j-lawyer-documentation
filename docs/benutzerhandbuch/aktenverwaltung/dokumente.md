@@ -158,7 +158,7 @@ j-lawyer.org übergibt dem Prompt automatisch den Dateinamen, eine vorhandene Be
 Der Prompt sollte das Modell deshalb anweisen, ausschließlich das Ergebnis zu liefern – ohne Einleitung oder Erläuterung.
 
 !!! tip "Modell ohne Thinking verwenden"
-    Für diese Prompts sollte ein Modell **ohne Thinking** (ohne vorgeschaltete „Denkphase") gewählt werden, bspw. **j-lawyer.CLOUD: Ingo Granite 4.1**. Die Aufgabe ist kurz und klar umrissen; Modelle mit Thinking antworten hier deutlich langsamer, ohne bessere Vorschläge zu liefern.
+    Für diese Prompts sollte ein Modell **ohne Thinking** (ohne vorgeschaltete „Denkphase") gewählt werden, bspw. **j-lawyer.CLOUD: Ingo Granite4.1**. Die Aufgabe ist kurz und klar umrissen; Modelle mit Thinking antworten hier deutlich langsamer, ohne bessere Vorschläge zu liefern.
 
 **Vorschlag für einen Prompt „Schlagworte vorschlagen"** (Funktion **chat**, Untermenü „Metadaten"):
 

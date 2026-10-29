@@ -90,57 +90,62 @@ Neben dem Anlegen und Bearbeiten von Prompts stehen weitere Funktionen zur Verf�
 
 ## Verfügbare Modelle {#modelle}
 
-Bei der Konfiguration eigener Prompts kann ein spezifisches Modell ausgewählt werden. Die verfügbaren Modelle unterscheiden sich in Leistungsfähigkeit, Geschwindigkeit, Kosten und Funktionsumfang. Sie sind in zwei Kategorien unterteilt:
+Bei der Konfiguration eigener Prompts kann ein spezifisches Modell ausgewählt werden. Die verfügbaren Modelle unterscheiden sich in Leistungsfähigkeit, Geschwindigkeit, Kosten und Funktionsumfang. Die Spalte **Funktionen** zeigt, für welche [Funktionen](#prompt-konfigurieren) ein Modell ausgewählt werden kann; **Agentenfähig** kennzeichnet Modelle mit Unterstützung für Werkzeugaufrufe (siehe [Agentische KI](agenten.md)). Die Modelle sind in zwei Kategorien unterteilt:
 
 ### j-lawyer.CLOUD-Modelle (Ingo-Tokens) {#cloud-modelle}
 
 Diese Modelle werden lokal in der j-lawyer.CLOUD-Infrastruktur betrieben und über Ingo-Tokens abgerechnet. Sie sind kostenlos im Rahmen des Token-Kontingents nutzbar.
 
-| Modell | Beschreibung | Agentenfähig |
-|--------|-------------|:------------:|
-| **Ingo Occiglot** | Lokales 7B-Modell, spezialisiert auf Deutsch und Englisch. Gut für einfache Zusammenfassungen und Übersetzungen. Begrenzte Leistung bei komplexen Aufgaben. | Nein |
-| **Ingo Gemma2** | Google Gemma 2 mit 9B Parametern. Solide Textqualität und gutes Sprachverständnis. Schwächer als größere Modelle bei komplexem Reasoning. | Nein |
-| **Ingo Gemma3** | Google Gemma 3 mit 12B Parametern. Sehr gute Textqualität, multilingual. Deutlich besser als Gemma 2 bei Reasoning und Instruktionsbefolgung. Für die Größe sehr leistungsfähig. | Nein |
-| **Ingo Qwen3.5** | Alibaba Qwen 3.5 mit 4B Parametern. Gute Mehrsprachigkeit. Für die Größe starkes Reasoning. Bei langen Texten und komplexen Analysen limitiert. | Ja |
-| **Ingo Llama3.1-uncensored** | Meta Llama 3.1 ohne Sicherheitsfilter. Gutes Reasoning. Keine Inhaltsverweigerungen – geeignet für juristische Texte ohne Zensurprobleme. | Ja |
-| **Ingo Llama3.1-abliterated** | Meta Llama 3.1 8B mit entfernten Sicherheitssperren. Ähnlich wie Uncensored-Variante, aber per Abliteration optimiert. Kompakt und schnell. | Ja |
-| **Ingo Ministral-3 Small** | Mistral Ministral 3B. Extrem schnell und ressourcenschonend. Optimiert für einfache Aufgaben wie Klassifikation und Extraktion. Für komplexe Texte nicht geeignet. | Ja |
-| **Ingo Ministral-3** | Mistral Ministral 3. Optimiert für Aufgaben wie Klassifikation und Extraktion. | Ja |
-| **Ingo Llama3.2** | Meta Llama 3.2 mit 3B Parametern. Sehr schnell. Gut für Extraktion und einfache Aufgaben. Begrenzte Qualität bei anspruchsvoller Textgenerierung. | Ja |
-| **Ingo Llama3.2-uncensored** | Meta Llama 3.2 ohne Sicherheitsfilter. Schnell, keine Inhaltsverweigerungen. Ideal für Extraktion ohne Zensurprobleme. | Ja |
+| Modell | Beschreibung | Funktionen | Agentenfähig |
+|--------|-------------|------------|:------------:|
+| **j-lawyer.CLOUD: Ingo Qwen3.8 Large** | Alibaba Qwen 3.8 mit 27B Parametern. Größtes lokales Modell mit sehr guter Mehrsprachigkeit und starkem Reasoning. Gut geeignet für lange Texte und anspruchsvolle Analysen. Langsamer als die kleineren Modelle. | summarize, explain, generate, chat, extract | Ja |
+| **j-lawyer.CLOUD: Ingo Qwen3.5** | Alibaba Qwen 3.5 mit 9B Parametern. Sehr gute Mehrsprachigkeit, gutes Reasoning. Deutlich schneller als Qwen 3.8 Large. Gut für Zusammenfassungen, Extraktion und Chat; bei sehr komplexen Analysen schwächer. | summarize, explain, generate, chat, extract | Ja |
+| **j-lawyer.CLOUD: Ingo Granite4.1** | IBM Granite 4.1 mit 8B Parametern. Nativ mehrsprachig, sehr großes Kontextfenster. Schnell, **ohne Denkmodus** und mit planbaren Antwortzeiten. Gut für Zusammenfassungen, Extraktion und Werkzeugaufrufe; bei komplexem Reasoning schwächer als größere Modelle. | summarize, explain, generate, chat, extract | Ja |
+| **j-lawyer.CLOUD: Ingo Gemma3** | Google Gemma 3 mit 12B Parametern. Sehr gute Textqualität, multilingual. Für die Größe sehr leistungsfähig. | summarize, explain, generate, chat, extract, translate | Nein |
+| **j-lawyer.CLOUD: Ingo Gemma4** | Google Gemma 4 E2B (2,3B effektive Parameter). Multimodal, über 140 Sprachen. Sehr kompakt und schnell; für komplexe Analysen und lange Texte limitiert. | summarize, explain, generate, chat, extract, vision | Nein |
+| **j-lawyer.CLOUD: Ingo Llama3.1-uncensored** | Meta Llama 3.1 ohne Sicherheitsfilter. Gutes Reasoning, keine Inhaltsverweigerungen – geeignet für juristische Texte ohne Zensurprobleme. | summarize, explain, generate, chat, translate | Nein |
+| **j-lawyer.CLOUD: Ingo Llama3.1-abliterated** | Meta Llama 3.1 8B mit entfernten Sicherheitssperren, per Abliteration optimiert. Kompakt und schnell, aber weniger präzise als größere Modelle. | summarize, explain, generate, chat | Nein |
+| **j-lawyer.CLOUD: Ingo Llama3.2** | Meta Llama 3.2 mit 3B Parametern. Sehr schnell, gut für Extraktion und einfache Aufgaben. | extract | Nein |
+| **j-lawyer.CLOUD: Ingo Llama3.2-uncensored** | Meta Llama 3.2 ohne Sicherheitsfilter. Schnell, keine Inhaltsverweigerungen. Für Extraktion ohne Zensurprobleme. | extract | Nein |
+| **j-lawyer.CLOUD: Ingo Qwen3-VL** | Alibaba Qwen 3 VL mit 8B Parametern. Bildanalyse, Dokumentverständnis und Texterkennung in Bildern (32 Sprachen), robust bei schrägen oder schlecht belichteten Aufnahmen. | vision | Ja |
+| **j-lawyer.CLOUD: Ingo Qwen3-VL small** | Alibaba Qwen 3 VL mit 4B Parametern. Wie Qwen3-VL, kleiner und schneller. | vision | Ja |
+| **j-lawyer.CLOUD: Ingo Ministral-3** | Mistral Ministral 3 mit 14B Parametern. Gute Bild- und Texterkennung, geeignet für Bildbeschreibungen und die Extraktion von Text aus Bildern und Scans. | vision | Ja |
+| **j-lawyer.CLOUD: Ingo Ministral-3 Small** | Mistral Ministral 3B. Extrem schnell und ressourcenschonend, für einfache Bildanalysen. | vision | Ja |
 
 ### Externe Modelle (Fremd-Tokens) {#externe-modelle}
 
 Diese Modelle werden über externe Anbieter bereitgestellt. Die Nutzung wird separat abgerechnet und verbraucht keine Ingo-Tokens. Daten werden an den jeweiligen Anbieter übertragen.
 
-| Modell | Anbieter | Beschreibung | Agentenfähig |
-|--------|----------|-------------|:------------:|
-| **Sonnet 4** | Anthropic | Leistungsstarkes Cloud-Modell. Mittlere Kosten. Exzellentes Reasoning, Coding und Textverständnis. Sehr gute Balance aus Qualität und Geschwindigkeit. Ideal für anspruchsvolle juristische Aufgaben. | Ja |
-| **Haiku 3.5** | Anthropic | Schnellstes und günstigstes Anthropic-Modell. Sehr schnelle Antwortzeiten. Gut für einfache Aufgaben, Klassifikation und Extraktion. | Ja |
-| **Opus 4** | Anthropic | Leistungsfähigstes Anthropic-Modell. Hohe Kosten. Bestes Reasoning, Analyse und Textgenerierung. Ideal für komplexeste juristische Analysen. Langsamer und deutlich teurer als Sonnet. | Ja |
-| **Deepseek** | DeepSeek | DeepSeek V3. Sehr günstig. Starkes Reasoning und gute Mehrsprachigkeit. Gutes Preis-Leistungs-Verhältnis. Gelegentlich weniger zuverlässig bei Instruktionsbefolgung. | Ja |
-| **GPT-4o** | OpenAI | Flaggschiff-Modell von OpenAI. Mittlere Kosten. Starkes Reasoning, multimodal, 128k Kontextfenster. Sehr gute Textqualität und Instruktionsbefolgung. Ideal für komplexe juristische Analysen und Textgenerierung. | Ja |
-| **GPT-4o mini** | OpenAI | Kompaktes und günstiges OpenAI-Modell. Niedrige Kosten. 128k Kontextfenster. Sehr schnell. Gutes Preis-Leistungs-Verhältnis für einfachere Aufgaben wie Zusammenfassungen und Extraktion. Schwächer als GPT-4o bei komplexem Reasoning. | Ja |
-| **o3-mini** | OpenAI | OpenAI Reasoning-Modell. Mittlere Kosten. Spezialisiert auf logisches Denken und komplexe Problemlösung. Sehr gut für juristische Analyse und strukturiertes Reasoning. Langsamere Antworten durch erweiterten Denkprozess. | Ja |
-| **Mistral Large** | Mistral | Größtes Mistral-Modell. Mittlere Kosten. Starkes Reasoning, sehr gute europäische Sprachunterstützung. Besonders gut für mehrsprachige juristische Texte. | Ja |
-| **Mistral Medium** | Mistral | Mittelgroßes Mistral-Modell. Günstiger als Large. Gute europäische Sprachunterstützung. Schneller als Large. Für Standardaufgaben ausreichend. | Ja |
-| **Mistral Small** | Mistral | Kleines Mistral-Modell. Günstiger als Medium. Gute europäische Sprachunterstützung. Sehr schnell. Sehr großes Kontextfenster von 256.000 Tokens. | Ja |
-| **Google Gemini 2 Flash** | Google | Schnelles Modell mit großem Kontextfenster (1M Tokens). Ideal für lange Dokumente. Bei Präzision und Nuancen schwächer als Claude oder Mistral Large. | Ja |
-| **LangDock: GPT-4o** | LangDock | GPT-4o via LangDock. DSGVO-konform, EU-gehostet. Starkes Reasoning, multimodal, 128k Kontextfenster. Sehr gute Textqualität und Instruktionsbefolgung. | Ja |
-| **LangDock: GPT-4o mini** | LangDock | GPT-4o mini via LangDock. DSGVO-konform, EU-gehostet. Kompakt und günstig. 128k Kontextfenster. Sehr schnell. Gutes Preis-Leistungs-Verhältnis für einfachere Aufgaben. | Ja |
-| **LangDock: o3-mini** | LangDock | OpenAI o3-mini via LangDock. DSGVO-konform, EU-gehostet. Reasoning-Modell, spezialisiert auf logisches Denken und komplexe Problemlösung. Langsamere Antworten durch erweiterten Denkprozess. | Ja |
-| **LangDock: Claude Opus 4.6** | LangDock | Anthropic Claude Opus 4.6 via LangDock. DSGVO-konform, EU-gehostet. Leistungsfähigstes Anthropic-Modell. Bestes Reasoning, Analyse und Textgenerierung. Ideal für komplexeste juristische Analysen. | Ja |
-| **LangDock: Claude Sonnet 4** | LangDock | Anthropic Claude Sonnet 4 via LangDock. DSGVO-konform, EU-gehostet. Leistungsstarkes Cloud-Modell. Exzellentes Reasoning und Textverständnis. Sehr gute Balance aus Qualität und Geschwindigkeit. | Ja |
+| Modell | Anbieter | Beschreibung | Funktionen | Agentenfähig |
+|--------|----------|-------------|------------|:------------:|
+| **Anthropic: Sonnet 4.6** | Anthropic | Leistungsstark und kosteneffizient, günstigstes der drei Anthropic-Modelle. Exzellentes Reasoning und Textverständnis, adaptives Thinking, 1M-Token-Kontextfenster. Ideal für anspruchsvolle juristische Standardaufgaben. | summarize, explain, generate, chat, extract | Ja |
+| **Anthropic: Opus 4.8** | Anthropic | Sehr leistungsfähiges Spitzenmodell. Teurer als Sonnet, günstiger als Fable 5. Herausragend bei Analyse, Textgenerierung und langen Aufgaben; adaptives Thinking, 1M-Token-Kontextfenster. Langsamer als Sonnet. | summarize, explain, generate, chat, extract | Ja |
+| **Anthropic: Fable 5** | Anthropic | Neuestes und leistungsfähigstes Anthropic-Modell, teurer als Opus. Stärkstes Reasoning, Thinking ist immer aktiv. Erfordert 30 Tage Datenaufbewahrung beim Anbieter (nicht mit Zero-Data-Retention verfügbar). | summarize, explain, generate, chat, extract | Ja |
+| **OpenAI: GPT-4o** | OpenAI | Flaggschiff-Modell von OpenAI. Mittlere Kosten. Starkes Reasoning, multimodal, 128k Kontextfenster. Sehr gute Textqualität und Instruktionsbefolgung. | summarize, explain, generate, chat, extract | Ja |
+| **OpenAI: GPT-4o mini** | OpenAI | Kompakt und günstig, sehr schnell, 128k Kontextfenster. Gut für einfachere Aufgaben wie Zusammenfassungen und Extraktion. | summarize, explain, generate, chat, extract | Ja |
+| **OpenAI: o3-mini** | OpenAI | Reasoning-Modell für logisches Denken und komplexe Problemlösung. Langsamere Antworten durch erweiterten Denkprozess. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: GPT-5.6 Sol** | LangDock | Aktuelles OpenAI-Flaggschiff via LangDock, DSGVO-konform und EU-gehostet. Stärkstes Reasoning, exzellente Instruktionsbefolgung. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: GPT-5.2** | LangDock | Sehr starkes Allzweckmodell via LangDock mit guter Balance aus Intelligenz und Kosten. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: GPT-5.1** | LangDock | Ausgereiftes Allzweckmodell via LangDock mit sehr guter Textqualität. Gut für Schriftsatzentwürfe und Analysen. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: GPT-5** | LangDock | Solides Allzweckmodell der GPT-5-Generation via LangDock. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: GPT-5 mini** | LangDock | Kompakte, günstige und schnelle Variante via LangDock. Gut für Zusammenfassungen und Extraktion. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: o3** | LangDock | OpenAI-Reasoning-Modell via LangDock. Langsamere Antworten durch erweiterten Denkprozess. | summarize, explain, generate, chat, extract | Ja |
+| **LangDock: o4-mini** | LangDock | Kompaktes Reasoning-Modell via LangDock, schnell und kosteneffizient. | summarize, explain, generate, chat, extract | Ja |
+| **Mistral: Large** | Mistral | Größtes Mistral-Modell. Mittlere Kosten, starkes Reasoning, sehr gute europäische Sprachunterstützung, 256.000 Tokens Kontextfenster. | summarize, explain, generate, chat, extract | Ja |
+| **Mistral: Medium** | Mistral | Günstiger und schneller als Large, 128.000 Tokens Kontextfenster. Für Standardaufgaben ausreichend. | summarize, explain, generate, chat, extract | Ja |
+| **Mistral: Small** | Mistral | Günstiger als Medium, sehr schnell, 256.000 Tokens Kontextfenster. | summarize, explain, generate, chat, extract | Ja |
+| **Google: Gemini 3 Flash** | Google | Schnelles Modell mit 1M-Token-Kontext und Bildanalyse. Reasoning-Modell mit spürbarer Latenz durch interne Denkschritte. Derzeit im Preview-Status. | summarize, explain, generate, chat, extract, vision | Ja |
+| **Deepseek** | DeepSeek | DeepSeek V3. Sehr günstig, starkes Reasoning, gute Mehrsprachigkeit. Gelegentlich weniger zuverlässig bei Instruktionsbefolgung. | summarize, explain, generate, chat | Ja |
 
 !!! tip "Empfehlung"
-    Für einfache Extraktionen und Klassifikationen sind die j-lawyer.CLOUD-Modelle wie **Ingo Occiglot** oder **Ingo Llama3.2** ausreichend. Für [agentische KI](agenten.md) sollte ein agentenfähiges Modell gewählt werden - bspw. **Ingo Qwen3.5**.
+    Für einfache Extraktionen und kurze, klar umrissene Aufgaben sind schnelle Modelle ohne Denkmodus wie **j-lawyer.CLOUD: Ingo Granite4.1** oder **j-lawyer.CLOUD: Ingo Llama3.2** gut geeignet. Für [agentische KI](agenten.md) sollte ein agentenfähiges Modell gewählt werden – bspw. **j-lawyer.CLOUD: Ingo Qwen3.5**, für anspruchsvolle Analysen **j-lawyer.CLOUD: Ingo Qwen3.8 Large**. Für die [Bildanalyse](bildanalyse.md) stehen eigene Modelle mit der Funktion **vision** zur Verfügung.
 
 !!! warning "Datenschutz bei externen Modellen"
     Bei der Nutzung externer Modelle werden Daten an den jeweiligen Anbieter übertragen. Achten Sie darauf, dass dies mit den Datenschutzanforderungen Ihrer Kanzlei vereinbar ist.
 
 ### Modellempfehlung: Mistral {#modellempfehlung-mistral}
 
-Für beste Performance und ein gutes Preis-/Leistungsverhältnis bei externen Modellen ist **Mistral Small** ein sehr gutes Modell. Mistral bietet starke europäische Sprachunterstützung und ist besonders für mehrsprachige juristische Texte geeignet.
+Für beste Performance und ein gutes Preis-/Leistungsverhältnis bei externen Modellen ist **Mistral: Small** ein sehr gutes Modell. Mistral bietet starke europäische Sprachunterstützung und ist besonders für mehrsprachige juristische Texte geeignet.
 
 Aus Datenschutzsicht sind die Modelle von Mistral besonders interessant: Mistral schließt vertraglich aus, dass übermittelte Daten für das Training von Modellen verwendet werden, und bietet einen DSGVO-konformen Auftragsverarbeitungsvertrag (AVV) an.
 
@@ -161,7 +166,7 @@ Zum Aufladen im AI Studio unter „Workspace" – „Billing" eine Zahlungsmetho
 #### API Key in j-lawyer hinterlegen
 
 1. Im j-lawyer Client unter „Einstellungen" – „Assistent Ingo" – „eigene Prompts" einen Prompt anlegen oder bearbeiten.
-2. Als Modell eines der Mistral-Modelle auswählen (bspw. **Mistral Small**).
+2. Als Modell eines der Mistral-Modelle auswählen (bspw. **Mistral: Small**).
 3. In den daraufhin angezeigten Konfigurationsfeldern den kopierten API Key im Feld `api-key` eintragen.
 4. Den Prompt speichern.
 
@@ -171,7 +176,7 @@ Der API Key wird pro Prompt hinterlegt. Beim Teilen von Prompts per E-Mail wird 
 
 [LangDock](https://www.langdock.com) ist eine deutsche KI-Plattform mit Sitz in Berlin, die Zugang zu führenden KI-Modellen verschiedener Anbieter über eine einheitliche, DSGVO-konforme Schnittstelle bietet. Alle Anfragen werden ausschließlich über Server in der EU verarbeitet.
 
-Über LangDock stehen in j-lawyer Modelle von OpenAI (GPT-4o, GPT-4o mini, o3-mini) und Anthropic (Claude Opus 4.6, Claude Sonnet 4) zur Verfügung – ohne dass ein separates Konto bei jedem Anbieter erforderlich ist. Ein einziger LangDock API Key genügt für alle Modelle.
+Über LangDock stehen in j-lawyer Modelle von OpenAI zur Verfügung (GPT-5.6 Sol, GPT-5.2, GPT-5.1, GPT-5, GPT-5 mini, o3, o4-mini) – ohne dass ein separates Konto beim Anbieter erforderlich ist. Ein einziger LangDock API Key genügt für alle Modelle.
 
 #### Vorteile in Sachen Datenschutz
 
@@ -180,7 +185,7 @@ Der API Key wird pro Prompt hinterlegt. Beim Teilen von Prompts per E-Mail wird 
 - **Kein Training mit Nutzerdaten**: Übermittelte Daten werden nicht für das Training von KI-Modellen verwendet.
 - **Ein Anbieter, viele Modelle**: Anstatt separate Verträge und Konten bei OpenAI, Anthropic und weiteren Anbietern zu unterhalten, genügt eine einzige Vertragsbeziehung mit einem deutschen Unternehmen.
 
-Für Kanzleien, die Modelle wie GPT-4o oder Claude nutzen möchten und dabei Wert auf Datenschutz legen, ist LangDock eine empfehlenswerte Alternative zur direkten Nutzung der US-amerikanischen Anbieter.
+Für Kanzleien, die Modelle wie GPT-5 nutzen möchten und dabei Wert auf Datenschutz legen, ist LangDock eine empfehlenswerte Alternative zur direkten Nutzung der US-amerikanischen Anbieter.
 
 #### LangDock-Guthaben aufladen
 
@@ -195,7 +200,7 @@ Um die LangDock-Modelle in j-lawyer nutzen zu können, wird ein Guthaben bei [La
 #### API Key in j-lawyer hinterlegen
 
 1. Im j-lawyer Client unter „Einstellungen" – „Assistent Ingo" – „eigene Prompts" einen Prompt anlegen oder bearbeiten.
-2. Als Modell eines der LangDock-Modelle auswählen (bspw. **LangDock: Claude Sonnet 4**).
+2. Als Modell eines der LangDock-Modelle auswählen (bspw. **LangDock: GPT-5.2**).
 3. In den daraufhin angezeigten Konfigurationsfeldern den kopierten API Key im Feld `api-key` eintragen.
 4. Den Prompt speichern.
 
