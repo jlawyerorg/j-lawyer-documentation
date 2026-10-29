@@ -101,7 +101,7 @@ Im Tab **Berechtigungen** werden die Zugriffsrechte des Nutzers konfiguriert.
 
 | Berechtigung | Beschreibung |
 |--------------|--------------|
-| KI-Agentenfunktionen | Zugriff auf agentische KI-Werkzeuge (z.B. offene Posten, Aktenhistorien). Wird bei einem Update auf Version 3.5 automatisch für alle bestehenden Nutzer aktiviert. |
+| KI-Agentenfunktionen | Zugriff auf agentische KI-Werkzeuge (z.B. offene Posten, Aktenhistorien). Wird bei einem Update auf Version 3.5 automatisch für alle bestehenden Nutzer aktiviert. Auch Voraussetzung für die Nutzung des [MCP-Servers](ki-assistent/mcp-server.md). |
 
 ### Weitere Optionen {#berechtigungen-weitere}
 

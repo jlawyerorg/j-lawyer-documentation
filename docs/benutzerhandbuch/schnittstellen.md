@@ -37,6 +37,10 @@ Der Wert wird in Bytes angegeben. Im Beispiel oben sind 500 MB (524288000 Bytes)
 
 Nach der Änderung muss der Wildfly-Server neu gestartet werden.
 
+### MCP-Server {#mcp-server}
+
+Mit j-lawyer.CLOUD können externe KI-Anwendungen wie Claude oder Mistral Le Chat über das Model Context Protocol (MCP) auf Akten, Dokumente, Kontakte, Termine, Rechnungen und Zeiterfassung zugreifen – mit den Rechten des jeweils angemeldeten Benutzers. Details unter [Ingo als MCP-Server](ki-assistent/mcp-server.md).
+
 ### Web Hooks {#webhooks}
 
 

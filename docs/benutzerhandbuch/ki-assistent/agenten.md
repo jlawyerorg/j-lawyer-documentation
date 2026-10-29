@@ -46,6 +46,9 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
 !!! tip "Tipp"
     Im Chat kann Assistent Ingo jederzeit gefragt werden: „Welche Tools oder Funktionen kannst du nutzen?" – er listet dann seine verfügbaren Werkzeuge auf.
 
+!!! info "Werkzeuge in externen KI-Anwendungen"
+    Mit j-lawyer.CLOUD stehen diese Werkzeuge – mit Ausnahme des [Webzugriffs](#tools-web) – auch in Claude, Mistral Le Chat und anderen KI-Anwendungen zur Verfügung, siehe [Ingo als MCP-Server](mcp-server.md). Die Risikostufe eines Werkzeugs bestimmt dort, welche [Berechtigung](mcp-server.md#berechtigungen) es erfordert.
+
 ### Akten {#tools-akten}
 
 | Werkzeug | Beschreibung | Risiko |

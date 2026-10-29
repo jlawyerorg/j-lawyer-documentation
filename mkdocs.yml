@@ -152,6 +152,7 @@ nav:
       - Bildanalyse: benutzerhandbuch/ki-assistent/bildanalyse.md
       - Eigene Prompts: benutzerhandbuch/ki-assistent/eigene-prompts.md
       - Agentische KI: benutzerhandbuch/ki-assistent/agenten.md
+      - Ingo als MCP-Server: benutzerhandbuch/ki-assistent/mcp-server.md
     - Add-Ons:
       - E-POST: benutzerhandbuch/addon-epost.md
       - Sipgate: benutzerhandbuch/addon-sipgate.md
