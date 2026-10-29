@@ -14,6 +14,7 @@ Im oberen Bereich "Aktenkopf" werden die Stammdaten der Akte gepflegt:
 | **Sachgebiet** | Rechtsgebiet der Akte |
 | **Anwalt** | Zuständiger Anwalt / Eigentümer der Akte |
 | **Sachbearbeiter** | Zuständiger Sachbearbeiter |
+| **Verknüpfte Akten** | Mit dieser Akte verknüpfte Akten, siehe [Aktenverknüpfung](#aktenverknuepfung) |
 
 ## Etiketten
 
@@ -24,6 +25,40 @@ Neue Akten-Etiketten werden über **Einstellungen** → **Akten** → **Akten-Et
 ## Notizen
 
 Im unteren Bereich können freie Notizen zur Akte eingetragen werden. Diese sind nur innerhalb der Akte sichtbar und dienen der internen Dokumentation.
+
+## Aktenverknüpfung {#aktenverknuepfung}
+
+Zusammengehörige Akten, die getrennt bearbeitet werden – bspw. Straf- und Zivilverfahren aus demselben Unfall, Mahnverfahren und Vollstreckung, eine Folgesache oder die Gegenakte –, können miteinander verknüpft werden. Die Verknüpfung gilt in beide Richtungen: Sie wird in beiden Akten angezeigt und ermöglicht den direkten Wechsel zwischen ihnen. Die Aktenzeichen bleiben dabei unverändert.
+
+Die verknüpften Akten erscheinen im Aktenkopf unterhalb von „Sachgebiet" als Kacheln mit Aktenzeichen und Gegenstand bzw. Beschreibung der Verknüpfung; abgelegte Akten sind mit „(abgelegt)" gekennzeichnet. Ein Verweilen mit der Maus zeigt Kurzrubrum, Gegenstand und Beschreibung, ein Klick öffnet die verknüpfte Akte.
+
+### Akten verknüpfen
+
+Über die Kachel **+** am Ende der Zeile stehen zwei Möglichkeiten zur Verfügung:
+
+- **bestehende Akte verknüpfen...**: Eine vorhandene Akte auswählen und optional eine Beschreibung der Verknüpfung eingeben (bspw. „Gegenakte" oder „Folgesache zu 12/24")
+- **neue verknüpfte Akte erstellen...**: Legt eine neue Akte auf Basis der aktuellen an – mit Stammdaten, Beteiligten, Etiketten und Berechtigungen, optional auch den Falldaten (**Falldaten übernehmen**). Im Dialog werden Kurzrubrum und Beschreibung der Verknüpfung festgelegt. Die neue Akte wird anschließend mit der aktuellen verknüpft und geöffnet.
+
+### Verknüpfungen bearbeiten
+
+Per Rechtsklick auf eine Kachel:
+
+| Aktion | Beschreibung |
+|--------|--------------|
+| **öffnen** | Öffnet die verknüpfte Akte |
+| **Beschreibung bearbeiten...** | Ändert die Beschreibung der Verknüpfung |
+| **Verknüpfung entfernen** | Hebt die Verknüpfung nach Rückfrage auf – beide Akten bleiben erhalten |
+
+Das Anlegen und Entfernen einer Verknüpfung wird in der [Historie](historie.md) beider Akten vermerkt.
+
+!!! info "Hinweise"
+    - Zum Verknüpfen, Bearbeiten und Entfernen ist das Schreibrecht für Akten erforderlich. In abgelegten Akten können Verknüpfungen nicht geändert werden.
+    - Verknüpfte Akten, für die keine Leseberechtigung besteht, werden nicht angezeigt.
+    - Zwei Akten können nur einmal miteinander verknüpft werden; eine Akte kann nicht mit sich selbst verknüpft werden.
+    - Wird eine Akte gelöscht, entfallen ihre Verknüpfungen.
+
+!!! tip "Verknüpfungen mit Assistent Ingo auswerten"
+    Über die [Werkzeuge für Beziehungen und Netzwerk](../ki-assistent/agenten.md#tools-netzwerk) kann Assistent Ingo Aktenverknüpfungen auswerten – auch über mehrere Stufen hinweg.
 
 ## Aktenablage / Archivierung {#archivierung}
 
