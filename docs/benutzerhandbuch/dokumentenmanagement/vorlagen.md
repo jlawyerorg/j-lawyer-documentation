@@ -350,11 +350,16 @@ Innerhalb eines Skriptes können Standardplatzhalter verwendet werden, bspw. als
 
 Innerhalb von Werten sind keine Absatzumbrüche zu verwenden (Enter). Zeilenumbrüche sind zulässig (Shift+Enter).
 
-Werden über Platzhalter die Werte mehrzeiliger Eingabefelder übernommen, so sind die Platzhalternamen in 2fache doppelte Anführungszeiten aufzunehmen, also bspw.
+Platzhalterwerte werden als Text in das Skript eingesetzt. Das gilt auch für die Werte mehrzeiliger Eingabefelder, die wie jeder andere Platzhalter ohne Anführungszeichen verwendet werden, also bspw.
 
 ```
-[[SCRIPT: WENNGLEICH(UKSC_7EINLASSGJANEIN,"ja",""UKSC_7EINLASSGINH"");]]
+[[SCRIPT: WENNGLEICH(UKSC_7EINLASSGJANEIN,"ja",UKSC_7EINLASSGINH);]]
 ```
+
+!!! warning "Geänderte Schreibweise ab Version 3.6"
+    Bis Version 3.5 mussten Platzhalter für mehrzeilige Werte in doppelte Anführungszeichen gesetzt werden (`""UKSC_7EINLASSGINH""`). Ab Version 3.6 führt diese Schreibweise zu einem `SCRIPTFEHLER`. Entfernen Sie in bestehenden Vorlagen die Anführungszeichen um den Platzhalter.
+
+Platzhalter sollten nicht innerhalb einer Zeichenkette stehen (bspw. `"Herr MANDANT_NAME"`), da der Wert dort mit Hochkommas erscheint. Text und Platzhalter werden stattdessen mit `+` verkettet, bspw. `"Herr " + MANDANT_NAME`.
 
 Zeilenumbrüche können ebenfalls mittels `\n` eingefügt werden, Einrückungen mittels `\t`. Der Wert
 
@@ -371,6 +376,29 @@ und das folgende Wort ist eingerückt:	eingerückt"
 ```
 
 Ist ein Skriptausdruck der einzige Inhalt einer Zeile, und ergibt einen leeren Wert, so wird die Zeile aus dem Dokument entfernt.
+
+### Prüfung von Skriptausdrücken {#skripte-pruefung}
+
+Seit Version 3.6 prüft der Server jeden Skriptausdruck, bevor er ihn ausführt. Zulässig sind:
+
+- die in diesem Kapitel beschriebenen Vorlagenfunktionen (bspw. `MWDJU`, `FRIST`, `WENNGLEICH`)
+- Platzhalter und Text, Rechen- und Vergleichsoperationen sowie Bedingungen (`? :`)
+- Methoden von Texten, Zahlen, Datumswerten und Formaten, bspw. `MANDANT_NAME.toUpperCase()`, `new java.math.BigDecimal(...)`, `new java.text.SimpleDateFormat(...)`, `java.util.Calendar` oder die Klassen aus `java.time`
+
+Nicht zulässig sind insbesondere Zugriffe auf Dateien, Netzwerk, Systemeigenschaften oder externe Programme. Ein Ausdruck, der die Prüfung nicht besteht, wird nicht ausgeführt. Im Dokument erscheint dann an seiner Stelle `SCRIPTFEHLER: Skript nicht zulässig (…)` mit dem Grund.
+
+Das Verhalten wird über die Servereinstellung `jlawyer.server.templates.scriptcheck` gesteuert. Sie lässt sich unter „Administration“ – „Administrator-Konsole“ ändern:
+
+| Wert | Verhalten |
+|------|-----------|
+| `enforce` (Standard) | nicht zulässige Ausdrücke werden abgelehnt |
+| `log` | nicht zulässige Ausdrücke werden im Serverprotokoll vermerkt und trotzdem ausgeführt |
+
+```
+setsetting jlawyer.server.templates.scriptcheck log
+```
+
+Der Wert `log` ist als Übergangslösung gedacht, um bestehende Vorlagen mit weitergehender Logik zu ermitteln und anzupassen. Danach sollte die Prüfung wieder mit `setsetting jlawyer.server.templates.scriptcheck enforce` aktiviert werden.
 
 ### Funktion DATUMZEIT
 

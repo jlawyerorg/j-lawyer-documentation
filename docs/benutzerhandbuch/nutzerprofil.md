@@ -22,6 +22,7 @@ Im Tab **Benachrichtigungen** wird gesteuert, bei welchen Ereignissen eine E-Mai
 | **Erwähnung in Sofortnachricht** | Benachrichtigung, wenn der Nutzer in einer Sofortnachricht erwähnt wurde |
 | **Sofortnachricht erledigt** | Benachrichtigung, wenn eine vom Nutzer gesendete Sofortnachricht als erledigt markiert wurde |
 | **Kalendereintrag erstellt/geändert** | Benachrichtigung, wenn ein Kalendereintrag für den Nutzer erstellt oder geändert wurde |
+| **Eigener Kalendereintrag durch andere verändert / erledigt** | Benachrichtigung, wenn ein vom Nutzer erstellter Kalendereintrag von einer anderen Person bearbeitet oder als erledigt markiert wurde, unabhängig davon, wer für den Eintrag verantwortlich ist |
 | **Termin steht bevor** | Benachrichtigung, wenn ein Termin des Nutzers in Kürze beginnt |
 | **Rechnung fällig** | Benachrichtigung, wenn eine Rechnung in einer Akte des Nutzers fällig ist |
 

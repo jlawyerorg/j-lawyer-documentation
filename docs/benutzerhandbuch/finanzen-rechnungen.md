@@ -19,7 +19,7 @@ In einem nächsten Schritt ist der Beleg mit Positionen zu befüllen. Es gibt fo
 
 - Wähle den verwendeten Nummernkreis aus. Beachte dabei, dass Rechnungsnummern nur einmalig verwendet werden können und automatisch erstellt werden. Bei einer Testrechnung solltest du also den „Testnummernkreis" anwählen, für eine „echte Rechnung" den „Standardnummernkreis".
 
-- Zur automatischen Vergabe der Rechnungsnummer und Eröffnung der Möglichkeit, weitere Felder auszufüllen, klicke nun auf den Haken neben dem „Typ" der „Rechnung".
+- Zur automatischen Vergabe der Rechnungsnummer und Eröffnung der Möglichkeit, weitere Felder auszufüllen, klicke nun auf den Haken neben dem „Typ" der „Rechnung". Wird der Beleg gespeichert, ohne dass Belegart und Nummernkreis bestätigt wurden, erscheint ein Warnhinweis.
 
 #### Position hinzufügen: manuell / vollständige händische Eingabe
 - Im Reiter „Positionen" fügt man eine Rechnungsposition hinzu, indem man über das Pluszeichen eine frei eintragbare Position erstellt. Die Menge und der Preis können noch manuell angepasst werden.
@@ -48,6 +48,29 @@ Die verfügbaren Platzhalter für Belegvorlagen sind unter [Platzhalter für Bel
 - Nach einem speichern und schließen des Dokuments speichert man im j-lawyer das Popup des Rechnungsfensters und geht in der Akte auf Dokumente. Dort klickt man mit der rechten Maustaste auf das Rechnungsdokument und wählt aus „als pdf zur Akte speichern". Nun ist das Rechnungsdokument als pdf in der Akte.
 
 - Auf das Rechnungsdokument als pdf klickt man nun mit einem Rechtsklick und wählt aus „@ als pdf versenden", um die Rechnung per E-Mail an den Mandanten zu senden.
+
+### Belege einer Akte sortieren und filtern {#belege-filtern}
+
+Im Sub-Tab „Belege“ der Akte (Tab „Finanzen“) lässt sich die Liste der Belege über der Belegliste einschränken und sortieren:
+
+- **Textfilter**: Suchbegriff für Belegnummer, Bezeichnung, Empfänger oder Belegart. Die Liste wird bei der Eingabe gefiltert.
+- **Statusfilter**:
+
+| Auswahl | Angezeigte Belege |
+|---------|-------------------|
+| alle | alle Belege der Akte |
+| offen (inkl. Mahnstufen) | offene Belege einschließlich aller Mahnstufen |
+| überfällig | nicht bezahlte und nicht stornierte Belege, deren Fälligkeitsdatum überschritten ist |
+| neu | Belege im Status „neu“ |
+| bezahlt | bezahlte Belege |
+| storniert | stornierte Belege |
+
+- **Sortierung**: **Erstellt ↓** (Standard, neueste zuerst), **Erstellt ↑**, **Fällig ↓**, **Fällig ↑**, **Status** (bei gleichem Status nach Fälligkeit), **Belegnummer** und **Betrag ↓**
+
+Ein Zähler zeigt, wie viele Belege angezeigt werden, bspw. „3 von 12 Belegen“. Sortierung und Statusfilter werden pro Benutzer gespeichert und beim Öffnen der nächsten Akte wieder angewendet.
+
+!!! info "Hinweis"
+    Gefilterte Belege werden nur ausgeblendet. Die Summen der Zahlungen, die Belegauswahl bei Buchungen im Aktenkonto und die Prüfung offener Belege beim Archivieren berücksichtigen weiterhin alle Belege der Akte.
 
 ### Elektronische Rechnungen ("E-Rechnung") {#e-rechnung}
 
