@@ -136,7 +136,18 @@ nav:
       - Einstellungen: benutzerhandbuch/finanzen-einstellungen.md
       - Rechnungen erstellen: benutzerhandbuch/finanzen-rechnungen.md
       - Zeiterfassung: benutzerhandbuch/zeiterfassung.md
-      - Forderungskonto: benutzerhandbuch/forderungskonto.md
+      - Forderungskonto:
+        - Überblick & Prozess: benutzerhandbuch/forderungskonto/index.md
+        - Forderungskonto anlegen: benutzerhandbuch/forderungskonto/anlegen.md
+        - Forderungen & Zinsen: benutzerhandbuch/forderungskonto/forderungen.md
+        - Buchungen & Zahlungen: benutzerhandbuch/forderungskonto/buchungen.md
+        - Salden & Aufstellung: benutzerhandbuch/forderungskonto/aufstellung.md
+        - Vorgerichtliche Mahnung: benutzerhandbuch/forderungskonto/mahnungen.md
+        - Gerichtliches Mahnverfahren: benutzerhandbuch/forderungskonto/mahnverfahren.md
+        - Titel: benutzerhandbuch/forderungskonto/titel.md
+        - Zwangsvollstreckung: benutzerhandbuch/forderungskonto/zwangsvollstreckung.md
+        - Fristen & Wiedervorlagen: benutzerhandbuch/forderungskonto/fristen.md
+        - Einrichtung: benutzerhandbuch/forderungskonto/einrichtung.md
       - Ausgehende Zahlungen: benutzerhandbuch/zahlungen.md
       - Kontoauszugimport: benutzerhandbuch/kontoauszugimport.md
       - Auswertungen: benutzerhandbuch/auswertungen.md

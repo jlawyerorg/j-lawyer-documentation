@@ -150,9 +150,11 @@ Im Tab **Kürzel und Gruppen** wird die Zugehörigkeit des Nutzers zu Gruppen ve
 
 Gruppen werden verwendet, um Berechtigungen auf Aktenebene zu steuern und den Zugriff auf bestimmte Akten einzuschränken.
 
-## Belege {#belege}
+## Finanzen {#belege}
 
-Im Tab **Belege** wird der Zugriff auf Rechnungs-Nummernkreise konfiguriert. Der Nutzer kann nur Belege aus den ihm zugewiesenen Nummernkreisen erstellen.
+Im Tab **Finanzen** wird unter **Belegnummernkreise** der Zugriff auf Rechnungs-Nummernkreise konfiguriert. Der Nutzer kann nur Belege aus den ihm zugewiesenen Nummernkreisen erstellen.
+
+Im Abschnitt **Mahnverfahren** werden für Rechtsanwältinnen und Rechtsanwälte die **Kennziffer** und das **EDA-Kürzel** hinterlegt, die das zentrale Mahngericht zuteilt. Beides wird für das [gerichtliche Mahnverfahren](forderungskonto/mahnverfahren.md) im Forderungskonto benötigt (siehe [Einrichtung: Kennziffer und EDA-Kürzel](forderungskonto/einrichtung.md#nutzer)).
 
 ## Passwort ändern {#passwort-aendern}
 

@@ -148,6 +148,8 @@ In der Dokumentenliste einer Akte können über das Kontextmenü (Rechtsklick) a
 
 Die Beteiligten der Akte werden als Empfänger-Kandidaten im Dialog bereitgestellt.
 
+Auf diesem Weg werden bspw. auch Mahnbescheidsanträge (EDA-Dateien) aus dem [Forderungskonto](forderungskonto/mahnverfahren.md#eda-datei) an das Mahngericht übermittelt.
+
 !!! warning "Geöffnete Dokumente"
     Sind ausgewählte Dokumente aktuell zur Bearbeitung geöffnet, erscheint eine Warnung, da das Risiko fehlender oder inkonsistenter Inhalte besteht.
 

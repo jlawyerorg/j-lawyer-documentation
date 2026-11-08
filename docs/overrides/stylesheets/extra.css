@@ -142,3 +142,102 @@ tr:hover .copy-placeholder-btn {
   mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg>');
   -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg>');
 }
+
+/* Forderungskonto: Prozessleiste (Stationen) */
+.md-typeset .fk-prozess ol {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 1.2em 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0.9em;
+  counter-reset: fk-station;
+}
+
+.md-typeset .fk-prozess ol li {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0.2em;
+  position: relative;
+  text-align: center;
+  counter-increment: fk-station;
+}
+
+/* Verbindungslinie zwischen den Stationen */
+.md-typeset .fk-prozess ol li + li::after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  right: 50%;
+  width: 100%;
+  border-top: 2px solid var(--md-default-fg-color--lighter);
+  z-index: 0;
+}
+
+/* Stationspunkt mit Nummer */
+.md-typeset .fk-prozess ol li::before {
+  content: counter(fk-station);
+  display: block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  margin: 0 auto 0.4em;
+  border-radius: 50%;
+  background-color: #0e72b5;
+  color: #ffffff;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.md-typeset .fk-prozess ol li:last-child::before {
+  background-color: #97bf0d;
+}
+
+.md-typeset .fk-prozess a {
+  display: block;
+  color: var(--md-default-fg-color);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.md-typeset .fk-prozess a:hover {
+  color: #0e72b5;
+}
+
+.md-typeset .fk-prozess a span {
+  display: block;
+  font-size: 0.8em;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Schmale Bildschirme: Stationen untereinander */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .fk-prozess ol {
+    flex-direction: column;
+  }
+
+  .md-typeset .fk-prozess ol li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0.3em 0;
+  }
+
+  .md-typeset .fk-prozess ol li::before {
+    flex: 0 0 2em;
+    margin: 0 0.8em 0 0;
+  }
+
+  .md-typeset .fk-prozess ol li + li::after {
+    top: -50%;
+    left: 1em;
+    right: auto;
+    width: 0;
+    height: 100%;
+    border-top: none;
+    border-left: 2px solid var(--md-default-fg-color--lighter);
+  }
+}
