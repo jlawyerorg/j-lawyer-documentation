@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Forderungskonto – Weiterleitung</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="forderungskonto/index.html">
+  <meta http-equiv="refresh" content="0; url=forderungskonto/index.html">
+  <script>
+    // Alte Seite forderungskonto.html: Sprungmarken auf die neuen Unterseiten abbilden
+    (function () {
+      var map = {
+        "grundlegender-ablauf": "index.html#prozess",
+        "uebersicht": "index.html#aufbau",
+        "positionen": "forderungen.html#positionen",
+        "positionen-hinzufuegen": "forderungen.html#positionen",
+        "buchungsarten": "buchungen.html#buchungsarten",
+        "buchungen-erfassen": "buchungen.html#buchungen-erfassen",
+        "zinsverwaltung": "forderungen.html#zinsregeln",
+        "zinsregeln": "forderungen.html#zinsregeln",
+        "zinsregeln-konfigurieren": "forderungen.html#zinsregeln",
+        "basiszins": "forderungen.html#basiszins",
+        "effektiver-zinssatz": "forderungen.html#zinsberechnung",
+        "salden": "aufstellung.html#salden",
+        "positionssalden": "aufstellung.html#salden",
+        "forderungsstand": "aufstellung.html#salden",
+        "zahlungsverteilung": "buchungen.html#zahlungsverteilung",
+        "praxis": "anlegen.html",
+        "anlegen": "anlegen.html#neu",
+        "externe-verwendung": "aufstellung.html#externe-verwendung",
+        "zwischenablage": "aufstellung.html#zwischenablage",
+        "csv-export": "aufstellung.html#csv-export"
+      };
+      var anchor = window.location.hash.replace(/^#/, "");
+      var target = map[anchor] || "index.html";
+      window.location.replace("forderungskonto/" + target);
+    })();
+  </script>
+</head>
+<body>
+  <p>Die Beschreibung des Forderungskontos ist umgezogen: <a href="forderungskonto/index.html">Forderungskonto</a>.</p>
+</body>
+</html>
