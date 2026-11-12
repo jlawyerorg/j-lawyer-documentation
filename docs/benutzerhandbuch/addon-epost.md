@@ -39,6 +39,15 @@ Die konvertierten PDF-Dokumente können in die gewünschte Reihenfolge gebracht 
 
 Die Gesamtgröße und Seitenzahl werden angezeigt. Die maximale Versandgröße beträgt **20 MB**.
 
+**Anpassung auf DIN A4:** Die E-POST-Schnittstelle akzeptiert ausschließlich Seiten im Format DIN A4 hoch. Nach dem Zusammenführen der Dokumente werden deshalb alle Seiten, die davon abweichen (bspw. Letter, A5, Querformat oder ein leicht abweichendes Format aus einer Fremdsoftware), automatisch angepasst:
+
+- Der Seiteninhalt wird proportional auf eine A4-Seite skaliert und zentriert.
+- Quer- und gedrehte Seiten werden ins Hochformat gebracht.
+- Seiten, die bereits A4 hoch sind (Toleranz 1 mm), bleiben unverändert.
+- Ausgefüllte Formularfelder bleiben sichtbar.
+
+Wurden Seiten angepasst, erscheint in diesem Schritt ein grün hervorgehobener Hinweis mit der Anzahl, bspw. „2 Seite(n) wurden für den E-POST-Versand auf DIN A4 angepasst.“ Die Dokumente in der Akte bleiben unverändert, angepasst wird nur der versendete Brief. Es empfiehlt sich, angepasste Seiten in der [Layoutprüfung](#versand-layout) zu kontrollieren, da sich durch die Skalierung Inhalte in Bereiche verschieben können, die für die Deutsche Post frei bleiben müssen.
+
 #### Schritt 3: Layout prüfen {#versand-layout}
 
 Das Dokument wird an die E-POST-Schnittstelle übertragen und auf Layoutfehler geprüft. Folgende Optionen stehen zur Verfügung:

@@ -32,10 +32,36 @@ Nach einem Klick auf „+" wird ein neuer Prompt angelegt. Folgende Felder stehe
 
 - **Modell-Konfiguration**: Je nach ausgewähltem Modell können zusätzliche modellspezifische Parameter konfiguriert werden (z.B. Temperatur oder andere Steuerungsparameter). Die verfügbaren Parameter werden dynamisch anhand des gewählten Modells angezeigt.
 
+- **Anonymisieren**: Optional, standardmäßig aus. Personenbezogene Daten werden vor dem Versand an das KI-Modell durch Platzhalter ersetzt und in der Antwort wiederhergestellt (siehe [Anonymisierung](#anonymisierung)).
+
 Ein Prompt kann beliebige Platzhalter enthalten, welche auch über das Vorlagensystem genutzt werden können (siehe Abschnitt „[Verwendung von Platzhaltern in Prompts](#platzhalter-in-prompts)").
 
 !!! info "Hinweis"
     Aktenbezogene Platzhalter (bspw. `{{AKTE_ZEICHEN}}`) werden nur dann ersetzt, wenn der Prompt aus einer Akte heraus verwendet wird.
+
+## Anonymisierung personenbezogener Daten {#anonymisierung}
+
+Ist bei einem Prompt die Option **Anonymisieren** gesetzt, erkennt Assistent Ingo vor dem Versand an das KI-Modell personenbezogene Daten im Text und ersetzt sie durch Platzhalter wie `[PERSON_1]`. Das Modell sieht nur die Platzhalter. In seiner Antwort werden die Platzhalter anschließend wieder durch die Originalwerte ersetzt, sodass die Antwort wie gewohnt lesbar ist.
+
+Ersetzt werden bspw. Personen, Organisationen, Adressen, Orte, Postleitzahlen, Geburtsdaten, Aktenzeichen, IBANs, E-Mail-Adressen und Telefonnummern.
+
+**Wann sinnvoll?** Vor allem bei [externen Modellen](#externe-modelle), bei denen die Daten an einen Drittanbieter übermittelt werden. Bei lokal betriebenen Modellen bringt die Option kaum zusätzlichen Schutz und verlängert nur die Laufzeit.
+
+**Ablauf und Anzeige:** Im Kopf der Assistenten-Dialoge zeigt ein Symbol den Stand der Anonymisierung:
+
+- Während der Erkennung wird der Fortschritt angezeigt („anonymisiere (x/y)“).
+- Nach erfolgreicher Anonymisierung wird das Symbol grün und zeigt die Anzahl der ersetzten Angaben, bspw. „5 Angaben anonymisiert“.
+- Ein Klick auf das Symbol öffnet den Dialog **Anonymisierte Angaben** mit den Spalten **Platzhalter**, **Originalwert** und **Typ**. So lässt sich prüfen, welche Angaben das Modell nicht gesehen hat.
+- Bei einem Fehler wird das Symbol rot.
+
+Im Chat gelten dieselben Platzhalter für die gesamte Sitzung: Eine Person, die in mehreren Nachrichten vorkommt, behält ihren Platzhalter. Der Chatverlauf in j-lawyer.org bleibt im Klartext.
+
+!!! warning "Kein Versand ohne Anonymisierung"
+    Kann die Anfrage nicht anonymisiert werden, wird sie **nicht** gesendet. Es gibt keinen stillen Rückfall auf eine Anfrage ohne Anonymisierung. Stattdessen erscheint eine Meldung, bspw. wenn die Anonymisierung fehlgeschlagen ist. Ein möglicher Grund für ein Fehlschlagen ist ein zu geringes Token-Budget, da die Erkennung personenbezogener Daten selbst Tokens verbraucht.
+
+!!! info "Einschränkungen"
+    - Für Funktionen, die Dateien verarbeiten (Audio, Bild, PDF), steht die Anonymisierung nicht zur Verfügung.
+    - Die Erkennung erfolgt automatisch und kann einzelne Angaben übersehen. Die Option ersetzt daher keine eigene Prüfung, welche Daten an ein externes Modell gegeben werden.
 
 ## Sichtbarkeit eigener Prompts
 

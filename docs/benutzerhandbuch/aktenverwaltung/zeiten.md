@@ -39,6 +39,41 @@ In der Projektübersicht können Stundensätze nachträglich für eine bestimmte
 
 Bereits abgerechnete Positionen bleiben unverändert.
 
+### Stundenauflistung als PDF {#stundenauflistung}
+
+Aus einem Projekt kann eine Stundenauflistung als PDF erstellt werden, bspw. als Nachweis gegenüber Mandanten oder zur internen Auswertung.
+
+1. Öffnen Sie das Projekt per Doppelklick
+2. Klicken Sie im Abschnitt „Zeiterfassungspositionen“ auf den Button **Stundenauflistung als PDF erstellen** (PDF-Symbol)
+3. Wählen Sie im folgenden Dialog Zeitraum und Person. Die Vorschau zeigt das Ergebnis sofort an.
+4. Speichern Sie das PDF über **Speichern unter...** als Datei oder über **zur Akte hinzufügen** als Dokument in der Akte
+
+**Filter:**
+
+| Filter | Optionen |
+|--------|----------|
+| **Zeitraum** | gesamter Zeitraum (Standard), aktueller Monat, Vormonat, aktuelle Woche, Vorwoche oder benutzerdefiniert. Die Felder **von** und **bis** werden durch die Schnellwahl gesetzt und können auch direkt bearbeitet werden. |
+| **Person** | alle Personen oder eine einzelne Person |
+
+Über **Aktualisieren** wird die Vorschau nach einer Änderung der Datumsfelder neu erstellt.
+
+**Inhalt des PDF:**
+
+- **Übersicht**: Erfassungszeitraum, Gesamtarbeitszeit und abrechenbare Zeit mit ihrem Anteil
+- **Arbeitszeit pro Person** (nur bei „alle Personen“) und **Arbeitszeit pro Tätigkeit**, jeweils als Ringdiagramm und Tabelle
+- **Zeiteinträge** nach Tagen gruppiert mit Tagesarbeitszeit, am Ende die Gesamtarbeitszeit
+- Kopfzeile mit dem Kanzleinamen, Fußzeile mit Seitenzahl („Seite x von y“) und Erstellungszeitpunkt
+
+Der vorgeschlagene Dateiname setzt sich aus „Stundenzettel“, dem Projektnamen und dem Zeitraum zusammen, bspw. `Stundenzettel Beratung 2026-10-01 bis 2026-10-31.pdf`. Beim Hinzufügen zur Akte kann der Name angepasst werden. Existiert bereits ein Dokument mit diesem Namen, wird um einen anderen Namen gebeten.
+
+**Hinweise zur Auswertung:**
+
+- **Tätigkeiten**: Die unter [Einstellungen → Zeiterfassung → Tätigkeiten](../zeiterfassung.md#taetigkeiten-verwalten) gepflegten Tätigkeiten werden in der Beschreibung der Zeiteinträge gesucht, ohne Unterscheidung von Groß- und Kleinschreibung. Passen mehrere Tätigkeiten, zählt die längste. Einträge ohne passende Tätigkeit werden unter „sonstige“ zusammengefasst. Für eine aussagekräftige Auswertung empfiehlt es sich daher, Tätigkeiten beim Erfassen über den Button bzw. das Kontextmenü [einzufügen](#taetigkeiten).
+- **Abrechenbar** sind Einträge mit einem Stundensatz größer 0, die noch keiner Rechnung zugeordnet sind. Einträge ohne Stundensatz und bereits abgerechnete Einträge werden in der Einzelaufstellung gekennzeichnet.
+- Dauern werden wie bei der Abrechnung auf das Zeitintervall des Projekts aufgerundet. Laufende, noch nicht beendete Erfassungen werden nicht berücksichtigt, die Übersicht weist darauf hin.
+- Die Auflistung enthält nur Zeiten, keine Beträge.
+- Ausgewertet wird der aktuelle Stand im Projektdialog, einschließlich noch nicht gespeicherter Änderungen.
+
 ### Projekt abschließen
 
 Abgeschlossene Projekte können nicht mehr bearbeitet werden. Der Status kann über das Kontextmenü geändert werden.

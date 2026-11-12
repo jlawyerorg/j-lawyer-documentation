@@ -21,10 +21,16 @@ Im Tab **Benachrichtigungen** wird gesteuert, bei welchen Ereignissen eine E-Mai
 |----------|-------------|
 | **Erwähnung in Sofortnachricht** | Benachrichtigung, wenn der Nutzer in einer Sofortnachricht erwähnt wurde |
 | **Sofortnachricht erledigt** | Benachrichtigung, wenn eine vom Nutzer gesendete Sofortnachricht als erledigt markiert wurde |
-| **Kalendereintrag erstellt/geändert** | Benachrichtigung, wenn ein Kalendereintrag für den Nutzer erstellt oder geändert wurde |
+| **Wiedervorlage erstellt/geändert** | Benachrichtigung, wenn eine Wiedervorlage für den Nutzer erstellt oder geändert wurde |
+| **Frist erstellt/geändert** | Benachrichtigung, wenn eine Frist für den Nutzer erstellt oder geändert wurde |
+| **Termin erstellt/geändert** | Benachrichtigung, wenn ein Termin für den Nutzer erstellt oder geändert wurde |
 | **Eigener Kalendereintrag durch andere verändert / erledigt** | Benachrichtigung, wenn ein vom Nutzer erstellter Kalendereintrag von einer anderen Person bearbeitet oder als erledigt markiert wurde, unabhängig davon, wer für den Eintrag verantwortlich ist |
 | **Termin steht bevor** | Benachrichtigung, wenn ein Termin des Nutzers in Kürze beginnt |
 | **Rechnung fällig** | Benachrichtigung, wenn eine Rechnung in einer Akte des Nutzers fällig ist |
+
+Die Benachrichtigung über neue oder geänderte Kalendereinträge lässt sich getrennt für Wiedervorlagen, Fristen und Termine einstellen, bspw. um nur über neue Fristen informiert zu werden. Wird bei einer Änderung der Typ eines Eintrags gewechselt, gilt die Einstellung für den neuen Typ. Bis Version 3.5 gab es dafür nur eine gemeinsame Option. Deren Wert gilt für alle drei Typen, bis die Einstellungen erstmals gespeichert werden.
+
+Die Benachrichtigungen lassen sich auch im Nutzerprofil des Web-Frontends einstellen.
 
 ## Sicherheit {#sicherheit}
 

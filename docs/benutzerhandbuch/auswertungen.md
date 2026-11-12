@@ -38,6 +38,10 @@ Tabellen können per Klick auf den **Export-Button** (Tabellensymbol) als Tabell
 
 Bei Reporte mit Aktenbezug kann per **Rechtsklick** auf eine Tabellenzeile direkt zur zugehörigen Akte navigiert werden (Kontextmenü → „Zur Akte wechseln").
 
+## Aktenhistorie {#aktenhistorie}
+
+Unter **Auswertungen** → **Aktenhistorie** steht außerdem eine aktenübergreifende Recherche in der Historie aller Akten zur Verfügung, mit Filtern nach Zeitraum, Nutzer, Akte und Text sowie einem Aktivitätsdiagramm. Sie ist unter [Aktenübergreifende Historie](aktenverwaltung/historie.md#aktenuebergreifende-historie) beschrieben.
+
 ## Verfügbare Reporte {#reporte}
 
 ### Finanzen: Rechnungen {#finanzen-rechnungen}

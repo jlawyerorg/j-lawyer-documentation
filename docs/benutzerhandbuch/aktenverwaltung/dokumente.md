@@ -300,6 +300,7 @@ Dokumente können mit zwei verschiedenen Farben markiert werden, um wichtige Dok
 Häufig benötigte Dokumente können als Favoriten markiert werden und sind so jederzeit über das Sternsymbol im Kopf der Akte zugreifbar:
 
 - Per Rechtsklick → **Favoritendokument an/aus**
+- Automatisch anhand des Dateinamens über die [Etiketten-Automatik](../etiketten.md#etiketten-automatik)
 - Favoriten werden mit einem Stern-Symbol gekennzeichnet
 - Die Dokumentenliste kann nach Favoriten sortiert werden, sodass diese immer oben erscheinen
 

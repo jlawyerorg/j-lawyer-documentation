@@ -135,9 +135,9 @@ Angeboten werden alle konfigurierten Etiketten sowie zusätzlich alle Etiketten,
 
 ## Etiketten-Automatik {#etiketten-automatik}
 
-Die Etiketten-Automatik vergibt **Dokument-Etiketten automatisch anhand des Dateinamens**. Damit lässt sich eingehende Post ohne manuellen Aufwand vorsortieren: Sobald ein Dokument in eine Akte gelangt, prüft der Server eine Liste von Regeln und setzt die passenden Etiketten.
+Die Etiketten-Automatik vergibt **Dokument-Etiketten automatisch anhand des Dateinamens** und kann passende Dokumente zusätzlich als [Favoritendokument](aktenverwaltung/dokumente.md#favoriten) kennzeichnen. Damit lässt sich eingehende Post ohne manuellen Aufwand vorsortieren: Sobald ein Dokument in eine Akte gelangt, prüft der Server eine Liste von Regeln und setzt die passenden Etiketten bzw. die Favoritenmarkierung.
 
-Der Dialog wird über **Einstellungen** → **Dokumente** → **Etiketten-Automatik** geöffnet. Links werden die Regeln verwaltet, rechts wird die markierte Regel konfiguriert.
+Der Dialog wird über **Einstellungen** → **Dokumente** → **Etiketten-Automatik** geöffnet. Links werden die Regeln verwaltet, rechts wird die markierte Regel konfiguriert. Die Regelliste zeigt neben dem Namen die Aktionen jeder Regel, also die Etiketten und ggf. „★ Favorit“.
 
 !!! warning "Nur für Administratoren"
     Der Dialog steht ausschließlich Unternehmens-Administratoren offen. Die angelegten Regeln gelten systemweit für alle Nutzer.
@@ -156,7 +156,7 @@ Nicht ausgelöst wird die Automatik beim Wiederherstellen eines Dokuments aus de
     Regeln wirken nur ab dem Zeitpunkt ihrer Anlage. Bereits vorhandene Dokumente werden nicht nachträglich etikettiert.
 
 !!! warning "Umbenennen entfernt keine Etiketten"
-    Beim Umbenennen werden die Regeln erneut gegen den **neuen** Dateinamen geprüft und passende Etiketten **hinzugefügt**. Bereits gesetzte Etiketten bleiben dabei erhalten. Wird ein Dokument von `Klage.pdf` in `Urteil.pdf` umbenannt, trägt es anschließend die Etiketten beider Regeln.
+    Beim Umbenennen werden die Regeln erneut gegen den **neuen** Dateinamen geprüft und passende Etiketten **hinzugefügt**. Bereits gesetzte Etiketten und eine bestehende Favoritenmarkierung bleiben dabei erhalten. Wird ein Dokument von `Klage.pdf` in `Urteil.pdf` umbenannt, trägt es anschließend die Etiketten beider Regeln.
 
 ### Eine Regel anlegen {#automatik-regel-anlegen}
 
@@ -168,7 +168,8 @@ Nicht ausgelöst wird die Automatik beim Wiederherstellen eines Dokuments aus de
 | Feld | Beschreibung |
 |------|--------------|
 | **Name** | Bezeichnung der Regel; erscheint in der Spalte „Name" der Regelliste |
-| **Etiketten (kommasepariert, Listenetiketten: Name=Wert)** | Die zu setzenden Dokument-Etiketten, zum Beispiel `Posteingang, Priorität=hoch` |
+| **Etiketten (kommasepariert, Listenetiketten: Name=Wert)** | Die zu setzenden Dokument-Etiketten, zum Beispiel `Posteingang, Priorität=hoch`. Kann leer bleiben, wenn die Regel nur Favoriten kennzeichnen soll. |
+| **Als Dokument-Favorit kennzeichnen** | Passende Dokumente werden zusätzlich (oder ausschließlich, wenn keine Etiketten angegeben sind) als [Favoritendokument](aktenverwaltung/dokumente.md#favoriten) markiert |
 | **Ausführen wenn** | `eine Bedingung erfüllt ist` (ODER-Verknüpfung, Voreinstellung) oder `alle Bedingungen erfüllt sind` (UND-Verknüpfung) |
 | **bei Treffer keine weitere Regel anwenden** | Beendet die Prüfung nach dem ersten Treffer (voreingestellt aktiv) |
 
@@ -194,7 +195,7 @@ Jede Bedingung besteht aus dem festen Feld **Dateiname**, einem Operator und ein
 Groß- und Kleinschreibung wird ignoriert. Verglichen wird der vollständige Dateiname einschließlich Dateiendung.
 
 !!! info "Hinweis"
-    Bedingungszeilen ohne Vergleichswert werden beim Speichern verworfen. Eine Regel ohne Bedingung oder ohne Etikett wird zur Laufzeit übersprungen.
+    Bedingungszeilen ohne Vergleichswert werden beim Speichern verworfen. Eine Regel ohne Bedingung oder ohne Aktion (weder Etikett noch Favorit) wird zur Laufzeit übersprungen.
 
 ### Reihenfolge und Abbruch {#automatik-reihenfolge}
 
@@ -215,6 +216,8 @@ Ist bei einer zutreffenden Regel die Option **bei Treffer keine weitere Regel an
 
 **Bearbeitungsstand vorbelegen.** Ein Listenetikett `Bearbeitungsstand` mit dem Wert `neu` wird über die Angabe `Bearbeitungsstand=neu` im Etikettenfeld gesetzt.
 
+**Wichtige Dokumente hervorheben.** Eine Regel ohne Etiketten, mit der Option **Als Dokument-Favorit kennzeichnen** und den Bedingungen `enthält Vollmacht` ODER `enthält Mandatsvereinbarung`, markiert diese Dokumente als Favoriten. Sie sind damit jederzeit über das Sternsymbol im Kopf der Akte erreichbar. Die Option bei Treffer keine weitere Regel anzuwenden sollte hier abgewählt werden, damit nachfolgende Regeln weiterhin Etiketten setzen.
+
 **Eigene Entwürfe ausnehmen.** Eine UND-verknüpfte Regel mit `enthält Schriftsatz` und `enthält nicht Entwurf` etikettiert nur die fertigen Schriftsätze.
 
 !!! tip "Tipp"
@@ -223,9 +226,9 @@ Ist bei einer zutreffenden Regel die Option **bei Treffer keine weitere Regel an
 ### Grenzen der Etiketten-Automatik {#automatik-grenzen}
 
 - Geprüft wird **ausschließlich der Dateiname**. Dokumentinhalt, Absender, Dateityp, Dokumentordner, Aktendaten und Herkunft (Scan, E-Mail, beA) können nicht ausgewertet werden.
-- Regeln können Etiketten nur **setzen**, niemals entfernen.
+- Regeln können Etiketten und die Favoritenmarkierung nur **setzen**, niemals entfernen.
 - Es werden ausschließlich **Dokument-Etiketten** gesetzt – keine Akten- und keine Adress-Etiketten.
-- Andere Aktionen wie das Anlegen einer Wiedervorlage, eine Benachrichtigung, das Verschieben in einen Dokumentordner oder eine Änderung des Aktenstatus sind nicht möglich.
+- Außer Etiketten und der Favoritenmarkierung sind keine Aktionen möglich, bspw. kein Anlegen einer Wiedervorlage, keine Benachrichtigung, kein Verschieben in einen Dokumentordner und keine Änderung des Aktenstatus.
 - Regeln gelten systemweit; eine Einschränkung auf einzelne Nutzer, Sachgebiete oder Akten ist nicht vorgesehen.
 
 !!! tip "Tipp"

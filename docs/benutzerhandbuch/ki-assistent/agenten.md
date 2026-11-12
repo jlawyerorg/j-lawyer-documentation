@@ -47,7 +47,7 @@ Dem Agenten stehen die folgenden Werkzeuge zur Verfügung, gruppiert nach Funkti
     Im Chat kann Assistent Ingo jederzeit gefragt werden: „Welche Tools oder Funktionen kannst du nutzen?" – er listet dann seine verfügbaren Werkzeuge auf.
 
 !!! info "Werkzeuge in externen KI-Anwendungen"
-    Mit j-lawyer.CLOUD stehen diese Werkzeuge – mit Ausnahme des [Webzugriffs](#tools-web) – auch in Claude, Mistral Le Chat und anderen KI-Anwendungen zur Verfügung, siehe [Ingo als MCP-Server](mcp-server.md). Die Risikostufe eines Werkzeugs bestimmt dort, welche [Berechtigung](mcp-server.md#berechtigungen) es erfordert.
+    Mit j-lawyer.CLOUD stehen diese Werkzeuge – mit Ausnahme der [juristischen Recherche](#tools-recherche) und des [Webzugriffs](#tools-web) – auch in Claude, Mistral Le Chat und anderen KI-Anwendungen zur Verfügung, siehe [Ingo als MCP-Server](mcp-server.md). Die Risikostufe eines Werkzeugs bestimmt dort, welche [Berechtigung](mcp-server.md#berechtigungen) es erfordert.
 
 ### Akten {#tools-akten}
 
@@ -189,6 +189,7 @@ Grundlagen zu Etiketten und ihrer Konfiguration finden Sie im Kapitel [Etiketten
 | `search_emails` | Durchsucht E-Mail-Postfächer nach Betreff, Absender, Empfänger und Nachrichtentext (optional eingeschränkt auf Ordner, Zeitraum oder ungelesene Nachrichten) oder listet die neuesten E-Mails auf | Niedrig |
 | `get_email` | Lädt eine E-Mail mit Nachrichtentext und Liste der Anhänge | Niedrig |
 | `save_email_to_case` | Speichert eine E-Mail als .eml-Datei in einer Akte, optional in einen Ordner, mit Etiketten, Schlagworten und mit den Anhängen als zugeordnete Anlagen | Mittel |
+| `send_email` | Sendet eine neue E-Mail aus einem Postfach des Benutzers, optional mit Cc/Bcc, Signatur und Dokumenten aus Akten als Anhang, und legt sie auf Wunsch in einer Akte ab | Mittel |
 
 Ingo greift nur auf Postfächer zu, für die der angemeldete Benutzer in der [Nutzerverwaltung](../nutzerverwaltung.md) freigeschaltet ist.
 
@@ -199,6 +200,27 @@ Beim Speichern einer E-Mail in eine Akte verhält sich `save_email_to_case` wie 
 - Anhänge bleiben in der .eml-Datei enthalten. Auf Wunsch werden sie zusätzlich als eigene Dokumente abgelegt, die der E-Mail als Anlagen zugeordnet sind.
 - In archivierte Akten kann nicht gespeichert werden.
 
+#### E-Mails versenden {#tools-email-senden}
+
+Mit `send_email` versendet Ingo eine **neue** E-Mail. Antworten auf vorhandene Nachrichten sind damit nicht möglich.
+
+- **Pflichtangaben**: Postfach, Empfänger (An), Betreff und Nachrichtentext
+- **Optional**: Cc und Bcc, Text als HTML, Dokumente aus Akten als Anhänge. Die Signatur des Postfachs wird standardmäßig angehängt und kann weggelassen werden.
+- **Ablage in der Akte** (optional): Wird eine Akte angegeben, wird die versandte E-Mail dort als .eml-Datei abgelegt, auf Wunsch in einem Ordner, mit Etiketten und Schlagworten. Der Dateiname folgt der Dateinamensvorschrift, die Bezeichnung ist der Betreff, das Eingangsdatum der Sendezeitpunkt und „An“ der erste Empfänger. In der Aktenhistorie wird der Versand vermerkt. Angehängte Dokumente erhalten die Versandinformation.
+
+Da eine versandte E-Mail nicht zurückgeholt werden kann, prüft Ingo vor dem Versand alle Angaben:
+
+- Zugriff auf das Postfach
+- gültige Adressen, höchstens 20 Empfänger
+- Anhänge zusammen höchstens 20 MB
+- die Akte existiert und ist nicht archiviert, Ordner und Etiketten sind gültig
+- Ordner, Etiketten und Schlagworte nur zusammen mit einer Akte
+
+Scheitert nach einem erfolgreichen Versand die Ablage in der Akte, meldet Ingo dies, ohne die E-Mail ein zweites Mal zu senden. Die E-Mail muss dann ggf. manuell abgelegt werden.
+
+!!! warning "Genehmigung"
+    `send_email` hat die Risikostufe **Mittel**. Der Versand muss daher im Genehmigungsdialog bestätigt werden, der Empfänger und Betreff anzeigt. Es wird empfohlen, für dieses Werkzeug keine Genehmigung für die Sitzung oder dauerhaft zu erteilen, damit jede E-Mail vor dem Versand geprüft wird. Über den [MCP-Server](mcp-server.md) steht das Werkzeug nur mit der Berechtigung **Anlegen und ändern** zur Verfügung.
+
 !!! tip "Chat aus einer geöffneten E-Mail"
     Wird der Chat aus einer geöffneten E-Mail gestartet, kennt Ingo neben dem Nachrichtentext auch Absender, Empfänger, Datum, Betreff und die Namen der Anhänge. Bei Postfächern, die in j-lawyer.org eingerichtet sind, kann Ingo die Nachricht zudem direkt adressieren – etwa mit „Speichere diese E-Mail in die Akte 25/0042 in den Ordner Korrespondenz".
 
@@ -208,6 +230,34 @@ Beim Speichern einer E-Mail in eine Akte verhält sich `save_email_to_case` wie 
 |----------|-------------|--------|
 | `list_form_types` | Listet alle verfügbaren Falldatenblätter (Formulare) auf | Niedrig |
 | `create_case_form` | Erstellt ein Falldatenblatt in einer Akte | Mittel |
+
+### Juristische Recherche {#tools-recherche}
+
+Für die Rechtsrecherche greift Ingo direkt auf öffentliche, strukturierte Rechtsquellen zu. Die Werkzeuge sind rein lesend und liefern zitierfähige Fundstellen mit Quell-URL.
+
+| Werkzeug | Beschreibung | Risiko |
+|----------|-------------|--------|
+| `get_law_norm` | Liefert den aktuellen amtlichen Wortlaut einer Vorschrift des Bundesrechts von gesetze-im-internet.de, mit Überschrift, Fußnoten und Quell-URL, bspw. „§ 573c BGB“, „Art. 3 GG“, „§ 5 SGB V“ oder „Art. 229 § 6 EGBGB“ | Niedrig |
+| `search_legislation` | Sucht Bundesgesetze und -verordnungen nach Stichworten und liefert Name, Abkürzung, Inkraft-Status, Fundstelle und die Vorschriften mit Treffern, bspw. um die einschlägige Norm zu finden | Niedrig |
+| `search_case_law` | Sucht Gerichtsentscheidungen gleichzeitig im Rechtsinformationsportal des Bundes (Bundesgerichte) und bei Open Legal Data (alle Instanzen). Filter nach Gericht und Entscheidungsdatum sind möglich. Ein Aktenzeichen oder eine ECLI wird gezielt nachgeschlagen. | Niedrig |
+| `get_court_decision` | Lädt eine Entscheidung aus der Suche oder direkt per Aktenzeichen: zunächst eine Übersicht (Normen, Vorinstanzen, Leitsatz, Tenor), auf Wunsch einzelne Abschnitte wie Tatbestand oder Gründe mit Randnummern | Niedrig |
+
+**Quellen:**
+
+- **Gesetze im Internet** (gesetze-im-internet.de): Wortlaut des Bundesrechts
+- **Rechtsinformationsportal des Bundes** (rechtsinformationen.bund.de, „NeuRIS“): Bundesgesetze und Entscheidungen der Bundesgerichte. Das Portal befindet sich derzeit noch in einer Testphase.
+- **Open Legal Data** (de.openlegaldata.io): Entscheidungen aller Instanzen, auch von Amts-, Land- und Oberlandesgerichten
+
+!!! info "Grenzen"
+    - Landesrecht ist nicht abgedeckt. EU-Recht ruft Ingo über den [Webzugriff](#tools-web) von EUR-Lex ab.
+    - openJur und dejure.org werden nicht automatisiert abgefragt. Entscheidungen auf openJur lassen sich aber über die [Websuche](#tools-web) finden, bspw. mit dem Zusatz `site:openjur.de`.
+    - Mandantennamen und andere personenbezogene Daten werden nicht in die Suchanfragen übernommen.
+    - Ingo ist angewiesen, nur Entscheidungen zu zitieren, die ein Werkzeug tatsächlich geliefert hat. Fundstellen sollten vor einer Verwendung dennoch über die angegebene URL geprüft werden.
+
+!!! tip "Beispiele"
+    > Wie lautet § 573c BGB und welche aktuelle BGH-Rechtsprechung gibt es zur Kündigungsfrist bei Altmietverträgen?
+
+    > Fasse die Entscheidung BGH VIII ZR 198/15 zusammen und nenne die maßgeblichen Randnummern.
 
 ### Webzugriff {#tools-web}
 
